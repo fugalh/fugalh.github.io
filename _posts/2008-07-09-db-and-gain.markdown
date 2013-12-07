@@ -38,7 +38,7 @@ comments:
   content: http://www.murraypro.com/ppm_wfm.htm
 ---
 <p>I've been studying up on audio recording on the web, so that I can make decent
-recordings for <a href="/phd">my research</a>. Making good recordings is a lot more
+recordings for <a href="http://hans.fugal.net/phd">my research</a>. Making good recordings is a lot more
 involved than you might think. One of the perhaps needlessly overinvolved
 aspects is understanding gain.</p>
 

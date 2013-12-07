@@ -31,7 +31,7 @@ comments:
 
     <p>Where ρ<sub>w</sub> = 0.520 lbs/cup and all masses are in lbs and all volumes are in cups. The result is still in kg/l.</p>
 ---
-<p>A couple days back I posted <a href="http://hans.fugal.net/blog/articles/2007/08/20/measure-your-body-density">my idea for measuring body density and estimating
+<p>A couple days back I posted <a href="http://hans.fugal.net/blog/2007/08/20/measure-your-body-density.html">my idea for measuring body density and estimating
 body
 fat</a>.
 Dad, who has a set of skinfold calipers gave it a try and gave me comparative

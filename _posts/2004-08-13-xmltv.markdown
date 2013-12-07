@@ -14,7 +14,7 @@ tags:
 - linux
 comments: []
 ---
-<p>xmltv is cool. Slow, but cool. Here's how I got <a href="http://falcon.fugal.net/oly.pdf">the complete olympic
+<p>xmltv is cool. Slow, but cool. Here's how I got <a href="http://hans.fugal.net/oly.pdf">the complete olympic
 lineup</a> so I don't have to deal with the
 shoddy <a href="nbcolympics.com">nbcolympics.com</a> site:</p>
 
@@ -40,8 +40,8 @@ dvipdf oly.dvi
 a lot of CPU and RAM, but it is something you can do in the morning before
 work, for example.</p>
 
-<p>I made <a href="http://falcon.fugal.net/oly.pdf">1-up</a>, <a href="http://falcon.fugal.net/oly2.pdf">2-up</a>, and
-<a href="http://falcon.fugal.net/oly4.pdf">4-up</a> versions. They are 12, 6,
+<p>I made <a href="http://falcon.fugal.net/oly.pdf">1-up</a>, <a href="http://hans.fugal.net/oly2.pdf">2-up</a>, and
+<a href="http://hans.fugal.net/oly4.pdf">4-up</a> versions. They are 12, 6,
 and 3 pages, respectively. Choose per your ocular prescription and paper
 conservation preference.</p>
 

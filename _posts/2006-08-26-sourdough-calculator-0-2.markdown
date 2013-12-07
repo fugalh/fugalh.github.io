@@ -16,7 +16,7 @@ tags:
 - bug
 comments: []
 ---
-<p>My <a href="http://hans.fugal.net/typo/articles/2004/09/14/sourdough-0.1">sourdough
+<p>My <a href="http://hans.fugal.net/blog/2004/09/14/sourdough-01.html">sourdough
 calculator</a> had a
 major bug in the calculations. If you followed its instructions you got much
 higher hydration than you asked for. e.g. if you asked for 68% hydration at 20%

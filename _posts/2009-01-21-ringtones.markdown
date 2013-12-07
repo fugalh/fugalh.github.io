@@ -86,25 +86,25 @@ comments:
 
 <p>Before I give you my criteria for a good ringtone, let's cover some background theory. Cell phone speakers are little and cheap. They've improved some over the years, but they're still a far cry from a good pair of desktop speakers let alone audiophile gear. So your mp3 will sound different on the phone than it does on your computer or even your headphones. How will it sound? That depends on the <em>frequency response</em> of the speaker in the cell phone. Since that's not likely included in your cell phone manual, let's see how we can measure it.</p>
 
-<p>I whipped up this <a href="/sounds/logchirp.wav">chirp</a> in <a href="http://audacity.sf.net">Audacity</a>. It goes from 20 Hz to 20 kHz (the audible range) with a second of white noise on either side so you know when the thing starts and ends (since 20 Hz and 20 kHz are both out of the hearing range of most people). Its log-frequency spectrogram looks like this: (ignore the bleed at the low frequencies, it's an artifact of the log-frequency analysis)</p>
+<p>I whipped up this <a href="http://hans.fugal.net/sounds/logchirp.wav">chirp</a> in <a href="http://audacity.sf.net">Audacity</a>. It goes from 20 Hz to 20 kHz (the audible range) with a second of white noise on either side so you know when the thing starts and ends (since 20 Hz and 20 kHz are both out of the hearing range of most people). Its log-frequency spectrogram looks like this: (ignore the bleed at the low frequencies, it's an artifact of the log-frequency analysis)</p>
 
-<p><a href="/images/logchirp.pdf"> <img src="/images/logchirp.jpg" alt="logchirp.wav" title="" /> </a></p>
+<p><a href="http://hans.fugal.net/images/logchirp.pdf"> <img src="http://hans.fugal.net/images/logchirp.jpg" alt="logchirp.wav" title="" /> </a></p>
 
 <p>The astute among you will have realized that encoding this as an mp3 may change the spectrum. (I use the default settings to <a href="http://lame.sourceforge.net/">lame</a> throughout this post.)</p>
 
-<p><a href="/images/logchirp-mp3.pdf"> <img src="/images/logchirp-mp3.jpg" alt="logchirp.mp3" title="" /> </a></p>
+<p><a href="http://hans.fugal.net/images/logchirp-mp3.pdf"> <img src="http://hans.fugal.net/images/logchirp-mp3.jpg" alt="logchirp.mp3" title="" /> </a></p>
 
 <p>It looks like the only relevant change is that encoding to mp3 cuts off the frequencies above about 17 kHz, which most people <a href="http://www.freemosquitoringtones.org/">don't hear well or at all</a>. So the experiment is still a go.</p>
 
 <p>Now I put the chirp on my phone and played it back, recording it into Audacity on my laptop. The astute among you will again realize that the frequency response of my microphone makes a difference. Luckily my microphone has a <a href="http://www.mxlmics.com/manuals/900_series/MXL990Manual.pdf">decent frequency response</a> from 30 Hz to 20 kHz. Even if it didn't though, as long as the mic has a better frequency range than your phone you can still glean some important information. Here's the result:</p>
 
-<p><a href="/images/v195.pdf"> <img src="/images/v195.jpg" alt="Motorola V195" title="" /> </a></p>
+<p><a href="http://hans.fugal.net/images/v195.pdf"> <img src="http://hans.fugal.net/images/v195.jpg" alt="Motorola V195" title="" /> </a></p>
 
 <p>Notice that there's basically nothing below about 250 Hz. To give you some perspective, 262 Hz is middle C (each tic mark on the Y axis is an octave, and the scale is logarithmic). So anything below middle C is severely attenuated, and the octave between middle C and high C is moderately attenuated.</p>
 
 <p>For comparison, here is the chirp recorded on my desktop speakers.</p>
 
-<p><a href="/images/speakers.pdf"> <img src="/images/speakers.jpg" alt="Speakers" title="" /> </a></p>
+<p><a href="http://hans.fugal.net/images/speakers.pdf"> <img src="http://hans.fugal.net/images/speakers.jpg" alt="Speakers" title="" /> </a></p>
 
 <p>See how it goes lower and also how it is flatter. There's not an appreciable peak at 8 kHz like there is with the cell phone. That means your high frequencies are going to stick out on a cell phone too.</p>
 

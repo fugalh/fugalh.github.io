@@ -40,7 +40,7 @@ comments:
   date_gmt: ''
   content: <p>my...you're having fun with your backgrounds aren't you..mwa!</p>
 ---
-<p>If <a href="http://hans.fugal.net/blog/articles/2008/02/16/measurement-error-in-soapmaking">my last post</a> made your head spin, you're not alone. It made mine spin too when I was conceiving and writing it.</p>
+<p>If <a href="http://hans.fugal.net/blog/2008/02/16/measurement-error-in-soapmaking.html">my last post</a> made your head spin, you're not alone. It made mine spin too when I was conceiving and writing it.</p>
 
 <p>For your sanity and mine, I have put together a soap calculator spreadsheet. You tell it the precision of your scale, how much of each fat you want (sorry, you have to specify the saponification value too, but there's a reference chart included), and your target lye discount. It tells you how much lye and water or milk to use. It also tells you how the measurement error effects your expected lye discount, and warns you if your soap might turn out lye-heavy. You can easily scale the recipe arbitrarily.</p>
 

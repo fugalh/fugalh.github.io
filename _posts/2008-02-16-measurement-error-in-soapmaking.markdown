@@ -23,7 +23,7 @@ comments:
   author_url: ''
   date: '2008-02-17 10:08:21 -0800'
   date_gmt: ''
-  content: <p>Now there's a calculator to do all that thinking for you. See <a href="http://hans.fugal.net/blog/articles/2008/02/17/soap-calculator"
+  content: <p>Now there's a calculator to do all that thinking for you. See <a href="http://hans.fugal.net/blog/2008/02/17/soap-calculator.html"
     rel="nofollow">my next post</a>.</p>
 - id: 1712
   author: Jill

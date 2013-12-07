@@ -162,7 +162,7 @@ ctl.pulse {
 PulseAudio. PulseAudio needs to be configured now to use JACK. You'll need to
 get the <code>pulseaudio-module-jack</code> package, which probably means you'll need to
 build it yourself. I show you how to do that and how to configure PulseAudio in
-<a href="http://hans.fugal.net/blog/articles/2008/06/04/pulseaudio-as-a-jack-client">a previous
+<a href="http://hans.fugal.net/blog/2008/06/04/pulseaudio-as-a-jack-client.html">a previous
 post</a>.
 Incidentally you need to do the same for <code>libasound2-plugins</code> if you want to
 use the JACK plugin for ALSA as in my <code>asoundrc</code> above.</p>

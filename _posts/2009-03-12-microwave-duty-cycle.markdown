@@ -78,7 +78,7 @@ As you may know, when you change the power setting on most microwaves, it doesn'
 
 In a bout of curiousity I sat down with my microwave today and figured out exactly what those duty cycles are (you can hear when the magnetron switches on and off). My microwave apparently has a cycle period of 32 seconds. High is power level 100 and the magnetron is on all the time. Power level 50 is on 18 seconds and off 14 seconds. Power level 40 is on 16 and off 16 (which I would have guessed would be the case for power level 50). Power level 10 (the lowest setting) is on for 6 seconds and off for 26 seconds. Here's a graph with all 10 settings:
 
-<a href="/images/microwave.pdf"><img src="/images/microwave.png" alt="Microwave Duty Cycle" /></a>
+<a href="http://hans.fugal.net/images/microwave.pdf"><img src="http://hans.fugal.net/images/microwave.png" alt="Microwave Duty Cycle" /></a>
 
 As you can see it's more or less linear, which is nice because it makes mental visualization easy.
 

@@ -42,6 +42,6 @@ comments:
 <p>Put the laptop to sleep during the sleep for a substantial time, then notice     that when you resume you still have to wait for the full 30 seconds to tick by
  even though it has actually been a minute plus since you issued the command.    So I sleep for one second intervals instead, checking the time every time.</p>
 
-<p>This is not just a backpedaling rewrite, though. It also adds more flexible and  easy-to-type timespecs, and a <a href="/src/creme/">spiffy website</a>.
+<p>This is not just a backpedaling rewrite, though. It also adds more flexible and  easy-to-type timespecs, and a <a href="http://hans.fugal.net/src/creme/">spiffy website</a>.
 If you give it a try and it doesn't work, or you struggle with the               documentation, please do drop me a line so I can fix it. I want it to be worth
  every bit of bandwidth that you paid for it.</p>

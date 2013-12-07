@@ -172,7 +172,7 @@ comments:
 
 <p>At first I tried building Qt3 with macports, but building QCad was a royal pain with the X11 version of Qt3 on OS X, for whatever reason. So I tried to install the <code>qt3-mac</code> MacPorts package, but that failed. So I was on my own building Qt3.</p>
 
-<p><a href="/src/qt3-leopard.diff">This patch</a> will allow Qt3 to build on Leopard, by following the instructions in the <code>INSTALL</code> file. Here's the diffstat:</p>
+<p><a href="http://hans.fugal.net/src/qt3-leopard.diff">This patch</a> will allow Qt3 to build on Leopard, by following the instructions in the <code>INSTALL</code> file. Here's the diffstat:</p>
 
 <pre><code> config.tests/mac/mac_version.test |    2 +-
  src/kernel/qcursor_mac.cpp        |    4 ++++
@@ -186,7 +186,7 @@ than setting QTDIR and friends in my <code>.profile</code> or <code>.bashrc</cod
 often want Qt4 than Qt3. I configure with <code>-static</code>, so applications like QCad
 are built with Qt3 statically, which just makes things work better.</p>
 
-<p>QCad needs <a href="/src/qcad-leopard.diff">a patch</a> as well:</p>
+<p>QCad needs <a href="http://hans.fugal.net/src/qcad-leopard.diff">a patch</a> as well:</p>
 
 <pre><code>Index: qcad-2.0.5.0-1-community.src/mkspecs/defs.pro
 ===================================================================
@@ -226,5 +226,5 @@ Index: qcad-2.0.5.0-1-community.src/scripts/build_qcad.sh
 QCad.app will be in the <code>qcad</code> directory, ready for your use.</p>
 
 <p>I built this on an Intel MacBook running Leopard. If you think that matches
-your setup, you're free to download <a href="/src/QCad.app.tgz">my QCad.app</a> and avoid
+your setup, you're free to download <a href="http://hans.fugal.net/src/QCad.app.tgz">my QCad.app</a> and avoid
 building both Qt3 and QCad.</p>

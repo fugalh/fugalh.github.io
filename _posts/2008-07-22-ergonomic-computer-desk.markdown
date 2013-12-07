@@ -33,8 +33,8 @@ comments:
 
 <p>We were talking about setting up a workspace where I could go to work and not be in the primary living area (aka the couch), but we've since decided I'll just go to school. But for a brief moment my DIY engines revved up and I dreamed up the perfect ergonomic, cheap, sturdy desk.</p>
 
-<p><a href="/diy/computer_desk/computer_desk.pdf">
-<img src="/diy/computer_desk/computer_desk.png" alt="desk plans"/>
+<p><a href="http://hans.fugal.net/diy/computer_desk/computer_desk.pdf">
+<img src="http://hans.fugal.net/diy/computer_desk/computer_desk.png" alt="desk plans"/>
 </a></p>
 
 <p>I sat in my favorite chair, in the most comfortable/ergonomic position (definitely <em>not</em> straight up) with the height adjusted to give me a nice foot plant with support but not pressure on my legs behind the knees. Then I had Erin help me with the measurements. Keyboard shelf just above the knees, monitor/laptop at eye level and an arms length away, and wide enough for a keyboard, trackball, and open book (width is negotiable if space is tight).</p>

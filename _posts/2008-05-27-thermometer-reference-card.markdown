@@ -46,6 +46,6 @@ comments:
 
     <p>Lamb: 125°F, 130°F, 140°F, 150°F, 160°F</p>
 ---
-<p>Next to a digital scale, I'd say a good probe thermometer is the most important kitchen tool that nobody has. If you're not everybody, then you might find <a href="/recipes/temps.pdf">this reference card</a> handy.</p>
+<p>Next to a digital scale, I'd say a good probe thermometer is the most important kitchen tool that nobody has. If you're not everybody, then you might find <a href="http://hans.fugal.net/recipes/temps.pdf">this reference card</a> handy.</p>
 
-<p><a href="/recipes/temps.pdf"><img src="/images/temps.png" alt="Thermometer Reference Card Thumbnail"/></a></p>
+<p><a href="http://hans.fugal.net/recipes/temps.pdf"><img src="http://hans.fugal.net/images/temps.png" alt="Thermometer Reference Card Thumbnail"/></a></p>

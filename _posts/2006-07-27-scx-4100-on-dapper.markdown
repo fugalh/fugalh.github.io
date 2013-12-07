@@ -76,5 +76,5 @@ The fix is easy. Add this line to <code>/etc/fstab</code>:</p>
 <p>I still haven't figured out why, but no matter the permissions on any of the
 above, any libsane-using program will segfault if it is not setuid root (or run
 as root). If anyone can figure that one out I'd love to hear it, but I probably
-won't fuss with it much more myself. See <a href="http://hans.fugal.net/tmp/scanimage.strace.txt">the output of <code>strace scanimage
+won't fuss with it much more myself. See <a href="http://hans.fugal.net/misc/scanimage.strace.txt">the output of <code>strace scanimage
 -L</code></a> when not root.</p>

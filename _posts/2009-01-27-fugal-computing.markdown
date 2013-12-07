@@ -15,8 +15,8 @@ comments: []
 ---
 I am currently looking for employment to start in June. Here is my résumé in various formats:
 <ul>
-	<li>PDF (<a href="/resume/hans_fugal.pdf">normal</a> or <a href="/resume/hans_fugal-1p.pdf">summary)</li>
-	<li><a href="/resume/hans_fugal.rtf">RTF</a></li>
+	<li>PDF (<a href="http://hans.fugal.net/resume/hans_fugal.pdf">normal</a> or <a href="http://hans.fugal.net/resume/hans_fugal-1p.pdf">summary)</li>
+	<li><a href="http://hans.fugal.net/resume/hans_fugal.rtf">RTF</a></li>
 </ul>
 
 You should also visit my <a href="http://hans.fugal.net/src">code depot</a> to see what I've been up to in my spare time.

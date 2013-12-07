@@ -14,6 +14,6 @@ tags:
 - mac
 comments: []
 ---
-<p><a href="http://www.xmission.com/~fugalh/capslock/">The ADB keyboard caps lock to control hack</a> that I ported to 2.6 from a 2.4 patch that was floating around has just <a href="http://marc.theaimsgroup.com/?l=linux-mm-commits&amp;m=113419973308982&amp;q=raw">gone into Andrew Morton's -mm tree</a>. Andy Wingo took the patch and added a /proc entry (way cool), and submitted it for inclusion.</p>
+<p><a href="http://hans.fugal.net/src/capslock/">The ADB keyboard caps lock to control hack</a> that I ported to 2.6 from a 2.4 patch that was floating around has just <a href="http://marc.theaimsgroup.com/?l=linux-mm-commits&amp;m=113419973308982&amp;q=raw">gone into Andrew Morton's -mm tree</a>. Andy Wingo took the patch and added a /proc entry (way cool), and submitted it for inclusion.</p>
 
 <p>Wow. Something I touched, in the kernel.</p>

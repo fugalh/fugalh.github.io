@@ -33,4 +33,4 @@ comments:
     a <code>gem search creme</code> (or even <code>gem search cr</code>). Is there
     no release on rubyforge or similar?</p>
 ---
-<p>I've released yet again. Go to the <a href="/src/creme/">web page</a> for the details. Now Crème Rappel has its <a href="/src/creme/rss.xml">own RSS feed</a> so I'll shut up about here now.</p>
+<p>I've released yet again. Go to the <a href="http://hans.fugal.net/src/creme/">web page</a> for the details. Now Crème Rappel has its <a href="http://hans.fugal.net/src/creme/rss.xml">own RSS feed</a> so I'll shut up about here now.</p>

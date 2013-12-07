@@ -91,7 +91,7 @@ comments:
 
 <p>The growl notifications are sticky, so you have to acknowledge them before they go away. But they're not annoying; you can continue to work on that thought until you have a few cycles to spare. They won't get hidden behind other windows. You can configure Growl to play a sound whenever a Crème Rappel notification happens. What you can't hear in the screenshot above is that the text of the window is also spoken using <code>say</code>, so even if you're not looking you'll get reminded. The only thing that's missing I think is a snooze button, so it can go away and taunt you a second time. If anyone has any ideas…</p>
 
-<p>The requirements are Growl, of course, <code>growlnotify</code> which is distributed with Growl in the Extras folder, and configuring your mac to pay attention to the <code>at</code> queue. If you need help with the latter, see my <a href="http://hans.fugal.net/blog/articles/2008/02/13/atd-on-a-mac">previous post</a> on the matter. Crème Rappel is waiting for you to <a href="/src/creme/">download it</a>. Do not disappoint.</p>
+<p>The requirements are Growl, of course, <code>growlnotify</code> which is distributed with Growl in the Extras folder, and configuring your mac to pay attention to the <code>at</code> queue. If you need help with the latter, see my <a href="http://hans.fugal.net/blog/2008/02/13/atd-on-a-mac.html">previous post</a> on the matter. Crème Rappel is waiting for you to <a href="http://hans.fugal.net/src/creme/">download it</a>. Do not disappoint.</p>
 
 <p>Here's how I use it in my life. Every morning I have a little planning session with my own self. I look at my calendar, figure out what I need to do and where I need to be. I set up my reminders, it looks something like this:</p>
 

@@ -27,7 +27,7 @@ comments:
 
     <p>Dan</p>
 ---
-<p>In a <a href="http://hans.fugal.net/blog/articles/2007/12/31/scanner-and-antenna">previous post</a> I talked about my new scanner and my early antenna adventures. Now I am happily set up and done playing with antennas, so I thought I'd tell you what the final verdict is. Also, it has been requested that I post some pictures. The pictures are <a href="http://foton.fugal.net/album/99">here</a>, and I'll embed some of them in this post.</p>
+<p>In a <a href="http://hans.fugal.net/blog/2007/12/31/scanner-and-antenna.html">previous post</a> I talked about my new scanner and my early antenna adventures. Now I am happily set up and done playing with antennas, so I thought I'd tell you what the final verdict is. Also, it has been requested that I post some pictures. The pictures are <a href="http://foton.fugal.net/album/99">here</a>, and I'll embed some of them in this post.</p>
 
 <p>The antenna I'm using is actually not the one I described making in the previous post. It would have worked fine, but I found the functional equivalent at Radio Shack for $5, only slightly more robust. Here's a picture:</p>
 

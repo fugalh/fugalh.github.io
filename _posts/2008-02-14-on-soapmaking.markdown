@@ -46,7 +46,7 @@ comments:
 
     <p>I like the shake and mold better than using a stick blender. I don't have a stick blender, for one, but I have used one to make soap and though it was better than stirring it by hand nothing beats the convenience and safety of having a bottle at your side which you give a good shake every few minutes while you watch TV or play <a href="http://wesnoth.org" rel="nofollow">Wesnoth</a> or whatever, until you notice it's thick enough. That is of course for castile soap (high percentage of olive oil), which I make most frequently. More quick-to-trace soaps probably get there quite quickly with the bottle shake.</p>
 ---
-<p>Previously on The Fugue, I told you how to make <a href="http://hans.fugal.net/blog/articles/2007/12/11/castile-soap-in-5-minutes">Castile Soap in 5 Minutes</a>. Having been through the process a few more times since then, I have a couple of addendums.</p>
+<p>Previously on The Fugue, I told you how to make <a href="http://hans.fugal.net/blog/2007/12/11/castile-soap-in-5-minutes.html">Castile Soap in 5 Minutes</a>. Having been through the process a few more times since then, I have a couple of addendums.</p>
 
 <p>First, on measurements. If you're at all serious about making soap you either need to do large batches or get a scale with 1 gram precision. With my old scale (which had 5 gram precision) I had hits and misses with the size of batch that I like. i.e. 1–2 bars worth. Most recipes you find on the internet are what I would deem "large batches", and are really more like medium batches. But when you're trying to nail down the perfect recipe, making 5–10 bars of soap is wasteful, or at least a really really slow way to go about it.</p>
 
@@ -58,4 +58,4 @@ comments:
 
 <p>Which brings us to the final point, mixing and molding. I am more than ever convinced that shaking in a water bottle (or large soda bottle) is an excellent way to go. It is safe, convenient, cheap, and fast. However, it's not such a great mold. It will work as a mold, but it will take that much longer to set up (evaporate water). Usually you demold after 1–2 days, but getting cheese-consistency soap out of a water bottle without marring it is an exercise in futility. So now I use paper cups as molds, and I pour the soap in from the water bottle when it reaches trace. As a bonus, you can clean out the water bottle and use it again the next time. It's easy to extract the soap from the paper cups, and they're cheap and nice and round.</p>
 
-<p>So <a href="/cocolivo.txt">here's an updated base recipe</a>. Go forth and wash!</p>
+<p>So <a href="http://hans.fugal.net/cocolivo.txt">here's an updated base recipe</a>. Go forth and wash!</p>

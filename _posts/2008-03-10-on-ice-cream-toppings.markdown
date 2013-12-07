@@ -95,6 +95,6 @@ indicator of the sugar concentration. That's a bit oversimplified of course,
 but that's how it came to me. Now, if you just stopped cooking cajeta at 230°F
 (thread stage), you might not get the full maillard reaction. No, better to
 cook the cajeta completely, then add liquid to bring it back to a sauce
-consistency. You can find my recipe <a href="/recipes/cajeta.txt">here</a>. I burnt my
+consistency. You can find my recipe <a href="http://hans.fugal.net/recipes/cajeta.txt">here</a>. I burnt my
 first batch (by not stirring it) and it was <em>still</em> too good to throw away.
 Absolute heaven.</p>

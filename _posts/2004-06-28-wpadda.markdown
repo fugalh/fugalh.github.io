@@ -32,4 +32,4 @@ that cache...
 <p>
 Incidentally, if you're trying to configure dansguardian you need to test it,
 right? Well it's odd that there aren't more test files out there. This one
-works nicely for me: <a href="http://falcon.fugal.net/dgtest.html">http://falcon.fugal.net/dgtest.html</a>.</p>
+works nicely for me: <a href="http://hans.fugal.net/misc/dgtest.html">dgtest.html</a>.</p>

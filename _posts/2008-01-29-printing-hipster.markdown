@@ -36,7 +36,7 @@ comments:
     I wouldn''t know. This guy has some good thoughts on the subject though: <a href="http://fullcontactgeek.com/page.php?2"
     rel="nofollow">http://fullcontactgeek.com/page.php?2</a></p>'
 ---
-<p>So the <a href="http://hans.fugal.net/blog/articles/2008/01/26/hipmod">hipmod</a> is too small for you? You want to use the regular-size hipster? But by golly your printer refuses to play nicely with index cards?</p>
+<p>So the <a href="http://hans.fugal.net/blog/2008/01/26/hipmod.html">hipmod</a> is too small for you? You want to use the regular-size hipster? But by golly your printer refuses to play nicely with index cards?</p>
 
 <p>Here's a solution. Use <a href="http://multivalent.sourceforge.net/">Multivalent</a> to 4-up index cards onto regular paper, and cut them with a guillotine. You can use cardstock for the full effect.</p>
 

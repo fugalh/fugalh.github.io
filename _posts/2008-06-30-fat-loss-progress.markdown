@@ -39,7 +39,7 @@ comments:
     Recently, I eat plenty of rice. I wish not to get that fat like my siblings. I
     love my body. :)
 ---
-<p>Back in October I talked about <a href="http://hans.fugal.net/blog/articles/2007/10/22/total-fitness-in-30-minutes-a-week">my fat loss plan</a>, which boiled down to this: exercise 30 minutes a week and live a 1.5 lb-per-week feedback diet.</p>
+<p>Back in October I talked about <a href="http://hans.fugal.net/blog/2007/10/22/total-fitness-in-30-minutes-a-week.html">my fat loss plan</a>, which boiled down to this: exercise 30 minutes a week and live a 1.5 lb-per-week feedback diet.</p>
 
 <p>Here's a snapshot of the graph on the sidebar:</p>
 

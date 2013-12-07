@@ -30,7 +30,7 @@ comments:
 ---
 <p>I've talked about the <a href="http://www.43folders.com/2004/09/03/introducing-the-hipster-pda">Hipster PDA</a> a <a href="http://hans.fugal.net/blog/articles/search?q=hipster">few times</a>. I finally stabilized on a system that works for me. I've been using it steadily for months with no major changes now, so I thought I'd share with you.</p>
 
-<p>My brief foray into the <a href="http://hans.fugal.net/blog/articles/2008/01/26/hipmod">hipmod</a> was fun, but too restrictive and small in the end. I understand others enjoy it though, so I'm glad I did it.</p>
+<p>My brief foray into the <a href="http://hans.fugal.net/blog/2008/01/26/hipmod.html">hipmod</a> was fun, but too restrictive and small in the end. I understand others enjoy it though, so I'm glad I did it.</p>
 
 <p>I find the classic hipster with a few modifications works best. My biggest beef with the original hipster is that it falls apart and it's not very user-friendly. That binder clip had to go. So I got some binding rings (½" I think, but the exact size isn't critical) and use a standard 3-hole punch to punch 2 holes in the index cards, and bind it with 2 rings. This makes a more book-like planner, which nicely folds over on itself. </p>
 
@@ -42,4 +42,4 @@ comments:
 
 <p>My planner consists of a few reference pages I printed out (including a circle of fifths, a few airport kneeboards, performance data for my favorite planes, and morse code… anything you can find a PDF for.), my weekly calendar/todo list pages, and a bunch of index cards that I use for notes, moments of inspiration, or whatever else they come in handy for. Oh, and a paperclip to mark the current week. I only have to reprint/refill the weekly pages about once every 3 months or so.</p>
 
-<p>For printing things, I wrote <a href="/src/hipster.tgz">a script</a> that automates some of what I mentioned in previous posts.</p>
+<p>For printing things, I wrote <a href="http://hans.fugal.net/src/hipster.tgz">a script</a> that automates some of what I mentioned in previous posts.</p>

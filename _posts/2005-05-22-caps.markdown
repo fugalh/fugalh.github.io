@@ -25,7 +25,7 @@ comments:
     <p>May you always control your caps.</p>
 ---
 <p>The short version of this saga is here:
-<a href="http://www.xmission.com/~fugalh/capslock/">http://www.xmission.com/~fugalh/capslock/</a></p>
+<a href="http://hans.fugal.net/src/capslock/">http://www.xmission.com/~fugalh/capslock/</a></p>
 
 <p>ADB keyboards (like the one in my iBook) send the following events
 (oversimplified) on caps lock presses:</p>
