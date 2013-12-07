@@ -9,20 +9,24 @@ But that is not strictly true. You can separate template declarations and implem
 
 Let us begin with a function `foo` which just prints the `T` it was given to `cout`. Here is the header:
 
-    // foo.h
-    #pragma once
+```cpp
+// foo.h
+#pragma once
 
-    template <class T> void foo(T);
+template <class T> void foo(T);
+```
 
 Now let's try to use it:
 
-    // a.cc
-    #include "foo.h"
+```cpp
+// a.cc
+#include "foo.h"
 
-    int main(void) {
-        foo(42);
-        return 0;
-    }
+int main(void) {
+    foo(42);
+    return 0;
+}
+```
 
 And compile:
 
@@ -36,23 +40,27 @@ And compile:
 
 The object file compiles fine, but linking fails because `void foo<int>(int)` is undefined. So, let's define it:
 
-    // foo-tmpl.h
-    #pragma once
-    
-    #include "foo.h"
-    #include <iostream>
-    
-    template <class T> void foo(T t)
-    {
-        std::cout << t << std::endl;
-    }
+```cpp
+// foo-tmpl.h
+#pragma once
+
+#include "foo.h"
+#include <iostream>
+
+template <class T> void foo(T t)
+{
+    std::cout << t << std::endl;
+}
+```
 
 Now if we change `a.cc` to include `foo-tmpl.h` instead of `foo.h`, the implicit instantiation will work fine. But instead, let's explicitly instantiate the `int` specialization in `foo.cc`, because we believe everyone and their dog will want the `int` specialization, and we want to save compile time:
 
-    // foo.cc
-    #include "foo-tmpl.h"
-    
-    template <int> foo(int);
+```cpp
+// foo.cc
+#include "foo-tmpl.h"
+
+template <int> foo(int);
+```
 
 And compile:
     
@@ -66,31 +74,37 @@ Success!
 
 Ok, but what about implicitly instantiating templates? We don't want to give up this unique power of templates. We can do it. This is why I put the implementation of `foo` in `foo-tmpl.h` instead of `foo.cc`. When we need to instantiate, we include the `-tmpl.h` instead of the `.h`. We should try to avoid doing this in other headers, and prefer to do it (once) in an implementation file. To demonstrate let's introduce a new function `bar`:
 
-    // bar.h
-    #pragma once
-    
-    void bar();
+```cpp
+// bar.h
+#pragma once
+
+void bar();
+```
 
 And its implementation:
 
-    // bar.cc
-    #include "bar.h"
-    #include "foo-tmpl.h"
-    
-    void bar()
-    {
-        foo("bar");
-    }
+```cpp
+// bar.cc
+#include "bar.h"
+#include "foo-tmpl.h"
+
+void bar()
+{
+    foo("bar");
+}
+```
 
 Now we are implicitly instantiating `void foo<const char*>(const char*)`, but that's ok because we included `foo-tmpl.h`. Now we can use `bar`:
 
-    // b.cc
-    #include "bar.h"
+```cpp
+// b.cc
+#include "bar.h"
 
-    int main(void) {
-        bar();
-        return 0;
-    }
+int main(void) {
+    bar();
+    return 0;
+}
+```
 
 Compile and run:
 
@@ -102,15 +116,17 @@ Compile and run:
 
 And finally, let's use them together
 
-    // c.cc
-    #include "foo.h"
-    #include "bar.h"
+```cpp
+// c.cc
+#include "foo.h"
+#include "bar.h"
 
-    int main(void) {
-        foo(42);
-        bar();
-        return 0;
-    }
+int main(void) {
+    foo(42);
+    bar();
+    return 0;
+}
+```
 
 Compile and run:
 
@@ -150,27 +166,31 @@ I performed these explorations with gcc 4.8.
 
 With C++11 you also have `extern template` at your disposal, which lets you avoid implicit instantiation. So if you have many files which instantiate the `MyClass` specialization, and don't want `foo.cc` to even be aware of `MyClass`, you can add this to `MyClass.h`:
 
-    // MyClass.h
-    #include "foo.h"
-    class MyClass {
-        //...
-    };
+```cpp
+// MyClass.h
+#include "foo.h"
+class MyClass {
+    //...
+};
 
-    extern template void foo<MyClass>(MyClass);
+extern template void foo<MyClass>(MyClass);
+```
 
 And then `MyClass.cc` looks something like this:
 
-    // MyClass.cc
-    #include "MyClass.h"
-    #include "foo-tmpl.h"
-    
-    // explicitly instantiate templates
-    template void foo<MyClass>(MyClass);
-    
-    MyClass::MyClass() {
-        // ...
-    }
-    
+```cpp
+// MyClass.cc
+#include "MyClass.h"
+#include "foo-tmpl.h"
+
+// explicitly instantiate templates
+template void foo<MyClass>(MyClass);
+
+MyClass::MyClass() {
     // ...
+}
+
+// ...
+```
 
 Now the `MyClass` instantiation of `foo` will only be compiled once in `MyClass.cc`, but can be used in umpteen other files.
