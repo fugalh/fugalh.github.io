@@ -1,0 +1,62 @@
+---
+layout: post
+status: publish
+published: true
+title: runit
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 589
+wordpress_url: urn:uuid:b51d801c-1d21-4811-a24c-cf80baa127b8
+date: 2006-06-21 21:27:39.000000000 -07:00
+tags:
+- admin
+- debian
+- runit
+comments: []
+---
+<p>It's all Evan's fault, but I decided to give <a href="http://smarden.org/runit/">runit</a>
+another gander.  The last time I tried it I was struck by two problems: runit
+used really stupid names and directories, even more stupid than the
+<a href="http://cr.yp.to/daemontools.html">daemontools</a> conventions I had grown used
+to, and that there's no easy way to replace init even though it claims there
+is.</p>
+
+<p>This time I was struck by a couple of completely different things:</p>
+
+<ul>
+<li>runit is very obviously inspired by daemontools, yet it is not mentioned <em>anywhere</em> on the runit site. odd</li>
+<li>runit starts stuff in parallel. cool</li>
+</ul>
+
+<p>I wonder if the daemontools nonmention is the result of some flamewar between
+the author and djb. It does not stretch my imagination one millimeter to think
+that djb might have got mad and told him not to use daemontools to promote
+runit.</p>
+
+<p>runit's <code>sv</code> program actually looks a bit more powerful than ol' <code>svc</code> so I'm
+willing to let convention slide. I thought about replacing my init with runit,
+but decided it's just too much work to babysit service scripts for all the
+silly daemons that I may or may not install or have installed. Like wesnothd.
+When I'm installing wesnothd, I don't want to have to set up a run script, and
+now that it's installed I really don't want to set up a run script. </p>
+
+<p>Since migrating involves porting everything over anyway, I figure the better
+approach is to only port stuff you care about over to runit and let it run as a
+child of init. Nothing new and exciting here, but I think it's worth
+mentioning. </p>
+
+<p>Debian's runit package was kind enough to copy over my existing daemontools
+services and I think it even set up a symlink from <code>/var/service</code> to <code>/service</code>
+which was very kind (or maybe I did that the last time I was investigating
+it...).</p>
+
+<p>So in summary, if you've never given daemontools or runit a try, do try one.
+Try runit if you're normal, or try daemontools if you're a djb fanboy. In
+either case, you'll find peace of mind in the assurance that your lousy daemons
+will be brought back up when they die, the simplicity of the supervise scripts,
+and the euphoria brought on by watching visiting admins try to figure out how
+the @#$! to stop those daemons. (Actually, runit can be used to simulate those
+<code>/etc/init.d</code> scripts and provide expected behavior, but where's the fun in
+that?)</p>

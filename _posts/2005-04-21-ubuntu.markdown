@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: Ubuntu Install
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 90
+wordpress_url: urn:uuid:6492e62f-955e-4300-9c45-9f4d5c5e4cb4
+date: 2005-04-21 22:40:40.000000000 -07:00
+tags:
+- mac
+comments: []
+---
+<p>31 minutes to a default Ubuntu install on the 12" iBook. Everything went
+smoothly, nothing got hosed. I haven't really looked at what is and isn't
+supported yet, but I can say that power management is supported to some degree
+out of the box. More reports to come, then I will probably install Debian
+before I start using the linux partition in earnest, unless I can figure out a
+way to mix ubuntu and debian testing that doesn't result in a meltdown. (I have
+a couple of ideas)</p>

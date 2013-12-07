@@ -1,0 +1,61 @@
+---
+layout: post
+status: publish
+published: true
+title: Another Fugal
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 910
+wordpress_url: urn:uuid:113cb403-0952-4fa4-b81a-e399929375a5
+date: 2007-12-03 16:10:00.000000000 -08:00
+tags:
+- baby
+- lachlan
+- p&#225;draig
+- family
+comments:
+- id: 1670
+  author: Kimball
+  author_email: ''
+  author_url: ''
+  date: '2007-12-03 22:07:29 -0800'
+  date_gmt: ''
+  content: |-
+    <p>Congratulations!  I look forward to hearing more about him soon!</p>
+
+    <p>-- Kimball</p>
+- id: 1671
+  author: Gabriel Gunderson
+  author_email: gabe@gundy.org
+  author_url: http://gundy.org
+  date: '2007-12-03 23:25:46 -0800'
+  date_gmt: ''
+  content: |-
+    <p>Ditto on the congrats!  It's a special thing to have a baby just days or even hours old.  Really is amazing.  Glad all is well.</p>
+
+    <p>And ah, no comment on the name :)</p>
+
+    <p>Laters,
+    Gabe</p>
+---
+<p>Friday, November 30. It was a dark and stormy night. Erin began having regular contractions and about 5 hours later Lachlan Pádraig Fugal was born. He escaped just in time to see most of the last half hour of November. </p>
+
+<p>He weighed 3.86kg and was 49.5cm long. For those of you stuck in the past, that's 0.6 stone and 58 barleycorns. </p>
+
+<p>We're glad to have him with us and we're happy to report that we're all doing fine, even Jonathan. </p>
+
+<p><center>
+<a href="http://foton.fugal.net/album/85"><img src="http://foton.fugal.net/foto/1211/toenail" alt="Lachlan Pádraig Fugal" width="300" /></a></center></p>
+
+<p>I suppose you're dying to know more about the name. Lachlan is of Gaelic origin
+and means "from the land of the lochs," i.e. the Vikings. Pádraig is the old
+Gaelic spelling of Patrick, and is pronounced something like PAH-drig but
+leaning towards Patrick. You can just say Patrick, but don't say "pa-DRAYG" or
+we'll laugh at you. Fugal of course comes from the Danish Fugl which means
+bird. Erin wasn't going for my "crazy" Scandinavian names, and I was not too
+keen on Christopher or Christian, so we were at an impasse for awhile. Somehow
+Lachlan slipped through her "craziness" filters and we tried it out for a day.
+We think it's a delightful name; strong and cute and with lots of meaning and
+family heritage, just like Jonathan Frederik Fugal, his older brother.</p>

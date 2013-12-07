@@ -1,0 +1,20 @@
+---
+layout: post
+status: publish
+published: true
+title: PDFView
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 769
+wordpress_url: urn:uuid:120cd068-dd24-4df3-ae83-8bfd8536c8d2
+date: 2006-12-17 08:32:33.000000000 -08:00
+tags:
+- mac
+- pdf
+- preview
+- pdfview
+comments: []
+---
+<p>I'm more than pleased to point my fellow OS X users in the direction of <a href="http://pdfview.sourceforge.net/">PDFView</a>. It fixes all the annoying issues with Preview, i.e. stupid initial sizing, lack of auto-update, and the annoying 'onscreen display' for <a href="http://latex-beamer.sourceforge.net/">Beamer</a> presentations. Thanks to bsag for <a href="http://www.rousette.org.uk/blog/archives/pdfview/">the tip</a>.</p>

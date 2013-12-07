@@ -1,0 +1,27 @@
+---
+layout: post
+status: publish
+published: true
+title: Quoits
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 29
+wordpress_url: urn:uuid:0935bbb4-eadc-4122-90ce-4b2918501925
+date: 2005-05-09 22:44:19.000000000 -07:00
+tags:
+- life
+comments: []
+---
+<p>My wife and I enjoy the occasional game of Scrabble. We have too much fun
+trying to fake each other out and making each other laugh to bother with
+keeping score. One of the best things about playing Scrabble this way is the
+words that you can discover. I will often try to play a word that I know
+nothing about, but very imaginably could be a real word. It makes me look
+smart, or funny, depending on whether it really exists. (This same tactic works
+just as well, perhaps better, in Boggle.)</p>
+
+<p>It was in that way that I discovered quoits tonight. I had thought horseshoes
+started out with horseshoes, but it turns out to be much older than that, and
+in fact is directly related to the discus.</p>

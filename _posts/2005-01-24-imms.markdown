@@ -1,0 +1,29 @@
+---
+layout: post
+status: publish
+published: true
+title: IMMS
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 5
+wordpress_url: urn:uuid:1febd61c-c918-410b-badd-a41df94765f5
+date: 2005-01-24 14:13:36.000000000 -08:00
+tags:
+- audio
+comments: []
+---
+<p>In the days of yore, the napster days, it became apparent that traditional music selection just wouldn't cut it. Then we all had hard disk crashes and our music selection was manageable. But I remembered my dream of writing a plugin for XMMS to do adaptive playlisting. When I once tried to realize that dream I was quickly defeated as I realized what it would take to beat the XMMS API into submission. One man, <a href="http://www.luminal.org/wiki/index.php/Mag/Mag">mag</a>, had the courage and ambition to tackle XMMS and do what so many of us undoubtedly dreamed about. The result was <a href="http://www.luminal.org/wiki/index.php/IMMS/IMMS">IMMS</a>.</p>
+
+<p>IMMS was great but it wasn't practical for someone as obsessive about listening to music as I am, until very recently. As a result I didn't really give it a try although I knew it would be wonderful when it reached "that point". Well it has arrived.</p>
+
+<p>The changes that had to be made, and have been, are:</p>
+
+<ul>
+<li>Don't mess with queuing and non-random play. Queuing just barely got here and I was not about to lose my new favorite feature just for an adaptive random, and I play whole albums in sequence all the time. Especially Afro-Celt Sound System. IMMS wasn't to blame here, it was the lame XMMS interface (the main reason I never had the gumption to write something like IMMS). XMMS CVS now has fixed this (I think it was mag's patch) and IMMS naturally takes advantage of it.</li>
+<li>Be responsive. Nothing is more annoying than a break in the music. IMMS was moderately responsive on most systems, but throw it on the network drive here at work and the time it was taking to do frequency analysis needing to copy the file over was making xmms sluggish and unresponsive and taking forever. (This is why I really need this adaptive stuff - I can't stand half of what my coworkers like, but I'm not about to waste the time finding and the disk space copying everything I like to my computer. Besides, I just might like one of those artists with a weird name that I've never heard before.) IMMS recently split out into daemon and plugin parts, so xmms is not interrupted while the analysis and whatnot happens, and it is a lot smarter about bandwidth too. </li>
+</ul>
+
+<p>IMMS is keen, great, and all that. You want it. Go grab XMMS CVS and IMMS 2.0.1
+and enjoy. (yes, forget about your package manager, until they catch up anyhow)</p>

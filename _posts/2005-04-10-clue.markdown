@@ -1,0 +1,48 @@
+---
+layout: post
+status: publish
+published: true
+title: My Clue Variant
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 27
+wordpress_url: urn:uuid:9871490a-9039-4e6f-b20b-a8706cd6fc24
+date: 2005-04-10 00:35:49.000000000 -07:00
+tags:
+- life
+comments: []
+---
+<p>This variant of Clue will make the game more challenging without making it less
+fun. There are two differences from the original: how you move and who may show
+you cards to disprove suggestions.</p>
+
+<p>Throw away the dice, you won't need them. You can move your token anywhere you
+want, or stay in the same room for as long as you want. There is no restriction
+on moving. But you will want to be more careful about where you go, as you will
+see.</p>
+
+<p>Take a moment to notice how the Clue board is laid out around
+the perimeter of the mansion. Closeness of two rooms is defined in terms of
+rooms around the perimeter. So the Hall is two rooms away from the Dining Room,
+and the Kitchen is three rooms away from both the Billiard Room and the Hall. </p>
+
+<p>When you make a suggestion, only the closest players may show you a card, and
+each of the closest players must show a card if they can. For example, if you
+are in the Ballroom with one other player, only that player may show you a
+card. If you are alone in the Ballroom, with a player in the Conservatory and
+two players in the Kitchen, then those three players may show you cards. All of
+this is calculated after you make the suggestion, so if you suggest Miss
+Scarlet did it and one of the players is Miss Scarlet, then only that player
+and any other players already in the room may show you a card.</p>
+
+<p>That's all there is to it. The resulting game is more challenging because you
+get less predictable and less complete information, which means you need to be
+more creative in your deductions. It is less boring (or at least not more
+boring) because you don't have to worry about getting stuck walking in the
+halls or across the board from where you need to be. </p>
+
+<p>My brothers and I have played this way a few times with exciting game play to
+the end each time. Usually when we play normal Clue the game ends quickly,
+before anyone feels like they've had a chance to do any serious thinking.</p>

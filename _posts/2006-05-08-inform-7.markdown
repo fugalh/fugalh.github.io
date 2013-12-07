@@ -1,0 +1,112 @@
+---
+layout: post
+status: publish
+published: true
+title: Inform 7
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 124
+wordpress_url: urn:uuid:33af9325-28b3-45a1-b105-f7d70e010705
+date: 2006-05-08 11:03:17.000000000 -07:00
+tags:
+- cs
+- inform
+- interactive fiction
+- zork
+- natural language
+- logic programming
+comments:
+- id: 1461
+  author: Ben Crowder
+  author_email: ben.crowder@gmail.com
+  author_url: http://www.topofthemountains.net/
+  date: '2006-05-10 09:59:53 -0700'
+  date_gmt: ''
+  content: <p>Ah, this brings back memories... :)  A few months ago I'd wondered if
+    the interactive fiction community was even alive anymore, and then I read your
+    post and was thrilled.</p>
+- id: 1462
+  author: Hans Fugal
+  author_email: ''
+  author_url: ''
+  date: '2006-05-10 10:05:46 -0700'
+  date_gmt: ''
+  content: |-
+    <p>Oh yes, very alive. In fact, there's a yearly competition that has yielded much better IF than the original stuff, IMHO.</p>
+
+    <p><a href="http://ifcomp.org/" rel="nofollow">http://ifcomp.org/</a></p>
+- id: 1463
+  author: Mark Borok
+  author_email: ''
+  author_url: ''
+  date: '2006-05-23 13:11:43 -0700'
+  date_gmt: ''
+  content: |-
+    <p>I'm just getting up to speed on Inform, but I believe if you want to use "Put" instead of "Insert", just write a bit of code that goes something like: "Understand  "put" as inserting."</p>
+
+    <p>Fortunately, there is really no need to guess the proper word, because the IDE comes with a handy index. And if you add your own verbs, those verbs will get added to the index, together with a link back to the source code (useful if you want to dig through someone else's code, I guess).</p>
+
+    <p>Syntax is tougher, but the documentation provides enough examples to crib from, and they are all arranged by topic.</p>
+
+    <p>This means that even if you are already a programmer, if you don't have the time or patience to learn a new language you can get up to speed pretty fast on this.</p>
+---
+<p><a href="http://www.inform-fiction.org/I7/Inform%207.html">Inform 7</a> is the next
+generation of the popular Interactive Fiction compiler.  But it's more than
+that. It's an amazing declarative natural language compiler with an incredible
+IDE. I've worked with Inform 6, and it was nifty, but when I saw Inform 7 my
+jaw dropped. </p>
+
+<p>I've heard about natural language this and that, and learned about logic
+programming in school, but this is the first time I've seen either put to
+practical use (IMHO).  If you have any interest in either Interactive Fiction
+(like Zork) or the language features, do check it out.</p>
+
+<pre><code>"Sourdough" by Hans Fugal
+
+The Kitchen is a room. "This is your kitchen. What a mess."
+
+The baking peel is a portable supporter in the kitchen. "Your
+trusty baking peel is here." The lump of dough is on the peel.
+
+The oven is an openable closed scenery container in the kitchen.
+"The oven is set to 400 degrees."
+
+Instead of taking the dough: say "But you'd ruin it!"
+
+Before taking the peel: say "You carefully lift the peel."
+
+The baking stone is a supporter in the oven.
+
+instead of inserting peel into oven when dough is on peel and oven
+is open: say "You expertly slide the dough off of the peel onto the
+baking stone in the oven.";  now the dough is on the baking stone.
+
+After closing oven when dough is on stone: say "Over the next hour
+the air fills with the aroma freshly baked sourdough bread. Your
+admiring butter-slatherers come out of the woodworks."; end the
+game in victory.
+</code></pre>
+
+<p>The Brass Lantern has <a href="http://brasslantern.org/writers/howto/i7intro.html">an excellent
+writeup</a>. </p>
+
+<p>I have been known to delve into writing IF on occasion. Will I use
+Inform 7? I might. Or I might use the IDE to write Inform 6 games. It
+is a little verbose, and there is a bit of "guess the word" or "guess
+the syntax", which can be frustrating as you probably know if you've
+ever played IF. But I imagine the set of those is not hard to learn.
+For example, it took me some digging to figure out "inserting" because
+it didn't like "putting", "placing" or anything else that came
+directly to mind. "victory" was similarly hidden to me. </p>
+
+<p>My memory of Inform 6 is incomplete, so this may be inaccurate, but
+what I really like about Inform 7 which I think is new, is the logic
+programming approach. A game is basically a bunch of descriptive
+declarations (building the world) and a bunch of rules about what
+happens. This is powerful and elegant in some domains, and IF is one
+of those I think. I may program an adventure in Inform 7, but if I do
+you can bet I'll be cutting corners wherever I can (you can see I've
+done that even in my small experiment above - leaving out the articles
+at the end).</p>

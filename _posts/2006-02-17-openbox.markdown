@@ -1,0 +1,54 @@
+---
+layout: post
+status: publish
+published: true
+title: Openbox
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 60
+wordpress_url: urn:uuid:ba446391-fd16-4d21-b9b8-99d1e0312f04
+date: 2006-02-17 08:26:11.000000000 -08:00
+tags:
+- linux
+comments: []
+---
+<p><a href="http://icculus.org/openbox/">Openbox 3</a> is a pretty nifty window manager. What
+I like about it is that it is simple, has a powerful but simple configuration
+(even if it is XML), ICCCM and EWMH compliant, and works well in Gnome. </p>
+
+<p>Now that I can dual-boot my iBook without the bother of a USB wireless card, I
+took a few minutes to set up my desktop environment. I used to periodically
+spend way too much time doing this. I was always on a quest for the best window
+manager and desktop systems, and I mostly steered clear of Gnome and KDE. Maybe
+I'm getting boring, but my list of must-haves for window managers has shrunk
+recently (maybe I should blame OS X). As I'm no longer the primary user on
+falcon (my wife is), we've been running Gnome there for awhile, and I've gotten
+used to it for casual usage. I used it for a few months at my last job too, and
+with a decent window manager (I used FVWM then) it can be quite nice.</p>
+
+<p>So openbox easily displaces metacity with a simple <code>openbox --replace</code> and
+saving the session. Once you find a theme that doesn't use itsy bitsy fonts it
+looks fine too (I like the Serenity theme, although the colors are a bit off). </p>
+
+<p>Openbox has the *box feature I love dearly: the dock. <code>gkrellm -w</code> and
+WindowMaker dockapps I love dearly.</p>
+
+<p>The keybindings and actions are not quite as rich as FVWM, but still quite
+good. On the other hand it does do MRU-style window switching (e.g. alt-tab),
+which is a feature mysteriously missing from FVWM.</p>
+
+<p>Here is <a href="/openbox_rc.xml">my ~/.config/openbox/rc.xml file</a>. It matches the OS X keybindings I use most, and some others I made up which have proved quite useful in the past. Here's a preview (mentally replace cmd with meta or win, as appropriate):</p>
+
+<ul>
+<li>cmd-m to minimize (cmd-h doesn't offer anything more in the Gnome desktop, which is good because vi key emulation always trumps)</li>
+<li>cmd-w to close</li>
+<li>cmd-q to kill (use sparingly, this isn't quite the same as cmd-q in OS X)</li>
+<li>cmd-tab and s-cmd-tab (in addition to the more windows-like alt-tab and s-alt-tab)</li>
+<li>cmd-[hjkl] navigates desktops</li>
+<li>c-cmd-[hjkl] maximizes vertically or horizontally</li>
+<li>s-cmd-[hjkl] moves the window in that direction to the nearest edge. Openbox is the first WM I've seen with this action, and I anticipate that it will be very useful.</li>
+<li>cmd-t to spawn an xterm</li>
+<li>cmd-(up|down) to raise/lower a window</li>
+</ul>

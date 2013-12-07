@@ -1,0 +1,65 @@
+---
+layout: post
+status: publish
+published: true
+title: SPA-3000
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 130
+wordpress_url: urn:uuid:b367baf6-bccf-4f7d-b6eb-d7fc15abc987
+date: 2006-05-12 21:19:34.000000000 -07:00
+tags:
+- asterisk
+- voip
+- sipura
+- spa
+- devkit
+- developers
+- kit
+comments: []
+---
+<p>Getting started with Asterisk just got easier. Well, it didn't <em>just</em> get
+easier, because the SPA-3000 isn't a new product. It's just that I just now
+realized how perfect this device is for the fledgling VOIPer. </p>
+
+<p>The traditional advice is to get an <a href="http://www.digium.com/en/products/hardware/devkit.php">Asterisk Developer's
+Kit</a> which gives you one
+FXS port and one FXO port, expandable. In the old days, this wasn't bad advice
+because the old devkit was reasonably priced. The new devkit is better, but
+pricier. At $240 it can hardly be considered entry level for any but the most
+serious (or rich) Asterisk newcomers.</p>
+
+<p>The <a href="http://www.sipura.com/products/spa3000.htm">Sipura SPA-3000</a> is an amazing
+bundle of joy that also provides an FXS and FXO port. What I didn't realize
+(but should have guessed) before now was that it can not only bridge its FXS
+and FXO ports, but act as a gateway with external SIP devices, like Asterisk.
+So this thing can do everything the Asterisk devkit can do except add FXS or
+FXO ports, but without all the headache or cost. You can find these for less
+than a hundred, and you don't have to install it in your PC, worry about
+interrupts, or set up <code>zap*.conf</code>. You can still use Asterisk, of course, but
+you can also pair it up directly with <a href="http://openser.org/">SER</a> or any SIP
+provider you like. Yes, you could do that with Asterisk too, but frankly
+Asterisk isn't a stellar SIP implementation and if you're serious about SIP
+you'll find on occasion that you might like to bypass it. (Whether or not you
+want to be serious about SIP is another post. ;-)</p>
+
+<p>If you want to get started with VOIP in the comfort of your own home, all you
+need is a Linux box and an SPA-3000. </p>
+
+<p>What about all the phones scattered throughout the house? Plug the phone
+company directly into the SPA FXO, and the SPA FXS into the wall. (Or just go
+straight VOIP, in which case you don't technically need a 3000 but might be
+better served with a 1000 or 2000 family member) </p>
+
+<blockquote>
+    <p>What about Digium?! How will the Asterisk developers feed their children and
+    pets?! You traitor! You capitalist! You... You... Microsoft-lover!</p>
+</blockquote>
+
+<p>I am full of gratitude for the Asterisk developers and for Digium, but I
+frankly believe Digium's products are overpriced and I have no qualms in taking
+my business elsewhere when it makes sense to do so. I have a Sipura SPA-1001
+and I am very impressed with the quality of it, so I am confident in my
+recommendation. Go with the SPA.</p>

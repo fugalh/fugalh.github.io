@@ -1,0 +1,51 @@
+---
+layout: post
+status: publish
+published: true
+title: Zero Link
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 110
+wordpress_url: urn:uuid:30a7816d-b8fb-421e-8d1f-9153f6b8c9b4
+date: 2006-04-07 15:43:00.000000000 -07:00
+tags:
+- mac
+- C
+- xcode
+- extern
+- header
+comments: []
+---
+<p>XCode has a feature called <em>Zero Link</em>, which apparently more or less skips the
+linking step when you build your project. I don't know the details but it's
+probably fair to say that it's like just-in-time compiling, but for linking.
+The raison d'être of this feature is to reduce the time spent waiting for
+things to compile during development. It's not to be used for released code, so
+it is on by default in the development building style and off by default for
+the release style. </p>
+
+<p>That sounds really neat, but we just wasted a bunch more time than we could
+possibly have saved with Zero Link, because there was no linker to complain
+about this:</p>
+
+<pre><code>// foo.h
+#ifndef FOO_H
+#define FOO_H
+
+short foo[2];
+short *p;
+
+#endif
+</code></pre>
+
+<p>The problem, if you don't already see it, is that those variables should be
+declared <code>extern</code> and instantiated in one and only one <code>.c</code> file. <code>ld</code> would
+complain about duplicate symbols when trying to link two .o files that had both
+included this header file. But with Zero Link, there's no error. Instead, you
+get crazy behavior from the debugger: assignments that seem to have no effect
+and other odd things that make you think you've fallen into an alternate
+universe. </p>
+
+<p>So be careful.</p>

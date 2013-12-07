@@ -1,0 +1,53 @@
+---
+layout: post
+status: publish
+published: true
+title: XvMC
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 966
+wordpress_url: urn:uuid:64a7e34e-3848-4e03-b19b-cf50b1ed0778
+date: 2008-05-28 14:56:00.000000000 -07:00
+tags:
+- linux
+- mplayer
+- video
+- nvidia
+- xvmc
+- mythtv
+- via
+- agp
+comments: []
+---
+<p>I bought an <a href="http://www.msicomputer.com/product/p_spec.asp?model=NX6200AX-TD256H_D2&amp;class=vga">MSI NX6200AX-TD256H D2</a> video card (It's an NVIDIA GeForce 6200 256MB 8x AGP card) to drive the MythTV frontend, since MythTV can't manage to play even the most modest content using my trusty old Radeon 7000 (MythTV doesn't support VIDIX, only XVideo). I hoped that the upgrade would allow me to watch live HD television, which means XvMC.</p>
+
+<p>Before I go any further, the other relevant stats: the computer I'm using (for the purposes of this post, anyway) is an 64-bit AMD Athlon 2800+ running 32-bit Ubuntu 8.04. The motherboard is a VIA K8T800. I'm actually using TwinView to share the Desktop computer with MythTV, but I tested everything with a single-screen (the CRT) to avoid confounding, and using TwinView doesn't seem to make a difference one way or the other.</p>
+
+<p>All the normal stuff works great, but XvMC does not though it should. Whenever I try to use XvMC, the client (mythfrontend or mplayer, for example) freezes up and must be killed. I tried all the standard tweaks that Google could suggest: enable/disable sync on vblank, enable/disable OpenGL vsync, various <code>xorg.conf</code> settings. I tried just about everything I could think of and then some, and the only thing to make any difference at all is this setting in <code>xorg.conf</code>:</p>
+
+<pre><code>Option "NVAGP" "0"
+</code></pre>
+
+<p>That is, I disabled AGP. When I do this, XvMC works as it should. After a little research, it perhaps shouldn't be too surprising that AGP is the problem on a VIA motherboard. At least it's a lead.</p>
+
+<p>Interestingly, when I downgraded the driver from the latest (173.14.05) to the newer legacy driver (96.43.05), XvMC works fine with AGP enabled. As one would expect, it outperforms the newer driver with AGP disabled. Here's a performance table:</p>
+
+<pre><code>               (% CPU when playing SD/HD in MythTV)
+Driver                       Xv     Xv+linear    XvMC+bob
+173.14.05 (AGP disabled)  20/100+    30/100+      12/60+ (OSD is too much)
+96.43.05                  20/100+    30/100+       8/45
+</code></pre>
+
+<p>There's a few caveats to XvMC, either way I get it to work. When deinterlacing is on, the OSD gets deinterlaced too. This isn't a pretty sight, though it's functional. The OSD is always grayscale, in spite of setting XvmcUsesTextures to false in <code>xorg.conf</code> and choosing chromakey. But that doesn't bother me much, I don't much like the color schemes of the OSD themes I've seen.</p>
+
+<p>I have one more straw to grasp before I consign myself to using the legacy
+driver (which I may do if it runs FlightGear and X-Plane ok) or crossing my
+fingers for a fixed driver before the Olympics (I intend to submit a bug
+report). I'm going to try poking around with AGP driving strength settings in
+the BIOS. I tried 0xEA and X wouldn't start at all, but with the same symptoms
+I get with XvMC. That hints at the same cause, so maybe with some kind of
+binary search I can stumble on a compatible setting.</p>
+
+<p>So in conclusion, I'm going to try using the legacy driver even though my card is supported by the newer driver, and for OSD reasons only use XvMC for HD.</p>

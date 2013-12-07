@@ -1,0 +1,19 @@
+---
+layout: post
+status: publish
+published: true
+title: ADB caps lock hack goes into -mm
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 75
+wordpress_url: urn:uuid:059d299d-b813-4c19-ae12-3d08b16aa813
+date: 2005-12-10 08:57:08.000000000 -08:00
+tags:
+- mac
+comments: []
+---
+<p><a href="http://www.xmission.com/~fugalh/capslock/">The ADB keyboard caps lock to control hack</a> that I ported to 2.6 from a 2.4 patch that was floating around has just <a href="http://marc.theaimsgroup.com/?l=linux-mm-commits&amp;m=113419973308982&amp;q=raw">gone into Andrew Morton's -mm tree</a>. Andy Wingo took the patch and added a /proc entry (way cool), and submitted it for inclusion.</p>
+
+<p>Wow. Something I touched, in the kernel.</p>

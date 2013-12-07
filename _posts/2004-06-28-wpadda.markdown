@@ -1,0 +1,35 @@
+---
+layout: post
+status: publish
+published: true
+title: wpad.da
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 70
+wordpress_url: urn:uuid:7192e842-fc84-49e5-9ca4-9df6d42a8c90
+date: 2004-06-28 15:43:58.000000000 -07:00
+tags:
+- linux
+comments: []
+---
+<p>I've been struggling with how to get IE to do the wpad thing, and found crazy log entries like this:</p>
+
+<pre>
+172.16.59.232 - - [17/Apr/2004:17:40:57 -0600] "GET /wpad.da HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 6.0; Win32)"
+172.16.59.232 - - [17/Apr/2004:17:41:24 -0600] "GET /wpad.da HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 6.0; Win32)"
+</pre>
+
+<p>Yes, that's from IE (which is apparently pretending to be Mozilla). Note that
+it's trying to get wpad.da, not wpad.dat. So I symlinked wpad.dat->wpad.da and
+it still didn't work. Google wasn't much help; most people were successful with
+just a symlink or copy. Finally I noticed the problem: I had a case mismatch in
+the name of my function, <i>and</i> a missing paren. Compilers and run-time
+syntax errors have spoiled me I guess. Now if I could just get IE to time out
+that cache...
+<p>In the meantime I did the windows update thing and got some kind of service pack or patch or something. Nothing that indicated IE would be changed, but apparently it was because IE is now properly requesting wpad.dat again.
+<p>
+Incidentally, if you're trying to configure dansguardian you need to test it,
+right? Well it's odd that there aren't more test files out there. This one
+works nicely for me: <a href="http://falcon.fugal.net/dgtest.html">http://falcon.fugal.net/dgtest.html</a>.</p>

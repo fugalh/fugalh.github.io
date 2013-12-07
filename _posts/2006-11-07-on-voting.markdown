@@ -1,0 +1,49 @@
+---
+layout: post
+status: publish
+published: true
+title: On Voting
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 750
+wordpress_url: urn:uuid:b413713f-3bcf-4f9b-8f46-705808196859
+date: 2006-11-07 11:17:35.000000000 -08:00
+tags:
+- electronic
+- voting
+comments: []
+---
+<p>My state/county/whatever had a voting setup I felt really good about. I think
+it's a model that should be followed with a few minor modifications.</p>
+
+<p>I walked in, they checked my ID and no doubt marked me in the computer as
+having voted. They printed up a ballot that was no doubt customized to my
+precinct, and I took it to the booth. In the booth was a special marker for
+marking the ballot, which was just a plain easy-to-read piece of paper with
+ovals to fill in. You know, like the scantron tests that almost <em>everybody</em> has
+experience with, except it's even better than generic scantron in that the
+names are right next to the ovals. When I was done I fed it into a machine that
+counted the vote and stashed the ballot in a bin underneath.</p>
+
+<p>I like this system because it's proven technology and has a well-defined
+voter-originating paper trail. Probably thousands of University students take
+scantron tests every day of the year. Accuracy is high. Counting is easy.
+Equipment is probably affordable. Paper trail is there and very simple to
+audit.</p>
+
+<p>What needs to be improved on the technical side is that the ovals were a bit
+too big and elongated so that it was difficult to fill them in well with the
+sometimes drying-out markers. Ordinary scantron-like bubbles with number 2
+pencils would have been best, cheapest, and most familiar with voters. Label
+them as special voting pencils if you like. The printer printing out ballots is
+a nice touch, but it might have been cheaper to preprint ballots for each
+precinct. Or maybe not, but worth looking into. </p>
+
+<p>The other thing I was unhappy about was less about the technology. I was
+disappointed to see that only Democratic and Republican candidates were listed.
+You could write in candidates, but I liked having some of the smaller parties
+listed as well. In Utah I had more choices, and I liked that. Next time I'll
+have to come prepared with a list of Libertarian candidates to possibly write
+in.</p>

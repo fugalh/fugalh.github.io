@@ -1,0 +1,85 @@
+---
+layout: post
+status: publish
+published: true
+title: Shangri La
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 862
+wordpress_url: urn:uuid:5609756c-3ca6-45da-b712-691d9f90e176
+date: 2007-08-14 11:06:00.000000000 -07:00
+tags:
+- food
+- diet
+comments:
+- id: 1603
+  author: vontrapp
+  author_email: ''
+  author_url: http://von.fugal.net/blog
+  date: '2007-08-19 09:48:50 -0700'
+  date_gmt: ''
+  content: <p>That's why I do skiing, it's easy to justify the time, and the expense
+    is taken care of when you teach it and have a free pass :) The only logistical
+    obstacle left is driving to the snow, which is not so bad for me, but probably
+    much more an issue in Las Cruces.</p>
+---
+<p>Once upon a time, I <a href="http://hans.fugal.net/blog/articles/2006/07/03/shangri-la">blogged about the Shangri La
+"diet"</a>. I suppose I
+owe it to all 4 of my readers to summarize my experience. So here's the
+summary: it worked and I have no idea if it was placebo effect.</p>
+
+<p>Look at this graph:</p>
+
+<p><img alt="mass times gravity" src="http://hans.fugal.net/images/mg1.png" width="400"/></p>
+
+<p>The period between about 6/5 and 8/2 is when I was following the procedure,
+with about 80% fidelity. I lost 10 pounds in short order. I was less hungry. My
+wife got mad because I ate less than her almost all the time. </p>
+
+<p>Then I got lazy and stopped taking my swigs. You do get used to swigging olive
+oil, but it's never actually <em>fun</em>. The second time around I saw the same
+results as before, but I was even less faithful. If I ever got organized enough
+to do it 100% I might lose even more weight. </p>
+
+<p>I noticed that even after stopping I naturally ate less for quite some time. I
+still eat less than I used to, though not as much less as last August and
+September.</p>
+
+<p>Now, was it the placebo effect? No clue. But if it is, is there anything so
+wrong with harmlessly tricking your body and mind into eating more healthily?
+Is it a failure? No, I think it was a success for me. I just didn't give it
+enough priority to continue in the face of vacations and so on. Would I go back
+to it? Sure, I'd rather drink a little olive oil between meals than do almost
+any other diet. </p>
+
+<p>But really it was mostly an experiment. I know as well as you that just losing
+weight is almost absurd. Being fit is more important than how much I weigh, and
+I'm terrible at being fit. So that's where I need to focus my efforts.</p>
+
+<p>Being honest with myself, here are the obstacles to being fit, in decreasing
+order: time, effort, and a love of swimming. </p>
+
+<p>Time is one of the things I most
+treasure. Giving up 200-300 perfectly good hours a year to some mindless
+excercise is frankly apalling. I need to convince myself that it would be worth
+it, or make it something I want to do. </p>
+
+<p>It takes effort to get up and excercise, and I
+won't deny that it's easier to sit there programming or researching. My mind is
+already in shape and it's much easier to work my mind than my body. </p>
+
+<p>Now love of swimming might seem like a silly factor, but it's at least
+partially true. I love to swim, and I hate to run/walk/etc. If I'm going to
+excercise you better believe I'm going to be swimming, not running/walking/etc.
+But getting to the pool is more than just effort, it's logistics. Money, car,
+parking, being all wet, chlorine... It's not an insurmountable obstacle, it
+will just take some planning. </p>
+
+<p>I mention all that because soon you will see a post about how my new swimming
+habit is going. I got a book that promises to make lap swimming enjoyable, and
+from what I've read I believe them. The pool is closed this week but I've got
+all the plane laid out on how to adjust my routine, and next wednesday I'll
+start my new life. I'll reset my graph in the sidebar and we'll see how
+swimming compares to swigging olive oil.</p>

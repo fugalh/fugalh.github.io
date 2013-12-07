@@ -1,0 +1,20 @@
+---
+layout: post
+status: publish
+published: true
+title: QtRuby on Tiger
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 82
+wordpress_url: urn:uuid:93d08696-85c8-4e8c-90e4-e4fdc8344136
+date: 2005-10-11 09:04:22.000000000 -07:00
+tags:
+- mac
+comments: []
+---
+<p>I got QtRuby working perfectly on my iBook. It wasn't easy, but it's
+reproduceable. I wrote up the instructions on ruby-talk, <a href="http://groups.google.com/group/comp.lang.ruby/browse_frm/thread/fd7daa4329cd199a/c8712d8363237b92?tvc=1#c8712d8363237b92">go read
+them</a>
+and let me know if it doesn't work for you.</p>

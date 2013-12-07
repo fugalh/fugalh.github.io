@@ -1,0 +1,41 @@
+---
+layout: post
+status: publish
+published: true
+title: Orpie
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 734
+wordpress_url: urn:uuid:362cdf63-682c-40f1-a89a-33137bc12711
+date: 2006-10-09 22:53:00.000000000 -07:00
+tags:
+- calculator
+- rpn
+- cli
+comments: []
+---
+<p>Speaking of calculators, I once came across this gem and then inexplicably
+forgot all about it. It's called
+<a href="http://www.eecs.umich.edu/~pelzlpj/orpie/">orpie</a> and it aptly dubs itself the
+mutt of calculators. It's RPN, it's curses, it's at least as rich and powerful
+as your HP 48G (in features, that is), and it's completely configurable a la
+mutt. </p>
+
+<p><img src="http://www.eecs.umich.edu/~pelzlpj/orpie/screenshot.png" alt="Orpie screenshot"/></p>
+
+<p>A few standard tricks to get it compiled on OS X:</p>
+
+<pre><code>sudo port install ocaml gsm
+export LDFLAGS=-L/opt/local/lib/
+export CPPFLAGS=-I/opt/local/include/
+./configure
+make
+sudo make install
+</code></pre>
+
+<p>I set up iTerm to run orpie in a new tab on ctrl-cmd-o, to ensure that I never
+forget about this powerful calculator again. Go ahead and give it a try. It's
+like an HP 48G, but unlike x48 and other emulators, it's actually usable from
+the computer keyboard.</p>

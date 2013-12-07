@@ -1,0 +1,40 @@
+---
+layout: post
+status: publish
+published: true
+title: Primer
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 338
+wordpress_url: urn:uuid:45d001eb-a5cb-4b7f-baa9-e7cc71cc588c
+date: 2006-06-05 13:21:54.000000000 -07:00
+tags:
+- movie
+- review
+- sci
+- fi
+comments:
+- id: 1473
+  author: Steve
+  author_email: ''
+  author_url: ''
+  date: '2006-06-05 14:20:26 -0700'
+  date_gmt: ''
+  content: <p>I can second that on Primer.  It's a good how.  If you have *no* idea
+    what it's about, then it's going to be a little hard to follow for a while, but
+    eventually you get it.  Lotsa science. :)</p>
+---
+<p>If you like science fiction--I mean <em>real</em> science fiction, not just a movie
+that happens to have a robot or a spaceship in it--then you want to go out and
+get <a href="http://www.imdb.com/title/tt0390384/">Primer</a> this week. You want to get
+it, watch it, watch it again, then watch the director commentary.</p>
+
+<p>I can't possibly do justice to the movie here. It's an amazing, intelligent,
+thought-provoking movie. You should watch it. Trust me.</p>
+
+<p>That said, it's not for everyone. People who read this blog should like it.
+People who liked <a href="http://www.imdb.com/title/tt0369735/">Monster-in-Law</a> almost
+certainly will not enjoy it. But it can be fun to watch them squirm so invite
+them anyway.</p>

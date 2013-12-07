@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: Flock
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 523
+wordpress_url: urn:uuid:7833e4f6-a481-4738-9e4f-8fe7da6e61c7
+date: 2006-06-14 23:01:00.000000000 -07:00
+tags:
+- blog
+- flock
+- safari
+- rss
+comments: []
+---
+<p>I'm giving <a href="http://www.flock.com/">flock</a> another look tonight and I'm liking what I'm seeing. The RSS reader is at least as good as Safari's. I've been stuck in Safari even though I might rather use Firefox for months now, because I was addicted to the RSS reading, so this is great. Flock looks better in OS X than firefox, although it's not quite as nicely integrated as Safari. <br/>
+</p>
+
+<p>I have a couple of major gripes. It imported my Safari settings only after I explicitly asked it to, and then it failed to do anything useful with my RSS feeds from Safari. Talk about a wet blanket. So I figured out how to <a href="http://dcostanet.net/wordpress/2005/06/13/export-safari-rss-feeds-via-opml/">create OPML from Safari</a> and tried to import it. Flock failed to import it. Strike two. So then I decided to try the built-in blogging fun, and I'm not impressed with the stupid editor. Composing blog entries in what is basically the same interface as Netscape Composer ten years past is not my idea of cutting edge. I should have the option of starting out in source mode, but more importantly (since editing HTML is even less fun than using a composer-like interface) I should be able to use Markdown or Textile or whatever I want. I'll still be using <a href="http://hans.fugal.net/src/flog">flog</a> for writing my posts.</p>
+
+<p>Nevertheless, flock looks promising indeed, and I may end up using it if I can get my RSS imported.<br/>
+</p>
+
+<p><!-- technorati tags begin --><p style="font-size:10px;text-align:right;">technorati tags:<a href="http://technorati.com/tag/flock" rel="tag">flock</a>, <a href="http://technorati.com/tag/safari" rel="tag">safari</a>, <a href="http://technorati.com/tag/rss" rel="tag">rss</a>, <a href="http://technorati.com/tag/blog" rel="tag">blog</a></p><!-- technorati tags end --></p>
+
+<p>Update: there's something else right there: my blog has tags, I don't want tags <em>in</em> the post. Sheesh.</p>

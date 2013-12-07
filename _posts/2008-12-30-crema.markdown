@@ -1,0 +1,94 @@
+---
+layout: post
+status: publish
+published: true
+title: Crema
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1028
+wordpress_url: urn:uuid:03105a7f-bff8-4805-9746-4dd9fb311ab9
+date: 2008-12-30 10:27:00.000000000 -08:00
+tags:
+- food
+- french
+- fat
+- milk
+- cream
+- crema
+- fresca
+- cr&#232;me
+- fra&#238;che
+- mexican
+- dairy
+- culture
+- bacteria
+comments:
+- id: 2161
+  author: Tee Hamburg
+  author_email: bill@bing.com
+  author_url: http://www.the-tea-embassy.de
+  date: '2010-01-05 23:38:11 -0800'
+  date_gmt: '2010-01-05 23:38:11 -0800'
+  content: Hell yeah!
+- id: 2282
+  author: Dentists Glendale
+  author_email: paulafrank1213@yahoo.com
+  author_url: ''
+  date: '2010-08-12 09:16:10 -0700'
+  date_gmt: '2010-08-12 09:16:10 -0700'
+  content: I'm not into crema but I know sweet tooth craves for it. Better brush your
+    teeth after you enjoyed it. :)
+---
+<p>Joe Pastry's <a href="http://joepastry.web.aplus.net/index.php?title=crema_creme_fraiche&amp;more=1&amp;c=1&amp;tb=1&amp;pb=1">post on Crema Fresca</a> got me curious. He says,</p>
+
+<blockquote>
+    <p>In fact crema fresca is closer to crème fraîche than sour cream. Its fat
+    content is usually a bit higher, about 25% compared to sour cream which
+    clocks in around 20%. Both are still lightweights compared to crème fraîche,
+    though, which weighs in at a chubby 35-48%.</p>
+</blockquote>
+
+<p>Well if that's true, then why is sour cream thicker than crema fresca? Or are
+we not talking about the same thing. Maybe it's related to what happens in
+yogurt. The next time I ended up at the grocery store I was armed with pen and
+paper.</p>
+
+<table border="1"><tr><th>Product</th><th>Fat / Serving</th><th>Fat Content</th></tr>
+<tr><td>Buttermilk (1%)</td><td>3g / 240ml</td><td>1%</td></tr>
+<tr><td>Whole Milk</td><td>8g / 240ml</td><td>3%</td></tr>
+<tr><td>Half and Half</td><td>3g / 30ml</td><td>10%</td></tr>
+<tr><td>Crema Mexicana ("Mexican Table Cream")</td><td>2.5g / 15ml</td><td>17%</td></tr>
+<tr><td>Sour Cream</td><td>5g / 30g</td><td>17%</td></tr>
+<tr><td>Crema Mexicana Agria ("Mexican Sour Cream")</td><td>8g / 30g</td><td>27%</td></tr>
+<tr><td>Whipping Cream</td><td>6g / 15ml</td><td>30%</td></tr>
+<tr><td>Heavy Whipping Cream</td><td>6g / 15ml</td><td>40%</td></tr>
+</table>
+
+<p>I used the rule of thumb that 1ml = 1g. (A pint's a pound the world around
+except in England and where people don't use pints or pounds, which is pretty
+much everywhere but the USA) Though it's technically not true it's precise
+enough for the level of accuracy we need (rounded to the nearest percent). (See
+<a href="http://hypertextbook.com/facts/2002/AliciaNoelleJones.shtml">this fact sheet</a>
+for more about density of dairy.)</p>
+
+<p>I should note that none of the Mexican cream products in my grocery were
+labeled as crema fresca, though that's what I was referring to when I asked
+Joe about crema fresca. I don't remember where I picked up the term, or whether
+it's entirely accurate. Apparently Joe is thinking about the Agria kind, which
+does indeed have more fat than sour cream. Or maybe this brand's table cream is
+particularly lean. Anyway, the Crema Mexicana in my grocery is on par with sour
+cream for fat content, but it's pourable and not nearly as thick as sour cream.
+I imagine we have some kind of yogurt effect going on in the sour cream. I
+don't know whether the agria stuff is less pourable, but I suspect it is just
+as pourable since it comes in a tall narrow container.</p>
+
+<p>To make crema fresca, based on these numbers, I'd go for 1
+cup whole milk and 1/2 cup cream (heavy or light, depending on your level of
+decadence), and a tablespoon of sour cream or buttermilk to inoculate.</p>
+
+<p>I can only take his word for the fat content of crème fraîche, as I have never
+seen or tasted it.</p>
+
+<p>If you like sour cream on your rice and beans (or burritos or chimichangas or …) then you'll like crema fresca even better. Give it a try!</p>

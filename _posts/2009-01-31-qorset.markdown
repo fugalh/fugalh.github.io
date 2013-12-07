@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: Qorset
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1081
+wordpress_url: http://hans.fugal.net/blog/?p=1081
+date: 2009-01-31 20:39:36.000000000 -08:00
+tags:
+- voip
+- qos
+- tos
+- dscp
+- qorset
+- bandwidth
+- broadband
+- github
+- lug
+- presentation
+comments: []
+---
+Once upon a time I gave a <acronym title="Quality of Service">QoS</acronym> presentation to at least <a href="http://mvlug.org">one <acronym title="Linux Users Group">LUG</acronym></a>. I showed off my little homebrew QoS script that I call qorset, and promised to make it available. I think I may have quietly made it available, but it had some bugs and I was never really comfortable with it even for an alpha release. I just had this nagging feeling that something was very wrong.
+
+Well I found that something and I fixed it. I also modified the framework slightly to work on Linux in general not just OpenWRT. It's still rough around the edges but it's ready for you to try out. I'm hosting it <a href="http://github.com/fugalh/qorset">at github</a>. I'd love for you to try it out, tell me how it failed, and perhaps even submit a patch.

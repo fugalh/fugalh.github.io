@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: Tuttle, OK
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 106
+wordpress_url: urn:uuid:274e42cd-cd11-4f57-9e11-6e365c86ff98
+date: 2006-04-04 13:26:09.000000000 -07:00
+tags:
+- life
+comments:
+- id: 1450
+  author: Steve
+  author_email: ''
+  author_url: http://wonkabar.org/
+  date: '2006-04-04 14:37:30 -0700'
+  date_gmt: ''
+  content: <p>Those crazy Tuttles.  I really feel sorry for their local LUG.</p>
+---
+<p><a href="http://www.centos.org/modules/news/article.php?storyid=127">This email exchange</a> is pretty amusing. The debate in the comments is fairly tiring, actually. You have the LOLs and the apologists, but nobody seems to take the middle road.</p>
+
+<p>Here's my take: Jerry acted like an idiot. He should have called in IT. Johnny was mostly polite and very patient, but he made a mistake: he tried to reason with a panicking idiot.</p>
+
+<p>If I were Johnny, here's what I hope I would have done. I would have gone along more or less like Johnny did until the FBI threat came. That would have been my signal that I'm dealing with an irrational person and I would have then said something like "Neither I nor CentOS has done anything to your server. I will not entertain any further correspondence unless it comes from your IT department."  Inside I would be secretly hoping that he calls the FBI. I've always wanted to meet an FBI agent. We could go to lunch with an FBI IT guy and have a good laugh.</p>

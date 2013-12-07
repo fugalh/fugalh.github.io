@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: Instiki with Ruby 1.8.3+
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 54
+wordpress_url: urn:uuid:bc2279c0-0f1e-4dcf-ab1b-6eb64ccfdccd
+date: 2006-02-15 08:12:26.000000000 -08:00
+tags:
+- linux
+comments: []
+---
+<p>At least on Debian, when I upgraded ruby to 1.8.4 (from 1.8.2) I got the infamous <code>Logger::Format not defined</code> error when starting up instiki. My other rails apps work fine, since I have a recent version of rails installed, but instiki ships with its own rails, which is apparently not new enough. Solution:</p>
+
+<pre><code>cd instiki-0.10.2/vendor
+mv rails rails.foo
+</code></pre>
+
+<p>Voil&aacute;, you're now using your own rails install and it works great. This is where we cross our fingers that this doesn't introduce any bugs...</p>

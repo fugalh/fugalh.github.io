@@ -1,0 +1,20 @@
+---
+layout: post
+status: publish
+published: true
+title: Terminus on OS X
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 87
+wordpress_url: urn:uuid:eac33d85-6672-4279-8021-1be5d0b8b1ff
+date: 2005-04-15 23:12:55.000000000 -07:00
+tags:
+- mac
+comments: []
+---
+<p>Yes, it can be done, and yes it is beautiful. Actually, <a href="http://www.is-vn.bg/hamster/jimmy-en.html">Terminus
+proper</a> is out of the question, but the <a href="http://fractal.csie.org/~eric/wiki/index.php/Terminus_font">True Type version of
+Terminus</a> works great, provided you use it at the appropriate
+resolutions.</p>

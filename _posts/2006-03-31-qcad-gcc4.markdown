@@ -1,0 +1,49 @@
+---
+layout: post
+status: publish
+published: true
+title: Building QCad with GCC 4
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 81
+wordpress_url: urn:uuid:ce07a23a-e0d9-4c6b-8134-423f188f38b0
+date: 2006-03-31 09:50:55.000000000 -08:00
+tags:
+- mac
+comments: []
+---
+<p><a href="http://www.ribbonsoft.com/qcad.html">QCad</a> is a really nifty open-source 2D
+CAD program for POSIX systems. They don't distribute free binaries, though, so
+you have to build it yourself.</p>
+
+<p>There's two catches when building. First is trying to figure out where to
+start. It looks to me like this is the starting point:</p>
+
+<pre><code>cd scripts
+./build_qcad.sh notrans
+</code></pre>
+
+<p>The second catch is if you get an error about ISO C++ and 'long long'. This
+actually applies to Qt in general, but I know that my Qt build environment is
+fine so I was a little confused. Turns out that the <code>-pedantic</code> compiler flag
+is what brings this error to the surface. So this patch will fix your QCad
+build:</p>
+
+<pre><code>--- qcad-2.0.5.0-1-community.src/mkspecs/defs.pro.orig  2006-03-31 09:12:28.000000000 -0700
++++ qcad-2.0.5.0-1-community.src/mkspecs/defs.pro       2006-03-31 09:07:55.000000000 -0700
+@@ -1,6 +1,6 @@
+# $Id: defs.pro 606 2004-12-25 03:08:40Z andrew $
+-QMAKE_CXXFLAGS_DEBUG += -pedantic
+-QMAKE_CXXFLAGS += -pedantic
++#QMAKE_CXXFLAGS_DEBUG += -pedantic
++#QMAKE_CXXFLAGS += -pedantic
+
+win32 {
+QMAKE_CFLAGS_THREAD -= -mthreads
+</code></pre>
+
+<p>What do I need QCad for? I'm designing two Really Neat&trade; DIY projects: a
+keyboard stand and a compact against-the-wall under-the-keyboard music stand.
+If that piqued your interest, stay tuned. If it didn't, well I'm sorry for you.</p>

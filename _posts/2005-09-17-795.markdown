@@ -1,0 +1,50 @@
+---
+layout: post
+status: publish
+published: true
+title: iRiver iFP-795
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 22
+wordpress_url: urn:uuid:ed267a37-b3ef-4a40-acaf-1bf8594b3827
+date: 2005-09-17 22:39:39.000000000 -07:00
+tags:
+- life
+comments: []
+---
+<p>I've been windowshopping again, this time for mp3 players. I've decided that
+this is the one I want: <a href="http://iriveramerica.com/prod/ultra/700/ifp_795.aspx">the iRiver
+iFP-795</a>. It has
+everything I require, and I think I would be quite happy with it. It also comes
+highly recommended from several friends.</p>
+
+<p>Here is what I require (at least, if <em>I'm</em> the one shelling out the dough):</p>
+
+<ul>
+<li>OGG Vorbis. Most of my music is encoded in this format. Incidentally, I
+think I would use an mp3 player mostly for podcasts and listening to new
+music. The made-with-linux music scene is 75% OGG Vorbis, so this condition
+still holds. Plus, I want to buy from a company that does OGG.</li>
+<li>USB Mass Storage device. Anything else is likely to not work well in linux.</li>
+<li>At least 512MB. Actually 512 will probably be about perfect based on my
+intended use: not to store my entire music archive in and have eternal
+shuffle, but to give me a chance to listen to new music and podcasts during
+the bus commute.</li>
+<li>Affordable. Ok, it's not actually within my budget at the moment, but it's
+not insanely expensive ($130 new).</li>
+</ul>
+
+<p>In addition to the above, here is what I really like about the 795:</p>
+
+<ul>
+<li>Standard AA battery</li>
+<li>USB 2.0</li>
+<li>FM Tuner and Recorder. I wonder if it's programmable; I have a tendency to
+forget when <a href="http://cartalk.com">Car Talk</a> comes on.</li>
+<li>Line-in and voice recorder. This will come in handy for recording
+interesting sound sources to later become <a href="http://en.wikipedia.org/wiki/Musique_concrète">Musique
+Concr&egrave;te</a>.</li>
+<li>Decent battery life (~40 hours)</li>
+</ul>

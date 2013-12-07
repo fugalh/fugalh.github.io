@@ -1,0 +1,47 @@
+---
+layout: post
+status: publish
+published: true
+title: '0xb8'
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 97
+wordpress_url: urn:uuid:c7abb44e-5d85-4003-b5a6-0156c80bc867
+date: 2006-01-20 08:31:16.000000000 -08:00
+tags:
+- voip
+comments:
+- id: 1444
+  author: psirac
+  author_email: ''
+  author_url: ''
+  date: '2006-11-04 11:13:35 -0800'
+  date_gmt: ''
+  content: <p>You can do this with iptables under linux.</p>
+- id: 1445
+  author: Hans
+  author_email: ''
+  author_url: ''
+  date: '2006-11-04 11:22:03 -0800'
+  date_gmt: ''
+  content: <p>Yes, you can do it with iptables. No, I am not interested in doing it
+    with iptables. Just because I can do something with iptables doesn't mean the
+    applications have license to ignore it. It's quite likely that somebody might
+    want to set these fields on some but not all VoIP traffic, for example. &lt;/rant></p>
+---
+<p>So I learned this morning that <acronym title="Type of Service">ToS</acronym> is old-school. According to <a href="http://www.ietf.org/rfc/rfc2474.txt">RFC 2474</a> we now have the <em>Differentiated Services Field</em>. I came to this realization as I was looking for the ToS bits in Ethereal, which decodes that octet as the Differentiated Services Code Point (<acronym title="Differentiated Services Code Point">DSCP</acronym>). I found this great article on <a href="http://www.aarnet.edu.au/engineering/networkdesign/qos/precedence.html">Precedence and DSCP</a> which explains both ToS and the newer DS Field very well. Go ahead, we'll wait for you to read it.</p>
+
+<p><a href="http://www.ietf.org/rfc/rfc2598.txt">RFC 2598</a> defines the Expedited Forwarding <acronym title="per-hop behavior">PHB</acronym>, which is what "most" VOIP implementations use, supposedly. The DSCP for Expedited Forwarding is 0x2e. However, the whole octet includes the two unused bits, so left shift twice and you get 0xb8. This is the magic number to use in Asterisk:</p>
+
+<pre><code>; sip.conf and/or iax.conf
+[general]
+tos=0xb8 ; Expedited Forwarding DSCP
+</code></pre>
+
+<p>You'll need to restart Asterisk in order for this to take effect; reload is not sufficient.</p>
+
+<p>The Expedited Forwarding DSCP is backwards-compatible with the old ToS field. It breaks down to precedence 5 and the low delay and throughput fields set.</p>
+
+<p>I was rather surprised and disappointed to learn neither that <a href="http://xten.com/index.php?menu=download">X-Lite</a>, which I use on my iBook, nor <a href="http://www.twinklephone.com/">Twinkle</a>, which I use in Linux, seem to have any way to set the ToS field, and just use 0x0. If you know how to set ToS on either of those programs I'd sure like to hear it.</p>

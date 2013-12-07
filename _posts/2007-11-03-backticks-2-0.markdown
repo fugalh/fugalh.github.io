@@ -1,0 +1,86 @@
+---
+layout: post
+status: publish
+published: true
+title: Backticks 2.0
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 894
+wordpress_url: urn:uuid:d6d6363b-a80b-4d93-9179-8bdee5af5551
+date: 2007-11-03 16:56:59.000000000 -07:00
+tags:
+- ruby
+- exec
+- system
+- backticks
+comments:
+- id: 1636
+  author: Hans
+  author_email: ''
+  author_url: ''
+  date: '2008-04-14 11:12:17 -0700'
+  date_gmt: ''
+  content: <p>If you need backticks 1.0 and you hate backticks because they illegible,
+    use %x{echo hello world} instead.</p>
+- id: 1806
+  author: foo
+  author_email: ''
+  author_url: ''
+  date: '2009-01-21 06:17:30 -0800'
+  date_gmt: '2009-01-21 06:17:30 -0800'
+  content: Thanks for that
+- id: 1917
+  author: vontrapp
+  author_email: von@fugal.net
+  author_url: http://von.fugal.net/blog
+  date: '2009-03-24 23:17:48 -0700'
+  date_gmt: '2009-03-24 23:17:48 -0700'
+  content: "I like to take that backticks method as defined above and take it a step
+    further like so:\r\n\r\nclass Symbol\r\n  def [] *args\r\n    backtick self.to_s,
+    *args\r\n  end\r\nend\r\n\r\nThen I get to cool stuff like:\r\n\r\n:file[\"-ib\",
+    filename]\r\n\r\n(:"
+---
+<p>When you've been bitten by spaces and other odd characters in filenames as
+often as I have, you begin to get not a little bit paranoid. Beginners often
+make this mistake (ruby syntax, but the same thing happens in bash, perl,
+python, etc.):</p>
+
+<pre><code>foo = `file #{filename}`
+</code></pre>
+
+<p>They quickly learn to do this instead:</p>
+
+<pre><code>foo = `file "#{filename}"`
+</code></pre>
+
+<p>This works fine until they come across a filename with quotes or any other
+characters that are special to the shell from within quotes.</p>
+
+<p>What's needed is something akin to what can be done with <code>exec</code> and <code>system</code>.
+With those two, you can do something like this and it doesn't matter <em>what</em>
+crazy filename is thrown at it, you won't have any trouble:</p>
+
+<pre><code>system 'file', filename
+</code></pre>
+
+<p>But <code>exec</code> and <code>system</code> don't return stdout, like backticks do. The former
+doesn't return at all, and the latter returns the return value. Here is an
+idiom that works like glorified array-parameter backticks in ruby:</p>
+
+<pre><code>def backtick(cmd,*args)
+  IO.popen('-') {|f| f ? f.read : exec(cmd,*args)}
+end
+</code></pre>
+
+<p>Everything you need to understand that code can be found in <code>ri IO.popen</code> and
+<code>ri Kernel.exec</code>.  If you can think of a better name than <code>backtick</code> do let me
+know. Now our code becomes paranoid-friendly:</p>
+
+<pre><code>foo = backtick('file',filename)
+</code></pre>
+
+<p>While we're on the subject, a very handy method is <code>Open3#popen3</code>, which is a
+bit overkill for this glorified backticks problem but could very well simplify
+your life (or mine) in the future.</p>

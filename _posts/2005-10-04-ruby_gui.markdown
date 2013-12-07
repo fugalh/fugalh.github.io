@@ -1,0 +1,46 @@
+---
+layout: post
+status: publish
+published: true
+title: QtRuby... not yet.
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 18
+wordpress_url: urn:uuid:55de4ed7-b96b-4fc3-aa28-2382c0957eab
+date: 2005-10-04 22:53:02.000000000 -07:00
+tags:
+- cs
+comments: []
+---
+<p>With the announcement of the first
+<a href="http://www.pragmaticprogrammer.com/fridays.html">Friday</a> from the Pragmatic
+Programmers, which is <a href="http://www.pragmaticprogrammer.com/titles/ctrubyqt/index.html">Rapid GUI Development with
+QtRuby</a>, I got
+really excited. I used QtRuby a little bit back when it was brand-spanking new,
+because I've used Qt more than once in the past (C++) and I think it is an
+excellent toolkit. I figured that this PDF book signalled that QtRuby was
+finally ready for prime time.</p>
+
+<p>It is with great sadness that I report it is not so, at least not for me. It
+may well be solid enough for serious work. Since it is in Debian now, it may
+well be the easiest toolkit path on Debian-based Linux. It may have better
+documentation and a really cool PDF book from the Pragmatic Bookshelf. But it
+is nigh unto impossible to install on OS X. It claims to be able to, but the
+extremely complicated instructions fail to tell you what to do when this
+strange smoke thing fails to compile.</p>
+
+<p>On the other hand, FxRuby is now much easier to get on OS X (and Linux) than it
+has been in the past. Install Fox (with DarwinPorts on OS X or apt-get on
+Debian), have rubygems (you do, don't you?), and type <code>gem install fxruby</code>.
+Nice. It's not native OS X, but it's installable. I managed to get some
+semblance of OS X nativity with Tk, but I seem to gravitate away from Tk for
+some reason. I haven't tried ruby/gnome2 yet on OS X. I hear good things about
+wxRuby, but I have found it also is impossible for mere mortals to install it
+on OS X.</p>
+
+<p>If I write a GUI app, I want it to have minimal requirements of installation by
+users. Right now I'd be happy to rely on DarwinPorts/Fink and gems to do the
+heavy lifting, but asking users to go through an excruciating manual
+compilation process that fails inexplicably just won't cut it.</p>

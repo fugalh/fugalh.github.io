@@ -1,0 +1,29 @@
+---
+layout: post
+status: publish
+published: true
+title: Welcome, iBook
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 77
+wordpress_url: urn:uuid:f59c5c0e-4b84-4476-ad1d-2117d2b6d7d6
+date: 2005-04-14 15:34:55.000000000 -07:00
+tags:
+- mac
+comments: []
+---
+<p>I bought a 12" iBook for my upcoming graduate school adventure. I've wanted a
+Mac for some time now, basically since OS X came out. I can't say yet whether I
+will like OS X more than Linux or whether I will end up running Linux primarily
+on it, but I know Apple has good hardware and that linux support for the iBook
+is purportedly excellent with the exception of the broadcom-chipset Airport
+Extreme. </p>
+
+<p>I'm going to spend the first week in OS X only, then install Linux. I have used
+OS X and Mac Classic briefly on other computers, but this is my first
+time as a Mac user and owner.</p>
+
+<p>I will be chronicling my experience here in perhaps the liveliest flurry of
+activity this blog will ever see. Sit back and enjoy the ride.</p>

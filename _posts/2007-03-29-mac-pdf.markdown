@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: pdftk
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 828
+wordpress_url: urn:uuid:3c539105-76cc-444d-afda-718554714866
+date: 2007-03-29 21:00:00.000000000 -07:00
+tags:
+- mac
+- pdf
+comments: []
+---
+<p>Imagine my suprise when a PDF created by Quartz (from the application Pages), turned out to be corrupt. It worked ok with Quartz apps, but not with more strict PDF apps like acrobat and various special-purpose PDF tools. <code>ps2pdf</code> give a nice summary of what's wrong: </p>
+
+<pre><code>$ ps2pdf mv.pdf
+   **** Warning:  File has an invalid xref entry:  28.  Rebuilding xref table.
+
+   **** This file had errors that were repaired or ignored.
+   **** The file was produced by:
+   **** &gt;&gt;&gt;&gt; Mac OS X 10.4.9 Quartz PDFContext &lt;&lt;&lt;&lt;
+   **** Please notify the author of the software that produced this
+   **** file that it does not conform to Adobe's published PDF
+   **** specification.
+</code></pre>
+
+<p>I found a neat program called <a href="http://www.accesspdf.com/pdftk/">pdftk</a> - the PDF
+toolkit. It is able to repair such PDFs. From its manpage:</p>
+
+<blockquote>
+    <p>Repair a PDF's corrupted XREF table and stream lengths, if possible: <br/><code>pdftk broken.pdf output fixed.pdf</code></p>
+</blockquote>
+
+<p>Et voilá! Worked like a charm. pdftk has a bunch of other neat tricks up its sleeve, like concatenating PDFs, etc., and it's Free software and cross-platform. Worth a look.</p>

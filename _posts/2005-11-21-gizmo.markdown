@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: Gizmo
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 98
+wordpress_url: urn:uuid:e28e0d04-7a69-49e0-816f-41090be26792
+date: 2005-11-21 19:57:55.000000000 -08:00
+tags:
+- voip
+comments: []
+---
+<p>I ran across the Gizmo Project today. It warms my heart. Now that I have
+cultivated your curiousity, Gizmo is what Skype should have been. In other
+words, Gizmo is Skype with standard open protocols. (SIP, to be specific)</p>
+
+<p>It was easy to set up Asterisk, and I have bidirectional Asterisk-to-Gizmo
+communications. The one caveat is that I can't seem to call my Asterisk box
+from my Asterisk box via Gizmo. I'm not sure why that is, but aside from
+testing that wouldn't be all that useful so I'm ok with it.</p>
+
+<p>My only complaint is some clown stole the username I prefer. So, on Gizmo I
+guess I go by hans_fugal (17476265435). Give me a call! Or, at least, give my
+monkeys a call.</p>

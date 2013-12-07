@@ -1,0 +1,59 @@
+---
+layout: post
+status: publish
+published: true
+title: MVC
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1000
+wordpress_url: urn:uuid:c144528d-28da-45dc-990a-749ffab7880d
+date: 2008-08-20 11:26:00.000000000 -07:00
+tags:
+- rails
+- controller
+- qt
+- mvc
+- model
+- view
+- toolkit
+- design
+- pattern
+- decouple
+comments:
+- id: 1777
+  author: tensai
+  author_email: tensai@zmonkey.org
+  author_url: http://www.zmonkey.org/blog/
+  date: '2008-08-20 21:53:57 -0700'
+  date_gmt: ''
+  content: <p>Your "friend", huh? Sure, sure.</p>
+---
+<p>A friend of mine is struggling to grok the <acronym title="Model/View/Controller">MVC</acronym> pattern. I remember when I first tried to grok it how frustrating it was. There wasn't one final "a-ha" moment when I grokked it, but one day I looked back and realized I understood it. At that moment it dawned on me just how amazingly silly this whole process is. MVC is not some magical formula that if you implement it will endow your application with magical powers. It is a paradigm. A worldview of application programming. Once you get it, you realize that <em>everything</em> is MVC. It's just that some of it is cleaner MVC than others. The trick is in keeping the three components separate, but they're always there. My friend is still confused after an IM conversation, because his preconceptions about the computer and probably his desire to find that something <em>different</em> are getting in the way. So let's use a non-computer analogy.</p>
+
+<p>You've seen <a href="http://www.imdb.com/title/tt0371724/">The Hitchhiker's Guide to the Galaxy</a>, right? Of course you have. If not, I'll wait.</p>
+
+<p>Ok, remember the scene where Trillian is at a desk with a Vogon who asks her here home planet? She says it's Earth, the Vogon can't find Earth, she tells her where it is, she says it was destroyed, and does Trillian perhaps have another home planet? Yeah, I don't do it justice. Ok, so Trillian is the user. The Vogon is the controller, the computer is the database, and there are several views in play. The first view is the Vogon telling Trillian that it was destroyed. The second view is when she turns the computer monitor around so the incredulous Trillian can see for herself the video of the Earth being blown up. The third view is authorization with Zaphod's autograph.</p>
+
+<p>The nice thing about MVC, see, is that the model has no clue about the view or the controller. It just provides an interface for the controller to get and change the model's information. Likewise the view is pretty dumb. It accesses the model, or a snapshot thereof. But it doesn't make decisions. It just displays stuff. The controller is the "brains" behind the operation. It coordinates showing the user the correct view of the bit of the model that the user wants to see. It handles updating the model with new information.</p>
+
+<p>Ok, still confused? Let's try another. This time the controller is your CD player. The model is a CD. The view is your amplifier and speakers, or whatever else you have plugged into the audio outputs. An oscilloscope maybe? You the user push buttons and the controller changes the view. The model and view are obviously decoupled. But this analogy isn't perfect because the view isn't accessing the model directly, as is usually the case in MVC, but is being spoonfed the data by the controller. In my opinion this distinction is irrelevant, because the whole point is to achieve decoupling and whether the controller provides the decoupleable data or the view fetches it directly from the model is irrelevant to decoupleability, as we can see with this real-world example. Also this analogy might be better if we think back to cassette tapes which allow us to change the model (by recording), whereas the CD is read-only.</p>
+
+<p>Ok, so now let's bring it to the computer domain. The model is a database. Actually it's usually a wrapper around a database (which is in turn usually decoupled too), like ActiveRecord or your homegrown classes. You almost always write classes, because representing "stuff" is what <acronym title="Object-oriented programming">OOP</acronym> is good at. It doesn't have to be a real database of course, it could be just objects in RAM or a flat file. The key word for models is <em>data</em>.</p>
+
+<p>Now, the view is almost always entirely contained in the GUI toolkit you're using. The toolkit writers figured out all that boring stuff that lets you draw widgets and pack them together in a dialog box, etc. All that stuff you wouldn't want to do manually is the view. You may have some view code which deals with setting up the widgets, etc. The view may not even be visual—it might be a file on disk or sound coming out the speakers. The key word for views is <em>render</em>.</p>
+
+<p>The controller is everything else. Those GUI toolkits usually have some controller help too, since GUIs are interactive views and the events that the controller reacts to are coming from the view, in a sense. When you write callbacks, you're writing the controller. The controller figures out what to do in response to various events. It decides how to manipulate the views. It tells the views what data to display. The key word is <em>event</em>, and maybe <em>coordination</em>.</p>
+
+<p>So you see, if you're using a toolkit or framework you're already sort of doing MVC. The real litmus test can be boiled down to the following questions. If you can answer yes to all of them, then you're doing MVC. If not, you're not.</p>
+
+<ol>
+<li>Could I render different views without duplicating control code?</li>
+<li>Could I use my model code unchanged in a completely different application, and could I switch databases (if you have a persistent model) like I switch CDs?</li>
+<li>Is my model ignorant of the rest of the program?</li>
+<li>Do I feel like MVC is making my life easier, not harder?</li>
+<li>Have I sent chocolate to Hans recently?</li>
+</ol>
+
+<p>There you have it. I hope it was helpful.</p>

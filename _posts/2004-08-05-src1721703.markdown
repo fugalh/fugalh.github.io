@@ -1,0 +1,36 @@
+---
+layout: post
+status: publish
+published: true
+title: Routing Racoon
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 68
+wordpress_url: urn:uuid:97fa2d1b-1a9d-4ccc-9c33-429bc503e4fa
+date: 2004-08-05 16:08:22.000000000 -07:00
+tags:
+- linux
+comments: []
+---
+<p>I had the hardest time convincing things to route properly from my home network
+to my work network, over the VPN (racoon&lt;->netscreen25).</p>
+
+<p>Here's what my routing table used to look like:</p>
+
+<pre><code>166.70.37.148/30 dev eth1  proto kernel  scope link  src 166.70.37.150
+172.17.0.0/24 dev eth0  proto kernel  scope link  src 172.17.0.3
+default via 166.70.37.149 dev eth1
+default via 172.17.0.3 dev eth0  scope link
+</code></pre>
+
+<p>So even though <code>ping 172.16.59.143</code> would go over the VPN, it would have a
+source of <code>166.70.37.150</code>. This was unacceptable, and was messing things up
+although it kind of half-worked. The following fixed it:</p>
+
+<pre><code># ip route add 172.16.0.0/12 via 166.70.37.149 dev eth1 src 172.17.0.3
+# ip route get 172.16.59.143
+172.16.59.143 via 166.70.37.149 dev eth1  src 172.17.0.3
+    cache  mtu 1500 advmss 1460 metric10 64
+</code></pre>

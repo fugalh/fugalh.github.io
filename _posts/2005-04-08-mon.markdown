@@ -1,0 +1,26 @@
+---
+layout: post
+status: publish
+published: true
+title: Good-bye, Nagios.
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 57
+wordpress_url: urn:uuid:b287398d-f75e-4a69-8066-493100b773a1
+date: 2005-04-08 17:15:10.000000000 -07:00
+tags:
+- linux
+comments: []
+---
+<p>I hate configuring Nagios. I thought I would get used to it, but I just can't.
+(I must admit that Nagios is an improvement over Big Brother, which is what we
+used to use at work.)</p>
+
+<p>I don't know how I missed it for so long, but I just stumbled on
+<a href="http://www.kernel.org/software/mon/">mon</a>. mon is easy to configure, well
+thought out, modular, and just plain better than Nagios, IMHO. In a couple of
+hours time I had mon doing more than I had been able to muster the gumption to
+configure nagios to do in the past 2 months. That's perhaps the biggest benefit
+of mon over Nagios: mon is fun, Nagios is a chore.</p>

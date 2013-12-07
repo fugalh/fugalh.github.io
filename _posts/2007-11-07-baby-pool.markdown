@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: Baby Pool
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 898
+wordpress_url: urn:uuid:e8c54d43-12da-4a71-a6d7-d78c452f9214
+date: 2007-11-07 12:51:31.000000000 -08:00
+tags:
+- baby
+- fun
+comments:
+- id: 1641
+  author: Kimball
+  author_email: kimball@kimballlarsen.com
+  author_url: http://www.kimballlarsen.com/
+  date: '2007-11-08 08:56:54 -0800'
+  date_gmt: ''
+  content: |-
+    <p>6'3", 200lbs, brown hair/eyes.</p>
+
+    <p>Glasses.</p>
+
+    <p>Will be born with a reflex to type "ls" after every enter in the terminal.</p>
+
+    <p>-- Kimball</p>
+---
+<p>We've got a little one on the way, due Dec 4. My wife is <a href="http://erin.fugal.net/blog/articles/2007/11/07/predictions-about-our-baby-cast-your-vote-now">running a pool</a> on the statistics, like color and size, etc. If you know us well enough to make an educated guess (or you just fancy yourself a comedian), join in the fun!</p>

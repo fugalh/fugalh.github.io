@@ -1,0 +1,50 @@
+---
+layout: post
+status: publish
+published: true
+title: xmltv for the Olympics
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 71
+wordpress_url: urn:uuid:90a4a4f2-1530-44fe-8701-5575caaf6629
+date: 2004-08-13 11:27:56.000000000 -07:00
+tags:
+- linux
+comments: []
+---
+<p>xmltv is cool. Slow, but cool. Here's how I got <a href="http://falcon.fugal.net/oly.pdf">the complete olympic
+lineup</a> so I don't have to deal with the
+shoddy <a href="nbcolympics.com">nbcolympics.com</a> site:</p>
+
+<pre><code># sign up for zap2it's data direct service, per the instructions in the
+# tv_grab_na_dd man page. Then configure tv_grab_na_dd
+tv_grab_na_dd --configure
+
+# grab through the 30th
+tv_grab_na_dd --days 17  &gt; dd.xml
+
+# do the magic incantation to get the guide
+cat dd.xml | tv_sort | tv_extractinfo_en | tv_sort | tv_grep --on-after now &gt; guide.xml
+
+# now grep out the olympics
+tv_grep -i 'olympic' guide.xml | tv_to_latex &gt; oly.tex
+
+# produce the pdf
+latex oly.tex
+dvipdf oly.dvi
+</code></pre>
+
+<p>Do it while you're eating breakfast or reading slashdot or something, it takes
+a lot of CPU and RAM, but it is something you can do in the morning before
+work, for example.</p>
+
+<p>I made <a href="http://falcon.fugal.net/oly.pdf">1-up</a>, <a href="http://falcon.fugal.net/oly2.pdf">2-up</a>, and
+<a href="http://falcon.fugal.net/oly4.pdf">4-up</a> versions. They are 12, 6,
+and 3 pages, respectively. Choose per your ocular prescription and paper
+conservation preference.</p>
+
+<p>Ok, I guess I shouldn't say "complete", since apparently the listings are only
+through the 25th at this stage. I'll blog the last few days in plenty of time
+to plan your VCR/TiVo/attendance.</p>

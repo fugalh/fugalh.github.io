@@ -1,0 +1,122 @@
+---
+layout: post
+status: publish
+published: true
+title: Typo
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 104
+wordpress_url: urn:uuid:d925f96a-2bc2-45de-9cd0-b6bbb15bd3f2
+date: 2006-04-01 14:47:00.000000000 -08:00
+tags:
+- cs
+- typo
+- rails
+- lighttpd
+- apache
+- mod_proxy
+comments:
+- id: 1446
+  author: Tim Lucas
+  author_email: t.lucas@toolmantim.com
+  author_url: http://www.toolmantim.com
+  date: '2006-09-26 09:30:34 -0700'
+  date_gmt: ''
+  content: |-
+    <p>Great pointers!</p>
+
+    <p>One thing though, you don't need that symlink in the last step... just be sure to include mod_alias in lighttpd and then just do:</p>
+
+    <p><code>alias.url = ( "/typo" => "/srv/www/typo/public" )</code></p>
+- id: 1447
+  author: Jez
+  author_email: ''
+  author_url: ''
+  date: '2006-09-26 09:31:47 -0700'
+  date_gmt: ''
+  content: |-
+    <p>Actually Tim, it should be:</p>
+
+    <p>alias.url = ( "/typo/" => "/srv/www/typo/public/" )</p>
+
+    <p>:D</p>
+- id: 1448
+  author: Levon
+  author_email: levon@altjira.co.uk
+  author_url: http://www.altjira.co.uk/
+  date: '2008-06-07 14:55:49 -0700'
+  date_gmt: ''
+  content: <p>Thanks for this post. The information saved me some time :)</p>
+- id: 1449
+  author: Busby SEO Test
+  author_email: reahfren@yahoo.com
+  author_url: http://pinayspeak.com/pinaytest/
+  date: '2008-12-12 06:05:37 -0800'
+  date_gmt: ''
+  content: <p>Votre blog est unique en son genre, s'il vous plaît toujours rester
+    en contact</p>
+---
+<p>I am in the process of migrating my blog to <a href="http://www.typosphere.org/">Typo</a>. Blosxom has served me well, but I think it's time I joined the ranks of cool blogs and allowed people to comment, trackback, etc. Blosxom can do all that, but it's not very much fun. </p>
+
+<p>Blosxom's strength is its simplicity. When I wanted a simple blog, it was perfect.</p>
+
+<p>Now, getting typo to work was not a walk in the park. I'll walk you through what I had to do.</p>
+
+<p>First, you have to get typo and install it. I hear rumors that version 4 release is imminent, so I grabbed the svn version. Next, make a database and set up config/database.yml. Now you can run <code>script/server -e production</code> and point your browser at http://localhost:3000/ and give it a whirl.</p>
+
+<p>I tried the RSS and atom converters in <code>db/converters</code> but I wasn't satisfied with the results. So I wrote a blosxom converter, which I will contribute. If you can't find it feel free to contact me.</p>
+
+<p>The hard part was getting typo to run under a subdirectory in my mixed apache/lighttpd setup. All fugal.net sites are running through Apache. My rails apps run through lighttpd, with apache's mod_proxy.  So, you have to configure apache, lighttpd, and rails each in turn.</p>
+
+<h3>Apache Configuration</h3>
+
+<pre><code>    ProxyPass               /typo http://127.0.0.1:81/typo
+    ProxyPassReverse        /typo http://127.0.0.1:81/typo
+    &lt;Proxy *&gt;
+        Order allow,deny
+        Allow from all
+    &lt;/Proxy&gt;
+</code></pre>
+
+<h3>Lighttpd Configuration</h3>
+
+<p>The normal lighttpd stuff, and then:
+<code><pre>
+$HTTP["url"] =~ "^/typo(/|$)" {
+    server.indexfiles = ("dispatch.fcgi")
+    server.document-root = "/srv/www/typo/public/"
+    server.error-handler-404 = "/dispatch.fcgi"
+    server.errorlog = "/srv/www/typo/log/error.log"
+    accesslog.filename = "/srv/www/typo/log/access.log"
+    fastcgi.server = ( ".fcgi" => (
+        "typo" => ( "min-procs" => 1, "max-procs" => 1,
+            "socket" => "/tmp/typo.fcgi.socket",
+            "bin-path" => "/srv/www/typo/public/dispatch.fcgi",
+            "bin-environment" => ( "RAILS_ENV" => "production" ),
+            "idle-timeout" => 120
+            )
+        )
+    )
+}
+</pre></code></p>
+
+<p>You don't need <code>strip-request-uri</code>, because we'll take care of the <code>typo/</code> prefix in rails.</p>
+
+<h3>Rails Config</h3>
+
+<p>Add this to <code>config/environment.rb</code>:</p>
+
+<pre><code>    ActionController::AbstractRequest.relative_url_root = "/typo"
+</code></pre>
+
+<p>Finally, and this was the real stink, you have to help lighttpd find files in <code>public/</code>. Lighttpd gets a request for http://hans.fugal.net/typo/foo.html which is a static file in <code>public/</code>, and so it looks in the document root to find <code>/typo/foo.html</code>, which means it looks for <code>/srv/www/typo/public/typo/foo.html</code>, which doesn't exist. This is easy to fix:</p>
+
+<pre><code>    cd /srv/www/typo/public
+    ln -s . typo
+</code></pre>
+
+<p>et voil&aacute;! You should be up and running.</p>
+
+<p>For more reading see <a href="http://znark.com/blog/articles/2005/12/11/got-typo-working">http://znark.com/blog/articles/2005/12/11/got-typo-working</a> and <a href="http://blog.lighttpd.net/articles/2005/11/23/lighttpd-1-4-8-and-multiple-rails-apps">http://blog.lighttpd.net/articles/2005/11/23/lighttpd-1-4-8-and-multiple-rails-apps</a>.</p>

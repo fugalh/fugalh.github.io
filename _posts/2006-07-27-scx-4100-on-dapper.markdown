@@ -1,0 +1,80 @@
+---
+layout: post
+status: publish
+published: true
+title: SCX-4100 on Dapper
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 684
+wordpress_url: urn:uuid:e79b2cc0-31a6-4308-b100-67b87b3fe260
+date: 2006-07-27 22:10:24.000000000 -07:00
+tags:
+- linux
+- samsung
+- scx
+- '4100'
+- dapper
+- udev
+- usb
+comments:
+- id: 1502
+  author: mike@ginou.ca
+  author_email: ''
+  author_url: ''
+  date: '2006-08-13 08:29:21 -0700'
+  date_gmt: ''
+  content: |-
+    <p>To get rid of the permissions problem you will probably need some more udev wizardry. My dapper install constains /etc/udev/rules.d/45-libsane.rules which contain permission setting rules for a whole lot of scanners. </p>
+
+    <p>Naturally my own was not on that list, but adding a similar line (using the info from lsusb) and making sure that the user account was is the scanner group fixed up the permissions problem.</p>
+
+    <p>Of course, I still can't use the scanner....but I'm inching my way closer.</p>
+- id: 1503
+  author: Mike Ginou
+  author_email: ''
+  author_url: ''
+  date: '2006-08-13 08:31:31 -0700'
+  date_gmt: ''
+  content: <p>Hmm....maybe I should say something different. Probably you just need
+    to add on a similar (to the libsane rules) permissions bit to the end of your
+    udev rule?</p>
+---
+<p>It seems I was a little premature with my last post. It does work just as I
+said on Debian, but the scanner wouldn't work on Dapper.</p>
+
+<p>First, the problem in detail. There's actually a couple problems. The first is
+that the sane backend Samsung provides apparently has a bug that prevents it
+from working remotely. That is, I can't scan on gwythaint (my Dapper box) when
+the scanner is attached to falcon (my Debian box). Yes, sane can do this. The
+client crashes with a complaint about memory allocation. This is why I decided
+to move the printer over to the Dapper box. This problem can only be fixed by
+Samsung, and hopefully they will do so but I'm looking for a now solution.</p>
+
+<p>On Dapper, the scanner was not found at all, but the printer worked fine. A
+little detective work revealed that Samsung's sane backend is looking for
+<code>/dev/usb/lp0</code>, which does not exist. You need to symlink <code>/dev/usblp0</code> to it,
+which you can do with this entry in <code>/etc/udev/rules.d/10-local.rules</code> (create
+it if necessary):</p>
+
+<pre><code>BUS=="usb", KERNEL=="lp[0-9]*", SYMLINK+="usb/%k"
+</code></pre>
+
+<p>That didn't do the whole trick, though. The version of libusb on Dapper looks
+in <code>/proc/bus/usb</code> which is not mounted by default on Dapper. (At least, it's
+not mounted on my Dapper which is running a vanilla 2.6.17 kernel) It seems the
+latest and greatest way to mess up udev/usb (I swear they sit up late at night
+thinking of how to mess this up) is to move <code>/proc/bus/usb</code> to <code>/dev/bus/usb</code>.
+The fix is easy. Add this line to <code>/etc/fstab</code>:</p>
+
+<pre><code>none            /proc/bus/usb   usbfs        defaults        0       0
+</code></pre>
+
+<p>Then <code>mount /proc/bus/usb</code> as root.</p>
+
+<p>I still haven't figured out why, but no matter the permissions on any of the
+above, any libsane-using program will segfault if it is not setuid root (or run
+as root). If anyone can figure that one out I'd love to hear it, but I probably
+won't fuss with it much more myself. See <a href="http://hans.fugal.net/tmp/scanimage.strace.txt">the output of <code>strace scanimage
+-L</code></a> when not root.</p>

@@ -1,0 +1,31 @@
+---
+layout: post
+status: publish
+published: true
+title: Hearnet 0.0.4--Don't Paniq!
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 4
+wordpress_url: urn:uuid:56b0391a-8870-496e-bf8c-69fbba031b78
+date: 2005-09-22 19:38:00.000000000 -07:00
+tags:
+- audio
+comments: []
+---
+<p>Leonard paniq Ritter sent me a nifty patch for
+<a href="http://hans.fugal.net/src/hearnet">hearnet</a> some time ago. I really dig it,
+and I finally got around to incorporating the patch and releasing a new
+version. Here's what paniq has to say about it:</p>
+
+<blockquote>
+    <p>changed code so that it uses 32-voice polyphony and plays bridges /
+    chromatic orders.</p>
+
+    <p>as an effect, you get very harmonic sounds if packet sizes on a
+    site are the same, and quite weird stuff if packet sizes vary.</p>
+</blockquote>
+
+<p><a href="http://hans.fugal.net/src/hearnet/hearnet-0.0.4.tar.gz">Go get it</a> and see how
+much cooler it sounds!</p>

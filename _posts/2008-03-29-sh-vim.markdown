@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: sh.vim
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 951
+wordpress_url: urn:uuid:d05ed422-08d5-45f8-b08b-3eb93363d7c9
+date: 2008-03-29 00:38:58.000000000 -07:00
+tags:
+- vim
+- bash
+- shell
+- sh
+- ksh
+- bourne
+- posix
+- syntax
+- highlighting
+comments: []
+---
+<p>Have you ever been frustrated with perfectly valid bash syntax being highlighted as incorrect in vim? Like this:</p>
+
+<pre><code>
+#!/bin/sh
+foo=<span style="color:red">$(</span>ls /tmp<span style="color: red">)</span>
+</code></pre>
+
+<p><code>$()</code> is a perfectly valid, nay preferred substitute for backticks. The problem is that vim is deciding this is pure old bourne shell instead of whatever else we'd like it to be. If you change the shebang to <code>#!/bin/bash</code> and re-edit the file, then the error markings go away. But maybe you're writing for the nebulous POSIX shell, not bash nor sh. Or maybe you just don't care and you don't want vim complaining that you're using bashisms even though your shebang says sh. You can set the defaults so that it reflects your system and preferences. It's all there in <code>:help sh.vim</code>.</p>

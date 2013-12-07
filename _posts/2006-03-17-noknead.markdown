@@ -1,0 +1,62 @@
+---
+layout: post
+status: publish
+published: true
+title: No-knead Sourdough Bread
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 19
+wordpress_url: urn:uuid:20a0f369-e063-4c99-a740-85cb9e693f7d
+date: 2006-03-17 15:55:30.000000000 -08:00
+tags:
+- food
+comments: []
+---
+<p>Over at <a href="news:rec.food.sourdough">r.f.s</a> people have been experimenting with making bread with minimal kneading. This is right up my alley, I thought, so I gave it a few tries. It works astonishingly well.</p>
+
+<p>The basic idea is that gluten development is a hydration process. When you knead a dough, you are working in the water and possibly creating little air bubbles. If you leave a ball of dough long enough, the water will work itself in. I know you don't believe me, but it's the truth. In my experience the loaves I make are plenty fluffy - more fluffy than when I knead - so I don't think the air bubbles part is an issue. You be the judge.</p>
+
+<p>So the goal is to let water do the hard work over time. With normal bread, this poses a challenge in that you can't leave the yeasted dough a few more hours without ruining things. With normal bread, people do things with part of the flour and water beforehand and then mix in the rest and the yeast later, etc. etc. I'm no expert on what they do, and frankly it's too complicated. We don't have that problem because sourdough is naturally slower and gives us sufficient time.</p>
+
+<p>Here's what I do. Let's say I want to bake on Saturday morning, and I plan on getting 6-8 hours of sleep. 6-8 hours is a nice rise time for chilled sourdough so I prep the starter so it's nice and active when I get home from work, then I mix up the dough and put it in the fridge. I take it out of the fridge after a few hours, just before bed, and form it into a loaf. I place it under a plastic container (I call it the greenhouse, because that's basically what it does: keep in moisture and heat) and go to bed. In the morning, unless something has gone drastically wrong, it's ready to pop in the oven and bake.</p>
+
+<p>So let's review:</p>
+
+<ul>
+<li>mix</li>
+<li>rest</li>
+<li>bake</li>
+</ul>
+
+<p>And now some more ramblings about the boring details. You do need to mix it to
+get the water distributed, and maybe there's some air bubble action going on
+there too. But you don't have to use your hard-to-clean mixer or get your hands
+dirty. Mix all the ingredients, including salt.</p>
+
+<p>If you want to deflate or knead or stretch and fold during the rest phase, by
+all means have at it. Remember that even with sourdough you can only rest so
+long before the yeast eats all its food. Chilling retards this.</p>
+
+<p>For those of you who like recipes:</p>
+
+<pre><code>No-knead Sourdough Bread (small loaf)
+
+  - 200 g    active 100% hydration starter
+  - 125 ml   water
+  - 174 g    flour
+  -   1 tsp  salt
+  -   1 Tbsp oil
+  -   1 Tbsp honey
+
+Mix well. Let rest for 1.5 hours at room temperature, or up to 24 hours in
+the fridge. Deflate/work it mildly and halfheartedly, then form into a loaf
+and rise in a humid (and preferably warm) environment until ready to bake
+(use the finger test). Bake in a cold-start oven at 400 degrees for 20
+minutes, then at 350 degrees until internal temperature reaches the boiling
+point. (You do have a probe thermometer, don't you?) Turn off the heat and
+let it bake another 5 minutes and then take it out of the oven and let it
+cool thoroughly for best flavor. If you can't hold off the ravening butter
+slatherers, don't blame me.
+</code></pre>

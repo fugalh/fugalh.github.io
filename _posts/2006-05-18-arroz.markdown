@@ -1,0 +1,81 @@
+---
+layout: post
+status: publish
+published: true
+title: Arroz
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 157
+wordpress_url: urn:uuid:91990515-9499-4de2-928b-ac2569e10cd5
+date: 2006-05-18 08:36:55.000000000 -07:00
+tags:
+- food
+- rice
+- latino
+- spanish
+- brazilian
+comments:
+- id: 1464
+  author: Levi
+  author_email: ''
+  author_url: ''
+  date: '2006-05-18 09:57:16 -0700'
+  date_gmt: ''
+  content: |-
+    <p>The initial preparation sounds similar to how the Italians do risotto.  Saute some onions in butter, add short-grain rice, and let the rice cook for a while before you add any liquids.</p>
+
+    <p>Risotto is a bit more labor-intensive, though, since you add the liquid (usually  chicken stock) a little at a time instead of all at once, and you're constantly stirring.  Good stuff, though.</p>
+---
+<p>Redbeard's post about <a href="http://blog.josephhall.com/2006/05/beans-and-rice.html">Beans and
+Rice</a> used leftover
+cooked rice, but it got me thinking that I could blog about how the Latin
+Americans cook their rice. My information comes from little old abuelitas that
+were kind enough to show me how they cooked things, and a Brazilian missionary
+roommate.</p>
+
+<p>Latinos cook rice differently than most Americans. I'm not talking about that
+"spanish rice" stuff that the Mexicans make. I'm talking plain white rice
+which prevails in every other Latin American country. The islanders also have
+this yellow stuff which is pretty good, but that's another show.</p>
+
+<p>There are many variations, as is always the case with rice, but it seems to me
+that the basics are simple enough. First, sweat some garlic, onions, and salt.
+To be really cool, smash the garlic in a mortar and pestle using the salt as an
+abrasive agent. Or you can be lazy and use a garlic press. You'll have to come
+to terms with how much garlic and onion to use, but for a standard saucepan
+worth try a clove and half a small yellow onion. As for salt, your instincts
+probably tell you to use too little. Don't skimp - garlic and onion without
+salt is not good eats.</p>
+
+<p>Second, put the rice in and stir occasionally (or constantly if you're the
+nervous type). Do this for awhile, until you see most of the rice change. I
+don't remember if it gets translucent or more opaque or what, but you'll notice
+the change.</p>
+
+<p>Third, add water. Americans would add two parts water, but the Latinos added
+one part or one and a half parts. I think most that added one part would add
+some in the middle, so you might as well go with 1.5. If you're a coward, go
+ahead and put two parts in, but you'll miss out on the pegado.</p>
+
+<p>Bring to a boil and if necessary let it boil down to where there's just half an
+inch or so of water above the rice. This of course depends on the size and
+shape of your vessel, but it's a good rule of thumb. Now, cover loosely and
+reduce heat. But don't reduce it to almost nothing like we Americans do. We're
+not simply steaming the rice here, we're also cooking it. </p>
+
+<p>Let the rice cook, checking when you think it might be done. Depending on how
+hot and how much water you had you may have to add a little, that's ok. When
+it's done, it's ready to eat with black beans or whatever.</p>
+
+<p>The end result is some of the most delicious rice you've ever tasted, and if
+you're lucky there will be rice stuck to the bottom and/or sides of the pan.
+This is the <em>pegado</em>, and it's delicious (if you didn't burn it). If you've
+never had this, befriend a latino that isn't from Mexico and stop in for
+dinner. You probably won't get it right the first time, but if you know what
+it's supposed to taste like you can probably use the scientific method to
+bridge the gap. A few rules of thumb: don't skimp on the oil or the salt, and
+be sure to fry the rice long enough.</p>
+
+<p>¡Buena Suerte!</p>

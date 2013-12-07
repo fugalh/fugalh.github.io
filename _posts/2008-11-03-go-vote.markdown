@@ -1,0 +1,26 @@
+---
+layout: post
+status: publish
+published: true
+title: Go Vote!
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1017
+wordpress_url: urn:uuid:181813ac-b81a-4192-a07c-e07472bff351
+date: 2008-11-03 22:51:00.000000000 -08:00
+tags:
+- vote
+- obama
+- mccain
+- democracy
+- republic
+- america
+- election
+- superdell
+comments: []
+---
+<p>It's actually still election day eve here, but by the time most of you read this it will be November 4. I don't care who you are or how you want to vote, it's important that we all vote. I don't care if you know your candidate(s) will lose. I don't even care if you want to vote for <a href="http://www.superdellforgovernor.com/">SUPERDELL</a>! Get out and vote, if you haven't already.</p>
+
+<p>Then if you have geek tendencies you might enjoy doing what I'll be doing tomorrow night: compare the excellent statistical predictions from <a href="http://www.fivethirtyeight.com/">fivethirtyeight.com</a> with how things actually play out. He has an <a href="http://www.newsweek.com/id/167186">hour-by-hour guide to election night</a> at Newsweek.</p>

@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: LAM
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 7
+wordpress_url: urn:uuid:7e12f303-3d5f-42f5-af69-e7a63c4be37c
+date: 2005-09-20 09:12:57.000000000 -07:00
+tags:
+- audio
+comments: []
+---
+<p><a href="http://lam.fugal.net/"><acronym title="Music Made with
+Linux">LAM</acronym></a> is a site that aggregates music made with linux and
+spits it back out at you in the form of HTML, RSS (podcast), and M3U. I wrote
+it as an excercise in learning <a href="http://rubyonrails.com">Ruby on Rails</a> while
+reading the Pragmatic Programmers' excellent (as always) book <a href="http://www.pragmaticprogrammer.com/titles/rails/index.html">Agile Web
+Development with Rails: A Pragmatic
+Guide</a>.</p>
+
+<p>It was, and is, a lot of fun. More fun than I've had doing web-stuff in a very
+long time. But the real reason for this post is so that it will be linked from
+somewhere so Google will eventually pick it up and return it on a search for
+"linux audio music" or "music made with linux".</p>

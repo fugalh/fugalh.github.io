@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: rlwrap
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 955
+wordpress_url: urn:uuid:e42b37ad-7147-494f-9780-52aff22ea2ab
+date: 2008-04-09 21:25:13.000000000 -07:00
+tags:
+- clojure
+- readline
+- wrap
+comments: []
+---
+<p>Thanks to Tene for pointing this out to me. It seems like a really useful tool. I am playing with <a href="http://clojure.sf.net">Clojure</a> in my spare time (ha!), and its <acronym title="read-eval-print loop">repl</acronym> doesn't have readline support (or anything like it). The clojure website suggests some Java readline-like jar, but I like this solution much better. I just made a script to wrap clojure in <a href="http://utopia.knoware.nl/~hlub/uck/rlwrap/">rlwrap</a>, and it's working great.</p>
+
+<pre><code>$ cat ~/bin/clojure
+#!/bin/sh
+exec rlwrap java -jar ~/src/clojure/clojure.jar
+</code></pre>

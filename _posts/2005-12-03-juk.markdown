@@ -1,0 +1,65 @@
+---
+layout: post
+status: publish
+published: true
+title: Juk
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 6
+wordpress_url: urn:uuid:8e52da9e-c969-447a-b368-a4a60418b3bc
+date: 2005-12-03 21:26:25.000000000 -08:00
+tags:
+- audio
+comments: []
+---
+<p>I've been giving Juk a try, and here's my somewhat brutal assessment. First let
+me say I love taglib, which seems to be by the same guy that wrote Juk. So I'm
+sure Juk will catch up with its features and become a great program. I don't
+really have any major gripes with the UI, which is high praise coming from me.
+I just don't find it to be stable enough for normal use. I'm looking at version
+2.2.2.</p>
+
+<p>The first thing you notice is that you have to pretty much install all of KDE
+to get Juk. This is an oft-debated issue that I'm not going to address further
+at this juncture.</p>
+
+<p>The second thing I noticed is that it kept crashing on me. All. The. Time.
+Maybe it's just my karma; I tend to bring out the worst in software. Some of
+the bugs are reproducible, others seemed to be random, but for awhile I was
+crashing the thing every couple of minutes, literally. Once I learned what not
+to do, we started getting along better. </p>
+
+<p>The complete instability is the primary reason I won't be using Juk in the near
+future, but the second reason is almost as compelling - it tends to skip. Ok,
+maybe it's not a skip, but a jump or a underrun, but the old terminology dies
+hard. Incidentally, I wasn't too keen about having to use artsd, I have no idea
+what akode is but I bet it's a bad idea, and gstreamer seems to underrun on
+OGGs for some reason. So basically, Juk isn't able to play music smoothly and
+that's not good enough for me. (Hint: a nice fat buffer is not a problem for
+music players!)</p>
+
+<p>Now for what I liked. I already told you I like taglib, and Juk's tagger didn't
+disappoint me (aside from its being one of the more crashable aspects of the
+program). Its MusicBrainz support means this is the only program I've found so
+far that I can get to run that supports MusicBrainz, and it does so well. I
+wish there was more information about just how it made the matches though. In
+some cases I don't know which of the 10 versions of a song I've got, so I don't
+dare tag it with one of the versions, but if I knew the acoustic fingerprint
+was almost a perfect match, (much more so relatively speaking than the others)
+that might give me more confidence. I also like the automatic tree of Artist,
+Genre, and Albums, and the playlist stuff. I like random album mode. I dislike
+that turning random on and off is so hard. I found that it wasn't obvious which
+set of music was being considered for play at any time, but I like the history
+and queue interfaces.</p>
+
+<p>In short, I like Juk but I won't be using it because of stability issues. I did
+use it to organize my tags, though. For renaming files, I think I'm going to
+write my own script as I have very strange (but simple) ideas about how the
+filestructure should be. I think Juk's renaming comes close to the ease and
+power of EasyTag though. Incidentally, if EasyTag did MusicBrainz, I probably
+never would have looked at Juk, in spite of EasyTag's odd interface. That would
+have been a loss, because I trust Juk (or rather, taglib) much more than I do
+EasyTag not to mess my files up, in spite of the lack of any experience that
+would cause me to distrust EasyTag.</p>

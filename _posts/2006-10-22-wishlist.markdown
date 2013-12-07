@@ -1,0 +1,58 @@
+---
+layout: post
+status: publish
+published: true
+title: Wishlist
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 740
+wordpress_url: urn:uuid:c2238d25-5cfd-432e-a72f-732ec2c7dd8c
+date: 2006-10-22 16:26:01.000000000 -07:00
+tags:
+- gifts
+- wishlist
+comments:
+- id: 1516
+  author: Hans
+  author_email: ''
+  author_url: ''
+  date: '2006-11-28 17:15:28 -0800'
+  date_gmt: ''
+  content: |-
+    <p>Here's one more: BYU's library doesn't have this volume (volume 9) of the Peters edition of Bach's organ works, and it's got at least two songs that I've wanted to learn and aren't in the CD Sheet Music Organ Works CD either.</p>
+
+    <p><a href="http://www.edition-peters.com/php/stock_info.php?section=music&amp;amp;pno=EP248" rel="nofollow">Edition Peters volume 9</a></p>
+---
+<p>It's coming up quickly on that time of year again. The time when my birthday
+arrives ten days before Christmas and people start asking me what I want. I'm only too happy to help you pick the perfect gift. This
+year's theme is flying.</p>
+
+<p><img src="http://www.aopa.org/images/online_gallery/highres/00015.jpg" alt="Cirrus SR20"/></p>
+
+<p>First of all, if you're the rich uncle I never knew I had, you can foot the bill for flying lessons. That would be awesome. That runs about $3K-$4K.</p>
+
+<p>For the rest of you mortals, there are lots of toys and gadgets that will make my dreams about flying more vivid, and my flight simulatoring more enjoyable. Here they are in roughly the order of desirability:</p>
+
+<ul>
+<li>A mechanical (sliderule) flight computer, like <a href="http://www.asa2fly.com/product1.asp?SID=1&amp;Product_ID=78&amp;">this one from
+ASA</a>. ≅ $30</li>
+<li>A yoke and/or rudder pedals. <a href="http://www.chproducts.com/retail_flash/index.html">CH Products</a> makes good stuff. Check out the <a href="http://avshop.com/prodinfo.asp?number=1615">Flight Sim Yoke USB</a> and the <a href="http://www.avshop.com/prodinfo.asp?number=1620">Pro Pedals USB</a>. Although a yoke would be my first choice, I'd be more than tickled with a good flight simulator joystick. I only ask that it have trim wheels for both axes and be designed for flight simulation, not arcade gaming. CH Products makes three sticks, the Flightstick Pro USB, the Combatstick 568, and the Fighterstick USB. If you're a crazy craftsman, rudder control is apparently an easy and affordable project. See <a href="http://mypage.direct.ca/b/bsimpson/fvrt.html">rudder bar</a>, <a href="http://www.rickleephoto.com/rlpedal.htm">rudder pedals</a>, and <a href="http://www.flightsim.com/cgi/kds?$=main/howto/rudder3.htm">rubber ball rudder pedals</a>.  (Truth be told if I don't get pedals I'll probably be making the rudder bar myself.) ≅ $0 - $150</li>
+<li>A "groundschool" book. <a href="http://www.rodmachado.com/Product/Books/books.htm">Rob Machado's Private Pilot
+Handbook</a> looks like a
+good one that's my style. ≅ $35</li>
+<li><a href="http://avshop.com/departments.asp?dept=3">Sectional or terminal area charts</a> for interesting places to fly (but not Salt Lake or Albuquerque sectionals, I do or will have those already). El Paso, San Francisco, New York, Boston, Denmark, England, Mexico, Grand Canyon, etc. ≅ $5-$10 apiece.</li>
+<li><a href="http://www.aopa.org/join/"><acronym title="Aircraft Owners and Pilots Association">AOPA</acronym> Membership</a>. $39</li>
+<li><a href="http://www.x-plane.com/">X-Plane</a>. For my money, I am happy with <a href="http://www.flightgear.org/">Flightgear</a>, but X-Plane is a step up. $50-$70</li>
+</ul>
+
+<p>Other non-flying stuff that came to mind:</p>
+
+<ul>
+<li>A <a href="http://www.frontierdesign.com/Products/TranzPort">Tranzport</a>. ≅ $200</li>
+<li>An AGO organ pedalboard. MIDI or not (I can always add MIDI to it later). You can buy a <a href="http://www.organworks.com/Web/products/products.asp?productid=25&amp;categoryid=17&amp;category=MIDI%20Works">new one</a> for $1360, or you might find one (attached to an organ or no) at DI or on eBay for much cheaper. Don't forget about shipping though. If you get one locally and don't mind holding onto it for days/weeks/months/years while I find a way to get it to me affordably, that works too.</li>
+<li>A <a href="http://www.sliderule.ca/">sliderule</a>. ≅ $15-$30</li>
+<li>A DVD-RW drive.</li>
+<li><a href="http://www.imdb.com/title/tt0374900/">Napoleon Dynamite</a></li>
+</ul>

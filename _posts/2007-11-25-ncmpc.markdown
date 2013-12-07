@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: ncmpc
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 908
+wordpress_url: urn:uuid:dc34a798-77db-4289-90e6-91bb41421de7
+date: 2007-11-25 20:28:21.000000000 -08:00
+tags:
+- mac
+- ncmpc
+comments: []
+---
+<p>To build <a href="http://hem.bredband.net/kaw/ncmpc/news.html">ncmpc</a> 0.11.1 on OS X, you need to allow nested functions, like this:</p>
+
+<pre><code>CFLAGS=-fnested-functions ./configure
+make
+</code></pre>
+
+<p>ncmpc is my preferred <a href="http://www.musicpd.org/">mpd</a> client. mpd is my preferred "juke box", but <a href="http://von.fugal.net/blog">Von</a> and I intend to change that over Christmas break.</p>

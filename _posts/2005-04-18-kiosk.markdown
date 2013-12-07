@@ -1,0 +1,71 @@
+---
+layout: post
+status: publish
+published: true
+title: Linux/Firefox Kiosk
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 56
+wordpress_url: urn:uuid:7749de67-c892-4c0a-b518-2a8e9c26fa3a
+date: 2005-04-18 11:18:48.000000000 -07:00
+tags:
+- linux
+comments:
+- id: 1439
+  author: Lane
+  author_email: fugalnet@mybeausejour.com
+  author_url: ''
+  date: '2006-04-21 18:10:00 -0700'
+  date_gmt: ''
+  content: <p>Didn't anyone spur you on?  I'm looking to set up a firefox kiosk, and
+    you info sounds like the ticket.</p>
+- id: 1440
+  author: Hans Fugal
+  author_email: ''
+  author_url: ''
+  date: '2006-04-21 18:27:03 -0700'
+  date_gmt: ''
+  content: |-
+    <p>I've helped out one or two people since but I haven't gone further myself. I did finish setting up the kiosk in question, but it was not as tight as I'd want it to be to put it out there with my name on it. It was good enough for the non-technical users it was geared at though.</p>
+
+    <p>I also did find a live CD (or was it an install-to-disk CD) in the meantime, but I can't remember the name. It might have been <a href="http://kioskcd.com/" rel="nofollow">KioskCD</a>.</p>
+
+    <p>I've also heard rumors of configuring gnome for restricted access, but I haven't investigated.</p>
+---
+<p>I was surprised that no linux and firefox-based kiosk live CD exists in the
+wild. It seems like a natural and not-so-difficult thing to do. I was even more
+surprised at the lack of current kiosk solutions for firefox. I expected an
+extension or something at least.</p>
+
+<p>But it's not as dismal as all that, really. Andrew Mutch's <a href="http://tln.lib.mi.us/~amutch/pro/phoenix/kiosk.htm">Firefox kiosk
+browser page</a> is a bit out
+of date but works great nonetheless, if you can figure out the one key bit of
+information that seems to be missing everywhere. That bit of information may
+only apply if you hold the same assumption that I did, which may be a
+completely illogical assumption: that you should be able to do this on a
+per-profile basis. Based on that assumption, I was trying to put browser.jar in
+<code>~/.firefox/default/pe7v3yzq.slt/chrome/</code> instead of
+<code>/usr/lib/mozilla-firefox/chrome/browser.jar</code>. It just wasn't working, and
+google was no help. It wasn't until my brain kicked into gear and I tried
+<code>locate browser.jar</code> to figure out that this had to go in the global chrome
+directory, that things fell into place. </p>
+
+<p>If you want, you can still have a normal version of the browser installed, and
+run a kiosk Firefox&mdash;just download a copy of Firefox and install it into
+some directory, and replace its browser.jar with <a href="http://tln.lib.mi.us/~amutch/pro/phoenix/files/1.0/browser.jar">the one from Mutch's
+site</a>.</p>
+
+<p>Setting up the kiosk is simple enough: run normal Firefox to create and
+configure the kiosk profile (<code>firefox -ProfileManager</code>, call it kiosk). Disable
+the bookmarks toolbar, it will just take up space in the kiosk. Set your proxy
+and javascript settings and whatever else you want, then quit Firefox. Start
+your kiosk firefox (<code>./firefox -P kiosk</code>)</p>
+
+<p>I'm working out the kinks in an FVWM setup for the window manager which will
+make things tight enough that users can't get to things they shouldn't without
+having to uninstall everything useful from the box. When I'm done I could
+probably distribute a tarball that would take care of the <code>.xsession</code>, FVWM
+configs, and kiosk stuff that could be slapped on top of a fresh Ubuntu
+install. If you want that, spur me on.</p>

@@ -1,0 +1,199 @@
+---
+layout: post
+status: publish
+published: true
+title: My Studio
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 974
+wordpress_url: urn:uuid:acfc6db0-ee9a-4fe8-9b15-62ead8c21402
+date: 2008-06-10 17:27:01.000000000 -07:00
+tags:
+- linux
+- ardour
+- jack
+- oss
+- pulseaudio
+- studio
+- alsa
+- rosegarden
+- aeolus
+comments:
+- id: 1750
+  author: Peter
+  author_email: pashultz@gmail.com
+  author_url: ''
+  date: '2008-06-13 20:21:06 -0700'
+  date_gmt: ''
+  content: |-
+    <p>Thanks for the update on your studio setup! I'm trying to get pulseaudio-module-jack right now.</p>
+
+    <p>After compiling PulseAudio according to those instructions, I end up without pulseaudio-module-jack*.deb. There are debs of modules for gconf, hal, lirc, x11, and zeroconf, but no jack. How do I ask for jack?</p>
+- id: 1751
+  author: Hans
+  author_email: ''
+  author_url: ''
+  date: '2008-06-18 08:39:39 -0700'
+  date_gmt: ''
+  content: <p>Make sure you have libjack-dev installed before you build it.</p>
+- id: 1752
+  author: John
+  author_email: ''
+  author_url: ''
+  date: '2008-06-28 16:24:30 -0700'
+  date_gmt: ''
+  content: |-
+    <p>I am seeing the same thing: no jack modules are produced.
+    I'm on ubuntu 8.04 with ubuntustudio-audio and ubuntustudio-audio-plugins</p>
+
+    <p>I've installed libjack-dev. Then I tried with libjack0.100.0-dev as well. Then also with libio2jack0-dev.</p>
+
+    <p>I have no idea if they should or shouldn't be there but no jack modules anyways.</p>
+
+    <p>I downloaded the sources from pulseaudio.org and compiled from those as well still the same result.</p>
+
+    <p>I see the jack module sources but they are not included in the compiled/installed files.</p>
+- id: 1753
+  author: John
+  author_email: ''
+  author_url: ''
+  date: '2008-06-28 17:19:43 -0700'
+  date_gmt: ''
+  content: |-
+    <p>Update:
+    I found the compiled version at
+    <a href="http://packages.debian.org/lenny/pulseaudio-module-jack" rel="nofollow">http://packages.debian.org/lenny/pulseaudio-module-jack</a></p>
+- id: 1754
+  author: DanG
+  author_email: dan.g@pobox.com
+  author_url: ''
+  date: '2008-11-12 10:03:53 -0800'
+  date_gmt: ''
+  content: |-
+    <p>Why use PulseAudio with JACK?</p>
+
+    <p>If you're doing audio production work, don't you just want to use JACK on top of ALSA, and leave it at that?</p>
+
+    <p>Think I'm missing something here ....</p>
+
+    <p>Cool article though. Just not sure how to apply it!</p>
+- id: 1755
+  author: Hans
+  author_email: ''
+  author_url: ''
+  date: '2008-11-12 10:19:08 -0800'
+  date_gmt: ''
+  content: <p>The thing is this computer only had one channel on the sound card, and
+    although I was doing production audio in JACK I also wanted to hear the normal
+    everyday audio from other non-JACK-aware applications (firefox, pidgin, etc.).
+    This was one approach to that goal.</p>
+- id: 1756
+  author: wayne
+  author_email: ''
+  author_url: ''
+  date: '2009-01-13 20:32:54 -0800'
+  date_gmt: ''
+  content: |-
+    <p>thanks for the info.  on my June 2006 Macbook, position_fix=1 gave me decent ALSA/Pulse sound, while preventing the "delay..." messages with n=3 96000 in Jack.  have not tried running Pulse through Jack yet, but having Pulse be the default device in ALSO asound.rc seems to be working as well.  thanks for detailed info, a real help.</p>
+
+    <p>peace, w</p>
+---
+<p>Well, I've spent two days doing actual work in my studio and I can now confidently report my settings for the benefit of Linux-running MacBook users (and other related hoodlums).</p>
+
+<p>I won't go into the detail that I did in the previous posts, most of which is still relevant.</p>
+
+<p>I pass the option <code>position_fix=3</code> to the module <code>snd-hda-intel</code>. I did this by creating <code>/etc/modprobe.d/local</code>, containing:
+     options snd-hda-intel position_fix=3</p>
+
+<p>then running <code>sudo update-initramfs -uk all</code>.</p>
+
+<p>I set up my Gnome session to run QJackCtl, which is in turn configured to start JACK on startup. My JACK settings (from <code>~/.jackdrc</code>) are:
+    /usr/bin/jackd -R -t2000 -dalsa -dhw:0 -r48000 -p1024 -n2 -s</p>
+
+<p>JACK is extremely stable. I've had 2, maybe 3 xruns through two days of work, and those were when starting up applications, not when actually using them.</p>
+
+<p>Now, since we have only one audio device and JACK has monopolized it, and we want to hear other than JACK, we need more configuration. Here is my <code>~/.asoundrc</code>:</p>
+
+<pre><code># Set the default device to PulseAudio for all well-behaved ALSA applications
+pcm.!default {
+        type plug
+        slave.pcm "pulse"
+}
+ctl.!default {
+        type plug
+        slave.pcm "pulse"
+}
+
+# This device can come in handy, but I mostly don't use it.
+pcm.jack {
+        type plug
+        slave {
+                pcm {
+                        type jack
+                        playback_ports {
+                                0 alsa_pcm:playback_1
+                                1 alsa_pcm:playback_2
+                        }
+                        capture_ports {
+                                0 alsa_pcm:capture_1
+                                1 alsa_pcm:capture_2
+                        }
+                }
+                rate 48000
+        }
+}
+ctl.jack {
+        type hw
+        card 0
+}
+
+# The acutal PulseAudio device
+pcm.pulse {
+        type pulse
+}
+ctl.pulse {
+        type pulse
+}
+</code></pre>
+
+<p>Now all well-behaved ALSA programs will use the default ALSA device, i.e.
+PulseAudio. PulseAudio needs to be configured now to use JACK. You'll need to
+get the <code>pulseaudio-module-jack</code> package, which probably means you'll need to
+build it yourself. I show you how to do that and how to configure PulseAudio in
+<a href="http://hans.fugal.net/blog/articles/2008/06/04/pulseaudio-as-a-jack-client">a previous
+post</a>.
+Incidentally you need to do the same for <code>libasound2-plugins</code> if you want to
+use the JACK plugin for ALSA as in my <code>asoundrc</code> above.</p>
+
+<p>Now we have a bit of a chicken and egg problem. PulseAudio starts when you log
+in, and so does JACK (by way of QJackCtl in your Gnome session). But PulseAudio
+will fail to start if JACK isn't already running. What's more, if you decided
+you wanted to restart JACK for whatever reason, you'd have to restart
+PulseAudio too. So here's how I solved it. I leave ESD enabled in the Gnome
+sound settings, knowing that it will fail to start (and I won't get the really
+cool Ubuntu Studio startup ditty, but oh well). It needs to be checked if you
+want Gnome to make nifty system sounds. Now, in QJackCtl setup, on the options
+tab, check the box for "Execute script after Startup" and put "<code>pulseaudio -D</code>"
+in the box. Now PulseAudio will start whenever JACK starts, and it will
+stop/crash/whatever whenever JACK stops.</p>
+
+<p>Now, you need to install <code>libflashsupport</code> to get Flash working with
+PulseAudio. Even so you might find occasional sites that crash it.</p>
+
+<p>That about covers it. If you do much work with audio applications using
+complicated JACK graphs, don't overlook the power of QJackCtl's patchbay, which
+will automatically hook things up. I have a patch that will connect Aeolus to
+system output 3&amp;4 (headphones/external speakers), and hook my MIDI keyboard to
+Aeolus. So all I have to do is start Aeolus and pull some stops and I'm ready
+to play.</p>
+
+<p>Which reminds me, there's still the annoying thing about JACK having 8 outputs
+(for surround sound) and the internal speakers are on outputs 1&amp;2, and the
+headphone jack is outputs 3&amp;4. If you're not getting sound from a JACK app and
+you think you should be, that's the first thing to check. Someday I plan to
+figure out the <code>.asoundrc</code> magic needed to set up JACK so that it's a regular
+stereo device sending sound to both the internal speakers and headphones. If
+you know how, please enlighten us in the comments. I know it can be done, I
+just haven't put in the time to figure it out and test it.</p>

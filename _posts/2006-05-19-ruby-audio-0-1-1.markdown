@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: ruby/audio 0.1.1
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 165
+wordpress_url: urn:uuid:8c04e057-416d-4ac1-9334-9aeb9db0cd17
+date: 2006-05-19 11:01:00.000000000 -07:00
+tags:
+- audio
+- cs
+- ruby
+- src
+comments: []
+---
+<p>Ladies and Gentlemen, I bring you <a href="http://hans.fugal.net/src/ruby-audio/">ruby/audio
+0.1.1</a>. This is primarily a bugfix
+release, but you fill find a few documentation and feature enhancements as
+well. Enjoy!</p>

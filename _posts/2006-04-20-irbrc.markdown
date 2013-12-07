@@ -1,0 +1,57 @@
+---
+layout: post
+status: publish
+published: true
+title: ~/.irbrc
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 120
+wordpress_url: urn:uuid:6d9982b9-c1a2-4b74-8396-52361cf3028b
+date: 2006-04-20 12:33:24.000000000 -07:00
+tags:
+- cs
+- ruby
+- irb
+- irbrc
+comments:
+- id: 2418
+  author: ''
+  author_email: ''
+  author_url: ''
+  date: '2011-08-16 17:37:13 -0700'
+  date_gmt: '2011-08-16 17:37:13 -0700'
+  content: "where is irbc file located?? please tell me\r\n\r\nthanx"
+---
+<p>I don't know whether to be jumping for joy or throwing things across the room
+for living without <a href="http://tinyurl.com/ju9mz">this knowledge</a> for so long.</p>
+
+<p><code>~/.irbrc</code> is a really nifty file. I should take the time to explore its
+possibilities sometime. But where does one find out the irb tricks like that
+one, and <a href="http://hans.fugal.net/typo/articles/2004/09/15/irb-ri">this one</a>? If
+you know please enlighten us!</p>
+
+<p>Here's my current <code>~/.irbrc</code>:</p>
+
+<pre><code>IRB.conf[:AUTO_INDENT]=true
+
+# ri
+def ri arg
+  puts `ri #{arg}`
+end
+
+class Module
+  def ri(meth=nil)
+    if meth
+      if instance_methods(false).include? meth.to_s
+    puts `ri #{self}##{meth}`
+      end
+    else
+      puts `ri #{self}`
+    end
+  end
+end
+
+# vim: filetype=ruby
+</code></pre>

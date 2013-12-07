@@ -1,0 +1,17 @@
+---
+layout: post
+status: publish
+published: true
+title: Gnocatan Falls off the Face of the Earth
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 52
+wordpress_url: urn:uuid:fb736c3f-4a89-4ff2-9e43-ced9169ec8da
+date: 2005-08-27 10:15:07.000000000 -07:00
+tags:
+- linux
+comments: []
+---
+<p>At least, that's what it seemed like. Actually it looks like they just changed the name to <em>Pioneers</em> and conspired with Google and SourceForge to make it nigh unto impossible to find. But find it I did: <a href="http://pio.sf.net/">http://pio.sf.net/</a></p>

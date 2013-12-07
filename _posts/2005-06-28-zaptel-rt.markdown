@@ -1,0 +1,19 @@
+---
+layout: post
+status: publish
+published: true
+title: Zaptel Patch for RT Kernel
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 72
+wordpress_url: urn:uuid:350ad120-d1a7-410d-be88-ea9c55d8567c
+date: 2005-06-28 22:42:10.000000000 -07:00
+tags:
+- linux
+comments: []
+---
+<p><a href="http://hans.fugal.net/src/zaptel.patch">This patch</a> will allow you to compile
+zaptel against a kernel with <a href="http://people.redhat.com/mingo/realtime-preempt/">Ingo Molinar's realtime-preempt
+patch</a>.</p>

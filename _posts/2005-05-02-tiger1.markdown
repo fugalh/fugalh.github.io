@@ -1,0 +1,39 @@
+---
+layout: post
+status: publish
+published: true
+title: Tiger First Impressions
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 88
+wordpress_url: urn:uuid:f7edea66-2467-4900-9e82-61167e20cbbc
+date: 2005-05-02 23:06:50.000000000 -07:00
+tags:
+- mac
+comments: []
+---
+<p>I upgraded to Tiger today. The question on everybody's mind is, would I have
+paid for it? The answer is still probably no, but there are some very important
+improvements over Panther, at least from my perspective.</p>
+
+<p>First, Dashboard is just as cool as it looks, although not as fast as I'd
+imagined (there are noticeable delays in e.g. the hula dancer almost every
+time, and CPU usage is nearly pegged while it's open). Spotlight looks useful,
+but I'm not yet sure whether the indexing is going to be bad for my battery.
+More investigation will be needed there.</p>
+
+<p>Tiger has ruby 1.8.2, and unlike Panther's 1.6 it seems to be fully enabled
+with Tk. (I can't say for sure that that's not because I had installed TkAqua
+prior to upgrading in an attempt to get Tk working before) The upshot of this
+is that you can write ruby GUIs that don't require users to do any voodoo, not
+to mention all the benefits of 1.8 over 1.6.</p>
+
+<p>Some say it's faster. I haven't noticed. If anything it seems slower (and my
+laptop seems hot). This may be temporary or configurable; more investigation is
+in order. I do understand that gcc4 does a superb job of optimizing for the
+platform though.</p>
+
+<p>Last, but not least, Tiger supports remapping CAPS to Control right out of the
+box.</p>

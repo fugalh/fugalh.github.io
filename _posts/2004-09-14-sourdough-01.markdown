@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: sourdough calculator 0.1
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 21
+wordpress_url: urn:uuid:07d51e8e-604f-4edd-a1d1-7fc663db8f8b
+date: 2004-09-14 11:55:16.000000000 -07:00
+tags:
+- food
+comments: []
+---
+<p>So I wrote a little command-line sourdough calculator because I like the
+command line better than a web form or spreadsheet. </p>
+
+<ul>
+<li><a href="http://hans.fugal.net/src/sourdough">sourdough calculator 0.1</a></li>
+<li><a href="http://samartha.net/SD/SDcalc04.html">Samartha's web-based sourdough calculator</a></li>
+<li><a href="http://www.google.com/search?q=sourdough+calculator">What google has to say about "sourdough calculator"</a></li>
+</ul>

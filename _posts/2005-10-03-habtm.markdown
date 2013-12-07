@@ -1,0 +1,61 @@
+---
+layout: post
+status: publish
+published: true
+title: Ruby on Rails has_and_belongs_to_many Programmers
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 14
+wordpress_url: urn:uuid:bb309dcf-1828-4c99-a597-d04b24721280
+date: 2005-10-03 23:07:39.000000000 -07:00
+tags:
+- cs
+comments:
+- id: 1438
+  author: Eric
+  author_email: ''
+  author_url: http://www.makepassword.com/blog/
+  date: '2006-05-09 00:01:47 -0700'
+  date_gmt: ''
+  content: |-
+    <p>Hi,</p>
+
+    <p>I completely agree with you.  Thanks for the quick and handy fix!</p>
+---
+<p><a href="http://rubyonrails.com">Ruby on Rails</a> is really nifty. That's a huge
+understatement, but it's late and I don't have time to evangelize.</p>
+
+<p>One nifty thing about rails with an un-nifty name is the
+<code>has_and_belongs_to_many</code> keyword. It is long and awkward, and it is also
+mentally awkward. For example:</p>
+
+<pre><code>class Recipe &lt; ActionRecord::Base
+  has_many :ingredients
+  has_and_belongs_to_many :cookbooks
+end
+</code></pre>
+
+<p>Since when did a recipe have a cookbook, or a cookbook belong to a recipe? No,
+sorry, this is a terrible name. I appreciate the desire to make it read in a
+natural language sort of way, but trying to english-ize complex relations like
+this is the sort of thing that gets you in trouble in AI classes and other
+places where relations are important. Like, say, <em>relational</em> databases. Anyone
+who has the ability to consciously create a many-to-many database table (as
+opposed to unconsciously cut-and-pasting one) will know what <code>many_to_many</code>
+means, and his brain will happily fill in the gaps to read out "Recipe has a
+many-to-many relationship with cookbooks."</p>
+
+<p>I like that I have very few things in Rails to rant about, but I have never
+been known to hold back my rants. ;-)</p>
+
+<p>Oh, I almost forgot the solution, which was the whole reason I decided to blog it! Thanks to <a href="http://jamis.jamisbuck.org/">Jamis</a> for figuring out just what the best way to do this is. Append this to the end of <code>config/environment.rb</code>:</p>
+
+<pre><code>class ActionRecord::Base
+  class &lt;&lt; self
+    alias :habtm :has_and_belongs_to_many
+    alias :many_to_many :has_and_belongs_to_many
+  end
+end
+</code></pre>

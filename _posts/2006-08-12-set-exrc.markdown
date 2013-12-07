@@ -1,0 +1,29 @@
+---
+layout: post
+status: publish
+published: true
+title: ':set exrc'
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 702
+wordpress_url: urn:uuid:41d464a7-92f8-4012-8776-9b86da6b901a
+date: 2006-08-12 18:21:00.000000000 -07:00
+tags:
+- cs
+- vim
+- local
+- vimrc
+comments: []
+---
+<p>Let's say you work on more than one project, each of which has different policy
+about tabs (e.g. one of the only two sane tab policies: all real tabs or all
+spaces). You need vim to behave one way in project A and another way in project
+B. You could use modelines, but that's a violation of DRY.</p>
+
+<p>The solution is something I'd often wished for but never realized vim did. <a href="http://vimdoc.sourceforge.net/htmldoc/starting.html#.vimrc"><code>set
+exrc</code></a> in your <code>~/.vimrc</code> tells vim to search the current directory for a
+<code>.vimrc</code> or <code>.exrc</code> file. You might need a few symlinks (automatable with a
+Makefile) to reach all the subdirectories of your project tree, but this will
+solve all your problems.</p>

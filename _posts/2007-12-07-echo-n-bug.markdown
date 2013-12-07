@@ -1,0 +1,119 @@
+---
+layout: post
+status: publish
+published: true
+title: echo -n bug
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 911
+wordpress_url: urn:uuid:66f7435f-971d-4b09-bfd3-66bd8e242a5a
+date: 2007-12-07 19:02:00.000000000 -08:00
+tags:
+- mac
+- bash
+- echo
+- sh
+comments:
+- id: 1672
+  author: http://disorderedthoughtprocesses.com
+  author_email: ''
+  author_url: ''
+  date: '2007-12-08 01:29:22 -0800'
+  date_gmt: ''
+  content: |-
+    <p>It's not a bug. It's a feature :)</p>
+
+    <p>/bin/sh doesn't have a -n option for echo. And if you symlink /bin/sh to bash and/or you invoke bash as /bin/sh (by, for example, prefacing your script with #!/bin/sh) it will behave like /bin/sh</p>
+
+    <p>A workaround would be to just use /bin/echo instead of the built-in command.</p>
+- id: 1673
+  author: Hans
+  author_email: ''
+  author_url: ''
+  date: '2007-12-08 07:03:55 -0800'
+  date_gmt: ''
+  content: |-
+    <p>Looks like you're right, sort of. Here's a page on <a href="http://www.in-ulm.de/~mascheck/various/echo/" rel="nofollow">echo behavior.</a></p>
+
+    <p>It looks like there's no consensus on whether Bourne shell (not bash) has <code>echo -n</code>, but I notice that it says the POSIX echo doesn't.</p>
+
+    <p>I thought it might be something like this at first, but the odd behavior in iTerm was a red herring. I'm reinstating the original <code>/bin/bash</code> and <code>/bin/sh</code>, and calling it a bug in abcde.</p>
+---
+<p>I discovered a very strange bug today with OS X's Bourne shell. If you have OS X, give this a try:</p>
+
+<pre><code>/bin/sh -c 'echo -n bug'
+</code></pre>
+
+<p>This is what you <em>should</em> see:</p>
+
+<pre><code>$ /bin/sh -c 'echo -n bug'
+bug$
+</code></pre>
+
+<p>This is what I see:</p>
+
+<pre><code>$ /bin/sh -c 'echo -n bug'
+-n bug
+$
+</code></pre>
+
+<p>In other words, it's ignoring the -n option. It works fine in bash, it's only sh that's broken. It gets better though. If you're using iTerm instead of Terminal.app, it works fine. I have combed through the environment, the locale settings, the terminal emulation, and I can't account for it. I've tried ssh from a linux box which behaves the same as Terminal.app (broken). Who knows what black magic iTerm is invoking.</p>
+
+<p>So I replaced my bash and sh with the ones from <a href="http://macports.org">MacPorts</a>:</p>
+
+<pre><code>sudo port install bash
+sudo mv /bin/bash /bin/bash.old
+sudo mv /bin/sh /bin/sh.old
+sudo ln /opt/local/bin/bash /bin/bash
+sudo ln /opt/local/bin/bash /bin/sh
+</code></pre>
+
+<p>While you're at it, feel free to</p>
+
+<pre><code>sudo port install coreutils +default_names
+</code></pre>
+
+<p>Problem solved. Very odd, though. <a href="http://www.hispalinux.es/~data/abcde.php">abcde</a> uses <code>echo -n</code> heavily, which breaks in all sorts of ugly ways before this fix. This patch causes abcde to use <code>/bin/bash</code> instead of <code>/bin/sh</code>:</p>
+
+<pre><code>Index: abcde-2.3.3/abcde
+===================================================================
+--- abcde-2.3.3.orig/abcde  2007-12-07 18:46:36.000000000 -0700
++++ abcde-2.3.3/abcde       2007-12-07 20:57:17.000000000 -0700
+@@ -1,4 +1,4 @@
+-#!/bin/sh
++#!/bin/bash
+# Copyright (c) 1998-2001 Robert Woodcock &lt;rcw@debian.org&gt;
+# Copyright (c) 2003-2005 Jesus Climent &lt;jesus.climent@hispalinux.es&gt;
+# This code is hereby licensed for public consumption under either the
+Index: abcde-2.3.3/cddb-tool
+===================================================================
+--- abcde-2.3.3.orig/cddb-tool      2007-12-07 20:56:49.000000000 -0700
++++ abcde-2.3.3/cddb-tool   2007-12-07 20:57:19.000000000 -0700
+@@ -1,4 +1,4 @@
+-#!/bin/sh
++#!/bin/bash
+
+# Copyright (C) 1999 Nathaniel Smith &lt;njs@uclink4.berkeley.edu&gt;
+# Copyright (C) 1999, 2000, 2001 Robert Woodcock &lt;rcw@debian.org&gt;
+</code></pre>
+
+<p>Speaking of abcde, here's a patch to get rid of an unrelated bug in 2.3.3:</p>
+
+<pre><code>Index: abcde-2.3.3/abcde
+===================================================================
+--- abcde-2.3.3.orig/abcde  2005-08-25 16:43:27.000000000 -0600
++++ abcde-2.3.3/abcde   2007-12-07 18:46:36.000000000 -0700
+@@ -1946,7 +1946,7 @@
+                        FILEPATH=$(find "$FILEPATH" | grep "/$REALTRACKNUM ");
+                        # If the file exists, copy it
+                        if [ -e "$FILEPATH" ] ; then
+-               nice $READNICE $CDROMREADER "$FILEPATH" "$FILEARG" $REDIR
++               nice $READNICE $CDROMREADER "$FILEPATH" "$FILEARG"
+                        else
+                                false
+                        fi ;;
+</code></pre>
+
+<p><em>Finally</em> I have abcde at my fingertips again. There's no replacement for abcde when it comes to ripping CDs.</p>

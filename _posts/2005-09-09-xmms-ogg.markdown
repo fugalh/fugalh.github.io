@@ -1,0 +1,36 @@
+---
+layout: post
+status: publish
+published: true
+title: OGG Vorbis
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 94
+wordpress_url: urn:uuid:fc960e3d-65e3-4232-9afe-8250d27d2790
+date: 2005-09-09 11:32:14.000000000 -07:00
+tags:
+- mac
+comments: []
+---
+<p>iTunes does not support <a href="http://vorbis.com/">OGG Vorbis</a>, which makes me sad.
+The <a href="http://qtcomponents.sf.net/">qtcomponents</a> project used to fill that gap, back in
+the Panther/Quicktime 6 days, but that project has not done a thing to get it
+working in Tiger (more accurately, Quicktime 7). More on that in a later post,
+probably.</p>
+
+<p>So what is an OGG-lover to do? I looked for native OS X OGG players, I really
+did. All the links were broken, and the promising players were broken or
+maliciously murdered (e.g. Mint Audio) by their authors.  Audion 3 turned out
+to be the only one that could play OGG, but it has serious stability problems,
+is EOL, is not libre, and is crippleware to boot. No thanks.</p>
+
+<p>Once upon a time (just after getting Tiger and finding the qtcomponents OGG
+compenent was broken), I tried XMMS (via
+<a href="http://darwinports.opendarwin.org/">DarwinPorts</a>), but XMMS didn't play. Lot of
+good that did. Today I decided to try again, to see if it had been fixed. Sure
+enough, XMMS will play (with the ESD output plugin) and happily handles OGG
+files. Why, I might even be able to use
+<a href="http://www.luminal.org/wiki/index.php/IMMS/IMMS">IMMS</a>! (But this much optimism
+should be discouraged.)</p>

@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: Camping
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 26
+wordpress_url: urn:uuid:d111bded-9a86-453d-b730-d8a4a3f87703
+date: 2006-02-24 07:48:07.000000000 -08:00
+tags:
+- life
+comments: []
+---
+<p>I whipped up my own replacement to "my blosxom" tonight using
+<a href="http://camping.rubyforge.org">camping</a>. It was fun and frustrating, as it
+always is when working with both ruby and html. It's a little slow,
+unfortunately, I'll have to profile where the time is. I hope I won't have to
+run yet another FastCGI process, I don't have the RAM for that. Hopefully some
+filesystem and pagination optimizations will do the trick.</p>
+
+<p>Pagination was the whole point of moving away from what was already working,
+and a desire to escape from school and work for just a bit and do something
+pointless. Learning camping seemed good, because it can be even easier to whip
+up something small in camping than in rails.</p>
+
+<p>Yeah, it's not exactly working yet. e.g. permalinks and category links don't
+work. I'll get to it.</p>
+
+<p>Update: After sleeping on it I switched back to blosxom until I get the time to polish up the camping version. </p>

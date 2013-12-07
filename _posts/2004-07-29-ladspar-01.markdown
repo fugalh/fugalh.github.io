@@ -1,0 +1,53 @@
+---
+layout: post
+status: publish
+published: true
+title: ladspar 0.1
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 16
+wordpress_url: urn:uuid:b1641401-e48a-4e9c-b9b5-a00ed10aaeaa
+date: 2004-07-29 18:39:18.000000000 -07:00
+tags:
+- cs
+comments: []
+---
+<p>I released ladspar, a Ruby module for using <a href="http://ladspa.org">LADSPA</a>
+plugins. I'm pretty psyched about it, mostly because it will let me write the
+textfile-driven software synth I've been dreaming about, but also because it's
+so darned cool and only took me a week to write. (of course it helps that Erin
+is out of town...)</p>
+
+<p>Every silver lining has its cloud, though, and mine is my example in the README
+was seriously flawed. Here's the corrected example (I'm too lazy to repackage
+and reupload it):</p>
+
+<pre><code>require 'ladspa'
+require 'narray'
+
+# load the CMT library
+cmt = LADSPA.load_library('cmt')
+
+# get an instance of the amp_mono plugin
+amp_mono = cmt.plugins.find {|p| p.label == 'amp_mono'}.instantiate(44100)
+
+# The ports are Gain, Input, and Output.
+amp_mono.ports[0].connect_port(2.0) # gain
+
+input = NArray.sfloat(44100)
+amp_mono.ports[1].connect_port(input)
+
+output = NArray.sfloat(44100)
+amp_mono.ports[2].connect_port(output)
+
+amp_mono.activate if amp_mono.has_activate
+
+# prep the input data ...
+
+amp_mono.run
+
+amp_mono.deactivate if amp_mono.has_deactivate
+amp_mono.cleanup
+</code></pre>

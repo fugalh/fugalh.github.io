@@ -1,0 +1,481 @@
+---
+layout: post
+status: publish
+published: true
+title: IMMS
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1005
+wordpress_url: urn:uuid:efe5a20b-dab3-49d4-8dd7-ee6903a8e177
+date: 2008-09-19 16:24:00.000000000 -07:00
+tags:
+- audio
+- life
+- mac
+- music
+- learning
+- imms
+- xmms
+- audacious
+- ai
+- genius
+comments: []
+---
+<p>So Apple added this Genius thing to iTunes recently. Not being the type to get excited about new iPod styles, it looks like the most interesting thing they could come up with this year. I gave it a try. I am not impressed.</p>
+
+<p>I think it's because I've been spoiled. 5 years ago I was using what I still consider to be the peak of intelligent listening software, <a href="http://www.luminal.org/wiki/index.php/IMMS/IMMS">IMMS</a>. Genius isn't half as cool as IMMS was then, and while IMMS hasn't made any quantum leaps in coolness, quite a few rough edges have been rounded off in the meantime.</p>
+
+<p>I've been living in a sort of IMMS drought the past couple of years, since I switched to using a laptop primarily. Namely, an Apple laptop. This Genius release spurred me on to rectify that situation. If the best Apple could do was generate a 25-song playlist based on statistics gathered from <em>other people</em> the hopes of someone else hacking up an iTunes plugin to do IMMS or something like it dwindled to obscurity. </p>
+
+<p>The bane of IMMS is, ironically, its most compelling feature. IMMS is cool because you don't have to do anything. It pays attention to your listening habits, and analyzes the audio, and makes intelligent decisions for you when you turn on random. 4 years ago I would show up to work and be in a Depeche Mode mood, so I'd manually queue up a Depeche Mode song or two and the whole day I'd be treated to complementary music. If the occasional happy song slipped through, I just skipped it and IMMS took the hint. Don't underestimate the amazing wow factor of a computer apparently reading your mind.</p>
+
+<p>But this focus on simple non-obtrusive UI has been its biggest technical struggle. Media players are now a dime a dozen, and few of them have the plugin and UI sophistication to support IMMS' modus operandi. IMMS was developed originally as a plugin for XMMS and even then ugly workaround hacks were required. Then someone wrote a queue control patch for XMMS, and if you patched your XMMS you were in heaven. Oh, did I mention that <em>still</em> almost no other media players even have queue functionality, let alone let the plugins control the queue? Then when you consider the set of media players usable on OS X the situation gets laughable.</p>
+
+<p>Somewhere in the middle <a href="http://www.musicpd.org/">MPD</a> came along. It fit my situation well because the speakers over on the desktop were a lot nicer than the ones in my laptop. But queues it has not and nobody seems to care. Von bravely came up with <a href="http://von.fugal.net/blog/show/Imms_Once_More/33">an IMMS hack for MPD</a>, but it was too hacky for me—too much like the old XMMS days before the queue control patch (incidentally, queue control is part of XMMS proper now as of version 1.2.11).</p>
+
+<p>So I suffered along with manual or truly random music listening. Until now.</p>
+
+<p>Recently I looked into this again for the desktop, and I was delighted to discover that one of the many XMMS descendants has finally solved the XMMS bitrot without throwing the baby out with the bathwater. <a href="http://audacious-media-player.org/index.php?title=Main_Page">Audacious</a> is as cool as XMMS ever was and as modern as your favorite modern player (unless you measure modern by klunky iTunes-like screen-wasting music browsers). What's more, the imms plugin for it is right there in the Ubuntu repository. Just <code>apt-get install imms-audacious</code> and enable the plugin and you're off and running. So I set it up and… didn't use it. As in, we rarely listen to music on the desktop because nobody really sits there for very long. So finally earlier this week I hammered out a simple remote control using Audacious' dbus interface. That's another post, once I knock off a few other TODO points.</p>
+
+<p>Feeling on a roll and feeling left out when at school, I decided to get an IMMS solution on my laptop, running OS X Leopard (10.5.4). I'll spare you the agonizing play-by-play and give you the shortest path to success: install Audacious and then IMMS. Actually the really shortest path is to install XMMS and then IMMS, because XMMS is in <a href="http://macports.org/">MacPorts</a>. But it's the old version of XMMS without queue control, and doesn't have CoreAudio support (you have to use the JACK output plugin) so I don't recommend that.</p>
+
+<p>To install Audacious, install its dependencies (mostly using MacPorts), then build it and its plugins. Installing its dependencies is the hardest part because it's difficult to locate libmcs and libmowgli (they're not where the README says they are, and Google is less than helpful). I just ended up stealing the <code>*.orig.tar.gz</code> files from the Ubuntu packages (<code>apt-get source -d libmcs1 libmowgli</code>). There is one patch you need for the plugins.</p>
+
+<pre><code> src/CoreAudio/audio.c |    7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+Index: audacious-plugins-1.5.1/src/CoreAudio/audio.c
+===================================================================
+--- audacious-plugins-1.5.1.orig/src/CoreAudio/audio.c  2008-09-19 12:08:01.000000000 -0600
++++ audacious-plugins-1.5.1/src/CoreAudio/audio.c   2008-09-19 12:10:28.000000000 -0600
+@@ -326,7 +326,12 @@ gint osx_get_output_time(void)
+ {
+        gint retval;
+
+-        retval = output_time_offset + ((output_total * sample_size * 1000) / output.bps);
++        if (output.bps == 0)
++        {
++            printf("Avoiding divide by zero in osx_get_output_time()\n");
++            retval = 0;
++        } else
++            retval = output_time_offset + ((output_total * sample_size * 1000) / output.bps);
+        retval = (int)((float)retval / user_pitch);
+
+        //printf("osx_get_output_time(): time is %d\n",retval);
+</code></pre>
+
+<p>Next you need to install IMMS. This is a bit more involved, but should be straightforward with these patches. I'll put them here and talk about each in turn.</p>
+
+<p>First, a missing include for <code>mkdir()</code> </p>
+
+<pre><code> immsd/immsd.cc |    1 +
+ 1 file changed, 1 insertion(+)
+
+Index: imms-3.1.0-rc4/immsd/immsd.cc
+===================================================================
+--- imms-3.1.0-rc4.orig/immsd/immsd.cc  2008-03-02 18:54:06.000000000 -0700
++++ imms-3.1.0-rc4/immsd/immsd.cc   2008-09-19 08:05:58.000000000 -0600
+@@ -2,6 +2,7 @@
+ #include &lt;errno.h&gt;
+ #include &lt;signal.h&gt;
+ #include &lt;unistd.h&gt;
++#include &lt;sys/stat.h&gt;
+
+ #include &lt;iostream&gt;
+ #include &lt;sstream&gt;
+</code></pre>
+
+<p>Then, a workaround due to OS X not having an <code>initstate_r()</code> (which I
+incidentally couldn't find in the current Linux manpages on Ubuntu or Debian
+either). This patch may not apply cleanly by itself, you may need to apply your
+cognitive reasoning.</p>
+
+<pre><code>configure.ac         |    3 +++
+immsconf.h           |    3 +++
+immsconf.h.in        |    3 +++
+immscore/immsutil.cc |    9 +++++++++
+4 files changed, 18 insertions(+)
+
+Index: imms-3.1.0-rc4/immscore/immsutil.cc
+===================================================================
+--- imms-3.1.0-rc4.orig/immscore/immsutil.cc    2008-03-02 18:54:06.000000000 -0700
++++ imms-3.1.0-rc4/immscore/immsutil.cc 2008-09-19 08:13:29.000000000 -0600
+@@ -27,6 +27,7 @@ int imms_random(int max)
+{
+    int rand_num;
+    static bool initialized = false;
++#ifndef INITSTATE_BUG
+    static struct random_data rand_data;
+    static char rand_state[256];
+    if (!initialized)
+@@ -36,6 +37,14 @@ int imms_random(int max)
+        initialized = true;
+    }
+    random_r(&amp;rand_data, &amp;rand_num);
++#else
++    if (!initialized)
++    {
++        srandom(time(0));
++        initialized = true;
++    }
++    rand_num = random();
++#endif
+    double cof = rand_num / (RAND_MAX + 1.0);
+    return (int)(max * cof);
+}
+Index: imms-3.1.0-rc4/configure.ac
+===================================================================
+--- imms-3.1.0-rc4.orig/configure.ac    2008-03-02 18:54:06.000000000 -0700
++++ imms-3.1.0-rc4/configure.ac 2008-09-19 08:17:58.000000000 -0600
+@@ -68,6 +68,9 @@ else
+    AC_MSG_RESULT([yes])
+fi
+
++AC_DEFINE(INITSTATE_BUG,, [initstate_r is buggy])
++
++
+AC_CHECK_LIB(z, compress,, [with_zlib=no])
+AC_CHECK_HEADERS(zlib.h,, [with_zlib=no])
+if test "$with_zlib" = "no"; then
+Index: imms-3.1.0-rc4/immsconf.h
+===================================================================
+--- imms-3.1.0-rc4.orig/immsconf.h  2008-09-19 08:05:31.000000000 -0600
++++ imms-3.1.0-rc4/immsconf.h   2008-09-19 08:18:23.000000000 -0600
+@@ -121,6 +121,9 @@
+/* Define to 1 if you have the &lt;zlib.h&gt; header file. */
+#define HAVE_ZLIB_H 1
+
++/* initstate_r is buggy */
++#define INITSTATE_BUG /**/
++
+/* Define to the address where bug reports for this package should be sent. */
+#define PACKAGE_BUGREPORT "mag@luminal.org"
+
+Index: imms-3.1.0-rc4/immsconf.h.in
+===================================================================
+--- imms-3.1.0-rc4.orig/immsconf.h.in   2008-09-19 07:48:52.000000000 -0600
++++ imms-3.1.0-rc4/immsconf.h.in    2008-09-19 08:16:32.000000000 -0600
+@@ -120,6 +120,9 @@
+/* Define to 1 if you have the &lt;zlib.h&gt; header file. */
+#undef HAVE_ZLIB_H
+
++/* initstate_r is buggy */
++#undef INITSTATE_BUG
++
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+</code></pre>
+
+<p>This patch is just so libpcre can be found</p>
+
+<pre><code>build/Makefile |    1 +
+1 file changed, 1 insertion(+)
+
+Index: imms-3.1.0-rc4/build/Makefile
+===================================================================
+--- imms-3.1.0-rc4.orig/build/Makefile  2008-03-02 18:54:06.000000000 -0700
++++ imms-3.1.0-rc4/build/Makefile   2008-09-19 12:25:05.000000000 -0600
+@@ -18,6 +18,7 @@ libimmscore.a: $(call objects,../immscor
+libmodel.a: $(call objects,../model) svm-similarity-data.o
+        $(AR) $(ARFLAGS) $@ $(filter %.o,$^)
+
++immstool-LIBS=`pcre-config --libs`
+immstool: immstool.o libmodel.a libimmscore.a
+training_data: training_data.o libmodel.a libimmscore.a
+train_model: train_model.o libmodel.a libimmscore.a
+</code></pre>
+
+<p>Linking shared libraries on OS X is so much different from on Linux that there is almost always a need to do a patch something like this.</p>
+
+<pre><code>rules.mk |    5 ++---
+1 file changed, 2 insertions(+), 3 deletions(-)
+
+Index: imms-3.1.0-rc4/rules.mk
+===================================================================
+--- imms-3.1.0-rc4.orig/rules.mk    2008-09-19 09:04:13.000000000 -0600
++++ imms-3.1.0-rc4/rules.mk 2008-09-19 12:25:50.000000000 -0600
+@@ -14,9 +14,8 @@ link = $(CXX) $(filter-out %.a,$1) $(fil
+%.o: %.c; $(call compile, $(CC), $&lt;, $@, $($*-CFLAGS) $(CFLAGS) $($*-CPPFLAGS) $(CPPFLAGS))
+%: %.o; $(call link, $^ $($*-OBJ) $(LIBS), $@, $($*-LIBS) $(LDFLAGS))
+%.so:
+-   $(CXX) $^ $($*-OBJ) $($*-LIBS) $(LIBS) \
+-       $(LDFLAGS) \
+-            -shared -Wl,-z,defs,-soname,$@ -o $@
++   gcc -flat_namespace -undefined suppress -o $@ -bundle $^ $($*-OBJ) $($*-LIBS) $(LIBS) \
++       $(LDFLAGS) -o $@
+
+%-data.o: %
+        $(OBJCOPY) -I binary -O $(OBJCOPYTARGET) -B $(OBJCOPYARCH) --rename-section .data=.rodata,alloc,load,readonly,data,contents $&lt; $@
+</code></pre>
+
+<p>This final patch fixes IMMS to use the proper interface for audacious (seems like this would have to be done anywhere?)</p>
+
+<pre><code>clients/audacious/audaciousinterface.c |  177 +++++++++++++++++++++++++++++++++
+clients/audacious/rules.mk             |    2
+2 files changed, 178 insertions(+), 1 deletion(-)
+
+Index: imms-3.1.0-rc4/clients/audacious/audaciousinterface.c
+===================================================================
+--- /dev/null   1970-01-01 00:00:00.000000000 +0000
++++ imms-3.1.0-rc4/clients/audacious/audaciousinterface.c   2008-09-19 15:30:21.000000000 -0600
+@@ -0,0 +1,177 @@
++#include &lt;gtk/gtk.h&gt;
++
++#ifdef BMP
++#include &lt;bmp/configdb.h&gt;
++#include &lt;bmp/util.h&gt;
++#include &lt;bmp/plugin.h&gt;
++#elif AUDACIOUS
++#include &lt;audacious/configdb.h&gt;
++#include &lt;audacious/util.h&gt;
++#include &lt;audacious/plugin.h&gt;
++#endif
++#include "immsconf.h"
++#include "cplugin.h"
++
++
++int use_xidle = 1;
++int poll_tag = 0;
++
++GtkWidget *configure_win = NULL, *about_win = NULL, *xidle_button = NULL;
++
++gint poll_func(gpointer unused)
++{
++    imms_poll();
++    return TRUE;
++}
++
++void read_config(void)
++{
++    ConfigDb *cfgfile;
++
++    if ((cfgfile = cfg_db_open()) != NULL)
++    {
++        cfg_db_get_int(cfgfile, "imms", "xidle", &amp;use_xidle);
++        cfg_db_close(cfgfile);
++    }
++}
++
++void init(void)
++{
++    imms_init();
++    read_config();
++    imms_setup(use_xidle);
++    poll_tag = gtk_timeout_add(200, poll_func, NULL);
++}
++
++void cleanup(void)
++{
++    imms_cleanup();
++
++    if (poll_tag)
++        gtk_timeout_remove(poll_tag);
++
++    poll_tag = 0;
++}
++
++void configure_ok_cb(gpointer data)
++{
++    ConfigDb *cfgfile = cfg_db_open();
++
++    use_xidle = !!GTK_TOGGLE_BUTTON(xidle_button)-&gt;active;
++
++    cfg_db_set_int(cfgfile, "imms", "xidle", use_xidle);
++    cfg_db_close(cfgfile);
++
++    imms_setup(use_xidle);
++    gtk_widget_destroy(configure_win);
++}
++
++#define ADD_CONFIG_CHECKBOX(pref, title, label, descr)                          \
++    pref##_frame = gtk_frame_new(title);                                        \
++    gtk_box_pack_start(GTK_BOX(configure_vbox), pref##_frame, FALSE, FALSE, 0); \
++    pref##_vbox = gtk_vbox_new(FALSE, 10);                                      \
++    gtk_container_set_border_width(GTK_CONTAINER(pref##_vbox), 5);              \
++    gtk_container_add(GTK_CONTAINER(pref##_frame), pref##_vbox);                \
++                                                                                \
++    pref##_desc = gtk_label_new(label);                                         \
++                                                                                \
++    gtk_label_set_line_wrap(GTK_LABEL(pref##_desc), TRUE);                      \
++    gtk_label_set_justify(GTK_LABEL(pref##_desc), GTK_JUSTIFY_LEFT);            \
++    gtk_misc_set_alignment(GTK_MISC(pref##_desc), 0, 0.5);                      \
++    gtk_box_pack_start(GTK_BOX(pref##_vbox), pref##_desc, FALSE, FALSE, 0);     \
++    gtk_widget_show(pref##_desc);                                               \
++                                                                                \
++    pref##_hbox = gtk_hbox_new(FALSE, 5);                                       \
++    gtk_box_pack_start(GTK_BOX(pref##_vbox), pref##_hbox, FALSE, FALSE, 0);     \
++                                                                                \
++    pref##_button = gtk_check_button_new_with_label(descr);                     \
++    gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(pref##_button), use_##pref); \
++    gtk_box_pack_start(GTK_BOX(pref##_hbox), pref##_button, FALSE, FALSE, 0);   \
++                                                                                \
++    gtk_widget_show(pref##_frame);                                              \
++    gtk_widget_show(pref##_vbox);                                               \
++    gtk_widget_show(pref##_button);                                             \
++    gtk_widget_show(pref##_hbox);
++
++void configure(void)
++{
++    GtkWidget *configure_vbox;
++    GtkWidget *xidle_hbox, *xidle_vbox, *xidle_frame, *xidle_desc;
++    GtkWidget *configure_bbox, *configure_ok, *configure_cancel;
++
++    if (configure_win)
++        return;
++
++    read_config();
++
++    configure_win = gtk_window_new(GTK_WINDOW_TOPLEVEL);
++    gtk_signal_connect(GTK_OBJECT(configure_win), "destroy",
++            GTK_SIGNAL_FUNC(gtk_widget_destroyed), &amp;configure_win);
++    gtk_window_set_title(GTK_WINDOW(configure_win), "IMMS Configuration");
++
++    gtk_container_set_border_width(GTK_CONTAINER(configure_win), 10);
++
++    configure_vbox = gtk_vbox_new(FALSE, 10);
++    gtk_container_add(GTK_CONTAINER(configure_win), configure_vbox);
++
++    ADD_CONFIG_CHECKBOX(xidle, "Idleness",
++#ifdef BMP
++            "Disable this option if you use BEEP on a dedicated machine",
++#elif AUDACIOUS
++            "Disable this option if you use Audacious on a dedicated machine",
++#endif
++            "Use X idleness statistics");
++
++    /* Buttons */
++    configure_bbox = gtk_hbutton_box_new();
++    gtk_button_box_set_layout(GTK_BUTTON_BOX(configure_bbox), GTK_BUTTONBOX_END);
++    gtk_button_box_set_spacing(GTK_BUTTON_BOX(configure_bbox), 5);
++    gtk_box_pack_start(GTK_BOX(configure_vbox), configure_bbox, FALSE, FALSE, 0);
++
++    configure_ok = gtk_button_new_with_label("Ok");
++    gtk_signal_connect(GTK_OBJECT(configure_ok), "clicked",
++            GTK_SIGNAL_FUNC(configure_ok_cb), NULL);
++    GTK_WIDGET_SET_FLAGS(configure_ok, GTK_CAN_DEFAULT);
++    gtk_box_pack_start(GTK_BOX(configure_bbox), configure_ok, TRUE, TRUE, 0);
++    gtk_widget_show(configure_ok);
++    gtk_widget_grab_default(configure_ok);
++
++    configure_cancel = gtk_button_new_with_label("Cancel");
++    gtk_signal_connect_object(GTK_OBJECT(configure_cancel), "clicked",
++            GTK_SIGNAL_FUNC(gtk_widget_destroy), GTK_OBJECT(configure_win));
++    GTK_WIDGET_SET_FLAGS(configure_cancel, GTK_CAN_DEFAULT);
++    gtk_box_pack_start(GTK_BOX(configure_bbox), configure_cancel, TRUE, TRUE, 0);
++    gtk_widget_show(configure_cancel);
++    gtk_widget_show(configure_bbox);
++    gtk_widget_show(configure_vbox);
++    gtk_widget_show(configure_win);
++}
++
++void about(void)
++{
++    if (about_win)
++        return;
++
++    about_win =
++#ifdef AUDACIOUS
++        audacious_info_dialog(
++#else
++        xmms_show_message(
++#endif
++            "About IMMS",
++            PACKAGE_STRING "\n\n"
++            "Intelligent Multimedia Management System" "\n\n"
++            "IMMS is an intelligent playlist plug-in for BPM" "\n"
++            "that tracks your listening patterns" "\n"
++            "and dynamically adapts to your taste." "\n\n"
++            "It is incredibly unobtrusive and easy to use" "\n"
++            "as it requires no direct user interaction." "\n\n"
++            "For more information please visit" "\n"
++            "http://www.luminal.org/wiki/index.php/IMMS" "\n\n"
++            "Written by" "\n"
++            "Michael \"mag\" Grigoriev &lt;mag@luminal.org&gt;",
++            "Dismiss", FALSE, NULL, NULL);
++
++    gtk_signal_connect(GTK_OBJECT(about_win), "destroy",
++            GTK_SIGNAL_FUNC(gtk_widget_destroyed), &amp;about_win);
++}
+Index: imms-3.1.0-rc4/clients/audacious/rules.mk
+===================================================================
+--- imms-3.1.0-rc4.orig/clients/audacious/rules.mk  2008-03-02 18:54:06.000000000 -0700
++++ imms-3.1.0-rc4/clients/audacious/rules.mk   2008-09-19 15:28:17.000000000 -0600
+@@ -7,7 +7,7 @@ libaudaciousimms-LIBS = $(AUDACIOUSLDFLA
+audaciousinterface-CPPFLAGS=$(AUDACIOUSCPPFLAGS)
+audplugin-CPPFLAGS=$(AUDACIOUSCPPFLAGS)
+
+-audaciousinterface.o: bmpinterface.c
++audaciousinterface.o: audaciousinterface.c
+        $(call compile, $(CC), $&lt;, $@, $($*-CFLAGS) $(CFLAGS) $($*-CPPFLAGS) $(CPPFLAGS))
+
+AUDACIOUSDESTDIR=""
+</code></pre>
+
+<p>Phew. And that's not all. When you build IMMS you need to have <code>OBJDUMP=gobjdump</code> if you're using the default binutils variant from MacPorts, and this patch:</p>
+
+<pre><code> rules.mk   |    2 +-
+ vars.mk    |    6 +++---
+ vars.mk.in |    1 +
+ 3 files changed, 5 insertions(+), 4 deletions(-)
+
+Index: imms-3.1.0-rc4/rules.mk
+===================================================================
+--- imms-3.1.0-rc4.orig/rules.mk        2008-09-19 08:49:43.000000000 -0600
++++ imms-3.1.0-rc4/rules.mk     2008-09-19 16:17:33.000000000 -0600
+@@ -19,7 +19,7 @@ link = $(CXX) $(filter-out %.a,$1) $(fil
+             -shared -Wl,-z,defs,-soname,$@ -o $@
+
+ %-data.o: %
+-       objcopy -I binary -O $(OBJCOPYTARGET) -B $(OBJCOPYARCH) --rename-section .data=.rodata,alloc,load,readonly,data,contents $&lt; $@
++       $(OBJCOPY) -I binary -O $(OBJCOPYTARGET) -B $(OBJCOPYARCH) --rename-section .data=.rodata,alloc,load,readonly,data,contents $&lt; $@
+
+ # macros that expand to the object files in the given directories
+ objects=$(sort $(notdir $(foreach type,c cc,$(call objects_$(type),$1))))
+Index: imms-3.1.0-rc4/vars.mk
+===================================================================
+--- imms-3.1.0-rc4.orig/vars.mk 2008-09-19 09:03:05.000000000 -0600
++++ imms-3.1.0-rc4/vars.mk      2008-09-19 15:07:44.000000000 -0600
+@@ -5,8 +5,8 @@ INSTALL = /opt/local/bin/ginstall -c
+ prefix = /usr
+ PREFIX = $(prefix)
+ OBJCOPY = gobjcopy
+-OBJCOPYTARGET =
+-OBJCOPYARCH =
++OBJCOPYTARGET = mach-o-le
++OBJCOPYARCH = i386
+ exec_prefix = ${prefix}
+ bindir = ${exec_prefix}/bin
+ datadir = ${prefix}/share
+@@ -15,7 +15,7 @@ VPATH = ../immscore:../analyzer:../model
+ ARFLAGS = rs
+
+ SHELL = bash
+-PLUGINS = libxmmsimms.so
++PLUGINS = libxmmsimms.so libaudaciousimms.so
+ OPTIONAL = immsremote analyzer
+
+ GLIB2CPPFLAGS=`pkg-config glib-2.0 --cflags`
+Index: imms-3.1.0-rc4/vars.mk.in
+===================================================================
+--- imms-3.1.0-rc4.orig/vars.mk.in      2008-03-02 18:54:06.000000000 -0700
++++ imms-3.1.0-rc4/vars.mk.in   2008-09-19 16:17:24.000000000 -0600
+@@ -4,6 +4,7 @@ VERSION = @PACKAGE_VERSION@
+ INSTALL = @INSTALL@
+ prefix = @prefix@
+ PREFIX = $(prefix)
++OBJCOPY = @OBJCOPY@
+ OBJCOPYTARGET = @OBJCOPYTARGET@
+ OBJCOPYARCH = @OBJCOPYARCH@
+ exec_prefix = @exec_prefix@
+</code></pre>
+
+<p>Finally, <code>make install</code> doesn't finish the job.</p>
+
+<pre><code>cp build/libaudaciousimms.so /usr/local/lib/General/imms.impl
+</code></pre>
+
+<p>Well I think that's all the information you need, though it may not go smoothly. Hopefully we can get this all worked into IMMS proper and the 3.1.0 release will just work. If you use linux give Audacious+IMMS a try—it's easy and painless. If you think Audacious is for sissies, learn about the queue and the jump feature and try out IMMS for a week or two before you pass final judgement.</p>
+
+<p>Oh, two final notes: Installing Torch can be a <a href="http://groups.google.com/group/imms-users/browse_thread/thread/be53d2fcd5d89ecc/ee85b3160fadea10?lnk=st&amp;q=imms+os+x+leopard#ee85b3160fadea10">real pain</a> and Audacious keyboard shortcuts don't work well with the gtk2 +quartz variant in MacPorts, so you want to stick with X11 gtk2. Oh, and though Audacious has a Last.fm plugin I haven't yet been able to figure out how to get it to stay enabled.</p>

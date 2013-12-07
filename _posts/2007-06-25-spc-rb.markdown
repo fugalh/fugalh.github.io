@@ -1,0 +1,22 @@
+---
+layout: post
+status: publish
+published: true
+title: spc.rb
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 847
+wordpress_url: urn:uuid:5c9d4a76-f81f-4f26-a9db-ded4da946265
+date: 2007-06-25 10:01:45.000000000 -07:00
+tags:
+- ruby
+- sipura
+- spa
+- spc
+comments: []
+---
+<p>Sipura SPAs are excellent phones and ATAs. Some (if not all) of these use an XML provisioning file, which is nice and transparent. But it's a pain to type. To that end, Sipura has a tool called <acronym title="Sipura Profile Compiler">SPC</acronym> which translates a simpler text format into the XML required by the phones. The only problem is that it's a royal pain to get your hands on.</p>
+
+<p>So I reverse-engineered it (or perhaps you would say "forward-engineered") from the docs and samples, in 50 lines of Ruby code. You can find it <a href="http://hans.fugal.net/src/spc">here</a>.</p>

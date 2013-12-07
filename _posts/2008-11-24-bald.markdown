@@ -1,0 +1,45 @@
+---
+layout: post
+status: publish
+published: true
+title: Bald
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1025
+wordpress_url: urn:uuid:e8b1b857-384c-48bc-b862-53649da5a6f6
+date: 2008-11-24 15:20:00.000000000 -08:00
+tags:
+- life
+- razor
+- hair
+- bald
+- shave
+- goatee
+comments:
+- id: 1794
+  author: Brad
+  author_email: brad@bradlanders.com
+  author_url: ''
+  date: '2008-12-03 20:12:01 -0800'
+  date_gmt: ''
+  content: |-
+    <p>Some of us are better off bald. I think you are amongst those who are. No worries, I'm on the same path.</p>
+
+    <p>Really enjoyed finding your blog tonight. Will read again.</p>
+---
+<p>Well, the time finally came and so my hair went. Involuntarily, this time.</p>
+
+<p><a href="http://foton.fugal.net/album/166?page=3">
+<img src="http://foton.fugal.net/foto/3763/thumbnail" alt="bald top"/>
+<img src="http://foton.fugal.net/foto/3761/thumbnail" alt="bald front"/>
+<img src="http://foton.fugal.net/foto/3762/thumbnail" alt="bald side"/>
+<img src="http://foton.fugal.net/foto/3760/thumbnail" alt="bald back"/>
+</a></p>
+
+<p>Now, these pictures aren't very high resolution so you may not be able to tell, but this first shave isn't particularly close. Even then it took awhile to do. I'm going to shave it every day until I get a reasonably close shave (I'm thinking tomorrow I should get pretty close), then I'll take some higher-resolution pictures and wear something more tough-looking, so you can all feel properly intimidated.</p>
+
+<p>I mostly used a 2-blade cartridge razor, but I was getting annoyed with it doing basically nothing and tried switching to the safety razor a few times. This worked well on the parts I could see in the mirror, but it would take some practice to be able to shave the back with a safety razor because you have to get the angle right and some foresight on the upcoming curves helps a lot.</p>
+
+<p>The <a href="http://headblade.com/index.html">HeadBlade</a> seems to be popular for getting a good and quick shave. It's only $13 and my local WalGreens has it, so if I decide to stick with it I may not be able to resist trying it out (it's called Brush/Soap/Razor Acquisition Disorder). The downside would of course be that it uses expensive cartridges and there's something like 3x as much hair on your pate as your face. <acronym title="double-edge">DE</acronym> blades are much cheaper in the long haul. I wonder if there is a HeadBlade DE adapter…</p>

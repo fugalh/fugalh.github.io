@@ -1,0 +1,22 @@
+---
+layout: post
+status: publish
+published: true
+title: Atom Feed
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 24
+wordpress_url: urn:uuid:b5cd4420-1bb6-44a4-aa1b-af05e01e1411
+date: 2006-03-15 23:46:51.000000000 -08:00
+tags:
+- life
+comments: []
+---
+<p>So Blosxom spits out an RSS 0.91 feed by default, which is fairly despicable.
+For one thing RSS 0.91 doesn't allow for attaching dates to posts. So I grabbed
+<a href="http://www.blosxom.com/plugins/syndication/atomfeed.htm">an atom feed
+template</a>. Now if you
+want a decent feed you can point your feed reader at
+<a href="http://hans.fugal.net/blog/index.atom">http://hans.fugal.net/blog/index.atom</a>.</p>

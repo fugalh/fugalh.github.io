@@ -1,0 +1,49 @@
+---
+layout: post
+status: publish
+published: true
+title: pack and unpack broken on Tiger's Ruby
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 83
+wordpress_url: urn:uuid:141c5769-ee86-4232-88f4-c3b96d3c84f5
+date: 2006-03-13 09:57:30.000000000 -08:00
+tags:
+- mac
+comments: []
+---
+<p>Imagine my surprise when my iBook told me that network byte order had been
+changed to little-endian:</p>
+
+<pre><code>irb(main):001:0&gt; [1].pack 'n'
+=&gt; "\001\000"
+</code></pre>
+
+<p>Just to make sure I wasn't losing my edge, I ran the same code on my x86 box:</p>
+
+<pre><code>irb(main):001:0&gt; [1].pack 'n'
+=&gt; "\000\001"
+</code></pre>
+
+<p><a href="http://www.rubycentral.com/book/ref_c_array.html#Array.pack">Array#pack</a> (and <a href="http://www.rubycentral.com/book/ref_c_string.html#String.unpack">String#unpack</a>) are broken on OS X Tiger's shipped Ruby. After some research, it appears the reason is that they cross compiled it from x86, and when built Ruby remembers the architecture for the purposes of the NnVv formatters of pack/unpack. The purported remedy is to build your own Ruby. I reported the bug to Apple, I have a small hope that eventually they'll update it. In the meantime ruby programs using pack can either work around this or require users to install a fixed Ruby.</p>
+
+<p><em>Update</em>: Here's a workaround with thanks to Paul Battley:</p>
+
+<pre><code># Test for broken pack/unpack
+if [1].pack('n') == "\001\000"
+  class String
+    alias_method :broken_unpack, :unpack
+    def unpack(spec)
+      broken_unpack(spec.tr("nNvV","vVnN"))
+    end
+  end
+  class Array
+    alias_method :broken_pack, :pack
+    def pack(spec)
+      broken_pack(spec.tr("nNvV","vVnN"))
+    end
+  end
+end
+</code></pre>

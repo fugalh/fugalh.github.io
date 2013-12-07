@@ -1,0 +1,27 @@
+---
+layout: post
+status: publish
+published: true
+title: iTerm
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 78
+wordpress_url: urn:uuid:503c0931-d94c-4f5b-9af0-2f73462790b1
+date: 2005-11-04 15:32:03.000000000 -08:00
+tags:
+- mac
+comments: []
+---
+<p>While I'm talking about my iBook, I should mention that I have fallen in love with <a href="http://iterm.sf.net">iTerm</a>. It was a rocky road to satisfaction though, so don't give up too soon. The trouble I had was getting Terminus to look good (1.2 on the horizontal spacing), getting it to pay attention to the changes I made to the default colors, terminal, etc., terminal emulation issues (but not nearly as many as Terminal.app), and that annoying bounce when something is new behavior.</p>
+
+<p>Get the CVS version. No bouncing, and I suspect better behavior with
+remembering settings. You might need to nuke your iTerm settings when upgrading
+to get things to work smoothly (they tell you how on their site). The rest is
+to be persistent and believe that it will do its best to disappoint you. With
+that attitude you should successfully configure it to your liking. Some of the
+more annoying problems with Terminal.app are gone in iTerm, but only when you
+choose rxvt as the TERM setting. Who knows, that might even work in
+Terminal.app. It also seems faster and seems to use less memory (a very
+noticeable thing on my 256MB iBook!).</p>

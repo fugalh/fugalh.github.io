@@ -1,0 +1,106 @@
+---
+layout: post
+status: publish
+published: true
+title: Mars
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 676
+wordpress_url: urn:uuid:7d37b2c6-f821-4b47-aecd-a281784f7f0e
+date: 2006-07-24 18:08:46.000000000 -07:00
+tags:
+- ruby
+- planet
+- uosp
+comments:
+- id: 1496
+  author: Gabriel Gunderson
+  author_email: gabe@gundy.org
+  author_url: http://gundy.org
+  date: '2006-07-24 19:52:07 -0700'
+  date_gmt: ''
+  content: |-
+    <p>One thing I would recommend is reading the Planet archives and seeing what other people hate about it and what others have done to address it.  It might serve as a "sneak peek" into the types of issues that you will no doubt encounter.  Feeds can be ugly - shouldn't be, but often are.</p>
+
+    <p>Also, study the approach they have taken.  While it leaves a few things to be desired, it's really flexible and makes good use of existing components.</p>
+
+    <p>My <em>big</em> beef with the project is that it's not aggressively pushed forward.  Maybe now that Jeff W. is no longer with Canonical, it will move more quickly.</p>
+- id: 1497
+  author: Jayce^
+  author_email: jayce@lug-nut.com
+  author_url: http://halls.lug-nut.com/jayce
+  date: '2006-07-24 21:35:28 -0700'
+  date_gmt: ''
+  content: |-
+    <p>You might want to check out the plagger system <a href="http://plagger.org/trac" rel="nofollow">http://plagger.org/trac</a></p>
+
+    <p>This system is pretty darn powerful, and can do a lot of the legwork for you.  Think of it as being able to have a good pipe service for rss aggregation.  Not only could we have it doing a nicer planet style presentation, but also feeds to ibot/brac, personalized filters, etc.</p>
+
+    <p>Just think, finally being able to filter out $other_blogger</p>
+- id: 1498
+  author: Dane
+  author_email: dfalkner@surgeworks.com
+  author_url: http://www.surgeworks.com
+  date: '2006-07-27 09:41:48 -0700'
+  date_gmt: ''
+  content: <p>What is your estimate of man-hours required to build Mars?  I would
+    be open to having one of our Ruby teams work on it with your guidance.</p>
+- id: 1499
+  author: Mike Smullin
+  author_email: mike_smullin@yahoo.com
+  author_url: http://www.mikesmullin.com/
+  date: '2006-07-27 09:59:11 -0700'
+  date_gmt: ''
+  content: <p>I would be interested in this as a weekend project.</p>
+- id: 1500
+  author: zzzirk
+  author_email: ''
+  author_url: ''
+  date: '2006-08-14 09:35:21 -0700'
+  date_gmt: ''
+  content: <p>I wish I knew ruby well enough to tackle this because this actually
+    is something that I've had an interest in and I have implemented a few of the
+    pieces to this in the past using tcl.  I've hacked something somewhat resembling
+    what you've mentioned together using python as well for myself.</p>
+---
+<p>We discussed on <code>#utah</code> today how much we all hate
+<a href="http://www.planetplanet.org/">Planet</a>. And we're just the end users. We feel
+for you Gabe.</p>
+
+<p>The consensus was that it's stupid that planet is so stupid but nobody wants to
+tackle a replacement because dealing with 53 flavors of RSS is a royal pain. </p>
+
+<p>But there are libraries for that sort of thing. Ruby has a promising lib called <a href="http://sporkmonger.com/projects/feedtools/">FeedTools</a> that would make a planet-killer a piece of cake. It even does the caching.</p>
+
+<p>The web part would be a straightforward excercise in Rails. Surely someone out
+there wants to do a little rails work under my tutelage. I'm not Ye Olde Rails
+Guru, but I've done a few Rails apps and I know Ruby back and forth. I'd be
+willing to give you instruction and guidance if you do all the work. I can't
+justify the time to write it myself, see, but I can help you out.</p>
+
+<p>Ok, now that you've decided you might want to take this project on, let me give
+you the "specs". </p>
+
+<p>First, the name. It will be called Mars. Mars is a red planet,
+see?</p>
+
+<p>Second, the core. At its core it is a feed aggregator. There's lots of these
+things out there to steal code from, and with FeedTools it's pretty easy. You
+periodically get feeds and then regurgitate them as one unified feed on demand.
+After all the effort they've put into the hackergotchis we'd better include those in the core too.</p>
+
+<p>Third, the icing. Let's focus on a few key icing features. The admin should be
+able to set the update frequency on a per-feed basis, and optionally turn off
+updating.  Instant-update via pings would be awesome. Have users that can
+select which feeds they want to subscribe to so not everyone has to listen to
+my drivel. If you're really gung-ho you can make it so that you can group feeds
+and people can choose only the groups they're interested in. If you're really,
+really gung-ho you can figure out some sort of tagging and/or AI tagging...
+we'd better stop there.</p>
+
+<p>There, I've got that off my chest. If you want to pick up this ball and run,
+I'll be your cheerleader and coach. Or maybe I'll delete this post and pretend
+I never wrote it. In any case, now I can get on with what I'm supposed to be
+doing and leave this Yak to graze.</p>

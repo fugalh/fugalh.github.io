@@ -1,0 +1,71 @@
+---
+layout: post
+status: publish
+published: true
+title: AutoHe__
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 36
+wordpress_url: urn:uuid:44fabfd5-bd13-40ef-8d78-8858d85a4b2e
+date: 2005-10-26 17:13:25.000000000 -07:00
+tags:
+- linux
+comments: []
+---
+<p>A current thread on asterisk-dev reminded me that I hate autoconf/automake
+almost as much as I hate packages that don't use something like
+autoconf/automake. Yeah, it's a conundrum.</p>
+
+<p>As a system administrator and user, I like packages that adjust themselves to
+my environment and my preferences. That is, they detect where libfoo's headers
+are installed and generate an appropriate makefile, and I can specify
+<code>--prefix=$HOME</code> or <code>--prefix=/usr/local</code> if I want to, and the package won't
+pollute my <code>/usr/{bin,lib,include}</code> directories. What I don't like as a
+user/sysadmin about autoconf is the overly-lengthy <code>./configure</code> sessions that
+check a million things that you know are not in this code, only to tell you two
+minutes later that you don't have dependency X. But that is a minor
+inconvenience compared to the benefits.</p>
+
+<p>As a developer who once upon a time took the plunge and learned
+autoconf/automake (and promptly swapped it out), I feel the pain of the hordes
+of developers screaming for release. It's too complicated, too fragile, too
+undocumented, too overdocumented (I don't understand that either), and just
+plain ugly. But it does the job better than anything I've seen, and I've given
+a cursory look at alternatives. Plus the users demand it because they like the
+things I listed in the above paragraph.</p>
+
+<p>So what is needed? Why has nothing overthrown the beast? We need something
+portable with essentially no requirements (because sane developers hate adding
+unnecessary requirements to their requirements list: each requirement is a
+class of users that will never try your software). We need something that works
+at least as well from the sysadmin's viewpoint. We need something simple to
+understand and use from the developer's standpoint. </p>
+
+<p>Portable with no requirements is a two-edged sword. If you try to write it in
+shell you will end up with something at least as ugly as autoconf, no matter
+how good your start. Perl without modules might be a good choice. But I think
+you could write it in whatever language you want with whatever dependencies you
+wanted, if only the developers are required to have them. Developers don't mind
+installing a bunch of stuff for a good tool, but they don't want to have to ask
+their users to install it to use their program. Observe that this is how
+autoconf works, the generated <code>configure</code> script is portable shell code. This
+is good, and it obviously works. So the thing could be written in whatever
+language (you would choose ruby, of course) and output shell and makefiles. </p>
+
+<p>Works at least as well from a sysadmin's viewpoint means simply that it's easy
+to tell it where libfoo headers are, and where you want things installed.
+Get in touch with your inner sysadmin. Familiarize yourself with their pet
+peeves. Google should help there, or feel free to email me for a piece of my
+mind.</p>
+
+<p>Simple and easy means several things, but more than anything it means KISS. It
+should be dead-simple in the common case. It should allow you to make custom
+tests. Telling the user what to do about failures should be easy. Getting
+configuration information (e.g. big-endian or little-endian?) should be easy
+(config.h-like should be fine). If you're going to implement this, you're a
+developer right? So just think through it and you should be ok.  What's that?
+Autoconf developers are developers too and look how they messed up? Well,
+remember that they wrote this thing back in the era of <code>sendmail.cf</code>. I forgive
+them because autoconf is a product of its age.</p>

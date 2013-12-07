@@ -1,0 +1,26 @@
+---
+layout: post
+status: publish
+published: true
+title: radp - Ruby Asterisk Dial Plan generator
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1
+wordpress_url: urn:uuid:a826f6d5-dd67-425c-81ca-60af3d95a24d
+date: 2005-10-20 10:05:49.000000000 -07:00
+tags:
+- asterisk
+comments: []
+---
+<p>With many thanks to Jim Weirich for his <a href="http://onestepback.org/articles/lingo/index.html">excellent
+presentation</a>
+(which I unfortunately could not experience in person), I present an
+<a href="http://asterisk.org/">Asterisk</a> <acronym title="domain-specific language">DSL</acronym> called radp. </p>
+
+<p>Asterisk is incredibly cool and powerful, and until now has been
+incredibly painful to configure for someone as accostumed to the beauty
+of ruby as I am. That all ends today. </p>
+
+<p><a href="http://hans.fugal.net/src/radp">http://hans.fugal.net/src/radp</a></p>

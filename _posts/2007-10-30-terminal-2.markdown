@@ -1,0 +1,66 @@
+---
+layout: post
+status: publish
+published: true
+title: Terminal 2
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 889
+wordpress_url: urn:uuid:8b1ae479-432a-4056-a796-01cd35f32b11
+date: 2007-10-30 07:00:00.000000000 -07:00
+tags:
+- mac
+- terminal
+comments:
+- id: 1629
+  author: Gary
+  author_email: ''
+  author_url: http://www.thornock.us/
+  date: '2007-10-30 23:22:17 -0700'
+  date_gmt: ''
+  content: |-
+    <p>I'm becoming more perplexed about the Terminal problems I was having.  I tried doing the same thing on a co-worker's MacBook, also running Leopard, that was causing me headaches.  Everything worked fine.</p>
+
+    <p>Maybe something about my installation didn't go right.  Maybe some configuration from my old Tiger Terminal.app conflicted with the new app.  Maybe it's a PowerPC-specific problem.  I'm not sure, and right now my Powerbook is back on Tiger until I get new EVDO software from Verizon.  I'll try again then.</p>
+- id: 1630
+  author: Mike
+  author_email: ''
+  author_url: ''
+  date: '2007-11-04 04:20:07 -0800'
+  date_gmt: ''
+  content: <p>I too was pretty astonished by the sheer retardation of the keybindings
+    for terminal tabs myself. I'll stick with multiple windows since that is doable
+    with human hands on a keyboard. Should work like Firefox. cmd+number is tabs,
+    cmd+tilda is windows. But mac tries so hard to be different, it ends up making
+    things harder to use.</p>
+- id: 1631
+  author: Cocoa Handyman
+  author_email: cocoahandyman@gmail.com
+  author_url: http://cocoahandyman.tumblr.com/
+  date: '2007-11-06 19:00:06 -0800'
+  date_gmt: ''
+  content: '<p>FYI: you can set the tabs to always show by selecting “Show Tab Bar”
+    from the View menu.</p>'
+---
+<p>I now have <a href="http://www.apple.com/macosx/">Leopard</a>, so expect a flurry of posts as I discover neat things and annoyances.</p>
+
+<p>The biggest reason why I got Leopard, apart from that my fellowship paid for it
+and you never turn down free gadgets or software, is for Terminal.app redux,
+aka Terminal 2 (think Schwarzenegger). When working on a laptop, I <em>must</em> have
+a tabbed terminal. This forced me to use
+<a href="http://iterm.sourceforge.net/">iTerm</a>, which worked well most of the time.
+However, iTerm hates me. It has an impossible-to-track-down bug that will
+occasionally render every curses program (including vim) useless for an
+indeterminate amount of time, and not even restarting iTerm will fix it. In general I've found iTerm to be somewhat shoddy, and Terminal is beautiful and, well, Mac-ish. So I'm excited for the switch to Terminal 2.</p>
+
+<p>I had a right to be, too. It is a beautiful piece of software. I have a few qualms, though. First, and most annoyingly, the keybindings for next/previous tab aren't configurable, and they're set to the ridiculous default of ⌘-{ and ⌘-}. Yes, that means you have to press shift too. However, there is hope! Go to the Keyboard &amp; Mouse preference pane, in the Keyboard Shortcuts tab. Scroll down to Application Keyboard Shortcuts, and add shortcuts for Terminal.app. Now I can switch tabs with ⌘-→ and ⌘-←, as it should be. Naturally, you can use this trick to change any unfavorable keyboard shortcut in any native OS X application.</p>
+
+<p>I'm having some emulation issues, but this is not new to Terminal 2. When I ssh to my linux box and run <a href="http://irssi.org/">irssi</a> the screen doesn't update properly. It works ok if I run irssi in <a href="http://www.gnu.org/software/screen/">screen</a> though. </p>
+
+<p>I like the unlimited scrollback, though I hope it's not all going into RAM. Sometimes I'll do the odd copious command that spews on forever. I don't mind if it's going to a temporary disk buffer, but I don't want it all in RAM. I'm sure they figured that out though.</p>
+
+<p>The built-in themes are nice. The configuration is well layed out, with one exception. I wish there was a place to set default preferences, common to all of the themes that don't override them. But since I and most other people who would care will stick to one theme, I guess it's not a big deal.</p>
+
+<p>I haven't noticed any of the rumored problems of Terminal resizing without permission. I think Gary must have been expecting terminal to read his mind about where and how big new terminal windows would be. I'm glad it doesn't, because if I closed a terminal that I had resized temporarily, and then all my terminals started opening at that odd size, I'd be quite grumpy indeed. Size is one of the preferences you can set, and it works almost perfectly. I like mine as tall as I can get them, and I set it to 53 lines (with <a href="http://www.ms-studio.com/FontSales/anonymous.html">Anonymous</a> 10pt). For some reason terminal would end up not quite at the top of the screen and sized only at 50. I opened a few tabs, sized it the way I wanted it (oops, with tabs I only get 51), and then went to the menu and chose Shell, Use Settings as Default. Now it behaves itself. My only unresolved annoyance is that I can't tell it to always have tabs, even when there's only one tab open. I don't like the shifting and resizing during the transition from 1 to 2 tabs (or vice versa). Oh well.</p>

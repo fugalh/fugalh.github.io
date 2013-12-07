@@ -1,0 +1,41 @@
+---
+layout: post
+status: publish
+published: true
+title: gedtag
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 996
+wordpress_url: urn:uuid:aae05b8d-8761-4493-a80f-3949ea03d02a
+date: 2008-07-30 22:13:00.000000000 -07:00
+tags:
+- src
+- family
+- genealogy
+- evidence
+- history
+- gedtag
+- gedcom
+comments: []
+---
+<p>Have you ever tried to import aunt Millie's n-thousand-person GEDCOM into your database? You either ended up with a reeking mess of a database, gave up and restored from a backup, or went insane trying to clean up the mess. Believe me, I know. And my family GEDCOMs are fairly well-behaved. But then there's always Ancestral File or online generated GEDCOMs.</p>
+
+<p>This is no laughing matter. In fact, it has been the single most debilitating roadblock to me doing any real genealogy since I got the bug as a teenager.</p>
+
+<p>I think I finally have a way to tame the beast. It's not a magic bullet—there will still be a lot of mind-numbing match/merge. But it will maintain order and the integrity of the database.</p>
+
+<p>First, start with a clean slate. If you have an existing database, export it to GEDCOM and make a new database. This step isn't strictly necessary but keeps things ultra clean. If you're afraid you'll lose information in the export/import, you need a different genealogy program.</p>
+
+<p>Now, sort your GEDCOMs to import by their importance and reliability. Your original database export probably comes near the top of this list, although not necessarily. Write this down. In fact, write <em>everything</em> down when doing <em>anything</em> in genealogy.</p>
+
+<p>Now, take that first GEDCOM and run it through <a href="/src/gedtag/">my magic filter</a>. This will add REFN tags to your GEDCOM that look something like this: <code>hans@fugal.net,2008-07-30:foo.ged/INDI/I1</code>. This tag tells you the submitter's email (or name), the date in the GEDCOM file (or today's date), the name of the original GEDCOM file, and the identifying information for this particular record. In short, it keeps track of where that record came from. It will show up in PAF as the custom ID, and likely in other software in a similar manner.</p>
+
+<p>Now import the GEDCOM. In PAF, there is an option on import to reuse <acronym title="Record Identification Number">RIN</acronym>s. <em>Uncheck this option.</em> The import screen tells you that highest RIN currently used. <em>Take note of this RIN.</em> Now every record in the import will have a RIN above this RIN. The RIN is easier to use in match and merge (it's right there, you don't have to dig for it), so the tags we added are for posterity's sake.</p>
+
+<p>Now, do the match and merge. Did you know that PAF has the ability to match and merge based on the _UID tags it spits out in GEDCOMs? That means if this GEDCOM and the GEDCOM(s) you've already imported have a common ancestor, the universally unique IDs will match, and you know without a doubt that someone thought they were the same person already. You can breeze through these merges with confidence that you won't merge people you shouldn't. Likewise there is an AFN match and merge, which is almost as trustworthy. (I'm a bit paranoid so I always double-check anything coming from Ancestral File. Maybe it's because there are about 5 versions of me in Ancestral File, most of which can't even spell my name right.) Finally, go through the other options (name, soundex) and do a thorough match/merge.</p>
+
+<p>Now, go through all the remaining RINs greater than the RIN you noted earlier. These are the new people in your database. Get to know them. See where they sit in the pedigree. Read the notes. Make sure they meet your quality standards. Add sources if you know of them. Make notes of missing information, questionable stuff to research, etc. You should have a whole truckload of research tasks to do after this import—and some of them you should do before the next import (you'll recognize these if you take the time to think of them and write them down). Actually you should do that with every person you merge in the previous step as well, since they will merge into lower RINs. Don't hit that merge button until you've done the quality check!</p>
+
+<p>After weeks, months, or years of doing this on Sunday afternoon, you will have a meticulous database that works <em>for</em> you. You will have laid a solid foundation which will impower your future research efforts. You will not be sorry.</p>

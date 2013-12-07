@@ -1,0 +1,20 @@
+---
+layout: post
+status: publish
+published: true
+title: mp3m4b
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1164
+wordpress_url: http://hans.fugal.net/blog/?p=1164
+date: 2009-07-22 16:22:24.000000000 -07:00
+tags: []
+comments: []
+---
+I wrote a script to do what <a href="http://audiobookmaker.sourceforge.net/">Audiobook Maker</a> does without the GUI. i.e., convert a bunch of mp3 files into a monolithic but chapter-enhanced iPod audiobook.
+
+<a href="http://github.org/fugalh/mp3m4b">http://github.com/fugalh/mp3m4b</a>
+
+Enjoy!

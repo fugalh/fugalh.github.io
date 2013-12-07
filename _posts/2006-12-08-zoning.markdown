@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: Zoning
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 761
+wordpress_url: urn:uuid:ec818da7-0665-40d9-99eb-7ae88904aaa3
+date: 2006-12-08 07:29:49.000000000 -08:00
+tags:
+- life
+- twitter
+- zone
+- flow
+- productivity
+- self help
+comments: []
+---
+<p>Some things decided to line up this week, and Kathy Sierra's post on <a href="http://headrush.typepad.com/creating_passionate_users/2006/12/httpwww37signal.html">The Asymptotic Twitter Curve</a> was the thought catalyst.</p>
+
+<p>This is the last week before finals, which means lots of catching up and studying. I had 4 homeworks/projects to do this week, which in grad school means nothing shy of 30 hours, plus grading homeworks and going to class and studying for finals. In other words, it's a busy week. Whenever I get this busy, it casts into stark contrast how utterly inefficient I am most of the time. More than anything else, this "in-the-loop" she talks about addiction is the reason why. It's not that I didn't know that already, I figured that out a long time ago. I've even learned a few techniques for getting myself out of the loop temporarily so I can get into the zone. Things like close the laptop, or actually leave the laptop in the office and go to the library or for a walk if I just need thinking time. I read RSS feeds and blogs at the same time every day and don't leave the reader open. If I'm working on the computer, I love OS X's hide feature. It's not winking at me from the status bar, it's as if the program isn't even open. I don't have a big problem with IM because unless someone's talking to me (and I'm not <em>that</em> popular) it's as if it doesn't exist. I do find myself checking IRC when I'm not in the zone, but if I can get past the IRC hump I know I'm on the right track. In fact, you could say I keep IRC around as a canary. When the canary croaks, I know I might be being productive.</p>
+
+<p>I've been using Thunderbird for awhile, for various pragmatic reasons. This is becoming a problem for two reasons. First, I miss the opportunity to train my bayesian filter when it makes mistakes, and it's letting more spam through. Second, Thunderbird tells me when I have new mail which is a zone breaker, and it's usually spam. I was bashing Thunderbird for different but well-deserved reasons the other day, and it gave me a guilt trip that I left mutt in the first place.</p>
+
+<p>Another thing that happened is MacIrssi consistently crashed on joining #opengl, for no good reason. Also, my final graphics program is a bit of a memory hogg and MacIrssi was taking more than its fair share.</p>
+
+<p>So the crux is I'm going to migrate away from Thunderbird and MacIrssi back to Mutt and Irssi in a screen session. Then I can detach from that screen, and the zone breakers are out of sight and out of mind. I'm going to spend more time at the library away from the computer. </p>
+
+<p>Why am I telling you this? I could have just posted a link and said "go read this, it's a good post". The primary reason is that Irssi in a screen session has no way of telling me that you PM'd me until I open it up. (MacIrssi used growl) So if you need my attention (and we all do need eachother's attention sometimes), use Jabber. Jabber is like instant email, in that it stores your message and forwards it when I get online. I won't miss it even if the computer is on and I'm just AFK. If you just want to tell me about your cute puppy's new hairdo, stick to IRC or email. If you need help or want to tell me about that awesome loaf of bread you made, Jabber. So now that you know, I won't have to worry about missing anything by stashing IRC away in a screen session.</p>

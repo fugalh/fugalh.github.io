@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: 1/4 inch
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1019
+wordpress_url: urn:uuid:4e842ebf-0868-4e49-8d64-d103c4687d70
+date: 2008-11-06 10:03:00.000000000 -08:00
+tags:
+- hair
+- bald
+- buzz
+- short
+- inch
+- guard
+- quarter
+comments: []
+---
+<p>These pictures are actually a few days late—it's a quarter inch and about 5 days growth. So probably somewhere between a quarter inch and 3/8 inch. It was a number 2 guard. In a few days we'll go to 1/8 inch!
+<a href="http://foton.fugal.net/album/166?page=3">
+<img src="http://foton.fugal.net/foto/3753/thumbnail" alt="front"/>
+<img src="http://foton.fugal.net/foto/3752/thumbnail" alt="back"/>
+<img src="http://foton.fugal.net/foto/3754/thumbnail" alt="side"/>
+<img src="http://foton.fugal.net/foto/3755/thumbnail" alt="top"/></a></p>

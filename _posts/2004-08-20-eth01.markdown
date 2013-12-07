@@ -1,0 +1,20 @@
+---
+layout: post
+status: publish
+published: true
+title: eth0:1 with iproute2
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 46
+wordpress_url: urn:uuid:b9d6d987-03be-4850-a564-e58ae6dde0ad
+date: 2004-08-20 14:42:09.000000000 -07:00
+tags:
+- linux
+comments: []
+---
+<p>Here's how to create eth0:1 with iproute2 (and you really should be using iproute2):</p>
+
+<pre><code>ip addr add 192.168.1.1 dev eth0 brd + label eth0:1
+</code></pre>

@@ -1,0 +1,53 @@
+---
+layout: post
+status: publish
+published: true
+title: bashlib
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 37
+wordpress_url: urn:uuid:beb9748b-66f9-4543-ac46-26f81bb64371
+date: 2005-07-19 16:03:18.000000000 -07:00
+tags:
+- linux
+comments: []
+---
+<p>If the idea of writing CGI in bash scares you, you obviously have either
+written not enough CGI, not enough bash, or too much of either (or both).
+<a href="http://bashlib.sourceforge.net/">bashlib</a> is the beautiful little script you
+source to give you parameter and cookie goodness with no effort whatsoever.
+Behold:</p>
+
+<pre><code>#!/bin/bash
+. /usr/local/lib/bashlib
+
+echo "Content-type: text/html"
+echo
+
+p=`param addr`
+if [ "x$p" = "x" ]; then
+    p="192.168.0.1/24"
+fi
+
+cat &lt;&lt;EOF
+&lt;html&gt;&lt;body&gt;
+&lt;h1&gt;IP Calculator&lt;/h1&gt;
+&lt;p&gt;
+&lt;form action="ipcalc.cgi"&gt;
+&lt;input type="text" name="addr" value="$p" /&gt;
+&lt;input type="submit" /&gt;
+&lt;/form&gt;
+&lt;/p&gt;
+
+&lt;pre&gt;
+`ipcalc $p`
+&lt;/pre&gt;
+
+&lt;/body&gt;&lt;/html&gt;
+EOF
+</code></pre>
+
+<p>Yes, I know that is terribly insecure, (You don't see me giving you a link to
+try it out, do you?) but those problems are not unique to CGI with bash.</p>

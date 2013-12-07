@@ -1,0 +1,53 @@
+---
+layout: post
+status: publish
+published: true
+title: MacBook
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 755
+wordpress_url: urn:uuid:2d159fe7-7de2-40f0-a064-06facb9d1382
+date: 2006-11-15 09:42:00.000000000 -08:00
+tags:
+- mac
+- osx
+- macbook
+- ibook
+comments: []
+---
+<p>My <acronym title="Graduate Assistance in Areas of National
+Need">GAANN</acronym> fellowship provides me with a laptop, and that laptop has
+finally arrived. It's a MacBook 13" and it's very nice. Unfortunately the
+University claims it as its own because it was bought through them and was
+over $1k, so I will have to give it back when my GAANN stint is over. Hopefully
+that means when I graduate, but if our department doesn't get the GAANN award
+that it's applying for that means GAANN is kaput next August. So I'm keeping
+the iBook in cold storage and we'll cross that bridge when we come to it.</p>
+
+<p>In the process of setting up my essential applications I discovered a few had
+been updated without telling me, and I took the chance to investigate some
+alternatives to the programs I wasn't fully satisfied with.
+<a href="http://iterm.sourceforge.net/">iTerm</a> was updated, and actually has a useful
+release now. It looks a little nicer, seems to behave better, although I've
+come across some glitches when it's set to always show tabs. I skipped the
+space-consuming menu bar system monitoring stuff that I had on the iBook and
+gave <a href="http://iconfactory.com/software/ipulse">iPulse</a> another look. Last time I
+was turned off by the clown colors and that it was hard to see what was going
+on. This time I was looking for succinctness and was willing to invest some
+time in learning to read the display, and I tried out a few of its jackets (I
+settled on <a href="http://iconfactory.com/freeware/preview/doppler">Doppler</a>), and I'm
+quite pleased. It also has a menubar display that's much more relevant and
+compact than what I was using, as well as an animated dock icon. And it doubles
+as an analog clock down there in the corner. I'm very impressed.</p>
+
+<p>I am disappointed, however, in the video card. Flightgear still runs at a
+crawling 7fps sitting on the runway at KSFO with the default settings. I might
+be able to get it running at a suitable speed, but based on this experience
+this Intel GMA 950 card is nothing like the NVidia Quadro4 in my desktop.
+Flightgear on the iBook worked fairly well in Linux, so I'll try that out when
+I get Linux installed and perhaps I will be pleasantly surprised. This wasn't
+to be my primary Flightgear station anyway so it's not the end of the world.</p>
+
+<p>I'll report on installing Ubuntu 6.10 when I get around to it in the next few days.</p>

@@ -1,0 +1,30 @@
+---
+layout: page
+status: publish
+published: true
+title: About
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1044
+wordpress_url: http://hans.fugal.net/blog/?page_id=1044
+date: 2009-01-17 23:42:32.000000000 -08:00
+tags: []
+comments: []
+---
+<p>This blog is a projection of me. I use it primarily as a public log of the difficult things that I do and want to remember how to do later. I hope the hard-earned knowledge I share here will help others avoid the pain. I also occasionally rant on random things that are important to me (what blogger doesn't?).</p>
+
+<p>I am a Computer Scientist, which means I am not only a programmer but also enjoy testing the limits of computers. What can and can't they do? How can we make them do it faster? I am a PhD candidate at <a href="http://www.cs.nmsu.edu">New Mexico State University</a> doing <a href="http://hans.fugal.net/phd">research in computer music</a>, which primarily involves digital signal processing and machine learning. I also harbor secret interest in programming languages and compilers, and genealogical data models and software.</p>
+
+<p>I am a System Administrator, which means I love to tinker with operating systems, networks, complex software, and electronic gadgets of all sorts. As operating systems go I am particularly fond of UNIX and its clones—especially Linux and OS X—and not at all fond of Windows. I am a free software enthusiast, and have contributed <a href="http://hans.fugal.net/src">a few humble programs</a> to the corpus. I consult on system administration and <acronym title="Voice over IP">VOIP</acronym>, especially Asterisk and the various flavors of <acroynm title="SIP Express Router">SER</acronym></p>
+
+<p>I am a Musician. I play the organ and the piano and sing in choirs. I can't get enough Bach. I wish I had Jazz chops. I have composed a few <a href="http://hans.fugal.net/music">embarassing electronic music pieces</a>.</p>
+
+<p>I am an Aviation enthusiast. I long to take to the skies, but until I can afford it I make do with <a href="http://flightgear.org">FlightGear</a> and <a href="http://www.x-plane.com/">X-Plane</a>.</p>
+
+<p>I like to cook. The Food Network is my favorite cable channel. Alton Brown is my hero. I specialize in bread, pizza, and sweet stuff.</p>
+
+<p>Finally, above all, I am a husband and father to the most delightful family on Earth.</p>
+
+<p><a href="mailto:hans@fugal.net">hans@fugal.net</a></p>

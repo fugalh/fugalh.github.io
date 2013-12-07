@@ -1,0 +1,91 @@
+---
+layout: post
+status: publish
+published: true
+title: Feed Me
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1024
+wordpress_url: urn:uuid:76973eab-00c8-4c7e-8b6f-fb9854d61b77
+date: 2008-11-20 08:18:00.000000000 -08:00
+tags:
+- ruby
+- rss
+- html
+- nws
+- afd
+- frost
+- feed
+- xml
+- feedme
+- tech
+- open
+- uri
+- erb
+- cgi
+comments: []
+---
+<p>Our first frost should come any time now, and I want to have warning of it so we can rescue our tomatoes. Well, I have a link to the <a href="http://www.crh.noaa.gov/product.php?site=NWS&amp;issuedby=EPZ&amp;product=AFD&amp;format=CI&amp;version=1&amp;glossary=1">NWS Area Forecast Discussion</a> in my bookmarks which I try to read every day, but some days I forget. What I need is a feed. But as far as I can tell only Honolulu is cool enough to get a feed for AFDs. Weird. So what I needed was to create a feed from an existing web page.</p>
+
+<p>I thought I would find a website that offers a service like this but I didn't (in a few short minutes of searching). I found websites that came halfway, but they were  very complicated to set up and/or they didn't display the body of the page, only a link. The whole point is that I want to read it in my feed reader!</p>
+
+<p>So I whipped up this Ruby code (standard libs only, no gems required):</p>
+
+<pre><code>#! /usr/bin/ruby
+require 'erb'
+require 'open-uri'
+require 'ostruct'
+
+# configuration
+channel = OpenStruct.new(:url =&gt; "http://www.srh.noaa.gov/data/EPZ/AFDEPZ",
+                         :title =&gt; "EPZAFD",
+                         :description =&gt; "National Weather Service Area Forecast Discussion, El Paso TX/Santa Teresa NM")
+item = OpenStruct.new(:url =&gt; channel.url,
+                      :title =&gt; "Area Forecast Discussion",
+                      :date =&gt; Time.now)
+
+# fetch the page
+afd = open(item.url)
+item.date = afd.last_modified unless afd.last_modified.nil?
+item.body = "&lt;pre&gt;" + afd.read + "&lt;/pre&gt;"
+
+# emit
+include ERB::Util
+template = ERB.new &lt;&lt;EOF
+Content-Type: application/rss+xml
+
+&lt;?xml version="1.0"?&gt;
+&lt;rss version="2.0"&gt;
+   &lt;channel&gt;
+      &lt;title&gt;&lt;%= h channel.title %&gt;&lt;/title&gt;
+      &lt;link&gt;&lt;%= h channel.url %&gt;&lt;/link&gt;
+      &lt;description&gt;&lt;%= h channel.description %&gt;&lt;/description&gt;
+      &lt;lastBuildDate&gt;&lt;%= h Time.now.rfc822 %&gt;&lt;/lastBuildDate&gt;
+      &lt;generator&gt;feedme&lt;/generator&gt;
+      &lt;item&gt;
+         &lt;title&gt;&lt;%= h item.title %&gt;&lt;/title&gt;
+         &lt;description&gt;&lt;%= h item.body %&gt;&lt;/description&gt;
+         &lt;pubDate&gt;&lt;%= h item.date.rfc822 %&gt;&lt;/pubDate&gt;
+         &lt;guid&gt;&lt;%= h "#{channel.url}?date=#{item.date.iso8601}" %&gt;&lt;/guid&gt;
+      &lt;/item&gt;
+   &lt;/channel&gt;
+&lt;/rss&gt;
+EOF
+puts template.result(binding)
+</code></pre>
+
+<p>Nothing overly fancy here. I use <a href="http://www.ruby-doc.org/stdlib/libdoc/open-uri/rdoc/index.html">open-uri</a> to fetch the page, extract the <code>Last-Modified</code> header (if it exists) and shoehorn it into an <a href="http://www.ruby-doc.org/stdlib/libdoc/erb/rdoc/index.html">ERB</a> template for the RSS.</p>
+
+<p>In this case I just made it executable and slapped a <code>Content-Header</code> before the output and call it as a CGI. You could just as well run a cron job to update a file on disk (In which case remove the <code>Content-Header</code> from the template).</p>
+
+<p>Once I found the pure text version of the AFD, it was just a matter of slapping it between <code>&lt;pre&gt;</code> tags, but if you had some actual screen scraping to do you might want to look at <a href="http://code.whytheluckystiff.net/hpricot/">Hpricot</a> which makes that really easy. In particular, I could have used the URL <a href="http://www.crh.noaa.gov/product.php?site=NWS&amp;issuedby=EPZ&amp;product=AFD&amp;format=txt&amp;version=1&amp;glossary=1">http://www.crh.noaa.gov/product.php?site=NWS&amp;issuedby=EPZ&amp;product=AFD&amp;format=txt&amp;version=1&amp;glossary=1</a> and done</p>
+
+<pre><code>...
+require 'hpricot'
+...
+item.body = (doc/"#content").to_html
+</code></pre>
+
+<p>which is in fact how I started out. But this page doesn't have a <code>Last-Modified</code> header which means my feed reader would always show it as a new item (every time the cron job updated, or every time I hit the CGI script, either way). Luckily I found the text-only URL that doesn't have this problem.</p>

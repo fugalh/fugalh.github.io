@@ -1,0 +1,130 @@
+---
+layout: post
+status: publish
+published: true
+title: wmii
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 635
+wordpress_url: urn:uuid:bfe05164-430e-48f6-be66-152418b1e5b0
+date: 2006-06-28 10:08:00.000000000 -07:00
+tags:
+- linux
+- wmii
+- x11
+comments:
+- id: 1479
+  author: Marc
+  author_email: marc@abramowitz.info
+  author_url: http://marc.abramowitz.info
+  date: '2006-06-28 10:23:54 -0700'
+  date_gmt: ''
+  content: |-
+    <p>Sounds kind of interesting. Maybe you could post a few screenshots on Flickr?</p>
+
+    <p>I noticed that your blog is powered by Typo. How do you like it?</p>
+- id: 1480
+  author: Hans
+  author_email: ''
+  author_url: ''
+  date: '2006-06-28 11:04:57 -0700'
+  date_gmt: ''
+  content: |-
+    <p>Oops, already booted back into OS X. The screenshots would not be all that interesting though, certainly no more interesting than <a href="http://www.wmii.de/shots/20060518.png" rel="nofollow">the ones on the homepage</a>.</p>
+
+    <p>I like Typo a lot.</p>
+- id: 1481
+  author: Joe White
+  author_email: ''
+  author_url: ''
+  date: '2007-03-18 17:20:30 -0700'
+  date_gmt: ''
+  content: <p>I realise this is an old post but I'd be interested to know what window
+    manager you use instead. I've found exactly the same annoyances as you, as well
+    as windows not always focusing on mouseover (sometimes I have to click their titlebars
+    to focus them).  Some aspects of WMII really help me to visualise where things
+    are without having to think too much about what I want to do next but like you
+    say they take simple too far. </p>
+- id: 1482
+  author: Hans
+  author_email: ''
+  author_url: ''
+  date: '2007-03-18 20:11:30 -0700'
+  date_gmt: ''
+  content: |-
+    <p>Hi Joe, I mostly use Metacity in GNOME because I don't spend a lot of time in Linux presently. OS X is the best thing I've found for laptop use, for various reasons. Ironically, one of the biggest reasons is that manipulating OS X with the keyboard is so much easier and more consistent than linux. So I use an eyecandy commercial windowing environment because of the keyboard support. Go figure. :-)</p>
+
+    <p>I've never found a WM in linux that holds my attention for more than a few months or a year at best. At this point I would have to say: FVWM (ugly but good), OpenBox, or Metacity, all under GNOME. FVWM can be ok on its own, but it's a lot of effort. I was loyal to WindowMaker for a relatively long time, and it's a good choice too.</p>
+- id: 1483
+  author: Johannes
+  author_email: ''
+  author_url: ''
+  date: '2007-04-15 07:21:41 -0700'
+  date_gmt: ''
+  content: |-
+    <p>"mod-shift-c is terribly unprecedented for closing windows. mod-w would be a much more consistent choice (yes, ctrl-w does sometimes work even in Windows)"</p>
+
+    <p>It's no problem you can configure that in your wmiirc.</p>
+---
+<p>I've been giving  <a href="http://wmii.de">wmii</a> a try. wmii is a window manager from
+the "I can do it better than you" school, aka the people that believe people
+shouldn't be bothered with managing windows. Managing windows is a waste of
+time, let the computer do it dynamically. I like this philosophy, to an extent.
+But most of my gripes probably boil down to not drinking enough of their
+koolaid.  Without further ado, I bring you the pros and cons.</p>
+
+<p>Pros:</p>
+
+<ul>
+<li>Like ion, I can be more productive in a coding situation. Other workflows,
+like making music, where you want to see a lot of stuff from a lot of
+different apps at once, wouldn't work very well unless you had a huge screen.
+In those workflows, it's either overlap or die, this tiling stuff just
+doesn't cut it.</li>
+<li>The concept of a nice filesystem-like interface to the wm is really neat.</li>
+<li>Float support (for apps that don't handle resizing well) is much better than in ion.</li>
+<li>Tagging</li>
+</ul>
+
+<p>Cons:</p>
+
+<ul>
+<li>I want my terminals and gvim windows 80 columns wide. No less, no more. I
+like them stretching up and down, but I will not tolerate 60 characters just
+because that's a nice halfway split of the screen. I don't much like
+having it bigger than 80 either, but that's not as big of a deal.</li>
+<li>mod1 (alt) is a stupid default for the mod key, and changing it to mod4 was
+not a walk in the park.</li>
+</ul>
+
+<p>Hint for Debian users:</p>
+
+<pre><code>cp -r /etc/X11/wmii-3 ~/.wmii-3  # /etc/X11 wtf?!?! Watch out for the decoy /etc/wmii
+sed -i s/mod1/mod4/ ~/.wmii-3/wmiirc
+</code></pre>
+
+<ul>
+<li>You have to hold down mod to move windows in floating mode, and even worse
+you have to hold down mod and right click to resize. This is a problem on my
+iBook where right-click drag is nigh unto impossible. Would it kill them to
+support basic title bar moving and drag-the-corner resizing?</li>
+<li>mod-shift-c is terribly unprecedented for closing windows. mod-w would be a
+much more consistent choice (yes, ctrl-w does sometimes work even in Windows)</li>
+<li>Stack mode is ok, but tabs would be better because of the conservation of
+vertical space. I'm sure this is simply easier to code, but it's <em>not</em> the
+same as tabs.</li>
+<li>Keeping the wm under a certain number of LoC is a stupid metric. Keep it
+simple, keep it modular, keep it elegant, keep it whatever, but an arbitrary
+LoC restriction is silly. I wonder if this isn't already affecting usability
+per the previous point (stacking vs. tabs)</li>
+</ul>
+
+<p>In general, it's a great tiling window manager. I'm afraid that I can't swallow
+the tiling window manager paradigm, at least not until I get one of those nice
+huge theater-aspect screens. I do have some ideas for a compromise, though. The
+first thing is to acknowledge that overlap can be good, and that fixed sizes
+(or at least restrictions on sizing) can be good. I picture something involving
+layers, sizing respect, and perhaps automatic scaling, to an extent. (can't
+that newfangled eyecandy technology do that, theoretically?)</p>

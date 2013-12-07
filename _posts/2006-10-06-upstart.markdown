@@ -1,0 +1,41 @@
+---
+layout: post
+status: publish
+published: true
+title: Upstart
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 729
+wordpress_url: urn:uuid:16b1aa63-db78-4d33-8269-1cca878205db
+date: 2006-10-06 11:22:57.000000000 -07:00
+tags:
+- linux
+- init
+- rc
+comments: []
+---
+<p>I just finished reading <a href="http://www.linux.com/article.pl?sid=06/09/18/1623244">this article on Upstart</a>, a replacement for <code>init</code>. </p>
+
+<p>I've long been dissatisfied with the System V init scheme. I've looked at
+<a href="http://packages.debian.org/unstable/admin/file-rc">file-rc</a>,
+<a href="http://smarden.org/runit/">runit</a> (which is similar to
+<a href="http://cr.yp.to/daemontools.html">daemontools</a>), and briefly at some others
+that have popped up from time to time (I think I remember one that had to do
+with purple cows, but my memory is hazy). None of them has really done anything
+for me. file-rc is a nice concept taken not quite far enough (it's almost as
+much a pain editing that file format as dealing with symlinks), and it's not an
+init replacement in any case. runit/daemontools are very handy, and I use them,
+but when I tried to replace init with runit I made short work of hosing my
+startup system. As easy as it is to write run scripts, I do not want to write
+one for each daemon that I do now or ever will install.</p>
+
+<p>But <a href="http://upstart.ubuntu.com/">upstart</a> is very promising. Its coolness
+factor is higher than any of the others, and it has an upgrade path. In fact,
+Ubuntu will be using upstart in the upcoming release of Edgy Eft, and is
+already in use in Ubuntu testing, completely replacing sysvinit. Kudos to the
+Ubuntu folks for recognizing the need for something better and implementing it.
+I hope that replacing sysvinit with upstart (in an apt-get sort of way) in
+Debian becomes a reality soon.  In any case, I'm going to give it a test on my
+laptop when I get some spare time.</p>

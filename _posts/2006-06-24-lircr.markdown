@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: lircr
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 617
+wordpress_url: urn:uuid:71025e22-07e9-4ff7-9a0e-8fd158c75387
+date: 2006-06-24 18:02:00.000000000 -07:00
+tags:
+- ruby
+- lirc
+comments:
+- id: 1478
+  author: Jacob Fugal
+  author_email: lukfugl@gmail.com
+  author_url: http://jacob.fugal.net/
+  date: '2006-06-26 09:49:35 -0700'
+  date_gmt: ''
+  content: <p>Speaking of 3.mod, don't you think it would be great if cell phones
+    could use MikMod ring tones? I was just thinking about using 3.mod as a ringer
+    a few days ago...</p>
+---
+<p><a href="http://hans.fugal.net/src/lircr-0.1.tar.gz">lircr</a> (pronounced 'lurker') is a <a href="http://lirc.org">LIRC</a>
+client library for Ruby. It's simple, it's easy, it's fun. If you got LIRC, get
+lircr. I am not responsible if you grow more hair on your index finger or
+thumb.</p>
+
+<pre><code>require 'lirc'
+lirc = LIRC::Client.new
+event = lirc.next
+if event.name == "play"
+    system "xmms", "/av/music/3.mod"
+end
+</code></pre>

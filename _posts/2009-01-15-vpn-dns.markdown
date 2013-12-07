@@ -1,0 +1,62 @@
+---
+layout: post
+status: publish
+published: true
+title: VPN DNS
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1036
+wordpress_url: urn:uuid:91cb93e7-988d-46f5-a986-e10d861fc27f
+date: 2009-01-15 12:27:00.000000000 -08:00
+tags:
+- linux
+- mac
+- osx
+- openvpn
+- dns
+- vpn
+- bind
+- bind9
+- named
+- named.conf
+- wan
+- forward
+- cache
+- caching
+- nameserver
+- resolv.conf
+comments: []
+---
+<p>I have a VPN and a DNS server that serves up forward and reverse DNS for my VPN hosts, which zone I call <code>wan</code>. When I want to look at my Cacti graphs, I go to <code>gwythaint.wan</code> and as long as my laptop is on the VPN I can see them wherever I am. In theory anyway. In practice, getting this to work without screwing up other things is harder.</p>
+
+<p>I'll leave out the myriad permutations that I tried over the past couple of weeks and show you the one that actually works well. That is to have a caching and forwarding name server on your laptop, and to add <code>localhost</code> to your list of nameservers. For best results, you would have it forwarding to the name server your DHCP server gives you, with an explicit forward over the VPN for the <code>wan</code> zone (and its reverse). resolvconf on Linux can do this. Your situation may warrant a static forwarder for non-<code>wan</code> addresses, in which case you just set that forwarder and be done with it. If your various DHCP nameservers are a bit more subtle—perhaps serving up internal domains of their own—then you may have to not forward and/or recurse except explicitly for <code>wan</code>. </p>
+
+<p>I just took the default BIND9 configuration on my system and tweaked it thus:</p>
+
+<pre><code>// local/vpn stuff
+zone "wan" {
+    type forward;
+    forwarders { 172.17.77.1; 172.17.0.1; };
+};
+zone "17.172.in-addr.arpa" {
+    type forward;
+    forwarders { 172.17.77.1; 172.17.0.1; };
+};
+</code></pre>
+
+<p>On most systems the default <code>named.conf</code> is already some reasonable caching setup, so you wouldn't have to tweak it beyond that. Then I added <code>localhost</code> to the nameserver list (<code>/etc/resolv.conf</code> on Linux, in the network preferences pane on OS X) and checked that it works with a <code>dig @localhost gwythaint.wan</code>.</p>
+
+<p>Things got tricky because dig and host on my laptop were taking <em>forever</em> to
+return when I queried localhost—6 seconds or so. I chased this wild goose for
+awhile and in the end I didn't find the reason (it still does it), but I
+verified that it's not a problem. If you use the <code>-v</code> flag to host you notice
+that the actual queries took &lt;1ms, so whatever else host and dig are doing may
+not be relevant. Even stranger, if you do <code>host -v gwythaint.wan</code> and don't
+specify to query localhost, everything resolves instantly and yet it reports
+that it queried localhost (which you can verify with the non-traffic on repeat
+requests via tcpdump). It hasn't slowed down any other applications (a 6-second
+slowdown on DNS lookups would be very obvious), so I chalk it up to "who
+cares?" If host and dig on OS X return the right answer, and you verify they're
+querying the right server, then you're good to go.</p>

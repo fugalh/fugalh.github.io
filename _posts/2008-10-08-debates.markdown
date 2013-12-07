@@ -1,0 +1,43 @@
+---
+layout: post
+status: publish
+published: true
+title: Debates
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1010
+wordpress_url: urn:uuid:58cbaa72-dbe5-47a4-96ea-3f6dee662496
+date: 2008-10-08 06:32:00.000000000 -07:00
+tags:
+- politics
+- obama
+- mccain
+- debate
+- campaign
+- issues
+- policies
+- leaders
+comments: []
+---
+<p>I'm neither a republican nor a democrat, and I like to refrain from delving into politics on my blog (except perhaps in the case that it's tech-related).</p>
+
+<p>I have indeed formed an opinion about the <em>candidates</em>, though I'm still pondering some of the <em>issues</em> and third parties. <a href="http://www.comics.com/comics/getfuzzy/index.html">Get Fuzzy</a> today just about sums it up.</p>
+
+<p><a href="http://www.comics.com//comics/getfuzzy/archive/getfuzzy-20081008.html"><img src="http://www.comics.com/comics/getfuzzy/archive/images/getfuzzy2002445681008.gif" alt="Get Fuzzy Debate Cartoon"/></a></p>
+
+<p>So while I'm talking politics I might as well enumerate the issues on my mind.</p>
+
+<ol>
+<li>Privacy and Freedom, particularly of the flavor that has being stripped from us like mad since 9/11. Airplane "security", the Patriot Act, terrorism in the name of fighting terrorism, etc. Nobody's talking about this, I'll have to research their records, but I'm guessing McCain at least will fail this test.</li>
+<li>Technology savvy, or at least technology humility. Technology plays a huge and increasing role in the world, the economy, and the lives of many of us (especially me). Lawmakers and presidents have shown an amazing inability to grasp what is possible and impossible with technology, let alone what is wise.</li>
+<li>Intelligence and Wisdom. Frankly, things are just complicated. No set of ideals, even the ones I hold, are going to work if blindly adhered to. Ideals must be guidelines, and in the end any public official has to make lots of judgement calls. I want someone who will weigh the issues, consider alternatives that fall outside his idealogy, and listen to the smart and wise (and often contradictory) people that he (hopefully) surrounds himself with.</li>
+<li>Be a good neighbor. The rest of the world pretty much hates us by now. I could care less if people hate us for irrational reasons, and don't believe we're in any sort of popularity contest, but I believe it's important to our economy, livelihood, and very existence to be a peaceable, approachable, respectable, intelligent country instead of a warring, arrogant, ignorant, laughing stock country. It's not entirely fair, but people do judge the whole lot of us by who we elect to be our leader. This also affects me directly, since I interact with people from other countries regularly.</li>
+<li>Fix the bits of the system that are broken, e.g. <a href="http://change-congress.org/">Change Congress</a>. McCain likes to tout himself as a maverick and reformer, but I'm far from convinced. I doubt either candidate will take us very far here, but if this issue comes into play it will be part of my decision, and may influence my local selections more.</li>
+<li>The economy, the war(s) and foreign policy, health care, education, pronunciation of "nuclear", grandmas, babies, and world peace.</li>
+</ol>
+
+<p>In case you couldn't tell, McCain has already dug himself into a pit in my mind. I get a much clearer picture of where Obama stands, and sense more intelligence and willingness to ponder from him, although I don't necessarily agree with some of the policies on his platform.</p>
+
+<p>I think it's important to realize that we are voting for people not issues. We live in a republic, which means we elect people to take care of stuff for us. We want them to represent our interests and ideals, but I think it's more important to want them to have integrity and be smarter than most of us when it comes to solving the problems that they are asked to solve. Because of the wide spectrum of things that come to the table (technology, justice, foreign policy, etc.) we can't really expect to find one person really good at all of them. So we need to find a person that will surround himself with smart people and be able to discern good ideas from bad. In short, we're voting for a leader, not a set of policies or anti-policies for the next 4 years.</p>

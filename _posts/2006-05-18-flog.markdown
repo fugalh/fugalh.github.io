@@ -1,0 +1,46 @@
+---
+layout: post
+status: publish
+published: true
+title: flog
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 158
+wordpress_url: urn:uuid:2d8327a7-c1ba-400e-a88c-fc24a3599746
+date: 2006-05-18 09:04:00.000000000 -07:00
+tags:
+- typo
+- blog
+- post
+- vim
+- emacs
+comments:
+- id: 1465
+  author: Busby Test SEO
+  author_email: hackerbuds@yahoo.com
+  author_url: http://pinayspeak.com/pinaytest/
+  date: '2008-12-11 23:58:56 -0800'
+  date_gmt: ''
+  content: <p>flog is a good one</p>
+---
+<p>A while back I switched my blog from Blosxom to Typo. Typo is really spiffy but
+I am not a fan of HTML edit boxes, so I looked for good blog posting software.
+I didn't find any, and certainly none that was free, and I was really
+comfortable with writing my posts using Markdown in vim, so I decided to write
+my own. Thus was born flog, so named because it rhymes with blog and reflects
+the true effect that my blog has upon the world. </p>
+
+<p>From the README:</p>
+
+<blockquote>
+    <p>Run <code>flog</code> and edit the post template in <code>$EDITOR</code>. When done, save and exit
+    <code>$EDITOR</code> and your post will be submitted.</p>
+</blockquote>
+
+<p>I finally got around to adding the pieces to make it robust enough for general
+consumption, and so I am releasing it. You can find it at
+<a href="http://hans.fugal.net/src/flog">http://hans.fugal.net/src/flog</a>.</p>
+
+<p>Flog uses the MetaWebLog API, so it should work with a variety of blog software.</p>

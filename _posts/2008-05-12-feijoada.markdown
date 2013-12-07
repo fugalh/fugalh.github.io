@@ -1,0 +1,74 @@
+---
+layout: post
+status: publish
+published: true
+title: Feijoada
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 960
+wordpress_url: urn:uuid:d5d0a9e3-898f-4d45-adb5-c2bc36225e58
+date: 2008-05-12 15:29:27.000000000 -07:00
+tags:
+- rice
+- brazilian
+- yuca
+- feijoada
+- beans
+- kale
+comments:
+- id: 1741
+  author: Jayce^
+  author_email: jayce@lug-nut.com
+  author_url: http://halls.lug-nut.com/jayce
+  date: '2008-05-12 16:06:05 -0700'
+  date_gmt: ''
+  content: |-
+    <p>Ah, a reminder of the worst thing of my mission :)</p>
+
+    <p>Feijoada can vary greatly depending on what region you are in, going from a black bean chili in São Paulo and the South, to a true horror in the Bahia type regions.  Basically true feijoada would consist of "Leftover pig parts" mixed with your cooked black beans, and some mandioca, either flour (farinha) which you get in farofa, or larger chunks.
+    It was regular to see snouts, ears (with hair), and more stewing in a pot of beans.</p>
+
+    <p>Also, to get the beans right, try using a pressure cooker.</p>
+---
+<p>You haven't lived until you've had Brazilian cuisine, and feijoada is as Brazilian as it gets. (Personally, churrasco beats the pants off feijoada any day, but churrasco is in a class all its own.)</p>
+
+<p>I finally got up the courage this weekend to make feijoada, even though I had no Brazilians to guide me except ye olde internet. I'm happy to report the experiment was a success. It was delicious, and probably not entirely unlike authentic feijoada (it <em>has</em> been over 9 or 10 years since I had some, not counting Tucanos).</p>
+
+<p>The trouble with trying to make feijoada from the cookbook of Google is that the dish is at once both incredibly simple and incredibly complex and varied. It's simple in that it's essentially just beans and pork. It's complex and varied in that most recipes call for a half dozen kinds of pork, make huge amounts, and generally contradict each other.</p>
+
+<p><a href="http://www.maria-brazil.org/feijoada.htm">The recipe</a> I ended up using as a basis was from <a href="http://www.maria-brazil.org/brazilian_recipes.htm">Maria's Cookbook</a>. It's a veritable gold mine of Brazilian recipes.</p>
+
+<p>So, let's get down to my experiment. I went to Albertson's and grabbed one 1-lb bag of black beans, 1 package (about 1 lb) of salt pork, and 1 kielbasa sausage (about 1 lb). For some reason my wife didn't let me get pig's feet, but that would have been fairly traditional. I also picked up some yuca, since farofa was nowhere to be found. Oh, and I grabbed some kale.</p>
+
+<p>Saturday night I started the beans soaking, then realized the timing might be a little off. I read somewhere that you don't want to soak more than about 12 hours, but we were to be at church from 12–4. So I began contemplating slow cookage.</p>
+
+<p>The next morning, into the crock pot on high. I sautéed about half the onion and 2 small cloves garlic in a bit of olive oil, and threw that in too. Then some 3 hours or so later I chopped up the salt pork and kielbasa and put it in as well, and a couple pinches of kosher salt (I think I had to add a touch of water at this point too).</p>
+
+<p>After church, the beans were still not quite done, but the meat definitely was. However, the salt pork was still a lot of solid fat. I think next time I would render the fat before putting it in, and since it was so fatty I'd probably just use bacon or pork butt next time (or pig's feet if I could get away with it). It was also a tad too salty, so if I were using salt pork or something equally salty in its place, I'd skip the pinches of kosher salt.</p>
+
+<p>While it continued cooking I boiled the yuca and made <a href="http://www.maria-brazil.org/arroz.htm">the rice</a>. When the yuca was fork-tender, I drained, dried, and cut into strips. Then I fried it. It was disgusting, I think because it was probably really old. I wonder if you can order farofa online…</p>
+
+<p>About 5:30 or 6 the beans were nice and tender, so I chopped up the kale and just barely wilted it in butter (per this recipe for <a href="http://www.maria-brazil.org/couve_a_mineira.htm">couve a mineira</a>, though it was kale instead of collard greens). Then dinner was served to salivating family.</p>
+
+<p>The long cook had made the meat bloated and a bit too soft, and though most of the salt pork fat was melted in the end I still wished I had rendered it or used something else. The kale garnish was delicious and contributed as much as anything to the authenticity. We threw the yuca away.</p>
+
+<p>So here's the recipe I'll try next time:</p>
+
+<pre><code>Feijoada
+
+1 lb black beans
+1 lb bacon, pork butt, ham hock, pigs feet, salt pork, or any other pork
+1 lb kielbasa sausage
+1/4 of a medium onion
+1 clove garlic
+
+Soak beans, bring to a boil and simmer one hour. Sauté garlic and onion in
+olive oil, render fat out of garlic or salt pork as needed, and add to the
+beans. Continue to simmer about another half hour, add salt to taste, and
+simmer until beans are tender. Mash some beans to thicken. Serve over rice
+and garnish with greens and farofa.
+</code></pre>
+
+<p>I'm making two assumptions here that need bearing out: it really does take about 2.5–3 hours to cook soaked black beans, and that the meat will cook thoroughly in the 1–1.5 hours time. I think the latter assumption is fairly safe, but I'm not sure about the former. Why don't you give it a try and let me know?</p>

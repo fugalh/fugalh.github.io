@@ -1,0 +1,41 @@
+---
+layout: post
+status: publish
+published: true
+title: Samsung YP-MT6X
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 31
+wordpress_url: urn:uuid:f3ddf8aa-88e6-418b-aded-a1c23cae86cc
+date: 2005-11-19 18:33:44.000000000 -08:00
+tags:
+- life
+comments: []
+---
+<p>I was convinced that the iRiver iFP 795 was the player for me. Then I literally
+stumbled across a post on a web forum somewherer that said if you think you
+like the iFP 795, you really want a Samsung YP-MT6X. I decided to investigate
+that claim, and from where I sit it seems to be true. The YP meets all my
+criteria: OGG, long battery life, USB mass storage. It does this better than
+the iFP, too. The iFP supports OGG, but apparently there's some minor glitches
+with it including heavier battery consumption and clicks between songs. The
+Samsung also puts in a little plug for OGG in their manual, rather than just a
+footnote on some technical specs page. Samsung claims 42 hours, vs. iRiver's
+claim of 40 or so, and the reviewers say they got close to 40, whereas the
+iRiver reviewers say they were really only getting 20 or 30. The Samsung is USB
+mass storage out of the box, but the iRiver requires a firmware upgrade.</p>
+
+<p>Apparently earlier firmware of the Samsung player had some issues with
+navigation, but those have been cleared up. The Samsung looks better, in my
+opinion. It's classier and not a weird shape with weird protrusions. The
+Samsung manual reads slightly better, too. So the Samsung looks just a bit
+better in almost every way, and is $10 cheaper in most marketplaces.</p>
+
+<p>The odd bits where the iRiver has an edge: the YP-MT6X records voice to WAV,
+which means it's pretty worthless for long recordings. It records FM and
+line-in to mp3 though... maybe a future firmware will let you choose mp3 for
+voice recording. The iFP also has a limited FM recording timer. It's only one
+timer, so it wouldn't be incredibly useful (although I could make sure never to
+miss cartalk again), but it is something.</p>

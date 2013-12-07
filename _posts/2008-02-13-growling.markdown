@@ -1,0 +1,92 @@
+---
+layout: post
+status: publish
+published: true
+title: Growling
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 925
+wordpress_url: urn:uuid:c70d83a1-4a14-433c-b731-2c7566cb3e89
+date: 2008-02-13 10:20:49.000000000 -08:00
+tags:
+- leopard
+- growl
+- growlnotify
+- unreliable
+comments:
+- id: 1689
+  author: Jacob
+  author_email: ''
+  author_url: ''
+  date: '2008-02-13 15:05:22 -0800'
+  date_gmt: ''
+  content: |-
+    <p>Not really related to your issue, but on the topic of Growl...</p>
+
+    <p>If you've found yourself hooked by growl but away from OSX (or in a mixed OSX/linux  network), Mumble seems to be a pretty useful Growl-clone for linux. It not only clones the functionality, but also the protocol, such that it should be able to receive notifications from your mac boxes, if your mac boxes are sending events to the network.</p>
+
+    <p>Disclaimer: I've not actually used it over the network, just with local processes. And the pidgin plugin that it comes with (which listens for pidgin on dbus and rebroadcasts the dbus event as a growl/mumble event, as far as I can tell) is broken, at least on x64. But in general, it's functional and almost as clean looking as growl.</p>
+- id: 1690
+  author: Viktor
+  author_email: neri_neraa@yahoo.com
+  author_url: http://www.cleancorpse.org
+  date: '2008-02-14 05:34:21 -0800'
+  date_gmt: ''
+  content: <p>and now, another trouble with leopard. I wish they'd configure it better
+    so we could truly maximize it.</p>
+- id: 1691
+  author: Niall
+  author_email: ''
+  author_url: ''
+  date: '2008-04-03 18:11:29 -0700'
+  date_gmt: ''
+  content: <p>Many thanks! I've been banging my head against this issue for the last
+    couple of hours. You've come up with a really simple, elegant solution.</p>
+- id: 1692
+  author: Hans
+  author_email: ''
+  author_url: ''
+  date: '2008-06-09 10:14:16 -0700'
+  date_gmt: ''
+  content: '<p><em>Update</em>: growlnotify included in Growl version 1.1.3 fixes
+    this problem, so the workaround is no longer necessary.</p>'
+- id: 1693
+  author: Peter
+  author_email: ''
+  author_url: ''
+  date: '2008-09-22 12:16:58 -0700'
+  date_gmt: ''
+  content: |-
+    <p>Hans,</p>
+
+    <p>I'm not so sure; I'm using Growl 1.1.4 with growlnotify 1.1.4 and triggering it with autotest.  I've experimented with pulling the generated growlnotify command line out of the autotest notification and running that repeatedly.  </p>
+
+    <p>I got a 33% failure rate -- granted, much better than what I've seen other folks report -  but at the beginning of a coding session, its enough to make me wonder if my test code didn't work.</p>
+
+    <p>I'll give the workaround a shot</p>
+- id: 1694
+  author: Peter
+  author_email: ''
+  author_url: ''
+  date: '2008-09-22 12:35:57 -0700'
+  date_gmt: ''
+  content: |-
+    <p>I ended up implementing the workaround from <a href="http://hasseg.org/blog/?p=111" rel="nofollow">http://hasseg.org/blog/?p=111</a>, which seems to be working reliably. </p>
+
+    <p>As of September 8, 2008, the fine folks at growl have acknowledged the defect and logged a new bug against it (<a href="https://bugs.launchpad.net/growl/+bug/267767" rel="nofollow">https://bugs.launchpad.net/growl/+bug/267767</a>)</p>
+---
+<p><code>growlnotify</code> is a little program that comes with <a href="http://growl.info/">Growl</a> which allows you to submit Growl notifications from the command line or from scripts. Unfortunately, it doesn't seem to work properly in Leopard—the notification only shows up maybe ⅓ of the time. There's a hint in the logs, but I have no idea what it means:</p>
+
+<pre><code>2008-02-13 10:09:15 GrowlHelperApp[17821] *** -[NSMachPort handlePortMessage:]: dropping incoming DO message because the connection or ports are invalid
+</code></pre>
+
+<p>Apparently the devs are pretty clueless about the problem too, as it's been reported but not yet fixed. The folk(s) over at hasseg.org came up with <a href="http://hasseg.org/blog/?p=111">a workaround</a>, which is all well and good, but I observed a simpler workaround than using the network (which requires configuring growl to allow network connections, if I'm not wrong). This little wrapper script does the trick, at least in my initial tests:</p>
+
+<pre><code>#!/bin/sh
+wrappee=/usr/local/bin/growlnotify
+exec $wrappee -w "$@" &amp;
+</code></pre>
+
+<p>Basically we tell it to wait for notification from growl that the message is now off the screen, and then go in the background so we don't have to actually wait for it. This has the side effect of essentially rendering the <code>-w</code> option useless when using the wrapper, so I've decided to wrap it with a different name instead of a transparent wrapper. I call it <code>growl</code>, which is both shorter to type and not nearly as ugly as <code>growlnotify</code>. Enjoy.</p>

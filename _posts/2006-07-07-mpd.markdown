@@ -1,0 +1,39 @@
+---
+layout: post
+status: publish
+published: true
+title: mpd
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 663
+wordpress_url: urn:uuid:71276c3a-101a-4884-b2fb-9f148644b714
+date: 2006-07-07 09:53:31.000000000 -07:00
+tags:
+- audio
+- review
+- mpd
+comments: []
+---
+<p>I have a laptop and I often use it at home, on the couch. I have a workstation on the other side of the room that my wife frequently uses (which is one of the reasons why I mostly use the laptop), which has decent speakers. I like to listen to music. I think you can see where I'm going with this.</p>
+
+<p>In the past we've used various media players. The one that worked best for
+remote control was xmms with a homebrew xmlrpc client I made, and now that I
+have lirc working that would be another option for remote control. But my wife
+kept closing xmms and xmms is <em>lame</em> anyway. I got into quod libet for a little
+while but even though there's several ways to control it apart from the gui,
+it's still not very remote friendly.</p>
+
+<p>Von and I have kicked around the idea for a better music player many times, and
+the other day I had an epiphany: it should be a sort of stereo daemon, with
+clients connecting over the network and driving it. I've learned that most good
+ideas I have have already been had, so I searched a bit and sure enough,
+<a href="http://musicpd.org/">mpd</a>. mpd is nifty, wholesome, and flexible. Your wife
+can't close it, you can control it with simple command-line, ncurses, gtk, qt,
+etc. clients (still need a good osx client, but the ncurses one is good enough
+for a cli junkie like me). If I have music playing and she wants to stop it,
+she just has to fire up her client if necessary and hit stop. No fuss, no
+excuses. If she's closed her client and left the room and I want music I don't
+have to stand up, futz around with ssh, nohup, and DISPLAY, or even think two
+thoughts. I just fire up my client and hit play. Highly recommended.</p>

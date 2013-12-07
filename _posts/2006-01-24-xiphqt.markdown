@@ -1,0 +1,35 @@
+---
+layout: post
+status: publish
+published: true
+title: XiphQT
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 93
+wordpress_url: urn:uuid:c5a9e0fe-41fa-4e22-9b6b-dbf8340e2ae8
+date: 2006-01-24 22:03:24.000000000 -08:00
+tags:
+- mac
+comments: []
+---
+<p>The wait is over! <a href="http://www.xiph.org/quicktime/">XiphQT</a> is here. It's got a
+little room for improvement, but it's a proper QuickTime codec for QT7 (e.g.
+Tiger) that plays Ogg. In particular, iTunes' ugliest corners show through.
+Streaming is a bit broken, and there's some metadata problems. But this is
+primarily iTunes' fault, and as it's closed-source there's not much one can do
+about it.</p>
+
+<p>So now that I have more RAM (didn't I tell you?) and Ogg support, I actually
+sometimes listen to music on my laptop now. But mostly I listen on the desktop
+with my nifty XMMS xml-rpc remote I hacked up in no time flat thanks to ruby.
+As a bonus I get IMMS there too, although it's contaminated with my wife's
+preferences too.</p>
+
+<p>I hear tell that <a href="http://www.videolan.org/vlc/download-macosx.html">VLC</a>
+supports Ogg and isn't half bad. I'll have to give it a try tomorrow. If I like
+it you'll hear about it. If I hate it you'll hear about it. Otherwise you'll
+know I'm still listening to <a href="http://www.omd.uk.com/discography/albums/html/a_53.html">Sugar
+Tax</a> on the desktop
+speakers...</p>

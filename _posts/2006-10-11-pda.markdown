@@ -1,0 +1,102 @@
+---
+layout: post
+status: publish
+published: true
+title: PDA
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 737
+wordpress_url: urn:uuid:e8d74525-16b6-41e2-95fe-f4e762954ae9
+date: 2006-10-11 21:05:00.000000000 -07:00
+tags:
+- life
+- pda
+- hipster
+- organization
+comments: []
+---
+<p>My fan has asked me to talk about PDAs. This is great for two reasons: because
+I have a lot to say about PDAs and because I learned I had a fan.</p>
+
+<p>First of all, let's just make sure we're on the same page. We'll be talking
+about <acronym title="PDAs">Personal Digital Assistants</acronym>, not <acronym
+title="PDAs">Push-Down Automata</acronym> or <acronym title="PDA">Public
+Display of Affection</acronym>.</p>
+
+<p>In my frugal but gadget-filled life I've managed to own a PDA or two, and
+before that several Franklin planners and the like. I am, at heart, an
+organized person. Or at least, a person drawn to organization. When I was
+younger I obsessed over my Franklin planner, filled out lots of those
+enlightened forms, did the daily planning thing at least half of the time, and
+kept my pretty simple life pretty well organized.</p>
+
+<p>When I served a mission for <a href="http://www.mormon.org">my church</a> they had these
+cardstock one-page double-sided planners, where you could keep track of who you
+were visiting and teaching, and your calendar for the week. We were supposed to
+plan every hour of the day each morning so as to maintain peak efficiency
+(think Seven of Nine). Some missionaries ignored these planners whenever they
+could get away with it. Others used them precisely as they were designed to be
+used. I, with the help of some of my wiser companions, developed a system that
+was both less tedious and more effective (for me, anyway). It involved ignoring
+the column headings and writing down more information, omitting some useless
+information that was asked for, and using symbols and squiggly lines to
+communicate various bits of information. I learned two important truths:
+planner forms are like speedos and programming languages (one size does not fit
+all), and pen and paper is amazing in its flexibility and ability to
+communicate.</p>
+
+<p>Fast forward to the day of ubiquitous PDAs. I got my hands on an old Palm Pilot
+and had loads of fun as any geek will with a new gadget. I used it at least as
+much as I used to use my old Franklin planners. But I knew it was just a game.
+Then I got my hands on a newer old Handspring Visor and had a little more fun
+(more RAM) but rarely used it for more than the occasional Project Gutenberg
+book. I've come to accept and even embrace the truth. I just don't use PDAs.</p>
+
+<p>Let's take a look at what a PDA is and what it's supposed to accomplish. It is
+a little slow computer with a little screen, terribly slow input, and no
+networking (that I can afford). It's supposed to make your life organized and
+productive and help you do all those things that will make you rich and famous,
+or at least be a fun toy to entertain yourself during boring meetings. For me,
+it accomplishes none of these things except perhaps the entertainment during
+meetings, and it's not very attractive on its own merits as a computer.
+Besides, ever since I got a laptop I have a real computer I can play with in
+almost as many places as I could play with my PDA.</p>
+
+<p>The one thing a PDA does do is hold text. Lots of text, although never quite
+enough. I can tote my latest Project Gutenberg book and Scriptures around and
+read them wherever I like. This is nice, when I do much moving around. When I
+was commuting on the bus every day for an hour I used my PDA as an eBook reader
+extensively. It does the job, but I'm hoping for that electronic paper any year
+now, which will be so much nicer.  In the meantime I am either at home, in my
+office at school, or in class/church 90% of the time. The rest of the time I'm
+doing husbandly/fatherly things which don't involve PDAs anyway (at least, not
+the digital kind), so I have little use for my PDA and don't even know where it
+is at the moment.</p>
+
+<p>However there's still that little bit about being organized. I'm not
+anti-planner, I'm just anti form and anti PDA-as-planner. After all, a PDA is
+just a glorified form when used for planning. I have gone back to what I
+learned on my mission. I plan with pen and paper. I use a <a href="http://www.43folders.com/2004/09/03/introducing-the-hipster-pda/">Hipster
+PDA</a> and a
+<a href="http://www.travelessentials.com/travelblog/product-reviews/13/">Fisher Stowaway Space
+Pen</a>. My
+hipster is just some index cards on which I scribble whatever I want.
+Frequently, when my life gets busy enough to warrant it, I quarter an index
+card and write my tasks in the appropriate quarters (one of the things I took
+away from Covey). Whenever the need arises I take notes on a card. Occasinally
+I throw away the cruft. I have a card for frequently-wanted telephone numbers
+and a card with my name, email, and phone number on it. That's it. That's my
+PDA. Aside from eBooks and meeting distractions no PDA can hold a candle to my
+Hipster.</p>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Hpda.jpg/180px-Hpda.jpg" alt="Hipster PDA"/></p>
+
+<p>On a related note, I find ye olde composition notebook is all I need for my
+school notetaking, brainstorming, designing, doodling, and logbooking. And to
+think I used to think they were the silliest thing in the school aisle. They have a miniature version which would make a great alternative to an index-card Hipster PDA.</p>
+
+<p><img src="http://pics.drugstore.com/prodimg/92893/200.jpg" alt="Mead Composition Notebook"/></p>
+
+<p>I just found out about the <a href="http://www.amazon.com/Moleskine-Small-Memo-Pockets-Hemingway/dp/B00069DKWU">pocket-sized</a> <a href="http://www.moleskine.com/eng/_interni/catalogo/Cat_int/catalogo_notebooks.htm">Moleskine</a> which would make an excellent gourmet analog PDA.</p>

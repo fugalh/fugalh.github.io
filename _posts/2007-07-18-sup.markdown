@@ -1,0 +1,61 @@
+---
+layout: post
+status: publish
+published: true
+title: Sup
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 853
+wordpress_url: urn:uuid:85379abe-ab4f-49a0-94cf-0a948d223bfa
+date: 2007-07-18 23:22:55.000000000 -07:00
+tags:
+- email
+- mutt
+- gmail
+- sup
+comments: []
+---
+<p>There's a new email client in town. It's still brand squeaking new, but it
+shows promise. It's called <a href="http://sup.rubyforge.org/">Sup</a>.</p>
+
+<p>If you have a love-hate relationship with GMail, Sup may be for you. It takes
+some of the excellent things about GMail, improves on them, and dispenses with
+most of the antiexcellent things about GMail. For example, it's console-based
+(a la mutt), you can use your favorite editor to edit mail (again, a la mutt),
+and you have real threads instead of flat pseudo-thread "conversations". </p>
+
+<p>If I had to describe it in a few words, I'd say it was a gmail and mutt mashup.
+It looks really cool. I might give it a try, if I want to bad enough.
+Unfortunately it looks like setting it up is not going to be a walk in the
+park. It's not that it's particularly hard in any way, in fact the opposite. It
+has an easy interactive (if slightly redneck) config program to get you up and
+running quickly. The problem is that it has to know about all your mail
+sources, and by that I mean all your mail folders in all your mail accounts. I
+have dozens of folders in at least two accounts.  Adding them by hand will not
+be pleasant. With mutt, or thunderbird, or whatever, you either just access the
+folders, or at least you subscribe to them. I understand the technical reason
+(fast searching) but it's just got to be easier to import existing folders and
+elaborate procmail setups.</p>
+
+<p>One of the benefits of the gmailesque "search and tag" approach to email is
+making it easy to deal with folders and filters. I would expect, then, a way to
+set up procmailesque automatic labelling (like gmail allows, but I'd really
+prefer a procmailesque syntax). Even better, automatic labelling (and
+archiving, perhaps by config) based on <code>List-Id</code> headers. Then joining and
+leaving lists might just be easy enough that I'd consider doing it more
+frequently (i.e. for bug reports). In fact, while I'm dreaming, one-touch
+subscribe/unsubscribe to the list the current message came from would be way
+cool.</p>
+
+<p>It's amazingly complete for beta version 0.1. I expected a half-baked client
+with lots of bugs, but what I see is a fledgling mutt-like interface with
+extreme potential and high usability even now. I expect to see more keybindings
+as time goes on and people request them. I expect to see more hookability,
+where you can do random whatevers e.g. when a certain regex is matched on a new
+message, etc. I expect a little smarter security of my passwords. I expect
+custom colorization (never was a big fan of default mutt colors), etc. All
+these things I expect will come with time. It's a promising client.</p>
+
+<p>All mail clients suck. This one might just suck better.</p>

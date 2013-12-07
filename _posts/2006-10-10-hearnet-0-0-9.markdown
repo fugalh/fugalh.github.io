@@ -1,0 +1,31 @@
+---
+layout: post
+status: publish
+published: true
+title: Hearnet 0.0.9
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 735
+wordpress_url: urn:uuid:bf24fdfd-3422-44f7-9e69-59905d483c33
+date: 2006-10-10 15:47:09.000000000 -07:00
+tags:
+- audio
+- linux
+- hearnet
+- pcap
+- network
+comments: []
+---
+<p>Announcing the latest version of <a href="http://hans.fugal.net/src/hearnet">hearnet</a>:
+the (in)famous little <a href="http://jackaudio.org">JACK</a> toy. The name may bring back
+memories of your favorite lunch lady, but the sound of your own network traffic
+will move you in ways that she never could have hoped to move you. I hope
+that's a good thing.</p>
+
+<p>This release sports filter expressions (a la tcpdump) and the ability to drop
+privileges and run as a normal user, and therefore play nice with the other
+JACK apps in your playground.</p>
+
+<p>Enjoy, and don't get any hair in your network.</p>

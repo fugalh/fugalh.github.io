@@ -1,0 +1,90 @@
+---
+layout: post
+status: publish
+published: true
+title: git
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 111
+wordpress_url: urn:uuid:07e8bfb1-e64f-49d4-9e93-df15097ce5e5
+date: 2006-04-09 12:53:07.000000000 -07:00
+tags:
+- cs
+- linux
+- scm
+- git
+- kernel
+- darcs
+- cvs
+comments: []
+---
+<p>I spent some time over the weekend with <a href="http://git.or.cz/">git</a> yesterday, so
+I finally have an opinion about it. </p>
+
+<p>Distributed revision control systems are absolutely fabulous. If you haven't
+given one a serious go yet, you really should. My favorite is
+<a href="http://abridgegame.org/darcs/">darcs</a>. This post will address git from the
+perspective of a darcs user, and I might throw some comparisons to CVS or
+Subversion in, too.</p>
+
+<p>git is really a lot easier to use than I had anticipated. I read lots of
+warnings in the documentation about how git is stupid (by definition, this is
+one of its goals) and how unless your needs are a lot like Linus' needs, it
+won't be right for you. I've found that to be unnecessary modesty. git is very
+usable as a distributed revision control system for normal people on any size
+of project. It's not as nice as darcs, IMO, but it does have better performance
+for large projects, and it doesn't trail far behind anyway. It's a <em>lot</em> nicer
+to use than <a href="http://www.gnuarch.org/arch/index.html">GNU Arch</a>, even in its raw form.</p>
+
+<p>git pretends not to be an SCM, but rather a "filesystem". Whatever. git was
+written to do what Linus needed from an SCM, and it has never had any other
+purpose. Although it is conceivable that git could be used for other things, as
+it is quite general and flexible, that doesn't make it not an SCM. It certainly
+is like no SCM you've ever seen (at the low level) but it's still basically an
+SCM. </p>
+
+<p>Nevertheless, if you look too close at git you'll be either overwhelmed by the
+sheer volume of low-level filesystem-like commands, or thrilled by them.
+However you don't need most of them, and if you ignore them you can enjoy git
+usability, with the added security of knowing that should you need to doctor
+your repository (or have a git guru do so) all the low-level commands you need
+are there. That is a bonus in my book, but mostly theoretical.</p>
+
+<p>I think originally git had fewer scm-like commands and so people wrote
+Porcelains, like <a href="http://www.kernel.org/pub/software/scm/cogito/">Cogito</a>.
+Cogito is supposed to be easier to use and a more perfect SCM built on top of
+git. Frankly, I can't tell the difference between Cogito and git core, except
+that git core has more commands and options. Cogito does use slightly different
+terminology and command names, which only confuses the game. I think I'd rather
+learn the git commands and options that I need from well-written documentation
+and ignore the rest, than confuse myself with cogito. After only an hour or two
+of experience, I may be really missing the boat, so you might want to check it
+out anyway.</p>
+
+<p>Compared to darcs, git feels very familiar. darcs' UI is more polished, but git
+has a much richer set of commands. One primary difference is that git does
+branching, where in darcs a branch is basically a new copy of the repository.
+Both are valid approaches, but the git approach does take less disk space (and
+network bandwidth) which is important for 300-400 megabyte repositories, like
+the kernel. I think I will probably continue using darcs primarily, but I will
+probably try out git more in earnest when I get a chance to see if it might be
+time to switch.</p>
+
+<p>One thing I do not like about git is the tendency people have for providing
+their driver for hardware X in the linux kernel as a git repository. Hello!
+Nobody wants to download 350MB for your 10k of changes to the kernel. Nobody
+wants to run your bleeding edge git repository just so they can get your
+driver. That's idiotic. git makes it easy to make patches against whatever
+revision you want, so make patches against the latest stable kernel, or
+whatever RC version if necessary, and call it good. Providing access to your
+git repo is fine for developers, but don't expect it of users.</p>
+
+<p>In summary, I will be using git for my kernels from now on. It will be easier
+to move around between versions, save me disk space, and allow me to do minor
+hacks without worrying about them surviving the next kernel upgrade patch. If I
+didn't already know and love darcs, I'd start using git for my projects. If you
+have wanted to investigate distributed revision control, check out darcs and
+git and go with whichever your gut tells you to, I think either one will serve
+your needs well. For heaven's sake, stop using CVS in any case!</p>

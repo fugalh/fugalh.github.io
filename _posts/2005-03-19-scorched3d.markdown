@@ -1,0 +1,36 @@
+---
+layout: post
+status: publish
+published: true
+title: Scorched Earth is Back
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 30
+wordpress_url: urn:uuid:4b5d0569-a8c8-45a0-95b7-effa64c0a5fe
+date: 2005-03-19 12:15:46.000000000 -08:00
+tags:
+- life
+comments: []
+---
+<p><a href="http://www.scorched3d.co.uk/">Scorched 3D</a> is a fabulous modernization of the
+classic DOS game Scorched Earth, "The Mother of All Games". It features 3D
+graphics and gameplay, LAN/Internet play, and in most ways it is faithful to
+the memory of Scorched Earth. </p>
+
+<p>Scorch, as we used to call it, was one of our favorite games growing up. With 7
+kids all wanting to get in on the action, it was one of the few games we could
+play cooperatively. It was a favorite tactic of mine, when it became obvious
+that I might get kicked off the computer to let someone else have a turn, to
+suggest we play scorch. It usually worked, too.</p>
+
+<p>Scorched 3D is wonderful in every way that scorch was, and then some. The only
+fault I can find with it is that the computers are too dumb. Surviving in a
+match with 5 true cyborgs bearing down on you was one of the true joys of the
+original scorch. Oh, and for some reason things go haywire unless I turn off
+the water, but I <em>can</em> turn it off, so that's ok.</p>
+
+<p>Scorched 3D runs on linux, so I don't think I'll be playing classic scorch much
+anymore. I rank this game right up there with BZFlag and Liero, taking the
+place of its noble predecessor.</p>

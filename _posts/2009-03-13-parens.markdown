@@ -1,0 +1,49 @@
+---
+layout: post
+status: publish
+published: true
+title: Parens
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1120
+wordpress_url: http://hans.fugal.net/blog/?p=1120
+date: 2009-03-13 12:28:55.000000000 -07:00
+tags:
+- round
+- programming
+- paren
+- parens
+- parentheses
+- parenthesis
+- parenthetical
+- brackets
+- square
+- braces
+- curly
+- printing
+- typography
+- (
+- )
+- ()
+comments: []
+---
+I'm a little let down this morning. I learned somewhere in college (probably from a classmate) that the singular of parentheses was paren. Certainly a lot easier to say, anyway. But when I looked it up in the dictionary this morning…
+
+<blockquote><strong>pa&middot;ren&middot;the&middot;sis</strong> |pəˈrɛnθɪsɪs|
+noun ( pl. <strong>-ses</strong> |-siːz|)
+…
+<ul><li>(usu. <strong>parentheses</strong>) one or both of a pair of marks ( ) used to include such a word, clause, or sentence.</ul></li></blockquote>
+
+The singular is parenthesis, and it all but condones using the plural for a single mark. But all is not lost!
+
+<blockquote><strong>paren</strong> |pəˈrɛn|
+noun (usu. <strong>parens</strong>) Printing
+a parenthesis.
+
+ORIGIN early 20th cent.: abbreviation of <strong>parenthesis</strong>.</blockquote>
+
+I don't know about you, but I'm sick and tired of saying parentheses (we say that a lot in programming). I propose that we usher in the shift from parentheses to parens. In programming, at least, let's use the word paren for singular and parens for plural. Will you join me?
+
+P.S. The British tend to call parens "brackets," which is short for "round brackets." I was teaching a class on C and had a British student, and I had her totally confused because to me "brackets" meant square brackets. When I said brackets (meaning square brackets) she thought parens. When she said brackets (meaning round brackets by default) I thought square brackets. When I said braces I meant curly braces (what other kind are there on the keyboard?), but to her braces was a synonym for brackets…

@@ -1,0 +1,59 @@
+---
+layout: post
+status: publish
+published: true
+title: gpg-agent is here (finally)!
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 53
+wordpress_url: urn:uuid:f6077bbd-c952-44fa-8023-b5f32643eaae
+date: 2005-03-23 16:55:47.000000000 -08:00
+tags:
+- linux
+comments: []
+---
+<p>I have been waiting for this for a long time. Finally, finally, it is here.</p>
+
+<p>The gentoo people, bless their hearts, <a href="http://www.gentoo.org/doc/en/gnupg-user.xml#doc_chap4">have documented
+gpg-agent</a> more than
+anybody else. Thanks to them and Google I discovered that keychain supports
+gpg-agent, and keychain is exceptionally-well documented.</p>
+
+<p>This excerpt from <code>keychain(1)</code> on my Debian box:
+    This snippet would work in .bash_profile (for bash) or .zlogin (for
+    zsh) to load two ssh keys and one gpg key:</p>
+
+<pre><code>    keychain id_rsa id_dsa 0123ABCD
+        [[ -f $HOME/.keychain/$HOSTNAME-sh ]] &amp;&amp; \
+                source $HOME/.keychain/$HOSTNAME-sh
+        [[ -f $HOME/.keychain/$HOSTNAME-sh-gpg ]] &amp;&amp; \
+                source  $HOME/.keychain/$HOSTNAME-sh-gpg
+</code></pre>
+
+<p>In addition to that, I configured my gpg-agent thusly in <code>~/.gnupg/gpg-agent</code>:</p>
+
+<pre><code>pinentry-program /usr/bin/pinentry
+no-grab
+default-cache-ttl 28800
+</code></pre>
+
+<p>Now configure gpg to use the agent:</p>
+
+<pre><code>$ echo use-agent &gt;&gt; ~/.gnupg/gpg.conf
+</code></pre>
+
+<p>Tell mutt to use the agent:</p>
+
+<pre><code>$ echo set pgp_use_gpg_agent &gt;&gt; ~/.muttrc
+</code></pre>
+
+<p>mutt for some reason requires that GPG_TTY be set (thanks to dato on #mutt on
+freenode), so add this to your
+<code>~/.bashrc</code>:</p>
+
+<pre><code>export GPG_TTY=`tty`
+</code></pre>
+
+<p>Enjoy!</p>

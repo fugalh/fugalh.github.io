@@ -1,0 +1,33 @@
+---
+layout: post
+status: publish
+published: true
+title: Irssix
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 641
+wordpress_url: urn:uuid:4b5a42ed-ea17-4a88-8bc2-06cfd5bae0f6
+date: 2006-06-28 22:10:09.000000000 -07:00
+tags:
+- irc
+- irssi
+- colloquy
+comments: []
+---
+<p>I've been using <a href="http://colloquy.info/">Colloquy</a> for my IRC needs in OS X for
+some months, but I always have this nagging feeling that I should be using
+something a little bit more perfect. See, Colloquy is high on the OS X
+interface scale, but surprisingly low on the geeky features that matter scale,
+especially considering its roots in <a href="http://irssi.org/">Irssi</a>. At long last I
+decided it's time to give <a href="http://adlr.info/?Irssix">Irssix</a> a try again. I
+quickly remembered why I abandoned it before--I don't like the font and white
+background--but as I was really yearning for the ol' Irssi experience again I
+quickly overlooked that.  If I get really ambitious I'll pay my dues and add a
+font and color dialog. </p>
+
+<p>In any case, I'm staying with Irssix. It's faster, and I mean <em>lighting</em> fast
+compared to Colloquy. I reckon it also takes much less RAM. Colloquy had a
+tendency to get up there in RAM usage, and I'd occasionally have to restart it.
+And of course, it's basically the Irssi we all love in every single way.</p>

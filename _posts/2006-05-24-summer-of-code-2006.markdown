@@ -1,0 +1,64 @@
+---
+layout: post
+status: publish
+published: true
+title: Summer of Code 2006
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 191
+wordpress_url: urn:uuid:13a839c5-8d31-44cd-8b02-5e42ceae08ca
+date: 2006-05-24 06:57:00.000000000 -07:00
+tags:
+- audio
+- cs
+- src
+- google
+- ardour
+comments:
+- id: 1469
+  author: Gabriel Gunderson
+  author_email: ''
+  author_url: http://gundy.org
+  date: '2006-05-24 08:33:57 -0700'
+  date_gmt: ''
+  content: <p>Very cool.  Keep us updated on the whole experience.</p>
+- id: 1470
+  author: Levi
+  author_email: levi@cold.org
+  author_url: http://lifeoflevi.com/blog/
+  date: '2006-05-24 10:18:09 -0700'
+  date_gmt: ''
+  content: <p>Congrats!  Sounds like a fun project, at least as long as the Ardour
+    source code isn't too bad to work with. Happy hacking!</p>
+- id: 1471
+  author: Hans Fugal
+  author_email: ''
+  author_url: ''
+  date: '2006-05-24 10:19:52 -0700'
+  date_gmt: ''
+  content: '<p>Actually, the Ardour code is a shining star of beauty and glory. I
+    was floored when I first dug into it at how clean and well-organized it is. Especially
+    in contrast to the most recent large project codebases I had inspected: Asterisk
+    and SER.</p>'
+---
+<p>It's official! I am one of the recipients of Google's <a href="http://code.google.com/soc/">Summer of Code</a> grant.
+That means I get paid $4500 to improve <a href="http://ardour.org/">Ardour</a> according
+to my proposal over the summer. Combined with the GAANN fellowship I've
+received this means I can spend most of the time this summer writing code for
+Ardour and studying for quals.</p>
+
+<p>My proposal was to modify Ardour so that plugins can be applied to regions
+instead of just tracks, both for realtime processing and bounced to disk. This
+is a feature I have sorely missed in Ardour, as it is an important tool for
+making electronic music and musique concrete efficiently. The other half is to
+add undo/redo serialization of the current undo system to allow unlimited undo
+across program instances.</p>
+
+<p>I'm really excited for this opportunity. It will be my first serious
+involvement with a big and important open source project as a developer. I've
+often told myself I needed to get involved with one, and now I have an ideal
+opportunity to do just that.</p>
+
+<p>There are <a href="http://ardour.org/node/237">two other SoC recipients for Ardour</a>. One is adding basic MIDI recording and playback, and the other is doing a Windows port. </p>

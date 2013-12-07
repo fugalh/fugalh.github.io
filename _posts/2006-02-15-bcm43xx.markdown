@@ -1,0 +1,41 @@
+---
+layout: post
+status: publish
+published: true
+title: Airport Extreme in Linux
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 74
+wordpress_url: urn:uuid:1ad3ea06-5936-493f-96ae-2e90f6bcd5dc
+date: 2006-02-15 22:26:17.000000000 -08:00
+tags:
+- mac
+comments: []
+---
+<p>I am writing this blog entry from my iBook G4 with a wireless connection from
+Linux, with no external wireless device. That's right, you heard me correctly.</p>
+
+<p><a href="http://bcm43xx.berlios.de">The Broadcom 43xx Linux Driver</a> has made this
+possible. See <a href="http://lwn.net/Articles/162894/">this LWN article</a> for a good
+starting place.</p>
+
+<p>I stubbornly compile my own kernel so it wasn't as simple as installing
+<code>bcm43xx-modules-2.6.15</code>, but with module-assistant it wasn't hard either. The
+only trick was knowing to compile the softmac module and install its headers.
+Something like this should work:</p>
+
+<pre><code>apt-get install bcm43xx-source dpatch
+m-a -t a-i ieee80211softmac
+dpkg -i /usr/src/ieee80211softmac-headers*deb
+m-a -t a-i bcm43xx
+modprobe ieee80211_crypt_wep
+modprobe bcm43xx
+ip link set up eth1
+iwconfig eth1 channel 1 essid fugal key restricted yourkeyhere
+udhcpc -i eth1
+</code></pre>
+
+<p>It's still in the not-for-the-weak-of-heart stage, but it seems to work well to
+me.</p>

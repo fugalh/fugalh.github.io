@@ -1,0 +1,55 @@
+---
+layout: post
+status: publish
+published: true
+title: git GUIs
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1109
+wordpress_url: http://hans.fugal.net/blog/?p=1109
+date: 2009-02-18 17:03:47.000000000 -08:00
+tags:
+- linux
+- mac
+- git
+- gui
+- terminal
+- mutt
+- revision
+- tig
+- gitx
+- gitk
+- screen
+- ncurses
+comments:
+- id: 2683
+  author: Hassan
+  author_email: ''
+  author_url: ''
+  date: '2012-07-31 12:06:15 -0700'
+  date_gmt: '2012-07-31 12:06:15 -0700'
+  content: Sorry for being off-topic, but could you please give me the name of the
+    terminal font? Thanks.
+---
+One of the nice things about git is due to its UNIXy design and its massive and ever-growing popularity, there are a lot of really nice bells and whistles, and I think we can expect to see even more. For example, <a href="http://github.com/">GitHub</a>.
+
+While most git interaction is with simple commands in the terminal, it often pays to be able to get a birds-eye view of the revision history, or what I will call the <acronym title="Directed Acyclic (Commit) Graph">DAG</acronym>. The original tool for this is <a href="http://www.kernel.org/pub/software/scm/git/docs/gitk.html">gitk</a>. Gitk is functional, but it's really really unpleasant. It's written in Tcl/Tk—what did you expect? Some of us have higher standards for usability.
+
+I tried out a few git GUIs and I have settled on two that I think are best of breed. The first is <a href="http://jonas.nitro.dk/tig/">tig</a>. Tig is an ncurses program, so it excels for remote operation over ssh, for quick dives into the repository without reaching for the mouse, and in keyboard use. Think of it as mutt for git. It's a fantastic program and I use it most frequently.
+
+<img alt="" src="/images/tig.png" title="tig screenshot" class="aligncenter" width="585" height="378" />
+
+I have customized my tig setup slightly:
+<code>$ cat /Users/fugalh/.tigrc 
+set show-rev-graph = yes
+color cursor white blue
+$ alias | grep tig
+alias tiga='tig --all'</code>
+
+The second is <a href="http://gitx.frim.nl/">GitX</a>. It's a mac app in every good sense, and it's an excellent git GUI. As you can tell from the screenshot, it's a bit easier on the eyes for visualizing complicated DAGs (not that this screenshot is of a complicated DAG).
+
+<img alt="" src="/images/gitx.png" title="GitX screenshot" class="aligncenter" width="893" height="452" />
+
+If you use GitX be sure to "Enable Terminal Usage…" so you can start it on the current repository on the terminal by typing <code>gitx</code>.

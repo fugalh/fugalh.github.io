@@ -1,0 +1,65 @@
+---
+layout: post
+status: publish
+published: true
+title: Pier 42 Pizza
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 804
+wordpress_url: urn:uuid:e11db4fd-3a78-48d1-8e7a-baed144cacd8
+date: 2007-02-26 20:59:00.000000000 -08:00
+tags:
+- food
+- sourdough
+- bread
+- pizza
+comments: []
+---
+<p>Made some delicious pizza tonight. As much for my benefit as yours I'm posting the recipe, since I always forget how much dough to make to feed n people.</p>
+
+<pre>
+Pier 42 Pizza
+-------------
+Serves 4 (two pies)
+As hot as your oven goes
+
+340  g   flour
+230  g   water
+1.33 tsp salt
+30   g   active sourdough start
+         olive oil
+         sauce
+         toppings
+
+Mix and let set 8-18 hours. Longer would be even better, but you'll want to do
+it in the fridge (take it out a couple of hours before). If you're in a hurry,
+add 1 tsp yeast and let set 3-4 hours. If you're really in a hurry, get
+Papa Murphy's.
+
+Divide dough in two and stretch one half into your favorite pizza shape. Get
+your toppings ready, then spread some olive oil over the crust, then spread
+some sauce on top of that. Add cheese and toppings (or toppings and cheese),
+and place in the preheated oven, preferably on a preheated pizza stone but a
+cookie sheet would be ok too. Bake until the crust and cheese are golden brown
+and delicious (5-15 minutes).
+</pre>
+
+<p>I didn't make the sauce for tonight's pizza, and frequently we just open a can
+of tomato sauce and spread that on and then sprinkle oregano, basil, and salt
+on top. But for completeness I'll give you the sauce recipe as it was told to
+me (and as far as I remember it correctly):</p>
+
+<pre><code>Sauté some garlic in some olive oil. Add a can of (mostly) drained diced or
+crushed tomatoes and bring to a simmer. Salt to taste. Cover with sprinkled
+basil, then add oregano and perhaps some thyme. Fresh is best of course, but
+you can use dried. Simmer until you declare it done. Or don't simmer it at
+all, someone told me that was the purist way.
+</code></pre>
+
+<p>If you're interested in going all Mario on us, jump on over to <a href="http://jvpizza.sliceny.com/">Jeff Varasano's
+Famous New York Pizza Recipe</a>. There's a lot to
+read and ponder there, and though I don't agree with everything on the whole
+it's a great starting place. You certainly can't deny that he has some
+delicious-looking pizza!</p>

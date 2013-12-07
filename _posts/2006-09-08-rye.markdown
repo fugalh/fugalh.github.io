@@ -1,0 +1,49 @@
+---
+layout: post
+status: publish
+published: true
+title: Rye
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 719
+wordpress_url: urn:uuid:6c19e212-6ad0-4043-95fa-371fdc33406b
+date: 2006-09-08 13:18:00.000000000 -07:00
+tags:
+- food
+- sourdough
+- bread
+- rye
+comments: []
+---
+<p>My wife is out of town, which means you can bet your britches I'm eating all
+the stuff she doesn't like this weekend. You know, like sauerkraut, corned
+beef, swiss cheese, rye bread. Hey, those are the basic building blocks of one
+of the most delicious sandwiches ever invented: <a href="http://en.wikipedia.org/wiki/Reuben_sandwich">The
+Reuben</a>.</p>
+
+<p>This post isn't about the Reuben. It's about the rye bread I used to make the Reuben. It turned out very well. Here's the recipe I used, which I adapted from somebody's <a href="http://www.goodcooking.com/ryebredr.htm">New York Style Jewish Rye</a> recipe:</p>
+
+<pre>
+300g 100% start
+560ml water (2 1/3 cups)
+1 T sugar
+2 c light rye flour
+2 T kosher salt
+2 T caraway seeds
+4.75 c flour
+</pre>
+
+<p>I didn't want three bâtards though, so I thirded the recipe. I mixed the dough for a few minutes in the mixer. I had to add some flour, but
+the dough was still plenty wet. Oh, and sugar is boring and my honey was
+crystallized so I used molasses instead. I stuck it in the fridge for five or
+so hours and took it out just before going to bed. When I woke up I preheated
+the oven at 400 for 20 minutes then baked under cloche for 10 minutes, then
+without cloche to an internal temperature of 200 F. </p>
+
+<p>It's delicious, but next time I'll use just a tad less salt and caraway.
+Incidentally, caraway is the taste you probably associate with rye bread, not
+the rye itself. There was no oven spring to speak of, I think because it was
+just barely overproofed, in spite of starting the proof cold. I guess I'll just
+have to sleep less or proof during the day.</p>

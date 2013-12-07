@@ -1,0 +1,87 @@
+---
+layout: post
+status: publish
+published: true
+title: On setting up a Mac
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 86
+wordpress_url: urn:uuid:923ffcdf-e08a-4de5-b239-6925a04261f9
+date: 2005-04-14 16:09:27.000000000 -07:00
+tags:
+- mac
+comments: []
+---
+<p>When I sit down with a new computer, I enter the Configuration Zone. Not a distant cousin of the Twilight Zone, it can be a joy or a nightmare. My expectations are generally well-defined, and I tend to get upset when they are difficult to fulfil.</p>
+
+<p>My expectations for a laptop and the OS on it:</p>
+
+<ul>
+<li><p>My productivity. This means</p>
+
+<ul>
+<li>Web</li>
+<li>Console</li>
+<li>ssh</li>
+<li>IM/IRC</li>
+<li>Keyboard acceleration</li>
+</ul>
+
+<p>In Linux, that means Firefox, xterm, ssh (duh), gaim, and currently FVWM. In
+Windows, it's Firefox, putty, cygwin if I'll be suffering for a prolonged
+period, gaim, and enough patience to endure the lack of useful keyboard
+acceleration.</p>
+
+<p>In OS X:</p>
+
+<ul>
+<li>Safari is OK, but there's no tabs so Firefox was one of the first
+downloads.</li>
+<li>The terminal is good enough for most of what I use a terminal for. It
+needs a little tweaking, though. Namely, I need to figure out how to get
+it to pass the pgup/pgdn keys to the application and not steal them for
+scrollback, and I need to figure out how to get mutt in screen on falcon
+to display properly. The font needs serious work, too (I wonder if I can
+get <a href="http://www.is-vn.bg/hamster/jimmy-en.html">Terminus</a> to work in  OS
+X).</li>
+<li>ssh, check.</li>
+<li>IM: iChat is neat in some ways, but the conversation UI is a terrible
+waste of space and it doesn't support Jabber. Adium X seems to be what
+I'll stick with, unless I gravitate to gaim later on, but I was
+intentionally steering clear of X apps in X11 to try the "OS X" way of
+doing things.</li>
+<li>IRC: I usually do this in screen over ssh with irssi, but I did check out
+irssix and Colluquy. They both look worthy of use as a native IRC client,
+should I change my habits.</li>
+<li>Keyboard: I have been quite pleased with the keyboard usage in OS X. I
+was afraid OS X might be too mousy for me, but the accelerators are
+consistent and very useful if you take a moment to learn them. I just
+need to find a quick reference card now. The funky key (command key) is
+my friend. Thayne tried to tell Jayce^ and I once that you couldn't remap
+CAPS to ctrl in the Apple laptops, but you can indeed do it with a nifty
+tool called <a href="http://gnufoo.org/ucontrol/ucontrol.html">uControl</a>. One of
+the most important keystrokes to learn is ctrl-f2, which brings the menu
+bar into focus.You probably want to switch things so that the function
+keys are function keys first and nifty laptop feature keys
+second&mdash;the opposite is the default. I also remapped enter to fn,
+to make the fn versions of the arrow keys easier to access.</li>
+</ul></li>
+<li><p>Configurable but usable in default configuration.
+OS X is very usable, and quite configurable in the important ways. I had fun
+going through the system preferences, but didn't really change a lot. One
+thing I wish I could figure out is how to go back to the Show All view with
+the keyboard.</p></li>
+<li><p>Sleep. This has eluded so many laptops I've used it's not even
+funny&mdash;both in Linux and even in Windows. Works great in OS X on this
+iBook, we'll see about Linux in a week.</p></li>
+<li><p>Wireless. This is where I will be disappointed in Linux until I get a usb
+wireless thingy, but I went into that with my eyes wide open. Works great in
+OS X, except on boot it doesn't seem to join my network automatically. I'll
+have to tinker with that.</p></li>
+</ul>
+
+<p>I ought to mention also that I think a laptop should be light and portable, but
+that was part of the decision going in and has nothing to do with setup. I am
+happy with the size of my iBook. Oh, by the way, his name is Gandalf.</p>

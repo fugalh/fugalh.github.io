@@ -1,0 +1,36 @@
+---
+layout: post
+status: publish
+published: true
+title: k20
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 988
+wordpress_url: urn:uuid:b0e437a2-1c3c-494f-81b9-f527904c7379
+date: 2008-07-09 19:40:53.000000000 -07:00
+tags:
+- audio
+- linux
+- mac
+- src
+- jack
+- db
+- meter
+- katz
+- k
+- '20'
+- k20
+comments: []
+---
+<p>I finished the promised K-20 meter. I imaginatively called it <code>k20</code>, and you can find it at <a href="http://hans.fugal.net/src/k20">http://hans.fugal.net/src/k20</a>. Here's a screenshot:</p>
+
+<p><img src="/src/k20/k20.png" alt="k20 screenshot"/></p>
+
+<p>From left to right, read average (VU), peak (instantaneous with 26 dB / 3 sec
+falloff), maximum peak, and overs. </p>
+
+<p>This is pure unadulterated <code>printf()</code> abuse. No ncurses. Not that I have
+anything against ncurses, just that I'm lazy. Of course you need an ANSI
+capable terminal, but I'm sure you can find one lying around.</p>

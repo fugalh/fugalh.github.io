@@ -1,0 +1,27 @@
+---
+layout: post
+status: publish
+published: true
+title: sfget
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 65
+wordpress_url: urn:uuid:f0268684-5025-4096-8dfe-6907c604a5a6
+date: 2004-11-16 15:16:19.000000000 -08:00
+tags:
+- linux
+comments: []
+---
+<p>I downloaded one too many <code>?download</code> files with wget from SourceForge today. I
+respect their desire to make money from advertising, and their desire to have
+people use mirrors. However, their interface is really lame. Therefore, since
+they don't respect me by making a good UI, I will subvert their ads with <a href="http://hans.fugal.net/src/sfget">this
+nifty shell script</a>, and you can too.</p>
+
+<p>If you're into writing Firefox extensions, do me a favor and write one that
+short-circuits that ugly SourceForge download page with a configurable mirror
+choice. I'd be happy to host it here.</p>
+
+<p>If your from SourceForge, get a clue. We don't like your download system.</p>

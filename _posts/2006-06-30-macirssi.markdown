@@ -1,0 +1,31 @@
+---
+layout: post
+status: publish
+published: true
+title: macirssi
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 652
+wordpress_url: urn:uuid:5bbc88bc-6ad9-4b3c-9a8d-6608a63419f9
+date: 2006-06-30 09:12:35.000000000 -07:00
+tags:
+- osx
+- irc
+- irssi
+comments: []
+---
+<p>Ok, scratch that part about Irssix. Irssix is cool but has some issues:</p>
+
+<ul>
+<li>pgup/dn don't work from the input box</li>
+<li>it automatically scrolls down when something new happens, making it really
+difficult to read backlogs. (I hate it when my terminal does this too, btw)</li>
+<li>it tends to crash when reconnecting after waking my laptop</li>
+</ul>
+
+<p>But <a href="http://www.g1m0.se/macirssi/">macirssi</a> is even better. It does let me
+change the font, already comes with a dark background, has more preferences to
+set graphically, and doesn't crash. It does look a little funky, though (as in
+not really OS X-ish).</p>

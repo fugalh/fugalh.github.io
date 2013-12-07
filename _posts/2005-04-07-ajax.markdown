@@ -1,0 +1,48 @@
+---
+layout: post
+status: publish
+published: true
+title: Ajax
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 10
+wordpress_url: urn:uuid:ed91f1b5-efc3-4383-9477-cfe4fb643bb3
+date: 2005-04-07 13:15:41.000000000 -07:00
+tags:
+- cs
+comments: []
+---
+<p>Ajax? What's that?</p>
+
+<p>I have done my time as a web developer. I don't like it a whole lot, but I
+think the basic skillz are important ones for any IT or CS professional, like
+writing and communicating. The reason I don't like it is because I feel it is a poor platform for doing what so many people try to get it to do. I also used to feel that it was a futile excercise to keep trying - a waste of effort.</p>
+
+<p>Then Google hit me upside the head with Google maps. Amazing things were
+happening there, and it wasn't a plugin. Then I start hearing about this Ajax
+thing which I at first thought was a new language or server or something. No,
+it's more comparable with MVC than JSP. The guy who coined the
+term (<a href="http://www.adaptivepath.com/publications/essays/archives/000385.php">in this article</a>) put
+it well:</p>
+
+<blockquote>
+    <p>Q. Is Ajax a technology platform or is it an architectural style?</p>
+
+    <p>A. It's both. Ajax is a set of technologies being used together in a particular way. </p>
+</blockquote>
+
+<p><a href="http://www.loudthinking.com/arc/000435.html">I hear</a> some people are acting
+fairly childish and close-mindedly about the name <em>Ajax</em>. Go away, or we shall
+taunt you a second time.</p>
+
+<blockquote>
+    <p>Q. Why did you feel the need to give this a name?</p>
+
+    <p>A. I needed something shorter than "Asynchronous JavaScript+CSS+DOM+XMLHttpRequest" to use when discussing this approach with clients. </p>
+</blockquote>
+
+<p>So now you know what Ajax is. I still would mostly object to a web app where a
+GUI would be better, but at least now there's enough tech, talk, and doc to
+make a reasonable interface for the user on the web.</p>

@@ -1,0 +1,51 @@
+---
+layout: post
+status: publish
+published: true
+title: VMAC
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 738
+wordpress_url: urn:uuid:a3cc34ba-a2a2-45b6-b15f-50a754bdf583
+date: 2006-10-17 19:08:50.000000000 -07:00
+tags:
+- cs
+- vmac
+- thesis
+- realtime
+- control
+comments:
+- id: 1515
+  author: Dan
+  author_email: dan_j_thompson@hotmail.com
+  author_url: http://www.daringyoungmom.com
+  date: '2007-02-06 23:06:32 -0800'
+  date_gmt: ''
+  content: |-
+    <p>Sweet! We're famous! :)</p>
+
+    <p>What fun that was.</p>
+---
+<p>Back in 2003-2004 I worked with a team of bright graduate and undergraduate EE
+and CS students at BYU on <acroynm title="Versatile Machine and Actuator
+Control">VMAC</acronym>, which was Mike Baxter's Masters project. In short,
+VMAC is about generic realtime control using standard PCs and mass produceable
+control boards, communicating over ethernet. We're talking about controlling
+everything from dishwashers, washing machines, lighting, sprinklers, ovens,
+fans, etc. Imagine downloading a special wash cycle for your dishwasher, or
+designing your own perfect artisan bread oven cycle, and running it from work
+(or from cron). It was a fun project for the obvious reasons.</p>
+
+<p>It was also a fun project because I got to do some serious system programming.
+I was in charge of the core scheduler and communications in QNX. I hand-crafted
+ethernet frames (TCP/IP was too much overhead), wrote my own QNX network stack,
+juggled various threads with different realtime priorities, and lived to see it
+all work, and work well.</p>
+
+<p>Mike's thesis has made it through the red tape gauntlet and is available for
+you to read at <a href="http://contentdm.lib.byu.edu/ETD/image/etd553.pdf">http://contentdm.lib.byu.edu/ETD/image/etd553.pdf</a>. You can
+read all about it and see the <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a>
+documentation of the code I wrote. You probably won't, but what's cool (to me)
+is that you could.</p>

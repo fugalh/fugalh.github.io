@@ -1,0 +1,34 @@
+---
+layout: post
+status: publish
+published: true
+title: Safari's alright after all. iTunes, on the other hand...
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 84
+wordpress_url: urn:uuid:386cca59-5a0f-4f22-926e-0c61435bdb63
+date: 2005-04-21 22:37:33.000000000 -07:00
+tags:
+- mac
+comments: []
+---
+<p>Well it turns out Safari can do tabs, they're just not enabled by default.
+Safari does some OS X things well enough that I'm using it as my primary
+browser. It's actually easier to open links in a new tab than Firefox
+(command-click instead of command-option-click). It looks more OS X-like,
+although Firefox doesn't look bad either. But the real benefit, at least at
+this stage of my usage, is that it runs .dmg and so on automatically upon
+download so I don't have to go fishing for the file I just downloaded. I do
+miss the status bar, though.</p>
+
+<p>In other news, iTunes almost got rejected flat out because it didn't support
+ogg vorbis. The best alternative from my quick search (after xmms from fink
+didn't work out of the box) was something called Audion, which is so far the
+only program to crash hard on the iBook for me (kill worked wonders, though).
+It was pretty ugly, to boot, so I got the ogg quicktime component for iTunes. I
+imagine if I ever do serious long-period listening on the iBook (and I
+eventually will when I'm at NMSU, I'm sure) then it will probably be back to
+IMMS and XMMS (or some other compatible media player), because I am wholly
+addicted to IMMS.</p>

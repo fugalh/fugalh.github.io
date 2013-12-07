@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: zd1201 USB Wireless Adapter
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 73
+wordpress_url: urn:uuid:c0590a22-cf64-44ed-9fdc-ea2f6d10f6ec
+date: 2005-05-27 08:04:33.000000000 -07:00
+tags:
+- linux
+comments: []
+---
+<p>The Airport Extreme in the iBook is currently a lost cause for linux (curse
+Broadcom), but the workaround is fairly cheap and not too inconvenient. I
+bought a GigaFast WF741-UIC 802.11b USB wireless adapter, which has the ZyDAS
+zd1201 chipset, and it works great in linux. I haven't got kismet to run yet,
+although it does do monitor mode and I've heard of people getting kismet to
+work with the old wlanng-based driver, so it's probably just a matter of time. </p>
+
+<p>The driver (but not the firmware) is included in 2.6.12-rc5, but not 2.6.11.10.
+So I recommend picking up a 2.6.12 or higher kernel, but aside from a
+poorly-packed tarball building the module separately isn't hard either. I had
+trouble getting Ubuntu to load the firmware, and the solution is apparently to
+get more recent hotplug scripts. It has worked perfectly in Debian from day
+one.</p>
+
+<p>waproamd doesn't want to work, nor does wpa_supplicant, so I'm writing my own
+autoconnect scripts. That's ok though, because I've never really been impressed
+with waproamd, and wpa_supplicant is much too complicated for simple wep
+authentication. The saddest thing, right now, is that I can't just put the
+computer to sleep and have wireless when it wakes up. I have to take the card
+out before sleep and put it in after, and since I don't yet have it
+automatically configuring I also have to configure it on resume too. I've seen
+a patch for this, but it didn't work for me.</p>

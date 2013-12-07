@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: Turabian
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1166
+wordpress_url: http://hans.fugal.net/blog/?p=1166
+date: 2009-07-22 18:14:16.000000000 -07:00
+tags: []
+comments: []
+---
+Long ago in the days of yore (1937), Kate Turabian, the dissertation secretary at the University of Chicago, wrote a booklet of guidelines for student writers. Fast forward seventy years, and you get the excellent "A Manual for Writers of Research Papers, Theses, and Dissertations."
+
+<iframe src="http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=thefug-20&o=1&p=8&l=as1&m=amazon&f=ifr&md=10FE9736YVPPT7A0FBG2&asins=0226823377" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+Turabian is still listed as the author. It says "revised by Wayne C. Booth, Gregory G. Colomb, Joseph M. Williams, and the University of Chicago Press editorial staff." I think that's a bit ironic, like attributing a Wikipedia page to whoever made the first revision. But I don't worry myself about who wrote what in this fantastic tome.
+
+The part that Turabian probably wrote, and has probably been heavily edited, revised, and updated since 1937, is the style guide. It's everything the student writer would need to know about the Chicago Manual of Style, including how to cite internet sources, with a much more reasonable price tag. That right there is a good reason to buy the book.
+
+But for me, the best part of the book was not the style guide, though it will definitely be an important reference as I finish my dissertation, but the writing guide in Part 1 which I understand is new to this edition and is adapted from "The Craft of Research" by Booth, Colomb, and Wililams.  I won't say it answered every question or definitively told me everything I ever need to know about writing a dissertation. But compared to other books and websites on writing a dissertation, it was lucid, concrete, and very helpful. Maybe I'm just a literal kind of guy and needed some concrete steps to follow, even if they're not perfect steps. But this part of the book helped me finally come to a comfortable structure and tone for my dissertation. I found what I want to say and how I want to say it and how to organize what I want to say largely thanks to following some steps outlined in this writing guide. But it did come from within, they didn't hand me the answers on a platter. This is good I think, because I think the answers are different for different people and certainly for different disciplines, and also because I would have just ignored it if they had.
+
+The writing section, at least, is slightly geared towards what I'd call the soft sciences (whether or not that's an accurate term), but not terribly so and not to the point that you can't make the in-flight adjustments to your hard-science needs.
+
+Excellent book and well worth the $17. But be sure you get the 7th edition. And forget about buying the Chicago Manual of Style ($50+) unless you're going to be an editor or something.

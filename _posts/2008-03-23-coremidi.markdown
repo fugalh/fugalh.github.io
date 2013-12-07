@@ -1,0 +1,60 @@
+---
+layout: post
+status: publish
+published: true
+title: CoreMIDI
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 945
+wordpress_url: urn:uuid:30527c2b-bec5-4ad2-a6e4-8196a495107e
+date: 2008-03-23 06:50:12.000000000 -07:00
+tags:
+- audio
+- mac
+- midi
+- jack
+- coremidi
+- qjackctl
+- jackpilot
+- patchbay
+comments:
+- id: 1729
+  author: Steve
+  author_email: ''
+  author_url: ''
+  date: '2008-05-22 15:11:25 -0700'
+  date_gmt: ''
+  content: <p>Any chance you can share your OSX build of qjackctl with us or give
+    some instructions for how to best build it?</p>
+- id: 1730
+  author: Hans
+  author_email: ''
+  author_url: ''
+  date: '2008-05-26 20:11:26 -0700'
+  date_gmt: ''
+  content: <p>Run configure like normal, but when it fails look for an XCode project
+    instead of a makefile and open it. I can't get it to work properly at the moment
+    though - but hopefully in the future it will be fixed.</p>
+- id: 2162
+  author: griotspeak
+  author_email: griotspeak@gmail.com
+  author_url: ''
+  date: '2010-01-22 13:08:43 -0800'
+  date_gmt: '2010-01-22 13:08:43 -0800'
+  content: IAC does what you want. except for the latency, i mean.
+---
+<p>I'm porting <a href="http://www.kokkinizita.net/linuxaudio/aeolus/index.html">Aeolus</a> to OS X. In the process I'm learning how CoreMIDI works. Naturally you get to hear my opinion on the matter.</p>
+
+<p>CoreMIDI seems like a decent framework, actually. It is callback-based, which is good. It has a pretty reasonable design; physical devices and virtual devices alike communicate with eachother in the same way. They each have endpoints—source endpoints and destination endpoints.</p>
+
+<p>It all looks well and good on the surface, but there's some problems. The first problem is arguably a feature. You can create input/output ports and connect sources/destinations to those ports from within your application. This allows you to make a cute or complicated dialog box where the user can select the MIDI (virtual) device(s) she wants to use. Sounds reasonable right? And so it is, and I wouldn't argue against this ability. </p>
+
+<p>The badness comes in when you consider that every application has to duplicate this functionality. It would be much better to have an external patchbay for connecting applications together. This would be more powerful and flexible and free up application developers to not worry about it. They just have to create the endpoints and then they're done.</p>
+
+<p>Alas, OS X proper has no such patchbay. "Yes it does, silly. It's called Audio MIDI Setup" you say. That's the most infuriating thing—Audio MIDI Setup lets you route between devices in just the sort of way I'm talking about, but <em>it only works for physical devices</em>. Someone needs to be shot.</p>
+
+<p>Luckily, some guy named <a href="http://pete.yandell.com/software/">Pete</a> wrote a MIDI Patchbay. It's serviceable, if quirky and ugly. He also wrote a simple software synthesizer called SimpleSynth (also quirky and ugly) that does what something in OS X (e.g. QuickTime Player) should already be doing: accept MIDI input and use the QuickTime music synthesizer to render it. Kudos to Pete for filling in the gaps, and I'm sorry for calling your children ugly.</p>
+
+<p>While I'm complaining about patchbays, I'm still dumbfounded that <a href="http://jackaudio.org/">JACK</a> doesn't seem to have a command-line application for patching things together. I'm thinking something akin to aconnect for ALSA MIDI, though of course for JACK it would be for audio and MIDI both. <a href="http://qjackctl.sourceforge.net/">qjackctl</a> is absolutely marvelous, and I wouldn't use anything else given the choice, but sometimes you don't have qjackctl handy and it might be quite difficult indeed to get it. This was the case for me the other day. I had the latest greatest JACK installed from source, but qjackctl (which I finally managed to figure out how to build using the QtMac binary, whose qmake refuses to output a real Makefile but instead an XCode project) was choking on it. So I had to downgrade to <a href="http://jackosx.com/">Jack OS X</a> and rebuild qjackctl (it's still an immense improvement over JackPilot). This is depressing because the newer version of JACK is much more friendly to the CLI user on OS X. The version in Jack OS X 0.76 still requires some ugly workarounds (which JackPilot helps you to do). The latest version of JACK (0.109.2) Just Works™ when you type <code>jackd -R -d coreaudio</code>. So I'm still starting JACK with JackPilot, which I then summarily quit in favor of qjackctl.</p>

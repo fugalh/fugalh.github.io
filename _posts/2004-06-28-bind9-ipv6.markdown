@@ -1,0 +1,34 @@
+---
+layout: post
+status: publish
+published: true
+title: BIND 9 on SuSE and IPv6 Addresses
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 39
+wordpress_url: urn:uuid:bd5b74d9-d5b6-4f2d-a121-f2efd19a771c
+date: 2004-06-28 00:00:00.000000000 -07:00
+tags:
+- linux
+comments: []
+---
+<p>I was migrating a bind9 setup from Debian to SuSE and couldn't get the
+transfers to work. To make a long story short I had to put ipv6 addresses in my
+allow-transfer entry, e.g.:</p>
+
+<pre><code>allow-transfer {
+    ::ffff:172.16.59.5; 172.16.59.5;
+};
+</code></pre>
+
+<p>I have no idea whether the second ipv4 entry is really necessary but I don't
+want to be burned.</p>
+
+<p>A probably-preferable alternate solution is to comment out the line:</p>
+
+<pre><code>listen-on-v6 { any; };
+</code></pre>
+
+<p>and leave the allow-transfer the way it was (ipv4-style).</p>

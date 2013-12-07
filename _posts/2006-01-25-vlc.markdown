@@ -1,0 +1,44 @@
+---
+layout: post
+status: publish
+published: true
+title: VLC
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 91
+wordpress_url: urn:uuid:178345e8-a5d5-44f2-9214-6162812b6629
+date: 2006-01-25 15:28:07.000000000 -08:00
+tags:
+- mac
+comments: []
+---
+<p>At <acronym title="you got me">P. of D.</acronym>'s prodding, I gave
+<a href="http://www.videolan.org/vlc/">VLC</a> a try. Despite the horrendous website, I am
+happy to report that VLC is a beautiful and effective media player on OS X
+Tiger. It handles Ogg and FLAC out of the box, it's compact and OS X native, it
+has a convenient <a href="http://www.videolan.org/vlc/download-macosx.html">.dmg
+installer</a>, and it has a
+really neat icon.</p>
+
+<p>I only have three wishes for VLC. First, I'd like to be able to drag links to
+songs and playlists onto the playlist. You can drag onto the dock icon, which
+is almost good enough, but for a truly usable interface it should work to drag
+onto the playlist too. Second, I'd like it to handle podcasts. I think this is
+in the works and hopefully we see it in the next version, or in 1.0. Last but
+not least, I really wish it would remember the playlist from session to
+session.</p>
+
+<p>I think all of the above is minor compared to the consideration that this is a
+beautiful, simple, native player that does Ogg and FLAC and Speex out of the
+box, and is free software. Oh, and it does the right thing with the following
+playlist:</p>
+
+<pre><code>#EXTM3U
+#EXTINF:0,lam.m3u
+http://lam.fugal.net/songs/lam.m3u
+</code></pre>
+
+<p>Think about that for a minute. Now if I could get <a href="http://hans.fugal.net/blog">that LAM
+guy</a> to clean up a few bogus URLs in lam.m3u...</p>

@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: ICMC 2006
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 721
+wordpress_url: urn:uuid:52d4d47d-508d-40d5-a97c-48089eec3835
+date: 2006-09-16 17:16:10.000000000 -07:00
+tags:
+- audio
+- cs
+- music
+- school
+comments: []
+---
+<p>My <acronym title='Graduate Assistance in Areas of National
+Need'>GAANN</acronym> fellowship will be sending me to New Orleans in November
+for the <a href="http://icmc2006.org/">International Computer Music Conference</a> (ICMC). I'm pretty psyched
+about this. I've never been to an academic conference, and I've certainly never
+been to a conference about Computer Music. It's going to be a blast, and it's
+going to be very informative. Hopefully I'll be able to network with some
+people in the field working on research similar to my own (which will begin in
+earnest in January, since my coursework is (almost) done after this semester).
+There will be Computer Music conferences, and I'll be sure to catch some good
+old New Orleans Jazz too.</p>
+
+<p>I haven't asked yet, but I'm hoping GAANN will send me to the Linux Audio
+Conference in Berlin next year, too.</p>

@@ -1,0 +1,41 @@
+---
+layout: post
+status: publish
+published: true
+title: mg
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 588
+wordpress_url: urn:uuid:c4da59de-ca7c-410d-a9ce-20484791c368
+date: 2006-06-21 15:05:00.000000000 -07:00
+tags:
+- ruby
+- src
+- weight
+comments:
+- id: 1476
+  author: Jordy
+  author_email: ''
+  author_url: http://jordy.gundy.org
+  date: '2006-06-22 10:14:32 -0700'
+  date_gmt: ''
+  content: |-
+    <p>Hey Hans,</p>
+
+    <p>I too bought a nifty scale and am tracking my progress everyday.  You should join us on LardWars.com, a cool little site that subjects you to public humiliation if you don't meet your goals.  I'm on fun.lardwars.com, and (as you can see) I need a little competiotion to keep me motivated  --being at risk of premature death is not enough.</p>
+
+    <p>Let Herlo know if you want in.</p>
+---
+<p>My body is going on a diet (not me, but that's another post), but we all know
+it's no fun to go on a diet unless you get a nifty digital scale and make cool
+graphs of your progress. Over on the left you'll see my cool graph which I
+generate with a small ruby script (less than 60 LOC) and even smaller shell
+script. The use case is simple. Every day after weighing myself I do simply
+this:</p>
+
+<pre><code>mg $my_weight_today
+</code></pre>
+
+<p>You too can make cool graphs if you mosey on over to <a href="http://hans.fugal.net/src">my src page</a>.</p>

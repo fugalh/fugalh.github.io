@@ -1,0 +1,56 @@
+---
+layout: post
+status: publish
+published: true
+title: ADP
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 34
+wordpress_url: urn:uuid:96a53093-e8ce-4f15-80fd-b7a1bd06e329
+date: 2005-08-17 18:09:12.000000000 -07:00
+tags:
+- linux
+comments: []
+---
+<p>I love <a href="http://www.asterisk.org/">Asterisk</a>. It is a superb piece of software
+and a fine example of open source success. However, the <code>extensions.conf</code>
+syntax is painful at best. I haven't had to worry about linenumbers since my
+GW-BASIC days, and even then it wasn't necessary that line be numbered
+sequentially. So I did some thinking about how to solve this problem, and
+decided the best approach would be to write a translator that takes something
+sane, which I will call *<acronym title="Asterisk Dial Plan
+language">ADP</acronym>*, and translate it to standard <code>extensions.conf</code>
+format.  Let's look at an example. Instead of this:</p>
+
+<pre><code>[incoming]
+exten =&gt; s,1,Wait(1)
+exten =&gt; s,2,Answer
+exten =&gt; s,3,Playback(greeting)
+exten =&gt; s,4,VoiceMail(77&amp;80)
+exten =&gt; s,5,Hangup
+</code></pre>
+
+<p>we write this:</p>
+
+<pre><code>[incoming]
+ext s {
+    Wait(1)
+    Answer
+    Playback(greeting)
+    VoiceMail(77&amp;80)
+    Hangup
+}
+</code></pre>
+
+<p>Now, adding <code>Zapateller</code> between <code>Answer</code> and <code>Playback</code> does not require
+manually reordering priority numbers.</p>
+
+<p>I decided on the language and wrote a grammar for it, then dusted off my
+lex/yacc skills (and book) and wrote me a C implementation of ADP. You can find
+the current version and darcs repository at <a href="http://hans.fugal.net/src/adp">http://hans.fugal.net/src/adp</a>. It
+works, but there are probably bugs and certainly memory leaks (but unless you
+have a gargantuan <code>extensions.conf</code>, who cares?)</p>
+
+<p>I hope you find it useful. Suggestions and patches welcome.</p>

@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: Half Inch
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 1015
+wordpress_url: urn:uuid:c439d305-da93-4ddb-a056-70201b0f350d
+date: 2008-10-17 16:15:00.000000000 -07:00
+tags:
+- hair
+- bald
+- thin
+- buzz
+- inch
+- clippers
+- half
+comments:
+- id: 1787
+  author: vontrapp
+  author_email: ''
+  author_url: ''
+  date: '2008-10-17 22:19:56 -0700'
+  date_gmt: ''
+  content: <p>How low, indeed. I definitely liked the 1" better. But let's not get
+    ahead of ourselves! I still can't wait to see the shiny head.</p>
+---
+<p>So here's my hair buzzed to 1/2 inch:</p>
+
+<p><img src="http://foton.fugal.net/foto/3748/thumbnail" alt="front"/>
+<img src="http://foton.fugal.net/foto/3749/thumbnail" alt="side"/>
+<img src="http://foton.fugal.net/foto/3750/thumbnail" alt="back"/>
+<img src="http://foton.fugal.net/foto/3751/thumbnail" alt="top"/></p>
+
+<p>How low can he go?</p>

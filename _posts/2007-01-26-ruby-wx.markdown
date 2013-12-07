@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: Ruby WX
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 778
+wordpress_url: urn:uuid:ad0d5858-cd96-4073-ac0b-111cca29da39
+date: 2007-01-26 10:17:00.000000000 -08:00
+tags:
+- ruby
+- wx
+- weather
+- metar
+- taf
+comments: []
+---
+<p>WX is shorthand for weather in the same nutty circles that encode weather observations and forecasts like this:</p>
+
+<pre><code>METAR KLRU 261553Z AUTO 00000KT 5SM BR OVC004 03/03 A3009 RMK AO2
+TAF KLRU 261600Z 261612 35007KT P6SM -SHRASN SCT010 BKN025
+        TEMPO 1618 5SM -SHRA BR BKN005 OVC015
+        FM1800 28010KT P6SM VCSH SCT015 BKN030
+        FM0300 28010KT P6SM SKC
+</code></pre>
+
+<p>You need a library for parsing this. I've written <a href="http://hans.fugal.net/src/ruby-wx">one</a></p>
+
+<p>This is <a href="http://hans.fugal.net/src/ruby-wx/wx-0.1.2.tar.gz">release 0.1.2</a>,
+featuring METAR parsing and documentation. TAF forecasts are forecast for
+version 0.2.x. Automatic fetching and human-readable <code>to_s</code> methods are likely
+to pop up like daisies anywhere inbetween.</p>
+
+<p>If you find a bonafide METAR that doesn't parse correctly, by all means let me
+know (send the raw METAR to hans+ruby-wx@fugal.net). </p>

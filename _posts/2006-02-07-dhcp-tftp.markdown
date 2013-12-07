@@ -1,0 +1,22 @@
+---
+layout: post
+status: publish
+published: true
+title: Specifying a tftp server with DHCP
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 45
+wordpress_url: urn:uuid:ec8b5716-1b40-4f0d-aa50-93af137b665c
+date: 2006-02-07 09:07:53.000000000 -08:00
+tags:
+- linux
+comments: []
+---
+<p>This was not at all obvious in the documentation, so I thought I'd give a
+real-world confirmation that if you want to specify a tftp server in your
+dhcpd.conf, this is what you do:</p>
+
+<pre><code>option tftp-server-name "192.168.1.5";
+</code></pre>

@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: Montage
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 58
+wordpress_url: urn:uuid:c59179dc-c15b-4f7a-a72d-6bfcbe26490d
+date: 2005-08-04 21:59:41.000000000 -07:00
+tags:
+- linux
+comments: []
+---
+<p>Kudos to ImageMagick for all the cool tools like this one. But I want to know
+what the author of montage was on when he decided that the default behavior
+should be to shrink the final image by one fourth or more. There's no obvious
+option to prevent the shrinkage either. But if you use <code>-geometry +0+0</code> the
+shrinkage magically goes away. How's that for logic. I still can't even see a
+reason why that parameter should help, let alone why I should be required to
+know it just to get what I think is perfectly obvious default behavior. Oh
+well.</p>

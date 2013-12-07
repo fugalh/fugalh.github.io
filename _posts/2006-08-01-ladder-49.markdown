@@ -1,0 +1,101 @@
+---
+layout: post
+status: publish
+published: true
+title: Ladder 49
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 691
+wordpress_url: urn:uuid:d19ddf9d-60c5-40dd-86ad-5ae0c209574f
+date: 2006-08-01 22:18:30.000000000 -07:00
+tags:
+- movie
+- review
+comments:
+- id: 1505
+  author: Steve Dibb
+  author_email: ''
+  author_url: ''
+  date: '2006-08-02 01:32:59 -0700'
+  date_gmt: ''
+  content: |-
+    <p>How dare you criticize a movie?  Don't you know all the hard work that goes into making one?  Let's see you do a better job, punk.</p>
+
+    <p>Oh, and I hope your house burns down. :)</p>
+- id: 1506
+  author: zzzirk
+  author_email: ''
+  author_url: ''
+  date: '2006-08-02 09:58:22 -0700'
+  date_gmt: ''
+  content: |-
+    <p>I think you've hit upon something that runs deeper than just firefighters.  It runs throughout all facets of society...  </p>
+
+    <p>... I was posting more but realized that I didn't want to get into a rant this early in the morning so I've spared you ...</p>
+
+    <p>And if Hans' house catches fire maybe he can splash some pool water on it... ;)</p>
+- id: 1507
+  author: vontrapp
+  author_email: ''
+  author_url: http://von.fugal.net/blog
+  date: '2006-08-03 19:06:18 -0700'
+  date_gmt: ''
+  content: <p>I saw this movie in with a group in a basement. It was exactly as Hans
+    described, one long flashback of cliches. I enjoyed it however. Could have something
+    to do with my bashing-buddy. The girl next to me (my brothers girlfriend at the
+    time) and I had a blast making fun of it the whole way through. We didn't make
+    fun of firefighters, mind you. We strictly made fun of the movie, the presentation.
+    And we were careful to keep our voices low so as not to be called insensitive
+    clods. :)</p>
+---
+<p>I try to avoid reviewing too many movies, because movie reviews are a dime a
+dozen and why should you care what movies I like or don't like? But this is not
+a movie review. It's a cultural observation with a movie review piggy-backed
+onto it.</p>
+
+<p>Ladder 49 is one long cliché. To be more precise, it is a cliché flashback
+movie (you know, like the bad MacGyver episodes) containing a montage of cliché
+"life of a firefighter" clips. It's boring, sappy drama. This in itself is not
+extraordinary. There are a lot of boring sappy dramas.</p>
+
+<p>What I wish to comment on is the fact that the preceding paragraph would no
+doubt send some people into a fiery rage about how I'm an insensitive clod that
+doesn't understand or respect what firefighters do for me and how dare I speak
+that way about firefighters, and I hope your house burns down some day... I
+know this is the case because while I was bored watching this movie I decided
+to try and figure out if that was the actor's cleft lip or if it was special
+makeup for the character (the actor's scar, although not from a cleft lip). In
+the process I ended up on the IMDb site for the movie and read a few threads
+that started with a negative review (two words permeated: "boring" and
+"cliché") and ended with a whole slew of replies along the vein I already
+described.</p>
+
+<p>A lot of firefighters commented in those threads. They say it's the most
+accurate movie about firefighters' lives that they've seen. I don't doubt
+they're right. And if I were a firefighter I'd love to see an accurate
+portrayal of my lifestyle on the big screen. Of course <em>they</em> like the movie.
+(I would find an accurate movie about lifeguards (no, not baywatch) or an
+accurate movie about computer scientists (ha!) interesting for that reason but
+I have no delusions that it would be anything but very very boring for the
+masses) It <em>was</em> somewhat more interesting than a documentary in some ways,
+although probably somewhat less accurate as well.</p>
+
+<p>Since 9/11 firefighters are sacred, and therefore movies about firefighters
+can't be criticized without hordes of email-forwarding people calling the
+critic an insensitive clod. I'm here to tell you that that is ridiculous. I,
+and every other person who thought this movie was boring, can think and say
+that without the least bit of disrespect for firefighters. I do respect them
+and what they do. I've been in the rescue business. Although I'd never compare
+lifeguarding to firefighting (at least not uneventful poolside lifeguarding),
+I've been in the culture which includes lifeguards, firefighters, and
+paramedics/EMTs. I know these people, and I respect and honor them and count
+some of them as my friends. </p>
+
+<p>If you were previously inclined to label someone a firefighter-hater
+(publically or not) just because they don't like a boring movie about the life
+of a firefighter, then grow up.  You would do far better to honor these people
+by calling a spade a spade, instead of rolling over and applauding whatever
+firefighter-themed drivel Hollywood throws your way while fishing for the
+email-forwarder's dollar.</p>

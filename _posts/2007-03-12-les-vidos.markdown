@@ -1,0 +1,39 @@
+---
+layout: post
+status: publish
+published: true
+title: Les Vid&#233;os
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 819
+wordpress_url: urn:uuid:48c75480-beba-4da2-bb37-90c7f7e9df7f
+date: 2007-03-12 20:55:32.000000000 -07:00
+tags:
+- bread
+- video
+- french
+comments: []
+---
+<p>In a quest for technique tips on baguette forming, I found a page at <a href="http://www.thefreshloaf.com/node/1680">The Fresh
+Loaf</a> with some great tips on bread
+slashing. Even more importantly, the page includes a <a href="http://www.youtube.com/watch?v=SVSh0iLiAos&amp;eurl=http%3A%2F%2Fwww%2Ethefreshloaf%2Ecom%2Fnode%2F1680">nice
+video</a>.
+I don't like the bread with such deep slashes, I prefer shallow and more
+slashes. In any case, the technique tips are pretty good.</p>
+
+<p>But the real gem here is the link to <a href="http://lepetitboulanger.com/">Le Petit
+Boulanger</a> which is le site de la boulangerie
+artisanale. I don't speak french, but I know enough to follow the silent videos
+(with one exception) posted in the
+<a href="http://lepetitboulanger.com/video.htm">Vidéos</a> page. They are excellent videos
+of a real boulanger showing you how it's done. Notice how supple the dough is -
+obviously fairly high hydration. Notice how firmly but gracefully he moves the
+lame. Notice his neat coat.</p>
+
+<p>So anyway, my conclusion is that the scalpel I got from the bookstore is
+probably not sharp enough. I'm going to get me some coffee sticks and
+double-edged razor blades and use a more acute angle. Hopefully I'll stop
+tearing the loaf and get some nice slashes like the ones you see in those
+videos.</p>

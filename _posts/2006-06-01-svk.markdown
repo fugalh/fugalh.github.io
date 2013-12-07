@@ -1,0 +1,86 @@
+---
+layout: post
+status: publish
+published: true
+title: svk
+author: Hans
+author_login: fugalh
+author_email: hans@fugal.net
+author_url: http://hans.fugal.net/
+wordpress_id: 262
+wordpress_url: urn:uuid:6d713f36-d0d7-4564-bb13-131e97b06254
+date: 2006-06-01 10:16:56.000000000 -07:00
+tags:
+- cs
+- darcs
+- svn
+- subversion
+- distributed
+- rcs
+- svk
+comments:
+- id: 1472
+  author: Matthew
+  author_email: ''
+  author_url: http://matt-land.com
+  date: '2006-08-04 00:12:05 -0700'
+  date_gmt: ''
+  content: <p>I feel the same way except for me it is monotone.  As a cvs replacement,
+    svn is great, and it can do some cool stuff, but I just can't stand the way it
+    handles merging.  Monotone just does it so much better.  When I want to merge,
+    I just tell it to, I don't have to think about it...</p>
+---
+<p>The problem: Ardour uses Subversion, but I'm addicted to distributed revision
+control systems. Actually, svn and I would have got along just fine if it
+weren't for <code>svn merge</code>. What an embarrasment for svn lovers everywhere! You
+have to manually dig up which revisions to merge with. svn doesn't keep track
+of what's already been merged so you also have to be careful not to merge the
+same stuff twice. To add insult to injury, you have to type those full, long
+svn URLs too. So what would be <code>darcs pull</code> becomes something like:</p>
+
+<pre><code>svn merge -r 536:543 \
+  svn+ssh://ardoursvn@ardour.org/ardour2/trunk \
+  svn+ssh://ardoursvn@ardour.org/ardour2/branches/region-plugins
+</code></pre>
+
+<p>Ick.</p>
+
+<p>So I started investigating gateways from svn to darcs or git, either of which I would have happily used. <a href="http://www.darcs.net/DarcsWiki/Tailor/VersionOne">Tailor</a> seems like a good way to do it, but I had a hard time wrapping my head around the bidirectional setup. <a href="http://www.kernel.org/pub/software/scm/git/docs/git-svnimport.html">git-svnimport</a> looks promising for a git solution, but before I got a chance to try it I looked at <a href="http://svk.elixus.org/">svk</a>. svk is perfect for this situation.</p>
+
+<p>If you're not aware, svk is a distributed RCS front-end to svn. I knew about it
+before but had always thought of it as a hack marrying the worst of two worlds.
+Since my last look it has improved considerably, and my approach has also
+changed as I'm now looking at it asa developer in an svn project, not the guy
+setting up a repo and wondering which system to use.</p>
+
+<p>svk is mostly like svn, except you mirror the repo on your hard disk and can do
+disconnected development. To be honest I haven't looked at the truly
+distributed aspects of svk (if they exist), but rather I have focused on what I
+needed: disconnected operation with the ability to create local branches with
+easy merging, and work with the existing svn repo. svk does these things very
+well. </p>
+
+<p>Here's my new workflow, from the point of installing svk:</p>
+
+<pre><code># setup
+svk mirror svn+ssh://ardoursvn@ardour.org/ardour2 //mirror/ardour2
+svk sync //mirror/ardour2
+cd ~/src
+svk co //mirror/ardour2
+
+# branch
+cd ardour2
+svk cp //mirror/ardour2 //local/region-plugins
+svk switch //local/region-plugins
+
+# edit stuff then check in
+svk ci
+
+# merge in trunk changes to my branch
+svk pull
+
+# merge my branch back into the trunk
+svk push
+</code></pre>
+
+<p>Learn more about svk by reading "<a href="http://pickscrape.woobling.org/svk-visual-guide.pdf">SVK, A Visual Guide</a>", Jonathan Weiss' <a href="http://blog.innerewut.de/articles/2005/05/24/decentralized-version-control-with-svk">blog entry</a>, and <a href="http://www.bieberlabs.com/wordpress/svk-tutorials/">the Bieber Labs tutorial</a>.</p>
