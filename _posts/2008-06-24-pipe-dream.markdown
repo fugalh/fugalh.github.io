@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 979
 wordpress_url: urn:uuid:067fc9b6-3e4b-4e96-9748-3a41d0f8ae63
-date: 2008-06-24 21:05:33.000000000 -07:00
+date: '2008-06-24 21:05:33.000000000 -07:00'
 tags:
 - music
 - diy

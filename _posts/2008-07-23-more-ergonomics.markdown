@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 991
 wordpress_url: urn:uuid:c57d8f24-6367-4e38-9646-f6115654ba8e
-date: 2008-07-23 08:43:00.000000000 -07:00
+date: '2008-07-23 08:43:00.000000000 -07:00'
 tags:
 - ergonomics
 - monitor

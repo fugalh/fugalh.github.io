@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1143
 wordpress_url: http://hans.fugal.net/blog/?p=1143
-date: 2009-04-21 15:42:29.000000000 -07:00
+date: '2009-04-21 15:42:29.000000000 -07:00'
 tags:
 - soap
 - razor

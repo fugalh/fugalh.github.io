@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 946
 wordpress_url: urn:uuid:1d41e040-7808-4c64-ad1f-a6159fb240f1
-date: 2008-03-25 21:38:30.000000000 -07:00
+date: '2008-03-25 21:38:30.000000000 -07:00'
 tags:
 - mac
 - qt

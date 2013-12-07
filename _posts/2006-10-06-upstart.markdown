@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 729
 wordpress_url: urn:uuid:16b1aa63-db78-4d33-8269-1cca878205db
-date: 2006-10-06 11:22:57.000000000 -07:00
+date: '2006-10-06 11:22:57.000000000 -07:00'
 tags:
 - linux
 - init

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 683
 wordpress_url: urn:uuid:2493376b-8898-420c-8ecd-28190c39adb6
-date: 2006-07-27 16:43:00.000000000 -07:00
+date: '2006-07-27 16:43:00.000000000 -07:00'
 tags:
 - linux
 - review

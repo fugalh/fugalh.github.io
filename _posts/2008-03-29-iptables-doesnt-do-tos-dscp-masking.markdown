@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 952
 wordpress_url: urn:uuid:f8d8ce7d-d53b-4002-9a97-4f2ab9d9bb3f
-date: 2008-03-29 08:14:00.000000000 -07:00
+date: '2008-03-29 08:14:00.000000000 -07:00'
 tags:
 - qos
 - iptables

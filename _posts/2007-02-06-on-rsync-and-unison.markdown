@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 781
 wordpress_url: urn:uuid:e0474619-e135-4501-9d8c-8b8622bc33dc
-date: 2007-02-06 11:02:12.000000000 -08:00
+date: '2007-02-06 11:02:12.000000000 -08:00'
 tags:
 - linux
 - rsync

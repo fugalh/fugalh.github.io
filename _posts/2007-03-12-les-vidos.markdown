@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 819
 wordpress_url: urn:uuid:48c75480-beba-4da2-bb37-90c7f7e9df7f
-date: 2007-03-12 20:55:32.000000000 -07:00
+date: '2007-03-12 20:55:32.000000000 -07:00'
 tags:
 - bread
 - video

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 882
 wordpress_url: urn:uuid:9add610c-1ed5-4ff5-aa91-53c1824d4719
-date: 2007-10-20 11:35:00.000000000 -07:00
+date: '2007-10-20 11:35:00.000000000 -07:00'
 tags:
 - samsung
 - cups

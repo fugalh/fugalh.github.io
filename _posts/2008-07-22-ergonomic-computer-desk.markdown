@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 990
 wordpress_url: urn:uuid:88fcc904-392e-4b97-8d8c-e2409ff55a98
-date: 2008-07-22 22:25:00.000000000 -07:00
+date: '2008-07-22 22:25:00.000000000 -07:00'
 tags:
 - diy
 - plans

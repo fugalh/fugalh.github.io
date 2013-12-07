@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1201
 wordpress_url: http://hans.fugal.net/blog/?p=1201
-date: 2010-02-02 02:47:52.000000000 -08:00
+date: '2010-02-02 02:47:52.000000000 -08:00'
 tags:
 - linux
 - autotools

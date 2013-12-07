@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 523
 wordpress_url: urn:uuid:7833e4f6-a481-4738-9e4f-8fe7da6e61c7
-date: 2006-06-14 23:01:00.000000000 -07:00
+date: '2006-06-14 23:01:00.000000000 -07:00'
 tags:
 - blog
 - flock

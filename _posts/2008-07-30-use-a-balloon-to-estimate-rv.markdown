@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 995
 wordpress_url: urn:uuid:d7308a93-b13a-457d-84f9-afa5929afc3c
-date: 2008-07-30 15:22:18.000000000 -07:00
+date: '2008-07-30 15:22:18.000000000 -07:00'
 tags:
 - life
 - density

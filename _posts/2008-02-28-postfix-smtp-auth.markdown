@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 938
 wordpress_url: urn:uuid:3dd940c6-5022-4ed4-b9cf-515e463b2a4b
-date: 2008-02-28 09:05:21.000000000 -08:00
+date: '2008-02-28 09:05:21.000000000 -08:00'
 tags:
 - linux
 - postfix

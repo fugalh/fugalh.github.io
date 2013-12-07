@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 927
 wordpress_url: urn:uuid:7e94cad9-e0ec-4ce7-856e-70d9ccc3a9fc
-date: 2008-02-14 15:11:42.000000000 -08:00
+date: '2008-02-14 15:11:42.000000000 -08:00'
 tags:
 - aviation
 - radio

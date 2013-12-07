@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 893
 wordpress_url: urn:uuid:4eeb3770-10ea-4fd4-9e38-2474fcf51c3b
-date: 2007-11-02 18:01:00.000000000 -07:00
+date: '2007-11-02 18:01:00.000000000 -07:00'
 tags:
 - vote
 - annoying

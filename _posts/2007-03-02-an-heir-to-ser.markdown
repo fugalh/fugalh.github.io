@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 811
 wordpress_url: urn:uuid:5e378cf0-6060-4b2a-be2a-a1fdf52a0a2d
-date: 2007-03-02 10:03:00.000000000 -08:00
+date: '2007-03-02 10:03:00.000000000 -08:00'
 tags:
 - voip
 - ser

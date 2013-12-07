@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 813
 wordpress_url: urn:uuid:e3fb6f07-f8f3-4676-b766-253dd82a3733
-date: 2007-03-02 16:54:00.000000000 -08:00
+date: '2007-03-02 16:54:00.000000000 -08:00'
 tags:
 - linux
 - kernel

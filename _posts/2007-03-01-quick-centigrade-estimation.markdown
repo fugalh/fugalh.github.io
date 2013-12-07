@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 809
 wordpress_url: urn:uuid:164e22ac-d18c-4e0a-9fed-997bc90cc1a2
-date: 2007-03-01 09:56:00.000000000 -08:00
+date: '2007-03-01 09:56:00.000000000 -08:00'
 tags:
 - life
 - temperature

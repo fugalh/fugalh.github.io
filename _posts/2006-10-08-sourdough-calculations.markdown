@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 731
 wordpress_url: urn:uuid:1ddb80a9-9bbd-42a6-8bf9-a7e799a3bcf8
-date: 2006-10-08 15:50:00.000000000 -07:00
+date: '2006-10-08 15:50:00.000000000 -07:00'
 tags:
 - sourdough
 - calculator

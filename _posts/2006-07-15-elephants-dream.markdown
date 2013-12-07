@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 667
 wordpress_url: urn:uuid:eb3d0105-587b-4b6f-8c01-9626ef55270b
-date: 2006-07-15 20:12:00.000000000 -07:00
+date: '2006-07-15 20:12:00.000000000 -07:00'
 tags:
 - reviews
 - elephants

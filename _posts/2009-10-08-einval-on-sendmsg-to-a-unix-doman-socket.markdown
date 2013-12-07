@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1186
 wordpress_url: http://hans.fugal.net/blog/2009/10/08/einval-on-sendmsg-to-a-unix-doman-socket
-date: 2009-10-08 20:32:05.000000000 -07:00
+date: '2009-10-08 20:32:05.000000000 -07:00'
 tags:
 - cs
 - C

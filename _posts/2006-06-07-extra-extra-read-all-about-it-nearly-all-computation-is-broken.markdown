@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 355
 wordpress_url: urn:uuid:236b0974-545d-4e22-bf5e-622a3d9c32ce
-date: 2006-06-07 09:02:00.000000000 -07:00
+date: '2006-06-07 09:02:00.000000000 -07:00'
 tags:
 - cs
 - overflow

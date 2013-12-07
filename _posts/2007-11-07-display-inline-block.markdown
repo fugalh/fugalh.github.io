@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 897
 wordpress_url: urn:uuid:a0fa21eb-d01b-47ff-998c-f751349efdac
-date: 2007-11-07 08:10:00.000000000 -08:00
+date: '2007-11-07 08:10:00.000000000 -08:00'
 tags:
 - safari
 - firefox

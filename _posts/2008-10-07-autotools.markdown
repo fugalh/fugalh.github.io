@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1009
 wordpress_url: urn:uuid:a016a311-866e-40ae-8138-83901a3fd10a
-date: 2008-10-07 17:31:00.000000000 -07:00
+date: '2008-10-07 17:31:00.000000000 -07:00'
 tags:
 - make
 - autoconf

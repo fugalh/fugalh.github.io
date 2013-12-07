@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 922
 wordpress_url: urn:uuid:d156461b-7964-4726-8eb2-4651c6239f2a
-date: 2008-02-05 17:57:59.000000000 -08:00
+date: '2008-02-05 17:57:59.000000000 -08:00'
 tags:
 - dvd
 - wodim

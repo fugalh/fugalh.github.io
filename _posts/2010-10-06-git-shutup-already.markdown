@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1231
 wordpress_url: http://hans.fugal.net/blog/?p=1231
-date: 2010-10-06 19:27:34.000000000 -07:00
+date: '2010-10-06 19:27:34.000000000 -07:00'
 tags:
 - cs
 - git

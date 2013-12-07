@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 763
 wordpress_url: urn:uuid:46171d10-25d4-4763-91af-2d5ab8c90218
-date: 2006-12-13 07:31:33.000000000 -08:00
+date: '2006-12-13 07:31:33.000000000 -08:00'
 tags:
 - life
 - music

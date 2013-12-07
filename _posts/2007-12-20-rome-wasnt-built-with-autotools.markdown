@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 916
 wordpress_url: urn:uuid:ea96024a-5258-4a7e-9c81-e7eca7827d27
-date: 2007-12-20 20:54:05.000000000 -08:00
+date: '2007-12-20 20:54:05.000000000 -08:00'
 tags:
 - build
 - make

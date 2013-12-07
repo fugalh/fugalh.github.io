@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 885
 wordpress_url: urn:uuid:fb68f35f-7627-40e8-baab-4bb73c9a7bf9
-date: 2007-10-26 12:12:00.000000000 -07:00
+date: '2007-10-26 12:12:00.000000000 -07:00'
 tags:
 - ti
 - health

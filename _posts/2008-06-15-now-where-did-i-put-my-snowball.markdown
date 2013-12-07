@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 976
 wordpress_url: urn:uuid:df21bfb6-5303-4ee6-a3f9-0fe587d76cb7
-date: 2008-06-15 22:04:31.000000000 -07:00
+date: '2008-06-15 22:04:31.000000000 -07:00'
 tags:
 - weather
 - hot

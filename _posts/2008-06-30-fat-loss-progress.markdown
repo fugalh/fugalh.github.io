@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 983
 wordpress_url: urn:uuid:d3b18808-71f2-48b9-a717-90fa2838d06f
-date: 2008-06-30 11:16:11.000000000 -07:00
+date: '2008-06-30 11:16:11.000000000 -07:00'
 tags:
 - diet
 - health

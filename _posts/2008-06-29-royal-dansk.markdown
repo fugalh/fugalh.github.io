@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 982
 wordpress_url: urn:uuid:be24564c-a754-4653-bf86-a718829c63f4
-date: 2008-06-29 19:15:28.000000000 -07:00
+date: '2008-06-29 19:15:28.000000000 -07:00'
 tags:
 - food
 - dessert

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1010
 wordpress_url: urn:uuid:58cbaa72-dbe5-47a4-96ea-3f6dee662496
-date: 2008-10-08 06:32:00.000000000 -07:00
+date: '2008-10-08 06:32:00.000000000 -07:00'
 tags:
 - politics
 - obama

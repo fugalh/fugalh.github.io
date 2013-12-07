@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 874
 wordpress_url: urn:uuid:7e553e44-4bb2-471b-860f-03cee4e0d174
-date: 2007-09-19 12:38:00.000000000 -07:00
+date: '2007-09-19 12:38:00.000000000 -07:00'
 tags:
 - procmail
 - sunos

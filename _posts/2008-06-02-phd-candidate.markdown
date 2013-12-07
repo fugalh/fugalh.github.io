@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 968
 wordpress_url: urn:uuid:bf43669b-36bb-4614-a614-253e40b99aa3
-date: 2008-06-02 08:45:15.000000000 -07:00
+date: '2008-06-02 08:45:15.000000000 -07:00'
 tags:
 - school
 - phd

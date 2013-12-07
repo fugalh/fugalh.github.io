@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 668
 wordpress_url: urn:uuid:2f5d8a85-c13e-45a6-a1e0-851cdcb84866
-date: 2006-07-16 20:03:00.000000000 -07:00
+date: '2006-07-16 20:03:00.000000000 -07:00'
 tags:
 - food
 - bread

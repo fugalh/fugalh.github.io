@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1196
 wordpress_url: http://hans.fugal.net/blog/?p=1196
-date: 2009-10-15 05:18:32.000000000 -07:00
+date: '2009-10-15 05:18:32.000000000 -07:00'
 tags:
 - javascript
 - firefox

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 926
 wordpress_url: urn:uuid:a7f5676a-978b-4a0b-9db1-5760f07cbfad
-date: 2008-02-13 10:57:00.000000000 -08:00
+date: '2008-02-13 10:57:00.000000000 -08:00'
 tags:
 - atd
 - atrun

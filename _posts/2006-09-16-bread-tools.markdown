@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 722
 wordpress_url: urn:uuid:5c5a68da-4a3d-4e2a-8a1e-9669554e979c
-date: 2006-09-16 18:39:48.000000000 -07:00
+date: '2006-09-16 18:39:48.000000000 -07:00'
 tags:
 - bread
 - tools

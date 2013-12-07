@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 909
 wordpress_url: urn:uuid:2117d9e9-3a6f-4e32-8544-dc125823579a
-date: 2007-11-30 09:34:00.000000000 -08:00
+date: '2007-11-30 09:34:00.000000000 -08:00'
 tags:
 - nerd
 - handbook

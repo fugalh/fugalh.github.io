@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 850
 wordpress_url: urn:uuid:0cf160c8-9c1b-461e-8360-a258f62835f1
-date: 2007-07-01 08:30:23.000000000 -07:00
+date: '2007-07-01 08:30:23.000000000 -07:00'
 tags:
 - ipod
 - car

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 985
 wordpress_url: urn:uuid:67b429b3-c0fb-4650-bdac-7cf1806cae88
-date: 2008-06-30 15:39:15.000000000 -07:00
+date: '2008-06-30 15:39:15.000000000 -07:00'
 tags:
 - doppleganger
 comments: []

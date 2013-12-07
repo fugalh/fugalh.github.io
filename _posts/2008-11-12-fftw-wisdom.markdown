@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1022
 wordpress_url: urn:uuid:4cac3904-9720-49ed-9968-949d48fb9575
-date: 2008-11-12 10:19:00.000000000 -08:00
+date: '2008-11-12 10:19:00.000000000 -08:00'
 tags:
 - octave
 - planner

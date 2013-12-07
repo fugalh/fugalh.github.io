@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 617
 wordpress_url: urn:uuid:71025e22-07e9-4ff7-9a0e-8fd158c75387
-date: 2006-06-24 18:02:00.000000000 -07:00
+date: '2006-06-24 18:02:00.000000000 -07:00'
 tags:
 - ruby
 - lirc

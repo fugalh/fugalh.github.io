@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 949
 wordpress_url: urn:uuid:d99a157d-b9bf-415b-88b8-d2e9aea3afa0
-date: 2008-03-27 09:05:00.000000000 -07:00
+date: '2008-03-27 09:05:00.000000000 -07:00'
 tags:
 - typo
 - rails

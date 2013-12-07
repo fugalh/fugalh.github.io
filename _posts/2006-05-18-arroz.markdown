@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 157
 wordpress_url: urn:uuid:91990515-9499-4de2-928b-ac2569e10cd5
-date: 2006-05-18 08:36:55.000000000 -07:00
+date: '2006-05-18 08:36:55.000000000 -07:00'
 tags:
 - food
 - rice

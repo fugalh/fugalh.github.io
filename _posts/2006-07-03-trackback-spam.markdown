@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 655
 wordpress_url: urn:uuid:53421c30-fcf3-4615-93ba-006388c92559
-date: 2006-07-03 11:29:41.000000000 -07:00
+date: '2006-07-03 11:29:41.000000000 -07:00'
 tags:
 - typo
 - meta

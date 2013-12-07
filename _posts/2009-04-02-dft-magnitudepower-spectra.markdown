@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1129
 wordpress_url: http://hans.fugal.net/blog/?p=1129
-date: 2009-04-02 18:52:08.000000000 -07:00
+date: '2009-04-02 18:52:08.000000000 -07:00'
 tags:
 - cs
 - dsp

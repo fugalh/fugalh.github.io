@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 851
 wordpress_url: urn:uuid:33d535e2-c8ec-4011-b72c-89a4d5893304
-date: 2007-07-16 10:18:22.000000000 -07:00
+date: '2007-07-16 10:18:22.000000000 -07:00'
 tags:
 - nx
 - vnc

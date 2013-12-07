@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1001
 wordpress_url: urn:uuid:c3410372-1053-4bcf-bdea-653aa7cc5e4e
-date: 2008-08-25 22:19:36.000000000 -07:00
+date: '2008-08-25 22:19:36.000000000 -07:00'
 tags:
 - bash
 - pipe

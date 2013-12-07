@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 778
 wordpress_url: urn:uuid:ad0d5858-cd96-4073-ac0b-111cca29da39
-date: 2007-01-26 10:17:00.000000000 -08:00
+date: '2007-01-26 10:17:00.000000000 -08:00'
 tags:
 - ruby
 - wx

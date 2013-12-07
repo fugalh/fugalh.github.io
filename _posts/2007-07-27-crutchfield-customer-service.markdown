@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 856
 wordpress_url: urn:uuid:16620520-39a0-485e-8957-9bbf382fcd82
-date: 2007-07-27 13:29:39.000000000 -07:00
+date: '2007-07-27 13:29:39.000000000 -07:00'
 tags:
 - service
 - crutchfield

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1163
 wordpress_url: http://hans.fugal.net/blog/2009/07/15/encoder-mailbox-not-found
-date: 2009-07-15 17:17:11.000000000 -07:00
+date: '2009-07-15 17:17:11.000000000 -07:00'
 tags:
 - linux
 - mythtv

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 898
 wordpress_url: urn:uuid:e8c54d43-12da-4a71-a6d7-d78c452f9214
-date: 2007-11-07 12:51:31.000000000 -08:00
+date: '2007-11-07 12:51:31.000000000 -08:00'
 tags:
 - baby
 - fun

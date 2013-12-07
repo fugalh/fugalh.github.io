@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 183
 wordpress_url: urn:uuid:71ba0fea-1ac8-4c2d-b628-3a6c8bedbd08
-date: 2006-05-22 15:26:43.000000000 -07:00
+date: '2006-05-22 15:26:43.000000000 -07:00'
 tags:
 - audio
 - midi

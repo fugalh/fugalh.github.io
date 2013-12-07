@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 750
 wordpress_url: urn:uuid:b413713f-3bcf-4f9b-8f46-705808196859
-date: 2006-11-07 11:17:35.000000000 -08:00
+date: '2006-11-07 11:17:35.000000000 -08:00'
 tags:
 - electronic
 - voting

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1029
 wordpress_url: urn:uuid:4665f142-d235-49c0-9d9d-60b7d5e3c311
-date: 2009-01-01 18:25:00.000000000 -08:00
+date: '2009-01-01 18:25:00.000000000 -08:00'
 tags:
 - internet
 - qwest

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 755
 wordpress_url: urn:uuid:2d159fe7-7de2-40f0-a064-06facb9d1382
-date: 2006-11-15 09:42:00.000000000 -08:00
+date: '2006-11-15 09:42:00.000000000 -08:00'
 tags:
 - mac
 - osx

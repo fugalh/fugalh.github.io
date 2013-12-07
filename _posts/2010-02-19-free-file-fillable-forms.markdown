@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1204
 wordpress_url: http://hans.fugal.net/blog/?p=1204
-date: 2010-02-19 17:59:54.000000000 -08:00
+date: '2010-02-19 17:59:54.000000000 -08:00'
 tags:
 - tax
 - irs

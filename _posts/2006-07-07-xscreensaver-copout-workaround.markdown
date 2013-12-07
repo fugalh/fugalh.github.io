@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 662
 wordpress_url: urn:uuid:4e66c80a-0b5f-4d97-a9fd-aa8ec4344193
-date: 2006-07-07 00:22:00.000000000 -07:00
+date: '2006-07-07 00:22:00.000000000 -07:00'
 tags:
 - linux
 - xscreensaver

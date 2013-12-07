@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 641
 wordpress_url: urn:uuid:4b5a42ed-ea17-4a88-8bc2-06cfd5bae0f6
-date: 2006-06-28 22:10:09.000000000 -07:00
+date: '2006-06-28 22:10:09.000000000 -07:00'
 tags:
 - irc
 - irssi

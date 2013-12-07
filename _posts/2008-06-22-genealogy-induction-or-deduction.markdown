@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 978
 wordpress_url: urn:uuid:82de46bc-7dd3-476e-bed6-28a9e45c99ec
-date: 2008-06-22 11:09:55.000000000 -07:00
+date: '2008-06-22 11:09:55.000000000 -07:00'
 tags:
 - logic
 - genealogy

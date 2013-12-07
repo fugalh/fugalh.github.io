@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 613
 wordpress_url: urn:uuid:5dc2f56e-5f56-40c4-a75c-79bda8cd09da
-date: 2006-06-24 11:52:00.000000000 -07:00
+date: '2006-06-24 11:52:00.000000000 -07:00'
 tags:
 - mplayer
 - hardware

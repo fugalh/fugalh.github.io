@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 858
 wordpress_url: urn:uuid:6aa86aa0-c9c0-4482-ae54-f687b9bcdc78
-date: 2007-08-01 11:04:33.000000000 -07:00
+date: '2007-08-01 11:04:33.000000000 -07:00'
 tags:
 - cs
 - music

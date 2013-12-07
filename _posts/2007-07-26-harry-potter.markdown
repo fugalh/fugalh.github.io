@@ -12,7 +12,7 @@ excerpt: <p>This is a casual review of the seventh Harry Potter book, and to a l
   unless you've read it.</p>
 wordpress_id: 855
 wordpress_url: urn:uuid:5281c7a7-a86c-4219-ba25-205ebe24d4ac
-date: 2007-07-26 13:49:00.000000000 -07:00
+date: '2007-07-26 13:49:00.000000000 -07:00'
 tags:
 - reviews
 - review

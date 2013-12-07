@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1031
 wordpress_url: urn:uuid:81c32734-9f0e-44d7-8365-3291aa3e3f22
-date: 2009-01-04 06:23:00.000000000 -08:00
+date: '2009-01-04 06:23:00.000000000 -08:00'
 tags:
 - linux
 - nat

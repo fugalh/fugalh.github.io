@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 998
 wordpress_url: urn:uuid:c233c1a3-bafc-4148-bc6d-e070c93a78d2
-date: 2008-08-09 16:56:00.000000000 -07:00
+date: '2008-08-09 16:56:00.000000000 -07:00'
 tags:
 - family
 - lds

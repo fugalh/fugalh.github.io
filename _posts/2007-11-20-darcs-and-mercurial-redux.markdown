@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 904
 wordpress_url: urn:uuid:3e72ae86-0aed-4a1c-a665-8545b8e7d2b0
-date: 2007-11-20 20:36:00.000000000 -08:00
+date: '2007-11-20 20:36:00.000000000 -08:00'
 tags:
 - darcs
 - control

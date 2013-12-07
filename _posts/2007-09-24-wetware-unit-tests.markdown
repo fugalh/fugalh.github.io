@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 875
 wordpress_url: urn:uuid:e89f1cc4-5e11-458c-b8cf-0fe01341231b
-date: 2007-09-24 16:27:33.000000000 -07:00
+date: '2007-09-24 16:27:33.000000000 -07:00'
 tags:
 - pda
 - productivity

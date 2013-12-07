@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 115
 wordpress_url: urn:uuid:8f69adda-b18a-4d8b-81b4-5d7fe1c92ae4
-date: 2006-04-13 08:57:00.000000000 -07:00
+date: '2006-04-13 08:57:00.000000000 -07:00'
 tags:
 - linux
 - ati

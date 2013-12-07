@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1214
 wordpress_url: http://hans.fugal.net/blog/?p=1214
-date: 2010-03-15 14:32:12.000000000 -07:00
+date: '2010-03-15 14:32:12.000000000 -07:00'
 tags:
 - sony
 - bd

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 684
 wordpress_url: urn:uuid:e79b2cc0-31a6-4308-b100-67b87b3fe260
-date: 2006-07-27 22:10:24.000000000 -07:00
+date: '2006-07-27 22:10:24.000000000 -07:00'
 tags:
 - linux
 - samsung

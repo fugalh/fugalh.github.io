@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 842
 wordpress_url: urn:uuid:82c5ffe7-32ca-44ea-b8cd-dfce335e5901
-date: 2007-06-01 11:00:34.000000000 -07:00
+date: '2007-06-01 11:00:34.000000000 -07:00'
 tags:
 - asterisk
 - chanspy

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 777
 wordpress_url: urn:uuid:3cffcedc-7380-4f2c-ad7e-05d58f214788
-date: 2007-01-22 14:24:19.000000000 -08:00
+date: '2007-01-22 14:24:19.000000000 -08:00'
 tags:
 - binary
 - grab bag

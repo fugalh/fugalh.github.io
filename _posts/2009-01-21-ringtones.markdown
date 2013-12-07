@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1062
 wordpress_url: http://hans.fugal.net/blog/?p=1062
-date: 2009-01-21 19:25:02.000000000 -08:00
+date: '2009-01-21 19:25:02.000000000 -08:00'
 tags:
 - audio
 - ringtone

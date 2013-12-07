@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1020
 wordpress_url: urn:uuid:f13008b3-a922-4c91-a454-67c82a3877d1
-date: 2008-11-10 17:00:00.000000000 -08:00
+date: '2008-11-10 17:00:00.000000000 -08:00'
 tags:
 - git
 - darcs

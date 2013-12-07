@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 910
 wordpress_url: urn:uuid:113cb403-0952-4fa4-b81a-e399929375a5
-date: 2007-12-03 16:10:00.000000000 -08:00
+date: '2007-12-03 16:10:00.000000000 -08:00'
 tags:
 - baby
 - lachlan

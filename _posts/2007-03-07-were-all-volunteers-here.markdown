@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 816
 wordpress_url: urn:uuid:9f079538-0e84-4026-8b69-b543c40374ba
-date: 2007-03-07 10:02:37.000000000 -08:00
+date: '2007-03-07 10:02:37.000000000 -08:00'
 tags:
 - support
 - open source

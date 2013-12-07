@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 930
 wordpress_url: urn:uuid:2ff4a7c8-1284-4e8d-ae34-74550151d109
-date: 2008-02-14 16:10:38.000000000 -08:00
+date: '2008-02-14 16:10:38.000000000 -08:00'
 tags:
 - bread
 - oven

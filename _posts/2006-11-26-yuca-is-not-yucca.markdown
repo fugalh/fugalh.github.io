@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 756
 wordpress_url: urn:uuid:21dff339-68bf-4fcd-aa83-27e9293bb293
-date: 2006-11-26 19:41:00.000000000 -08:00
+date: '2006-11-26 19:41:00.000000000 -08:00'
 tags:
 - food
 - yucca

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 920
 wordpress_url: urn:uuid:a0b6e5fd-4057-4443-8d74-8d16393f5abe
-date: 2008-02-03 11:54:38.000000000 -08:00
+date: '2008-02-03 11:54:38.000000000 -08:00'
 tags:
 - asterisk
 - local

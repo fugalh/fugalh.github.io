@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 589
 wordpress_url: urn:uuid:b51d801c-1d21-4811-a24c-cf80baa127b8
-date: 2006-06-21 21:27:39.000000000 -07:00
+date: '2006-06-21 21:27:39.000000000 -07:00'
 tags:
 - admin
 - debian

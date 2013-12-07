@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 847
 wordpress_url: urn:uuid:5c9d4a76-f81f-4f26-a9db-ded4da946265
-date: 2007-06-25 10:01:45.000000000 -07:00
+date: '2007-06-25 10:01:45.000000000 -07:00'
 tags:
 - ruby
 - sipura

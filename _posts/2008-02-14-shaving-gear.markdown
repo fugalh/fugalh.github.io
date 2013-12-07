@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 928
 wordpress_url: urn:uuid:f2cbacbf-681c-4375-8092-2baa6545e9b5
-date: 2008-02-14 15:41:35.000000000 -08:00
+date: '2008-02-14 15:41:35.000000000 -08:00'
 tags:
 - shaving
 - wet

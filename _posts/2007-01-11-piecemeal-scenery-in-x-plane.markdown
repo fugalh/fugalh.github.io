@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 775
 wordpress_url: urn:uuid:83a426ef-5854-4083-b5ad-83d0849e600b
-date: 2007-01-11 09:34:41.000000000 -08:00
+date: '2007-01-11 09:34:41.000000000 -08:00'
 tags:
 - x
 - plane

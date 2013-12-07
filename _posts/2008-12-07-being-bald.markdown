@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1027
 wordpress_url: urn:uuid:2b17a3f2-500f-49a7-a375-5f2150ecaeb8
-date: 2008-12-07 13:58:00.000000000 -08:00
+date: '2008-12-07 13:58:00.000000000 -08:00'
 tags:
 - loss
 - shaving

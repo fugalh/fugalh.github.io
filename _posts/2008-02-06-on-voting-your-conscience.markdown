@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 923
 wordpress_url: urn:uuid:42b33e2c-e12a-4a5d-b274-4a73f8006e7c
-date: 2008-02-06 15:12:00.000000000 -08:00
+date: '2008-02-06 15:12:00.000000000 -08:00'
 tags:
 - vote
 - politics

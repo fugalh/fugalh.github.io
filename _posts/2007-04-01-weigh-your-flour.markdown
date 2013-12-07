@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 829
 wordpress_url: urn:uuid:45eb2d3f-092f-4297-93c6-5cd816be2a15
-date: 2007-04-01 20:31:41.000000000 -07:00
+date: '2007-04-01 20:31:41.000000000 -07:00'
 tags:
 - bread
 - flour

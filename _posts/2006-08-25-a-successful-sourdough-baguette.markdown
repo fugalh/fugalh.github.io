@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 712
 wordpress_url: urn:uuid:3663d3da-2ac5-4617-a4cc-726bc390ca7a
-date: 2006-08-25 19:06:00.000000000 -07:00
+date: '2006-08-25 19:06:00.000000000 -07:00'
 tags:
 - sourdough
 - bread

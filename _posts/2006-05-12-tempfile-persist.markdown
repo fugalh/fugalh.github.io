@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 129
 wordpress_url: urn:uuid:c97ca3f0-66d4-43d8-ab8d-8f4b5f7084d9
-date: 2006-05-12 20:00:42.000000000 -07:00
+date: '2006-05-12 20:00:42.000000000 -07:00'
 tags:
 - ruby
 - tempfile

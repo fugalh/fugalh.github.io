@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 702
 wordpress_url: urn:uuid:41d464a7-92f8-4012-8776-9b86da6b901a
-date: 2006-08-12 18:21:00.000000000 -07:00
+date: '2006-08-12 18:21:00.000000000 -07:00'
 tags:
 - cs
 - vim

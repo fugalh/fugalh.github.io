@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1217
 wordpress_url: http://hans.fugal.net/blog/2010/05/18/mythtv-cleanup/
-date: 2010-05-18 08:01:22.000000000 -07:00
+date: '2010-05-18 08:01:22.000000000 -07:00'
 tags:
 - mythtv
 comments:

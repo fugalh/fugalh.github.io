@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 337
 wordpress_url: urn:uuid:def97d37-9eaa-4952-85d5-a5da3e019513
-date: 2006-06-05 13:08:18.000000000 -07:00
+date: '2006-06-05 13:08:18.000000000 -07:00'
 tags:
 - C
 - src

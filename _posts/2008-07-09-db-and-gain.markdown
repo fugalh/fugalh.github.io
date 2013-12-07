@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 987
 wordpress_url: urn:uuid:1c9a21e1-2fd8-4d09-ae14-33e7763e91d7
-date: 2008-07-09 12:35:00.000000000 -07:00
+date: '2008-07-09 12:35:00.000000000 -07:00'
 tags:
 - audio
 - decibel

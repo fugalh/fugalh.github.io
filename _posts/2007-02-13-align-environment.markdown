@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 787
 wordpress_url: urn:uuid:add14b1a-6016-4199-8da1-63c8d3837fc0
-date: 2007-02-13 19:53:00.000000000 -08:00
+date: '2007-02-13 19:53:00.000000000 -08:00'
 tags:
 - cs
 - math

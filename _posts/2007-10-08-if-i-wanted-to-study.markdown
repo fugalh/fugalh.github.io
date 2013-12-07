@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 879
 wordpress_url: urn:uuid:99153324-882b-49fc-a79d-3c9688f357fb
-date: 2007-10-08 21:05:00.000000000 -07:00
+date: '2007-10-08 21:05:00.000000000 -07:00'
 tags:
 - teaching
 - learning

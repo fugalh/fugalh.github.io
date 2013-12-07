@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 780
 wordpress_url: urn:uuid:4543da90-e300-4323-b14b-bdc9934c3c1c
-date: 2007-02-05 19:03:42.000000000 -08:00
+date: '2007-02-05 19:03:42.000000000 -08:00'
 tags:
 - linux
 - mplayer

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1018
 wordpress_url: urn:uuid:430e4174-113e-4e1b-8a5e-87acd1c542bc
-date: 2008-11-06 08:42:00.000000000 -08:00
+date: '2008-11-06 08:42:00.000000000 -08:00'
 tags:
 - mac
 - chat

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 881
 wordpress_url: urn:uuid:87acc013-788b-42ba-bf49-d00f06786976
-date: 2007-10-18 08:41:13.000000000 -07:00
+date: '2007-10-18 08:41:13.000000000 -07:00'
 tags:
 - gnuplot
 comments:

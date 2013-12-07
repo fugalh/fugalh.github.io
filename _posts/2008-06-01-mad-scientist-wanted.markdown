@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 967
 wordpress_url: urn:uuid:feae1282-92e6-4452-8d64-8eb1ffb223f8
-date: 2008-06-01 09:46:29.000000000 -07:00
+date: '2008-06-01 09:46:29.000000000 -07:00'
 tags:
 - soda
 - milk

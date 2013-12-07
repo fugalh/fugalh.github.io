@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 739
 wordpress_url: urn:uuid:e39540dd-3230-4738-ae4c-a7785e8aacff
-date: 2006-10-20 15:46:00.000000000 -07:00
+date: '2006-10-20 15:46:00.000000000 -07:00'
 tags:
 - osx
 - octave

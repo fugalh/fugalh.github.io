@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 977
 wordpress_url: urn:uuid:7030e3df-10ab-4f0c-b8a3-de8016404765
-date: 2008-06-16 15:35:09.000000000 -07:00
+date: '2008-06-16 15:35:09.000000000 -07:00'
 tags:
 - make
 - markdown

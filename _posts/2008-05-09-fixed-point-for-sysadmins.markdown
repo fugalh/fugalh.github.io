@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 959
 wordpress_url: urn:uuid:da9d0212-7f80-40e3-aa94-0e3f9b5dc763
-date: 2008-05-09 08:31:00.000000000 -07:00
+date: '2008-05-09 08:31:00.000000000 -07:00'
 tags:
 - cs
 - sysadmin

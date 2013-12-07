@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 867
 wordpress_url: urn:uuid:8c24664e-f2da-4348-9f8c-591352f1a140
-date: 2007-08-22 20:06:00.000000000 -07:00
+date: '2007-08-22 20:06:00.000000000 -07:00'
 tags:
 - life
 - weight

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 597
 wordpress_url: urn:uuid:367ab172-728e-4bab-8dfd-85106cd1998a
-date: 2006-06-22 12:39:00.000000000 -07:00
+date: '2006-06-22 12:39:00.000000000 -07:00'
 tags:
 - review
 - hardware

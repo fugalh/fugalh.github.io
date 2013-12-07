@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 906
 wordpress_url: urn:uuid:07167440-c0b0-4172-a055-d5c2cf4f4c7f
-date: 2007-11-23 22:18:00.000000000 -08:00
+date: '2007-11-23 22:18:00.000000000 -08:00'
 tags:
 - linux
 - lartc

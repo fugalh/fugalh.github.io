@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1252
 wordpress_url: http://hans.fugal.net/blog/?p=1252
-date: 2011-01-07 05:37:20.000000000 -08:00
+date: '2011-01-07 05:37:20.000000000 -08:00'
 tags:
 - life
 - vim

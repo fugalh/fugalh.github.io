@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1035
 wordpress_url: urn:uuid:1ccf6fe8-7f11-4449-a311-ca9724419acb
-date: 2009-01-10 06:39:00.000000000 -08:00
+date: '2009-01-10 06:39:00.000000000 -08:00'
 tags:
 - linux
 - mythtv

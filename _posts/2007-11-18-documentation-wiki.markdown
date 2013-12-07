@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 902
 wordpress_url: urn:uuid:c77b249e-dcae-4cca-8b7c-ed109a62dda7
-date: 2007-11-18 17:34:02.000000000 -08:00
+date: '2007-11-18 17:34:02.000000000 -08:00'
 tags:
 - wiki
 - documentation

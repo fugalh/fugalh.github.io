@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 955
 wordpress_url: urn:uuid:e42b37ad-7147-494f-9780-52aff22ea2ab
-date: 2008-04-09 21:25:13.000000000 -07:00
+date: '2008-04-09 21:25:13.000000000 -07:00'
 tags:
 - clojure
 - readline

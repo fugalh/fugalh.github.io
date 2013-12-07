@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 871
 wordpress_url: urn:uuid:58543175-2430-472d-9277-5482522d4bc2
-date: 2007-09-03 18:20:42.000000000 -07:00
+date: '2007-09-03 18:20:42.000000000 -07:00'
 tags:
 - ruby
 - qt

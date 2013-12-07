@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 853
 wordpress_url: urn:uuid:85379abe-ab4f-49a0-94cf-0a948d223bfa
-date: 2007-07-18 23:22:55.000000000 -07:00
+date: '2007-07-18 23:22:55.000000000 -07:00'
 tags:
 - email
 - mutt

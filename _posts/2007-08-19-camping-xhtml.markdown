@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 864
 wordpress_url: urn:uuid:ef2ad0b6-8269-409c-9aee-72f149105df3
-date: 2007-08-19 17:53:16.000000000 -07:00
+date: '2007-08-19 17:53:16.000000000 -07:00'
 tags:
 - ruby
 - camping

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 20
 wordpress_url: urn:uuid:826a54e6-5a10-42ea-8eb6-5da2faf73294
-date: 2005-01-31 10:13:03.000000000 -08:00
+date: '2005-01-31 10:13:03.000000000 -08:00'
 tags:
 - food
 comments: []

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 899
 wordpress_url: urn:uuid:b5821776-4ca4-4ebf-8c84-5f780b2a9ba6
-date: 2007-11-08 10:55:00.000000000 -08:00
+date: '2007-11-08 10:55:00.000000000 -08:00'
 tags:
 - rails
 - lighttpd

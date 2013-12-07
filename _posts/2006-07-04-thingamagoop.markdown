@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 660
 wordpress_url: urn:uuid:bba1f604-a700-4412-8403-8fe8db735358
-date: 2006-07-04 18:19:00.000000000 -07:00
+date: '2006-07-04 18:19:00.000000000 -07:00'
 tags:
 - audio
 - synth

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1008
 wordpress_url: urn:uuid:0ca8eeea-5258-49d3-b9ea-21cbbdefe7e9
-date: 2008-09-25 20:20:00.000000000 -07:00
+date: '2008-09-25 20:20:00.000000000 -07:00'
 tags:
 - food
 - life

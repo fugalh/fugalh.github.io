@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 908
 wordpress_url: urn:uuid:dc34a798-77db-4289-90e6-91bb41421de7
-date: 2007-11-25 20:28:21.000000000 -08:00
+date: '2007-11-25 20:28:21.000000000 -08:00'
 tags:
 - mac
 - ncmpc

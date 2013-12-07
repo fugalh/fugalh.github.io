@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 999
 wordpress_url: urn:uuid:e52fe2eb-624a-45af-9be2-86d24b047989
-date: 2008-08-11 11:19:07.000000000 -07:00
+date: '2008-08-11 11:19:07.000000000 -07:00'
 tags:
 - life
 - pda

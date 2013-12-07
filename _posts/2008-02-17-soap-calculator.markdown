@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 934
 wordpress_url: urn:uuid:2b303bec-fe0b-4439-aec9-c0f7ea3e9ae2
-date: 2008-02-17 10:05:52.000000000 -08:00
+date: '2008-02-17 10:05:52.000000000 -08:00'
 tags:
 - calculator
 - soap

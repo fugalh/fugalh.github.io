@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 956
 wordpress_url: urn:uuid:123f6575-f3b6-4939-9a98-ad92f9e76e40
-date: 2008-04-14 10:03:00.000000000 -07:00
+date: '2008-04-14 10:03:00.000000000 -07:00'
 tags:
 - diy
 - antenna

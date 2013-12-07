@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1021
 wordpress_url: urn:uuid:d7ec54cc-5eaa-471a-8c8f-a0c0edbea0d0
-date: 2008-11-11 11:01:00.000000000 -08:00
+date: '2008-11-11 11:01:00.000000000 -08:00'
 tags:
 - hair
 - bald

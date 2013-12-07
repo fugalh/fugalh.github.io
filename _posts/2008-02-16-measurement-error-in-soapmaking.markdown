@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 933
 wordpress_url: urn:uuid:405707f3-a4ef-49a3-8d36-7a6fc821c40c
-date: 2008-02-16 00:03:00.000000000 -08:00
+date: '2008-02-16 00:03:00.000000000 -08:00'
 tags:
 - fat
 - soap

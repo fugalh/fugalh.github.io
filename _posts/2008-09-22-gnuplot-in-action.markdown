@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1006
 wordpress_url: urn:uuid:15ad7f16-2a9b-4bad-a41c-355584ee81da
-date: 2008-09-22 16:21:00.000000000 -07:00
+date: '2008-09-22 16:21:00.000000000 -07:00'
 tags:
 - cs
 - review

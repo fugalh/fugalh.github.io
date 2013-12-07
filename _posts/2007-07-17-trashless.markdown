@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 852
 wordpress_url: urn:uuid:5b43b3d7-5002-47e5-99d4-4c971aace35b
-date: 2007-07-17 16:03:57.000000000 -07:00
+date: '2007-07-17 16:03:57.000000000 -07:00'
 tags:
 - mac
 - trash

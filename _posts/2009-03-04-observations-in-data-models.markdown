@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1116
 wordpress_url: http://hans.fugal.net/blog/?p=1116
-date: 2009-03-04 23:08:52.000000000 -08:00
+date: '2009-03-04 23:08:52.000000000 -08:00'
 tags:
 - family
 - genealogy

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 762
 wordpress_url: urn:uuid:e4de077e-9b7d-4a90-9888-c80e953ed027
-date: 2006-12-12 23:14:31.000000000 -08:00
+date: '2006-12-12 23:14:31.000000000 -08:00'
 tags:
 - mac
 - flightgear

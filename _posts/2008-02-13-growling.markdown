@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 925
 wordpress_url: urn:uuid:c70d83a1-4a14-433c-b731-2c7566cb3e89
-date: 2008-02-13 10:20:49.000000000 -08:00
+date: '2008-02-13 10:20:49.000000000 -08:00'
 tags:
 - leopard
 - growl

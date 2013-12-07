@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 919
 wordpress_url: urn:uuid:d1cdeded-bf16-470e-81c7-c8bf1b34773f
-date: 2008-01-29 13:29:16.000000000 -08:00
+date: '2008-01-29 13:29:16.000000000 -08:00'
 tags:
 - pda
 - hipster

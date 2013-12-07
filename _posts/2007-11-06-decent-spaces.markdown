@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 896
 wordpress_url: urn:uuid:d6c78283-7294-48de-a539-6201f43f4e6b
-date: 2007-11-06 12:30:35.000000000 -08:00
+date: '2007-11-06 12:30:35.000000000 -08:00'
 tags:
 - mac
 - firefox

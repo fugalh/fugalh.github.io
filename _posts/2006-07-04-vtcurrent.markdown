@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 659
 wordpress_url: urn:uuid:cc08efb6-49b4-456a-924f-3d3152571e11
-date: 2006-07-04 17:49:13.000000000 -07:00
+date: '2006-07-04 17:49:13.000000000 -07:00'
 tags:
 - linux
 - vt

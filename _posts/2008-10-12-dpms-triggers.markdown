@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1011
 wordpress_url: urn:uuid:b45688b0-38b6-41cf-81de-5494ae816b05
-date: 2008-10-12 22:20:00.000000000 -07:00
+date: '2008-10-12 22:20:00.000000000 -07:00'
 tags:
 - gnome
 - brightside

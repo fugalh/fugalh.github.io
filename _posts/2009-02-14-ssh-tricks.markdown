@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1105
 wordpress_url: http://hans.fugal.net/blog/?p=1105
-date: 2009-02-14 06:17:51.000000000 -08:00
+date: '2009-02-14 06:17:51.000000000 -08:00'
 tags:
 - linux
 - ssh

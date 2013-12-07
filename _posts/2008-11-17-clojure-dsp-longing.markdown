@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1023
 wordpress_url: urn:uuid:1952d447-e57e-4afd-978b-ad8fdbc4d8cc
-date: 2008-11-17 10:46:00.000000000 -08:00
+date: '2008-11-17 10:46:00.000000000 -08:00'
 tags:
 - audio
 - cs

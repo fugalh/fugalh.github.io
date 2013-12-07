@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 907
 wordpress_url: urn:uuid:df5726c7-399f-49a0-8a49-95af4e4e131b
-date: 2007-11-24 08:47:00.000000000 -08:00
+date: '2007-11-24 08:47:00.000000000 -08:00'
 tags:
 - linux
 - router

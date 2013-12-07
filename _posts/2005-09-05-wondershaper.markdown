@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 103
 wordpress_url: urn:uuid:932e32a4-8dfb-4d6d-b0e7-a07967cfc905
-date: 2005-09-05 10:11:07.000000000 -07:00
+date: '2005-09-05 10:11:07.000000000 -07:00'
 tags:
 - voip
 - qos

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1147
 wordpress_url: http://hans.fugal.net/blog/2009/06/16/firefox-book-like-bookmarks
-date: 2009-06-16 17:37:25.000000000 -07:00
+date: '2009-06-16 17:37:25.000000000 -07:00'
 tags:
 - firefox
 - book

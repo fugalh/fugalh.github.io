@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1187
 wordpress_url: http://hans.fugal.net/blog/2009/10/08/ac_type_uint8_t-and-friends
-date: 2009-10-08 23:15:00.000000000 -07:00
+date: '2009-10-08 23:15:00.000000000 -07:00'
 tags:
 - cs
 - linux

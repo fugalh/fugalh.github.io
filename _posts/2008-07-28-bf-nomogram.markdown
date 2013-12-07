@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 994
 wordpress_url: urn:uuid:1ed2d47a-6b1c-4d54-8a84-f3c7828f3717
-date: 2008-07-28 17:54:54.000000000 -07:00
+date: '2008-07-28 17:54:54.000000000 -07:00'
 tags:
 - life
 - math

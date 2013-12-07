@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 974
 wordpress_url: urn:uuid:acfc6db0-ee9a-4fe8-9b15-62ead8c21402
-date: 2008-06-10 17:27:01.000000000 -07:00
+date: '2008-06-10 17:27:01.000000000 -07:00'
 tags:
 - linux
 - ardour

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 758
 wordpress_url: urn:uuid:a1bc72e8-9c27-4809-a6c9-75cb7a582f6a
-date: 2006-11-29 10:15:02.000000000 -08:00
+date: '2006-11-29 10:15:02.000000000 -08:00'
 tags:
 - mac
 - voip

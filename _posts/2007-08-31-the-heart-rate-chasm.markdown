@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 868
 wordpress_url: urn:uuid:0645035b-98b4-4dd5-8c19-146fb07446c9
-date: 2007-08-31 09:41:00.000000000 -07:00
+date: '2007-08-31 09:41:00.000000000 -07:00'
 tags:
 - life
 - fat

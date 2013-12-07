@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 900
 wordpress_url: urn:uuid:fe67bc0d-ccf5-4183-a5a8-69570c355037
-date: 2007-11-14 22:37:12.000000000 -08:00
+date: '2007-11-14 22:37:12.000000000 -08:00'
 tags:
 - bmi
 - health

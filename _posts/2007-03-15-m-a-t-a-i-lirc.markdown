@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 822
 wordpress_url: urn:uuid:80652eab-48bb-450f-bf6a-c9be7144d8cf
-date: 2007-03-15 20:55:58.000000000 -07:00
+date: '2007-03-15 20:55:58.000000000 -07:00'
 tags:
 - lirc
 - modass

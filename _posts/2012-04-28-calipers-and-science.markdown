@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1275
 wordpress_url: http://hans.fugal.net/blog/?p=1275
-date: 2012-04-28 20:56:04.000000000 -07:00
+date: '2012-04-28 20:56:04.000000000 -07:00'
 tags:
 - bmi
 - fat

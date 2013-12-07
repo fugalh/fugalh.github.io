@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1158
 wordpress_url: http://hans.fugal.net/blog/?p=1158
-date: 2009-07-12 13:42:46.000000000 -07:00
+date: '2009-07-12 13:42:46.000000000 -07:00'
 tags:
 - mac
 - vim

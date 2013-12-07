@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 975
 wordpress_url: urn:uuid:6dade206-46c2-4368-b61c-58c9d0742d9a
-date: 2008-06-12 22:26:00.000000000 -07:00
+date: '2008-06-12 22:26:00.000000000 -07:00'
 tags:
 - soda
 - toothpaste

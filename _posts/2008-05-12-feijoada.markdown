@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 960
 wordpress_url: urn:uuid:d5d0a9e3-898f-4d45-adb5-c2bc36225e58
-date: 2008-05-12 15:29:27.000000000 -07:00
+date: '2008-05-12 15:29:27.000000000 -07:00'
 tags:
 - rice
 - brazilian

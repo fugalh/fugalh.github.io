@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 846
 wordpress_url: urn:uuid:114f9117-806f-4455-9f2d-f0dd82d224d2
-date: 2007-06-13 15:50:00.000000000 -07:00
+date: '2007-06-13 15:50:00.000000000 -07:00'
 tags:
 - flightgear
 - glut

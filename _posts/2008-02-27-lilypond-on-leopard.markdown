@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 937
 wordpress_url: urn:uuid:e384889b-45c8-4117-8f74-f234c5e9fbb5
-date: 2008-02-27 11:44:11.000000000 -08:00
+date: '2008-02-27 11:44:11.000000000 -08:00'
 tags:
 - mac
 - music

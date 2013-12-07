@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1096
 wordpress_url: http://hans.fugal.net/blog/2009/02/12/why-i-switched-to-git
-date: 2009-02-12 00:44:09.000000000 -08:00
+date: '2009-02-12 00:44:09.000000000 -08:00'
 tags:
 - cs
 - git

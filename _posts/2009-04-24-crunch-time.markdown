@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1145
 wordpress_url: http://hans.fugal.net/blog/?p=1145
-date: 2009-04-24 03:44:31.000000000 -07:00
+date: '2009-04-24 03:44:31.000000000 -07:00'
 tags:
 - chat
 - im

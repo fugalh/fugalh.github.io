@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 841
 wordpress_url: urn:uuid:cef5c78b-a3fe-4a69-9266-947cdb05589d
-date: 2007-05-31 22:08:36.000000000 -07:00
+date: '2007-05-31 22:08:36.000000000 -07:00'
 tags:
 - visa
 - security

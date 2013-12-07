@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 685
 wordpress_url: urn:uuid:76aa668a-fa39-47e2-a156-b5dd307069ae
-date: 2006-07-28 21:08:17.000000000 -07:00
+date: '2006-07-28 21:08:17.000000000 -07:00'
 tags:
 - vmware
 - free

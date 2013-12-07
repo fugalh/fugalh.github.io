@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 957
 wordpress_url: urn:uuid:774b7210-22c2-485f-b425-216fb96e8717
-date: 2008-04-20 10:38:24.000000000 -07:00
+date: '2008-04-20 10:38:24.000000000 -07:00'
 tags:
 - linux
 - video

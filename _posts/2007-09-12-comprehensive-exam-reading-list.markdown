@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 873
 wordpress_url: urn:uuid:9a3a5dd8-a1a3-4194-ac49-0b9bc153076c
-date: 2007-09-12 16:48:00.000000000 -07:00
+date: '2007-09-12 16:48:00.000000000 -07:00'
 tags:
 - grad
 - comps

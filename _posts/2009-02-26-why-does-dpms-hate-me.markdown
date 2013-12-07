@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1113
 wordpress_url: http://hans.fugal.net/blog/?p=1113
-date: 2009-02-26 16:01:32.000000000 -08:00
+date: '2009-02-26 16:01:32.000000000 -08:00'
 tags:
 - fail
 - gnome

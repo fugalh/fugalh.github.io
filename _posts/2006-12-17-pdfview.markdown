@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 769
 wordpress_url: urn:uuid:120cd068-dd24-4df3-ae83-8bfd8536c8d2
-date: 2006-12-17 08:32:33.000000000 -08:00
+date: '2006-12-17 08:32:33.000000000 -08:00'
 tags:
 - mac
 - pdf

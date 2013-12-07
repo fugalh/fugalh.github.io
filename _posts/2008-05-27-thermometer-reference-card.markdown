@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 965
 wordpress_url: urn:uuid:2ccad70b-124b-48e0-bcea-3ab411611adc
-date: 2008-05-27 08:51:00.000000000 -07:00
+date: '2008-05-27 08:51:00.000000000 -07:00'
 tags:
 - temperature
 - bread

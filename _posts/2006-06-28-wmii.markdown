@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 635
 wordpress_url: urn:uuid:bfe05164-430e-48f6-be66-152418b1e5b0
-date: 2006-06-28 10:08:00.000000000 -07:00
+date: '2006-06-28 10:08:00.000000000 -07:00'
 tags:
 - linux
 - wmii

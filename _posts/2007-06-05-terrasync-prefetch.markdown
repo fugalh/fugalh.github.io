@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 845
 wordpress_url: urn:uuid:231660d1-d09b-4016-81c4-c326d09e0f6d
-date: 2007-06-05 10:54:38.000000000 -07:00
+date: '2007-06-05 10:54:38.000000000 -07:00'
 tags:
 - flightgear
 - terrasync

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 954
 wordpress_url: urn:uuid:1ad9ae39-9b51-4447-9643-cba12b84d965
-date: 2008-04-07 06:43:52.000000000 -07:00
+date: '2008-04-07 06:43:52.000000000 -07:00'
 tags:
 - ruby
 - hpricot

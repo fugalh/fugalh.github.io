@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 901
 wordpress_url: urn:uuid:de18e9f4-1a4a-4728-b71b-f8a31bef43f4
-date: 2007-11-16 21:10:55.000000000 -08:00
+date: '2007-11-16 21:10:55.000000000 -08:00'
 tags:
 - darcs
 - distributed

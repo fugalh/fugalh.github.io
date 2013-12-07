@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1087
 wordpress_url: http://hans.fugal.net/blog/2009/02/04/identification-in-pdfs
-date: 2009-02-04 16:21:38.000000000 -08:00
+date: '2009-02-04 16:21:38.000000000 -08:00'
 tags:
 - review
 - gnuplot

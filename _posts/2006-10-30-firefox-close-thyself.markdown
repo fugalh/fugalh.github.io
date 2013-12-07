@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 743
 wordpress_url: urn:uuid:1b56f96d-b968-44d6-bc23-d78dcfe208a4
-date: 2006-10-30 21:43:22.000000000 -08:00
+date: '2006-10-30 21:43:22.000000000 -08:00'
 tags:
 - osx
 - keyboard

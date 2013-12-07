@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 912
 wordpress_url: urn:uuid:0759f053-055f-42e4-97d5-60f94ed9fc68
-date: 2007-12-11 08:50:00.000000000 -08:00
+date: '2007-12-11 08:50:00.000000000 -08:00'
 tags:
 - diy
 - soap

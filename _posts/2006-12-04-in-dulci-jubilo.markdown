@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 760
 wordpress_url: urn:uuid:c4f037b8-514f-4565-a228-50fbaea49e05
-date: 2006-12-04 12:10:31.000000000 -08:00
+date: '2006-12-04 12:10:31.000000000 -08:00'
 tags:
 - organ
 - in dulci jubilo

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1016
 wordpress_url: urn:uuid:c5901cd6-b860-4155-b9e0-89cb32c2538b
-date: 2008-10-31 10:57:00.000000000 -07:00
+date: '2008-10-31 10:57:00.000000000 -07:00'
 tags:
 - halloween
 - scarf

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 843
 wordpress_url: urn:uuid:494eca87-5cb1-4566-ad0c-cf41c757df90
-date: 2007-06-02 23:37:00.000000000 -07:00
+date: '2007-06-02 23:37:00.000000000 -07:00'
 tags:
 - linux
 - xplane

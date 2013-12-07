@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 884
 wordpress_url: urn:uuid:71648c5f-9d8e-4575-b10f-5652ee2bfb60
-date: 2007-10-22 13:18:00.000000000 -07:00
+date: '2007-10-22 13:18:00.000000000 -07:00'
 tags:
 - review
 - book

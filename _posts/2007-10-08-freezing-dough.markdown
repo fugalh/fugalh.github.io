@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 878
 wordpress_url: urn:uuid:b29bde51-97f6-4078-89d7-5b1ab9d1bb54
-date: 2007-10-08 12:30:02.000000000 -07:00
+date: '2007-10-08 12:30:02.000000000 -07:00'
 tags:
 - bread
 - cold

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 984
 wordpress_url: urn:uuid:a0d95bf1-b63d-4852-ae9a-a79e54ebe742
-date: 2008-06-30 15:30:48.000000000 -07:00
+date: '2008-06-30 15:30:48.000000000 -07:00'
 tags:
 - netflix
 - service

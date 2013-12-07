@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 742
 wordpress_url: urn:uuid:7bafc46f-c3bd-429f-9655-cd9c3e6de132
-date: 2006-10-25 09:56:22.000000000 -07:00
+date: '2006-10-25 09:56:22.000000000 -07:00'
 tags:
 - journal
 - gpg

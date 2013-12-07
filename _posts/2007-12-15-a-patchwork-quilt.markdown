@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 915
 wordpress_url: urn:uuid:5d8264e8-119d-44c1-80c9-b916615a5540
-date: 2007-12-15 10:29:59.000000000 -08:00
+date: '2007-12-15 10:29:59.000000000 -08:00'
 tags:
 - diff
 - quilt

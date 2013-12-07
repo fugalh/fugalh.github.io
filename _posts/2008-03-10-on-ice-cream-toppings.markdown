@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 941
 wordpress_url: urn:uuid:a65ba078-48dd-474c-b5ad-d46778b0e4fe
-date: 2008-03-10 12:57:00.000000000 -07:00
+date: '2008-03-10 12:57:00.000000000 -07:00'
 tags:
 - food
 - cajeta

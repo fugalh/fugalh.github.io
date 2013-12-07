@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1260
 wordpress_url: http://hans.fugal.net/blog/?p=1260
-date: 2011-11-27 19:21:45.000000000 -08:00
+date: '2011-11-27 19:21:45.000000000 -08:00'
 tags:
 - audio
 - linux

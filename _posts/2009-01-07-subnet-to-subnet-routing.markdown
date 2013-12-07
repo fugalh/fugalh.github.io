@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1033
 wordpress_url: urn:uuid:fd3f261a-eb44-4e19-8e8e-c5343cadc9fc
-date: 2009-01-07 10:21:00.000000000 -08:00
+date: '2009-01-07 10:21:00.000000000 -08:00'
 tags:
 - linux
 - openvpn

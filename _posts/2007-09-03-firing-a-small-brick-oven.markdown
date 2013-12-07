@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 870
 wordpress_url: urn:uuid:be148140-393e-4cab-a534-bcf7f279cf4f
-date: 2007-09-03 11:47:40.000000000 -07:00
+date: '2007-09-03 11:47:40.000000000 -07:00'
 tags:
 - bread
 - pizza

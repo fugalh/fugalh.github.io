@@ -12,7 +12,7 @@ excerpt: <p>And now, ladies and gentlemen, I will answer the questions you have 
   TMS320C6416DSK RTDX OLE API!</p>
 wordpress_id: 123
 wordpress_url: urn:uuid:6df96e4d-6290-43b3-a5df-879cd047c04d
-date: 2006-05-04 20:28:00.000000000 -07:00
+date: '2006-05-04 20:28:00.000000000 -07:00'
 tags:
 - audio
 - cs

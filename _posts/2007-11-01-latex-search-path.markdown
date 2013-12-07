@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 892
 wordpress_url: urn:uuid:2830b6af-ac1b-405c-9e0a-6e1a6f324b85
-date: 2007-11-01 10:55:26.000000000 -07:00
+date: '2007-11-01 10:55:26.000000000 -07:00'
 tags:
 - mac
 - latex

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 932
 wordpress_url: urn:uuid:44cb7dd7-9fdc-411f-b00f-10fac453474f
-date: 2008-02-15 11:15:00.000000000 -08:00
+date: '2008-02-15 11:15:00.000000000 -08:00'
 tags:
 - reminder
 - creme

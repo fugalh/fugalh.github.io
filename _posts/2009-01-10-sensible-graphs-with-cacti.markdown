@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1034
 wordpress_url: urn:uuid:aa35c0e8-90ef-4852-9220-73e9d37df933
-date: 2009-01-10 05:06:00.000000000 -08:00
+date: '2009-01-10 05:06:00.000000000 -08:00'
 tags:
 - linux
 - statistics

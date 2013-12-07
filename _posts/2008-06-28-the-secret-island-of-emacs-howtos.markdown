@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 981
 wordpress_url: urn:uuid:5659c386-78be-4f2e-8891-01acf97b63a9
-date: 2008-06-28 19:24:37.000000000 -07:00
+date: '2008-06-28 19:24:37.000000000 -07:00'
 tags:
 - emacs
 - clojure

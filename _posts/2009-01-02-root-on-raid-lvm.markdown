@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1030
 wordpress_url: urn:uuid:a7008bdb-fdbb-4aa9-b571-3c68a0c318c1
-date: 2009-01-02 11:50:00.000000000 -08:00
+date: '2009-01-02 11:50:00.000000000 -08:00'
 tags:
 - linux
 - lvm

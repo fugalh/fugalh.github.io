@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 338
 wordpress_url: urn:uuid:45d001eb-a5cb-4b7f-baa9-e7cc71cc588c
-date: 2006-06-05 13:21:54.000000000 -07:00
+date: '2006-06-05 13:21:54.000000000 -07:00'
 tags:
 - movie
 - review

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 839
 wordpress_url: urn:uuid:cc00c727-c7d8-4f0b-a2ef-a71f0a142f6c
-date: 2007-05-17 14:52:00.000000000 -07:00
+date: '2007-05-17 14:52:00.000000000 -07:00'
 tags:
 - asterisk
 - voip

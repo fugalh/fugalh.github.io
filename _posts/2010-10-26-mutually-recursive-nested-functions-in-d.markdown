@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1233
 wordpress_url: http://hans.fugal.net/blog/?p=1233
-date: 2010-10-26 03:24:41.000000000 -07:00
+date: '2010-10-26 03:24:41.000000000 -07:00'
 tags:
 - cs
 - d

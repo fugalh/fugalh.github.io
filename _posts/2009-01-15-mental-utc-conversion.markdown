@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1037
 wordpress_url: urn:uuid:bdd9cf51-45f0-4af0-8bce-da50f3cb464e
-date: 2009-01-15 13:06:00.000000000 -08:00
+date: '2009-01-15 13:06:00.000000000 -08:00'
 tags:
 - utc
 - mental

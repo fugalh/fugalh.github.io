@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 849
 wordpress_url: urn:uuid:ae793e1b-865f-4417-896c-9fa86b943e33
-date: 2007-07-01 08:20:00.000000000 -07:00
+date: '2007-07-01 08:20:00.000000000 -07:00'
 tags:
 - mac
 - case

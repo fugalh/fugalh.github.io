@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1207
 wordpress_url: http://hans.fugal.net/blog/?p=1207
-date: 2010-03-09 21:30:08.000000000 -08:00
+date: '2010-03-09 21:30:08.000000000 -08:00'
 tags:
 - bash
 - shell

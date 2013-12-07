@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1012
 wordpress_url: urn:uuid:0c676cf8-dcf5-4c02-9154-7f42641d3c8d
-date: 2008-10-13 19:20:00.000000000 -07:00
+date: '2008-10-13 19:20:00.000000000 -07:00'
 tags:
 - life
 - hair

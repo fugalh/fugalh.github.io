@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 958
 wordpress_url: urn:uuid:0482db65-1802-4699-81df-38204f3bda5a
-date: 2008-04-21 09:00:00.000000000 -07:00
+date: '2008-04-21 09:00:00.000000000 -07:00'
 tags:
 - life
 - productivity

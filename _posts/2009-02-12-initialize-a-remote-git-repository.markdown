@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1097
 wordpress_url: http://hans.fugal.net/blog/?p=1097
-date: 2009-02-12 18:12:41.000000000 -08:00
+date: '2009-02-12 18:12:41.000000000 -08:00'
 tags:
 - git
 - init

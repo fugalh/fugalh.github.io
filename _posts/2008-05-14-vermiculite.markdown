@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 961
 wordpress_url: urn:uuid:3f0e66b9-eb23-41c5-bb5d-e7c0d1922720
-date: 2008-05-14 09:20:00.000000000 -07:00
+date: '2008-05-14 09:20:00.000000000 -07:00'
 tags:
 - vermiculite
 - square foot

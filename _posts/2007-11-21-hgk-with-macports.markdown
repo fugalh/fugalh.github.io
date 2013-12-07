@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 905
 wordpress_url: urn:uuid:db2031fc-e909-48c6-abcf-efdcec9091b8
-date: 2007-11-21 11:23:09.000000000 -08:00
+date: '2007-11-21 11:23:09.000000000 -08:00'
 tags:
 - hg
 - mercurial

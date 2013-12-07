@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 962
 wordpress_url: urn:uuid:01d43977-cfdb-476f-ba59-ad1fc27d1fc3
-date: 2008-05-14 16:12:01.000000000 -07:00
+date: '2008-05-14 16:12:01.000000000 -07:00'
 tags:
 - mac
 - stuffit

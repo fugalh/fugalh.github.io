@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 740
 wordpress_url: urn:uuid:c2238d25-5cfd-432e-a72f-732ec2c7dd8c
-date: 2006-10-22 16:26:01.000000000 -07:00
+date: '2006-10-22 16:26:01.000000000 -07:00'
 tags:
 - gifts
 - wishlist

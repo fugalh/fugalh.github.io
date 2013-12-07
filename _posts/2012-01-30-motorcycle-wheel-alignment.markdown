@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1264
 wordpress_url: http://hans.fugal.net/blog/?p=1264
-date: 2012-01-30 16:39:19.000000000 -08:00
+date: '2012-01-30 16:39:19.000000000 -08:00'
 tags:
 - math
 - diy

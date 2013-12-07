@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 776
 wordpress_url: urn:uuid:e70fef81-96eb-4c9c-ac54-2f1ed8f3afe3
-date: 2007-01-14 18:11:03.000000000 -08:00
+date: '2007-01-14 18:11:03.000000000 -08:00'
 tags:
 - aviation
 - sectional

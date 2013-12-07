@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1005
 wordpress_url: urn:uuid:efe5a20b-dab3-49d4-8dd7-ee6903a8e177
-date: 2008-09-19 16:24:00.000000000 -07:00
+date: '2008-09-19 16:24:00.000000000 -07:00'
 tags:
 - audio
 - life

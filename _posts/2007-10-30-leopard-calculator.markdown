@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 891
 wordpress_url: urn:uuid:505ae896-027d-4803-b940-2221b2862820
-date: 2007-10-30 10:50:00.000000000 -07:00
+date: '2007-10-30 10:50:00.000000000 -07:00'
 tags:
 - mac
 - calculator

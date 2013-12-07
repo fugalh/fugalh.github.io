@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 675
 wordpress_url: urn:uuid:ec85da15-4a7a-426b-928d-de91810ea538
-date: 2006-07-22 13:19:34.000000000 -07:00
+date: '2006-07-22 13:19:34.000000000 -07:00'
 tags:
 - linux
 - xorg

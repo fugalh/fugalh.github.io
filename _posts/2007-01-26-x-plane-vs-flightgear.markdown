@@ -24,7 +24,7 @@ excerpt: |-
   only real choices. So without further ado I will commence comparison.</p>
 wordpress_id: 779
 wordpress_url: urn:uuid:0da17edd-8530-4635-8aec-68c83b4ad444
-date: 2007-01-26 18:02:00.000000000 -08:00
+date: '2007-01-26 18:02:00.000000000 -08:00'
 tags:
 - x
 - flightgear

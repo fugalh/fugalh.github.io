@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 888
 wordpress_url: urn:uuid:bbbdd0dc-06be-4ad8-953a-efd657c792a0
-date: 2007-10-29 10:31:05.000000000 -07:00
+date: '2007-10-29 10:31:05.000000000 -07:00'
 tags:
 - typo
 - amazon

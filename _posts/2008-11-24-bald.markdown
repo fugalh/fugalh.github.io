@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1025
 wordpress_url: urn:uuid:e8b1b857-384c-48bc-b862-53649da5a6f6
-date: 2008-11-24 15:20:00.000000000 -08:00
+date: '2008-11-24 15:20:00.000000000 -08:00'
 tags:
 - life
 - razor

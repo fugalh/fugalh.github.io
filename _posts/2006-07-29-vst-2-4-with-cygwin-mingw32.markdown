@@ -13,7 +13,7 @@ excerpt: |-
   <p>Well now that I have VMware I ran out of excuses to figure it out. I spent a couple hours trying to figure it out today and learned more than I wanted to know about DLLs, Cygwin, MinGW32, Visual Studio products, and VST.</p>
 wordpress_id: 687
 wordpress_url: urn:uuid:e7734ab5-9b03-4519-961e-4e4243a2df21
-date: 2006-07-29 20:36:00.000000000 -07:00
+date: '2006-07-29 20:36:00.000000000 -07:00'
 tags:
 - audio
 - vst

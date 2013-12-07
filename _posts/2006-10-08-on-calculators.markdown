@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 730
 wordpress_url: urn:uuid:7b0d3cec-44c4-40b4-a22e-1b30c6a6b069
-date: 2006-10-08 15:15:00.000000000 -07:00
+date: '2006-10-08 15:15:00.000000000 -07:00'
 tags:
 - calculator
 - rpn

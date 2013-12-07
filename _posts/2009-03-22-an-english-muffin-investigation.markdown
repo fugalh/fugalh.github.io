@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1124
 wordpress_url: http://hans.fugal.net/blog/?p=1124
-date: 2009-03-22 21:00:40.000000000 -07:00
+date: '2009-03-22 21:00:40.000000000 -07:00'
 tags: []
 comments:
 - id: 1925

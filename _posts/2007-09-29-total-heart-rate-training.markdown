@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 876
 wordpress_url: urn:uuid:736dd306-2d6f-463c-b2b5-925ce4b7646d
-date: 2007-09-29 09:02:00.000000000 -07:00
+date: '2007-09-29 09:02:00.000000000 -07:00'
 tags:
 - life
 - book

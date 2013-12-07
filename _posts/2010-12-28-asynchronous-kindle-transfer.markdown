@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1242
 wordpress_url: http://hans.fugal.net/blog/?p=1242
-date: 2010-12-28 18:58:59.000000000 -08:00
+date: '2010-12-28 18:58:59.000000000 -08:00'
 tags:
 - osx
 - automation

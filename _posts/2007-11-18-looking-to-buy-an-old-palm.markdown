@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 903
 wordpress_url: urn:uuid:550ef2e2-2ae1-4608-b07b-541b90b9d9a5
-date: 2007-11-18 18:23:00.000000000 -08:00
+date: '2007-11-18 18:23:00.000000000 -08:00'
 tags:
 - barter
 comments:

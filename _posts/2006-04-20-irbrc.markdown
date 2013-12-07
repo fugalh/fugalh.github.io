@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 120
 wordpress_url: urn:uuid:6d9982b9-c1a2-4b74-8396-52361cf3028b
-date: 2006-04-20 12:33:24.000000000 -07:00
+date: '2006-04-20 12:33:24.000000000 -07:00'
 tags:
 - cs
 - ruby

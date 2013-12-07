@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1118
 wordpress_url: http://hans.fugal.net/blog/?p=1118
-date: 2009-03-12 03:33:01.000000000 -07:00
+date: '2009-03-12 03:33:01.000000000 -07:00'
 tags:
 - food
 - cooking

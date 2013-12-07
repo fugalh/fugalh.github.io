@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 883
 wordpress_url: urn:uuid:a7462a9c-feff-4f2f-9ef0-9ea79b607798
-date: 2007-10-21 22:03:13.000000000 -07:00
+date: '2007-10-21 22:03:13.000000000 -07:00'
 tags:
 - food
 - chile

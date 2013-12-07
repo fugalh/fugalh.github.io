@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 914
 wordpress_url: urn:uuid:4c78f99d-c1db-4664-bafb-5b3698188e08
-date: 2007-12-15 09:24:00.000000000 -08:00
+date: '2007-12-15 09:24:00.000000000 -08:00'
 tags:
 - python
 - hg

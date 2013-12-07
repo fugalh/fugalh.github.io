@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 973
 wordpress_url: urn:uuid:3a9e9686-8874-4cb1-a495-d7b287bae039
-date: 2008-06-08 18:12:51.000000000 -07:00
+date: '2008-06-08 18:12:51.000000000 -07:00'
 tags:
 - food
 - ranch

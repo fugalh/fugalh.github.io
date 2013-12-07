@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 1003
 wordpress_url: urn:uuid:3bf86f41-894d-4be4-a0e9-4ab193d5c73a
-date: 2008-09-10 15:12:00.000000000 -07:00
+date: '2008-09-10 15:12:00.000000000 -07:00'
 tags:
 - food
 - new mexico

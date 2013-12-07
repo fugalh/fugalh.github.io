@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 992
 wordpress_url: urn:uuid:48e78b8e-4bae-4953-a421-198d81177d7e
-date: 2008-07-26 14:25:22.000000000 -07:00
+date: '2008-07-26 14:25:22.000000000 -07:00'
 tags:
 - audio
 - cables

@@ -9,7 +9,7 @@ author_email: hans@fugal.net
 author_url: http://hans.fugal.net/
 wordpress_id: 717
 wordpress_url: urn:uuid:9e4d3bfd-01fc-488b-a015-f44c5ab70539
-date: 2006-08-31 09:54:00.000000000 -07:00
+date: '2006-08-31 09:54:00.000000000 -07:00'
 tags:
 - netflix
 - scientific method
