@@ -1,4 +1,7 @@
-# Reduce compilation time with template magic.
+---
+layout: post
+title:  'Reduce compilation time with template magic.'
+---
 
 It is a common belief that templates must be implemented in header files, a lamentable situation that greatly increases build times because those full-blown headers must be compiled every time they are included. It also makes the headers less useful as brief documentation, which one of the things about headers that is actually good.
 
