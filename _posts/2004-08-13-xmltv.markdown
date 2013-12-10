@@ -16,7 +16,7 @@ comments: []
 ---
 <p>xmltv is cool. Slow, but cool. Here's how I got <a href="http://hans.fugal.net/oly.pdf">the complete olympic
 lineup</a> so I don't have to deal with the
-shoddy <a href="nbcolympics.com">nbcolympics.com</a> site:</p>
+shoddy <a href="http://nbcolympics.com">nbcolympics.com</a> site:</p>
 
 <pre><code># sign up for zap2it's data direct service, per the instructions in the
 # tv_grab_na_dd man page. Then configure tv_grab_na_dd

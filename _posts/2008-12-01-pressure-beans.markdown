@@ -26,7 +26,7 @@ comments: []
 ---
 <p>So we got a pressure cooker, as an advance Christmas present. See, we had all these turkey bones to turn into stock and babysitting a simmering pot over 8 hours didn't seem like very much fun. When I realized you can get a good but basic pressure cooker for $30, the rest was history.</p>
 
-<p><a href="http://www.amazon.com/gp/product/B00006ISG3?ie=UTF8&amp;tag=thefug-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00006ISG3"><img border="0" src="/images/31T7J03ENJL._SL160_.jpg"></a><img src="http://www.assoc-amazon.com/e/ir?t=thefug-20&amp;l=as2&amp;o=1&amp;a=B00006ISG3" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
+<p><a href="http://www.amazon.com/gp/product/B00006ISG3?ie=UTF8&amp;tag=thefug-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00006ISG3"><img border="0" src="http://hans.fugal.net/images/31T7J03ENJL._SL160_.jpg"></a><img src="http://www.assoc-amazon.com/e/ir?t=thefug-20&amp;l=as2&amp;o=1&amp;a=B00006ISG3" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
 <p>I made stock yesterday. I cooked it for an hour, and it seems like decent stock though I don't have a PhD in stock discrimination. The bones didn't break easily like <acronym title="Alton Brown">AB</acronym> <a href="http://www.goodeatsfanpage.com/Season7/EA1G11.htm">says they should</a>, so next time I'll try 2 hours (we do have more turkey bones—they didn't all fit in one batch).</p>
 

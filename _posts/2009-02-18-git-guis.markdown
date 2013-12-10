@@ -39,7 +39,7 @@ While most git interaction is with simple commands in the terminal, it often pay
 
 I tried out a few git GUIs and I have settled on two that I think are best of breed. The first is <a href="http://jonas.nitro.dk/tig/">tig</a>. Tig is an ncurses program, so it excels for remote operation over ssh, for quick dives into the repository without reaching for the mouse, and in keyboard use. Think of it as mutt for git. It's a fantastic program and I use it most frequently.
 
-<img alt="" src="/images/tig.png" title="tig screenshot" class="aligncenter" width="585" height="378" />
+<img alt="tig screenshot" src="http://hans.fugal.net/images/tig.png" title="tig screenshot" class="aligncenter" width="585" height="378" />
 
 I have customized my tig setup slightly:
 <code>$ cat /Users/fugalh/.tigrc 
@@ -50,6 +50,6 @@ alias tiga='tig --all'</code>
 
 The second is <a href="http://gitx.frim.nl/">GitX</a>. It's a mac app in every good sense, and it's an excellent git GUI. As you can tell from the screenshot, it's a bit easier on the eyes for visualizing complicated DAGs (not that this screenshot is of a complicated DAG).
 
-<img alt="" src="/images/gitx.png" title="GitX screenshot" class="aligncenter" width="893" height="452" />
+<img alt="gitx screenshot" src="http://hans.fugal.net/images/gitx.png" title="GitX screenshot" class="aligncenter" width="893" height="452" />
 
 If you use GitX be sure to "Enable Terminal Usage…" so you can start it on the current repository on the terminal by typing <code>gitx</code>.

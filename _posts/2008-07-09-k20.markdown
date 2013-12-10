@@ -26,7 +26,7 @@ comments: []
 ---
 <p>I finished the promised K-20 meter. I imaginatively called it <code>k20</code>, and you can find it at <a href="http://hans.fugal.net/src/k20">http://hans.fugal.net/src/k20</a>. Here's a screenshot:</p>
 
-<p><img src="/src/k20/k20.png" alt="k20 screenshot"/></p>
+<p><img src="http://hans.fugal.net/src/k20/k20.png" alt="k20 screenshot"/></p>
 
 <p>From left to right, read average (VU), peak (instantaneous with 26 dB / 3 sec
 falloff), maximum peak, and overs. </p>

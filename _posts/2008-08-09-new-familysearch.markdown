@@ -117,7 +117,7 @@ comments:
 
 <p>There are some other cool tidbits, too, like the pedigree view which combines couples to make better use of space (are they the first to think of it? Probably not, though I haven't personally seen this approach before):</p>
 
-<p><img src="/images/nfs-pedigree.png" alt="NFS pedigree"/></p>
+<p><img src="http://hans.fugal.net/images/nfs-pedigree.png" alt="NFS pedigree"/></p>
 
 <p>There's an info box at the bottom with different tabs, one of which is "possible duplicates". I much much much prefer working with duplicates in this manner, rather than a global "match and merge". Very nice. There are also time lines and Google Maps integration (see where your ancestor was born, married, died, etc.). And those little temple icons unobtrusively notify you of potential temple work to do (or that has already been done). Overall they make nice use of AJAX, too.</p>
 

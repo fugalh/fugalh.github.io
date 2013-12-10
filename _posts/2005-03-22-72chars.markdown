@@ -14,7 +14,8 @@ tags:
 - linux
 comments: []
 ---
-<p>I like to make cron jobs to mail me interesting information, e.g. the output of
+I like to make cron jobs to mail me interesting information, e.g. the output of
 clog. Often, I want to truncate at 72 characters rather than deal with the
 wrapping, so I use this cute little sed script:
-    sed "s/^\(.\{72\}\).*$/\1/"</p>
+
+    sed "s/^\(.\{72\}\).*$/\1/"

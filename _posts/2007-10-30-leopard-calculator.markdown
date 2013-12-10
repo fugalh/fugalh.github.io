@@ -28,4 +28,4 @@ comments:
 ---
 <p>The OS X Leopard Calculator has one very nice change. A picture is worth a thousand words and I'll let this one speak for itself:</p>
 
-<p><img src="/blog/files/calculator-rpn.png" alt="RPN Calculator with Stack"/></p>
+<p><img src="http://hans.fugal.net/blog/files/calculator-rpn.png" alt="RPN Calculator with Stack"/></p>

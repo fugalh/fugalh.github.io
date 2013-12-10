@@ -23,16 +23,16 @@ shortage). I have been pleasantly surprised once again by my iBook. Apple's Calc
 
 <p>It starts out as unassuming as you ever thought the default calculator would be.</p>
 
-<p><img src="/images/calc_basic.png" alt="Basic Mode"/> </p>
+<p><img src="http://hans.fugal.net/images/calc_basic.png" alt="Basic Mode"/> </p>
 
 <p>Then you explore the menu and find that not only can you use RPN, but you can
 do scientific mode. Neat, but not new. (The RPN bit was exciting though)</p>
 
-<p><img src="/images/calc_sci.png" alt="Scientific Mode"/></p>
+<p><img src="http://hans.fugal.net/images/calc_sci.png" alt="Scientific Mode"/></p>
 
 <p>Wait! What is this Progammer view all about? Oh wow. Easy base conversion, 64-bit binary, 2's complement, every operation you ever needed to make your CS and EE homework a piece of cake. I'm sold!</p>
 
-<p><img src="/images/calc_prog.png" alt="Programmer Mode"/></p>
+<p><img src="http://hans.fugal.net/images/calc_prog.png" alt="Programmer Mode"/></p>
 
 <p>Ok, one thing does bug me. RPN is hard to work with without a stack. Sorry, the
 paper tape doesn't cut it (it might, if it responded to enter). But all in all

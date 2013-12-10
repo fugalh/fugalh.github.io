@@ -16,7 +16,7 @@ comments: []
 ---
 <p>In usability and UI design theory there's this concept of <a href="http://www.joelonsoftware.com/uibook/chapters/fog0000000060.html">affordance</a>. We say the button affords clicking, or the metal plate on a door affords pushing. Well the latest Firefox .dmg for OS X (Firefox 1.5) strives to make the already dog-simple installation process (drag the .app into <code>/Applications</code>) even easier:</p>
 
-<p><img src="/images/firefox_affords.png" alt="Screenshot"/></p>
+<p><img src="http://hans.fugal.net/images/firefox_affords.png" alt="Screenshot"/></p>
 
 <p>Doesn't that look great? It just begs you to drag it into the Applications folder. There's only one catch: <em>that's not the Applications folder!</em> That's a background image. It's completely worthless. It gums up your mind and prevents you from installing it on autopilot while you try to figure out why you can't just drag it onto that Applications folder.</p>
 

@@ -65,7 +65,7 @@ comments:
 ---
 <p>I had one of these antennas:</p>
 
-<p><img src="/images/RCA_Antenna.jpg" alt="RCA VHF/UHF Antenna"/></p>
+<p><img src="http://hans.fugal.net/images/RCA_Antenna.jpg" alt="RCA VHF/UHF Antenna"/></p>
 
 <p>Not top of the line, I know, but it did have an amplifier and it did cost probably $30 when I bought it. And it's pretty much worthless. We got the PBS station in town but rarely could we pick up any of the El Paso stations. </p>
 

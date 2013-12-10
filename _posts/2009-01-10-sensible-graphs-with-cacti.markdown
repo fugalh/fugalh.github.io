@@ -424,11 +424,11 @@ comments:
 
 <p>Here's the default load average graph:</p>
 
-<p><img src="/cacti/loadavg-default.png" alt="default load average graph"/></p>
+<p><img src="http://hans.fugal.net/cacti/loadavg-default.png" alt="default load average graph"/></p>
 
 <p>This graph is just plain <em>wrong</em>. It stacks the load averages one on top of the other which makes it impossible to get a real reading for the 5 and 15 minute averages, and makes things look worse than they are. If that textual explanation went over your head, compare with this repaired load average graph and all will be made clear:</p>
 
-<p><img src="/cacti/loadavg.png" alt="my load average graph"/></p>
+<p><img src="http://hans.fugal.net/cacti/loadavg.png" alt="my load average graph"/></p>
 
 <p>Wow, you can actually see how the averages are, well, averages. Funny thing about proper graphs.</p>
 
@@ -436,13 +436,13 @@ comments:
 
 <p>First, let's see the default memory usage graph:</p>
 
-<p><img src="/cacti/memory_usage-default.png" alt="default memory usage graph"/></p>
+<p><img src="http://hans.fugal.net/cacti/memory_usage-default.png" alt="default memory usage graph"/></p>
 
 <p>If you can tell what that graph is saying at a glance, you're better than I. This one doesn't so much lie as beat around the bush. The vital information is there, if you know how to read it. The key is that the stuff you see totals the RAM that is available for programs to consume (free+buffers+cache), so the smaller the area of the graph, the less memory you have available. It also doesn't show swap. Swap is available on another graph (also in terms of free swap not swap used), but on a separate graph you miss out on the relative comparison.</p>
 
 <p>Here's the memory graph I came up with:</p>
 
-<p><img src="/cacti/memory_usage.png" alt="my memory usage graph"/></p>
+<p><img src="http://hans.fugal.net/cacti/memory_usage.png" alt="my memory usage graph"/></p>
 
 <p>I think it is self-explanatory and that it has all the information you could ask of a memory usage graph presented in the clearest possible way. Maybe I'm a bit biased, but you have to admit it's better.</p>
 
@@ -476,4 +476,4 @@ sysservices 79
 
 <p>So now you create a new graph template, and referring to a template similar to what you want you fill in all the right fields, leave most at their defaults, add graph items, tweak and refresh a sample graph using your template a gazillion times, go back and forth with the CDEFs getting things right, then create new (temporary) graphs to make sure it works.</p>
 
-<p>Luckily for you, if all you want is a cool memory graph, I did all this for you. <a href="/cacti/cacti_graph_template_ucdnet_-_memory_usage_hans.xml">Download</a> and <a href="http://www.cacti.net/downloads/docs/html/template_import.html">import</a> my memory usage graph template, create a graph, and in a day or so you'll have a memory usage graph as pretty as mine. Oh, alright, I'll provide a <a href="/cacti/cacti_graph_template_ucdnet_-_load_average_hans.xml">load average template</a> for you as well.</p>
+<p>Luckily for you, if all you want is a cool memory graph, I did all this for you. <a href="http://hans.fugal.net/cacti/cacti_graph_template_ucdnet_-_memory_usage_hans.xml">Download</a> and <a href="http://www.cacti.net/downloads/docs/html/template_import.html">import</a> my memory usage graph template, create a graph, and in a day or so you'll have a memory usage graph as pretty as mine. Oh, alright, I'll provide a <a href="http://hans.fugal.net/cacti/cacti_graph_template_ucdnet_-_load_average_hans.xml">load average template</a> for you as well.</p>

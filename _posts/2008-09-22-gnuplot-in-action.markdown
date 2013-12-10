@@ -43,7 +43,7 @@ comments:
 
     <p>I didn't mention it here because I didn't want to steal the spotlight from gnuplot. Also because this is a book review about an awesome gnuplot book and I have yet to come across an awesome R book (though there are a few candidates I haven't got my hands on yet).</p>
 ---
-<p>One of the oldest and most universally useful tools we have is <a href="http:// www.gnuplot.info/">gnuplot</a>. It is also one of the least understood and most             underutilized tools we have. </p>
+<p>One of the oldest and most universally useful tools we have is <a href="http://www.gnuplot.info/">gnuplot</a>. It is also one of the least understood and most             underutilized tools we have. </p>
 
 <p>I can hear you now. "What do I need gnuplot for? I don't make graphs." Well      that's exactly the problem. Everyone who works with data <em>should</em> be making     graphs, and lots of them. Do you write programs that manipulate data? You need  gnuplot. Do you want to evaluate performance or traffic on your website? You    need gnuplot. Do you want to impress your friends with cool graphs of the       <a href="http://hans.fugal.net/blog/2006/07/03/sourdough-critter-growth-rates">growth rates of yeast and bacteria in sourdough</a> or <a href="http://hans.fugal.net/images/mg.svg">your weight loss and percent     body fat</a>? You need gnuplot.</p>
 

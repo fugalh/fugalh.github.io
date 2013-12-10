@@ -42,11 +42,11 @@ comments:
 
 <p>One of the drawbacks to Terminal.app is that it's broken. This is what Aptitude looks like with <code>TERM=xterm</code> (I think this is the default):</p>
 
-<p><img src="/images/Terminal-xterm.png" alt="TERM=xterm"/></p>
+<p><img src="http://hans.fugal.net/images/Terminal-xterm.png" alt="TERM=xterm"/></p>
 
 <p>This is what it should look like:</p>
 
-<p><img src="/images/Terminal-dtterm.png" alt="TERM=dtterm"/></p>
+<p><img src="http://hans.fugal.net/images/Terminal-dtterm.png" alt="TERM=dtterm"/></p>
 
 <p>How to get from there to here? The short answer is to choose <code>dtterm</code> as your terminal emulation (in Preferences, on the Advanced tab).</p>
 

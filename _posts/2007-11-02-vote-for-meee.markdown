@@ -26,6 +26,6 @@ comments: []
 
 <p>I might have voted in this election. I'm not aware of any major issues on the table, so I might not have voted (shame on me). But thanks to <code>$CANDIDATE</code> I will definitely be voting in this election. I will go to the polling station and cast my vote for that smart candidate. Even if I didn't have him to vote for, though, I'd go and cast my vote for anyone except <code>$CANDIDATE</code> because the last thing I want is to see this face representing me on the city council.</p>
 
-<p><img src="/blog/files/Nate.png" alt="$CANDIDATE" height="250"/></p>
+<p><img src="http://hans.fugal.net/blog/files/Nate.png" alt="$CANDIDATE" height="250"/></p>
 
 <p>Now, just to be clear, I am not voting only on emotion here. Someone that annoying probably holds political views I don't agree with. The political views I have been able to glean from his campaign materials (and it hasn't been much) seem to indicate we're at odds politically. But, that only reinforces my position which is primarily a (probably justified) reaction to his overzealous campaign.</p>

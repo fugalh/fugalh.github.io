@@ -50,4 +50,4 @@ Usage is something like this:
 $ kindlecode *.{c,h} > /Volumes/Kindle/documents/foo.pdf
 </code>
 
-<img src="/kindlecode.jpg" alt="kindlecode in real life" />
+<img src="http://hans.fugal.net/kindlecode.jpg" alt="kindlecode in real life" />

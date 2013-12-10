@@ -54,7 +54,7 @@ thing is to get as much gain as you can before the A/D conversion.</p>
 
 <p>In the digital world, the practical equivalent looks something like this:</p>
 
-<p><a href="http://ardour.org"><img src="/images/ardour-dpm.png" alt="DPM"/></a></p>
+<p><a href="http://ardour.org"><img src="http://hans.fugal.net/images/ardour-dpm.png" alt="DPM"/></a></p>
 
 <p>We'll ignore the wacky scale on that analog meter for now. Notice the scale on
 the DPM—it goes from 0dB at the top to about -70dB at the bottom. Now, decibel

@@ -87,7 +87,7 @@ comments:
 
 <p>Enter Crème Rappel. The little reminder app with a silly French name. Crème combines the notification power of <a href="http://growl.info/">Growl</a>, the scheduling prowess of <code>at</code>, and a no-frills quick-entry command-line UI. <em>Voyez</em>:</p>
 
-<p><img src="/src/creme/synopsis.png" alt="Synopsis"/></p>
+<p><img src="http://hans.fugal.net/src/creme/synopsis.png" alt="Synopsis"/></p>
 
 <p>The growl notifications are sticky, so you have to acknowledge them before they go away. But they're not annoying; you can continue to work on that thought until you have a few cycles to spare. They won't get hidden behind other windows. You can configure Growl to play a sound whenever a Crème Rappel notification happens. What you can't hear in the screenshot above is that the text of the window is also spoken using <code>say</code>, so even if you're not looking you'll get reminded. The only thing that's missing I think is a snooze button, so it can go away and taunt you a second time. If anyone has any ideas…</p>
 

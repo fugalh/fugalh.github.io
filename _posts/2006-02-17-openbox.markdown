@@ -39,7 +39,7 @@ WindowMaker dockapps I love dearly.</p>
 good. On the other hand it does do MRU-style window switching (e.g. alt-tab),
 which is a feature mysteriously missing from FVWM.</p>
 
-<p>Here is <a href="/openbox_rc.xml">my ~/.config/openbox/rc.xml file</a>. It matches the OS X keybindings I use most, and some others I made up which have proved quite useful in the past. Here's a preview (mentally replace cmd with meta or win, as appropriate):</p>
+<p>Here is <a href="http://hans.fugal.net/openbox_rc.xml">my ~/.config/openbox/rc.xml file</a>. It matches the OS X keybindings I use most, and some others I made up which have proved quite useful in the past. Here's a preview (mentally replace cmd with meta or win, as appropriate):</p>
 
 <ul>
 <li>cmd-m to minimize (cmd-h doesn't offer anything more in the Gnome desktop, which is good because vi key emulation always trumps)</li>

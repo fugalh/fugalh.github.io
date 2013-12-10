@@ -44,4 +44,4 @@ preemption</a> and
 started about an hour ago and lasted about half an hour. Here's the screenshot
 from qjackctl: </p>
 
-<p><img src="/images/qjackctl_after_thrash.png" alt="qjackctl status screenshot"/></p>
+<p><img src="http://hans.fugal.net/images/qjackctl_after_thrash.png" alt="qjackctl status screenshot"/></p>
