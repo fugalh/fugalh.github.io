@@ -17,8 +17,47 @@ comments: []
 <p>I downloaded one too many <code>?download</code> files with wget from SourceForge today. I
 respect their desire to make money from advertising, and their desire to have
 people use mirrors. However, their interface is really lame. Therefore, since
-they don't respect me by making a good UI, I will subvert their ads with <a href="http://hans.fugal.net/src/sfget">this
-nifty shell script</a>, and you can too.</p>
+they don't respect me by making a good UI, I will subvert their ads with this
+nifty shell script, and you can too.</p>
+
+```bash
+#!/bin/sh
+
+# sfget - get files a la wget, from stupid sourceforge download links
+# Copyright (C) 2004  Hans Fugal
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+
+# Requirements: cut, wget
+#
+# Usage: sfget <url> <wget options>
+#
+# Configuration:
+mirror="http://voxel.dl.sf.net/sourceforge"
+
+
+# Here lies the code
+orig_url=$1
+shift
+project=`echo $orig_url | cut -d \/ -f 4`
+file=`echo $orig_url | cut -d \/ -f 5 | cut -d \? -f 1`
+url=$mirror/$project/$file
+
+exec wget $* $url
+```
 
 <p>If you're into writing Firefox extensions, do me a favor and write one that
 short-circuits that ugly SourceForge download page with a configurable mirror
