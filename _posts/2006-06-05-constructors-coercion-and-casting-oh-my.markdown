@@ -19,23 +19,24 @@ comments: []
 <p>This little bit of C++ trivia I may have known once but had forgotten. If you
 have the appropriate constructor, the compiler will happily coerce for you:</p>
 
-<pre><code>class Foo
+```java
+class Foo
 {
-public:
-Foo(int);
-int i;
+    public:
+    Foo(int);
+    int i;
 };
 
 int bar(Foo f)
 {
-return f.i;
+    return f.i;
 }
 
 int main(void)
 {
-return bar(42);
+    return bar(42);
 }
-</code></pre>
+```
 
 <p>You can also explicitly cast, which is useful when you are feeling explicit, or
 want to cast to a subclass for polymorphic reasons.</p>
