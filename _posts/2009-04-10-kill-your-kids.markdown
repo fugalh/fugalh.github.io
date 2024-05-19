@@ -37,7 +37,7 @@ comments:
     be evaluated only when the trap fires.\r\n\r\nThis snippet shows the trivial case.
     Use kill to send either 1, 2, or 15 to show the point.\r\n\r\nS=0\r\ntrap 'echo
     trap 1 with S=$S - delayed' 1\r\ntrap \"echo trap 2 with S=$S - immediate\" 2\r\n\r\nS=1\r\nwhile
-    :\r\ndo\r\n  echo pid \$$ waiting for signal 1, 2, or 15\r\n  sleep 2\r\n  S=$((S+1))\r\ndone"
+    :\r\ndo\r\n  echo pid \\$$ waiting for signal 1, 2, or 15\r\n  sleep 2\r\n  S=$((S+1))\r\ndone"
 ---
 Not literally, of course. This is programming talk, those of you who aren't programmers can let your eyes glaze over.
 
