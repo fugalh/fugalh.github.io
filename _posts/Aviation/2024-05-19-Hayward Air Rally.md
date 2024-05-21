@@ -2,7 +2,6 @@
 title: Hayward Air Rally 2024
 tags:
 - aviation
-published: false
 ---
 Katie and I flew in the 60th [Hayward Air Rally](http://www.hwdairrally.org/) a few days ago. It's a proficiency competition: you provide estimates for timing and fuel for a long cross-country flight, and your score is based on how close you are to your estimates.
 
