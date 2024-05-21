@@ -7,7 +7,7 @@ Katie and I flew in the 60th [Hayward Air Rally](http://www.hwdairrally.org/) a 
 
 It was a blast! We took 7th place out of 20, the 2nd rookie place out of 5 (by one point). A very respectable showing I think. I knew I would like it and have been looking forward to it since last year when I just missed the registration deadline. But it was more fun than I thought and Katie enjoyted it more than either of us thought she would too.
 
-![7th place trophy](images/2024-hayward-trophy.jpeg)
+![7th place trophy](/images/2024-hayward-trophy.jpeg)
 
 Here's my [flight track](https://www.flightaware.com/live/flight/N761S/history/20240518/1952Z/KHWD/KLVK).
 
@@ -29,11 +29,11 @@ One silly mistake was not doing more research on what the VOR bonus timed checkp
 
 VFR paper chart flight planning is an art, and I'm always learning things that do and don't work when I try it. I feel like we did pretty well, we were rarely lost, but there were a few times when I really felt adrift because I wasn't confident about the next fix (especially as the winds were not matching the forecast). For example, one fix was a couple miles north of the cooling towers southwest of Eagle's Nest. I knew where the towers were (they're very prominent and I was familiar with them), but I didn't know if I was too far north or whether I'd mistake Eagle's Nest for Rancho Murieta or Van Vleck. And those railroad tracks are much less prominent in real life than on the chart. But if I had planned to fly directly *toward* the cooling towers, then had a compass heading toward Eagle's Nest even if I turned early (e.g. at the intersection of the river/canal and the railroad tracks), I would have had much more confidence.
 
-![Cooling Towers](images/2024-05-19-cooling_towers.png)
+![Cooling Towers](/images/2024-05-19-cooling_towers.png)
 
 An example of a successful fix was after LIN, I had a fix at the intersection of a line between Salt Spring Valley Reservoir and Woodward Reservoir, and my course. I mentioned earlier we weren't sure how close to LIN we got but we turned to that heading when we got to the river just south of LIN and it was easy to see we were roughly bisecting the line between those reservoirs. Although there was nothing on the ground beneath us, this was one of the moments I was most confident of where we were and when to mark the time (besides the obvious like flying directly over an airport or football field).
 
-![Between two Lakes](2024-05-19-between_lakes.png)
+![Between two Lakes](/images/2024-05-19-between_lakes.png)
 
 I was surprised how easy it was to come very close to the time from 10 miles away. I knew my groundspeed on that heading from the previous segment, and I knew what my 5 and 1 mile markers were, and I saw the stopwatch and knew what time I wanted to hit. I flew fast, then saw I was going to make it with time to spare and slowed down, and although my final judgement was off by about 15 seconds I almost nailed it with no practice at all. I think if I practiced this technique it would be easy, so long as I arrive at 10 miles close to the target time getting a score of just a few seconds is doable.
 
