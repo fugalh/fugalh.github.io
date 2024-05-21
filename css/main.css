@@ -182,6 +182,6 @@ a:visited {
   background-color: #333;
 }
 
-.post img {
+.post img:not(.emoji) {
   width: 100%;
 }
