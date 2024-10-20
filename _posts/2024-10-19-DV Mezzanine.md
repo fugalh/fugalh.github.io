@@ -21,7 +21,7 @@ The video is in [DV format](https://en.wikipedia.org/wiki/DV_(video_format)) 720
 
 Unfortunately, Resolve doesn't know how to read the DV files, so I needed to transcode to something else. I tried just muxing to a different container with ffmpeg but Resolve doesn't know the DV codec.
 
-So I fiddled with [HandBrake](https://handbrake.fr/) to make a good mezzanine preset:
+So I fiddled with [HandBrake](https://handbrake.fr/) to make a good [DV Mezzanine preset](/images/dv-mezzanine/DV Mezzanine.json):
 
 ```
 Preset:         DV Mezzanine 
