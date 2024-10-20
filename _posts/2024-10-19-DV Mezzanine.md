@@ -36,21 +36,21 @@ Audio:          0: Unknown (pcm_s16le, 2.0 ch, 1024 kbps) ▸ Encoder: FLAC 16-b
 ```
 
 This is what it looks like in the GUI, with explanations:
-![Summary tab](dv-mezzanine/summary.png)
+![Summary tab](/images/dv-mezzanine/summary.png)
 
-![Dimensions tab](dv-mezzanine/dimensions.png)
+![Dimensions tab](/images/dv-mezzanine/dimensions.png)
 I set Cropping, Anamorphic, and Final dimensions to "Automatic".
 
-![Filters tab](dv-mezzanine/filters.png)
+![Filters tab](/images/dv-mezzanine/filters.png)
 DV is interlaced, and I want to keep it interlaced and let Resolve handle the deinterlacing.
 I enabled the Interlace Detection filter, I think this might help with setting the metadata correctly. I did *not* enable the Deinterlace filter, because we want to keep it interlaced.
 
-![Video tab](dv-mezzanine/video.png)
+![Video tab](/images/dv-mezzanine/video.png)
 There's no GUI checkbox to tell x264 to do interlaced encoding, so we add `tff=1` to the "Additional Options" box. This causes x264 to do top field first MBAFF encoding which is what we want (`bff=1` if your interlaced content is bottom field first).
 
 I set Framerate to be same as source, Constant Qualtiy with RF=10, the "slower" preset and "auto" for Profile and Level. Tuning didn't seem appropriate, but if your source material calls for it knock yourself out.
 
-![Audio Selection](dv-mezzanine/audio_selection.png)
+![Audio Selection](/images/dv-mezzanine/audio_selection.png)
 For the audio selection behavior, I checked auto passthru for all the formats that Resolve supports (according to the docs), with FLAC as the fallback (16-bit would have been sufficient probably, but I went with 24-bit). I made one track with "Auto Passthru" and 7.1 auto sample rate. When faced with the actual stereo PCM data this will fall back to FLAC and Stereo. If HandBrake supported PCM we could have passed that through but there's really no reason not to do FLAC.
 
 The result is perceptually faithful, as close to the original as possible in all ways. Resolve recognizes that it's interleaved and automatically does the right thing (though you have options to tweak it of course).
