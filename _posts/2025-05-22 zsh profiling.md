@@ -1,6 +1,7 @@
 ---
 title: Speeding up Zsh startup
 tags:
+- shell
 ---
 In a fit of procrastination I recently set up [Oh My Zsh](https://ohmyz.sh/) (OMZ) with a few themes in rotation. I'm not doing anything fantastical, the only plugin I load is the git one, and I use a pretty basic theme.
 
